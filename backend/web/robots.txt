@@ -1,0 +1,8 @@
+User-agent:*
+Disallow: /*?*
+Disallow: /*%*
+Disallow: /*php*
+Disallow: /*asp*
+Disallow: /Files/adminfiles/
+Disallow: /files/adminfiles/
+Sitemap: http://www.juda.cn/sitemap.xml

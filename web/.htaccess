@@ -1,0 +1,260 @@
+RewriteEngine On
+
+
+RewriteCond %{HTTP_HOST} ^juda.cn$ [NC]
+RewriteRule ^(.*)$ http://www.juda.cn/$1 [L,R=301]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php
+
+Order Allow,Deny
+Allow from all
+Deny from 180.149.143
+Deny from 49.80.93.103
+Deny from 49.80.88.42
+Deny from 180.115.190.139
+Deny from 49.80.86.114
+
+RewriteCond %{REQUEST_URI} (.*)/industrial$
+RewriteRule ^(.*)$ http://www.juda.cn/industrial/ [L,R=301]
+
+RewriteCond %{REQUEST_URI} (.*)/diwen$
+RewriteRule ^(.*)$ http://www.juda.cn/diwen/ [L,R=301]
+
+RewriteCond %{REQUEST_URI} (.*)/kuanwen$
+RewriteRule ^(.*)$ http://www.juda.cn/kuanwen/ [L,R=301]
+
+RewriteCond %{REQUEST_URI} (.*)/taisuanli$
+RewriteRule ^(.*)$ http://www.juda.cn/taisuanli/ [L,R=301]
+
+RewriteCond %{REQUEST_URI} (.*)/fanbao$
+RewriteRule ^(.*)$ http://www.juda.cn/fanbao/ [L,R=301]
+
+RewriteCond %{REQUEST_URI} (.*)/libattery$
+RewriteRule ^(.*)$ http://www.juda.cn/libattery/ [L,R=301]
+
+RewriteCond %{REQUEST_URI} (.*)/juhewu$
+RewriteRule ^(.*)$ http://www.juda.cn/juhewu/ [L,R=301]
+
+RewriteCond %{REQUEST_URI} (.*)/chuneng$
+RewriteRule ^(.*)$ http://www.juda.cn/chuneng/ [L,R=301]
+
+RewriteCond %{REQUEST_URI} (.*)/lilizi$
+RewriteRule ^(.*)$ http://www.juda.cn/lilizi/ [L,R=301]
+
+RewriteCond %{REQUEST_URI} (.*)/dongli$
+RewriteRule ^(.*)$ http://www.juda.cn/dongli/ [L,R=301]
+
+RewriteCond %{REQUEST_URI} (.*)/special$
+RewriteRule ^(.*)$ http://www.juda.cn/special/ [L,R=301]
+
+RewriteCond %{REQUEST_URI} (.*)/libattery$
+RewriteRule ^(.*)$ http://www.juda.cn/libattery/ [L,R=301]
+
+RewriteCond %{REQUEST_URI} (.*)/make$
+RewriteRule ^(.*)$ http://www.juda.cn/make/ [L,R=301]
+
+RewriteCond %{REQUEST_URI} (.*)/about$
+RewriteRule ^(.*)$ http://www.juda.cn/about/ [L,R=301]
+
+RewriteCond %{REQUEST_URI} (.*)/news$
+RewriteRule ^(.*)$ http://www.juda.cn/news/ [L,R=301]
+
+RewriteCond %{REQUEST_URI} (.*)/lifepo4$
+RewriteRule ^(.*)$ http://www.juda.cn/lifepo4/ [L,R=301]
+
+RewriteCond %{REQUEST_URI} (.*)/search$
+RewriteRule ^(.*)$ http://www.juda.cn/search/ [L,R=301]
+
+RewriteCond %{REQUEST_URI} (.*)/blog$
+RewriteRule ^(.*)$ http://www.juda.cn/blog/ [L,R=301]
+
+
+
+
+
+Redirect 301 /product/LowtemperatureBattery.html http://www.juda.cn/special/
+Redirect 301 /product/diwen.html http://www.juda.cn/diwen/
+Redirect 301 /product/lto.html http://www.juda.cn/taisuanli/
+Redirect 301 /product/18650Libattery.html http://www.juda.cn/libattery/
+Redirect 301 /product/SoftPackLiBattery.html http://www.juda.cn/juhewu/
+Redirect 301 /product/chuneng.html http://www.juda.cn/chuneng/
+Redirect 301 /product/ironicphosphate.html http://www.juda.cn/lifepo4/
+Redirect 301 /product/12fulidianchi.html http://www.juda.cn/lilizi/list-11.html
+Redirect 301 /product/24VLiBattery.html http://www.juda.cn/lilizi/list-12.html
+Redirect 301 /product/36vlidianchi.html http://www.juda.cn/lilizi/list-13.html
+Redirect 301 /product/48vlidianchi.html http://www.juda.cn/lilizi/list-14.html
+Redirect 301 /product/37VLiBattery.html http://www.juda.cn/lilizi/list-1.html
+Redirect 301 /product/74VLiBattery.html http://www.juda.cn/lilizi/list-2.html
+Redirect 301 /product/12VLiBattery.html http://www.juda.cn/lilizi/list-3.html
+Redirect 301 /product/148VLiBattery.html http://www.juda.cn/lilizi/list-4.html
+Redirect 301 /product/SquareLiBattery.html http://www.juda.cn/lilizi/list-42.html
+Redirect 301 /product/ConsumerBattery.html http://www.juda.cn/lilizi/list-114.html
+Redirect 301 /product/commercialLibattery.html http://www.juda.cn/lilizi/list-96.html
+Redirect 301 /product/IndustrialBatteries.html http://www.juda.cn/lilizi/list-113.html
+Redirect 301 /product/MedicalBatteries.html http://www.juda.cn/lilizi/list-88.html
+Redirect 301 /product/OtherBatteries.html http://www.juda.cn/lilizi/list-85.html
+Redirect 301 /product/policeLibattery.html http://www.juda.cn/lilizi/list-82.html
+Redirect 301 /product/10AhLiBattery.html http://www.juda.cn/lilizi/list-46.html
+Redirect 301 /product/20AhLiBattery.html http://www.juda.cn/lilizi/list-47.html
+Redirect 301 /product/WearableBattery.html http://www.juda.cn
+Redirect 301 /product/PowerBatteries.html http://www.juda.cn
+Redirect 301 /product/ApplicationCategory.html http://www.juda.cn
+Redirect 301 /product/8800mAhLiBattery.html http://www.juda.cn
+Redirect 301 /product/7800mAhLiBattery.html http://www.juda.cn
+Redirect 301 /product/7500mAhLiBattery.html http://www.juda.cn
+Redirect 301 /product/6600mAhLiBattery.html http://www.juda.cn
+Redirect 301 /product/5200mAhLiBattery.html http://www.juda.cn
+Redirect 301 /product/5000mAhLiBattery.html http://www.juda.cn
+Redirect 301 /product/4400mAhLiBattery.html http://www.juda.cn
+Redirect 301 /product/3600mAhLiBattery.html http://www.juda.cn
+Redirect 301 /product/2600mAhLiBattery.html http://www.juda.cn
+Redirect 301 /product/2500mAhLiBattery.html http://www.juda.cn
+Redirect 301 /product/2200mAhLiBattery.html http://www.juda.cn
+Redirect 301 /product/1800mAhLiBattery.html http://www.juda.cn
+Redirect 301 /product/IntelligentBatteryCharger.html http://www.juda.cn
+Redirect 301 /product/ConventionalBatteryCharger.html http://www.juda.cn
+Redirect 301 /product/ComNHCharger.html http://www.juda.cn
+Redirect 301 /product/chongdianqi.html http://www.juda.cn
+Redirect 301 /product/BatteryCharger.html http://www.juda.cn
+Redirect 301 /product/NiMHbatteryCharger.html http://www.juda.cn
+Redirect 301 /product/AANiMHCharger.html http://www.juda.cn
+Redirect 301 /product/VoltageCategory.html http://www.juda.cn
+Redirect 301 /product/certifiedproduct.html http://www.juda.cn
+Redirect 301 /product/jbattery.html http://www.juda.cn
+Redirect 301 /product/importedBatteries.html http://www.juda.cn
+Redirect 301 /product/SmallpolymerBattery.html http://www.juda.cn
+Redirect 301 /product/chaobao.html http://www.juda.cn
+Redirect 301 /product/Orther2014.html http://www.juda.cn
+Redirect 301 /product/cylindernimhbattery.html http://www.juda.cn
+Redirect 301 /product/9vsquarenimhbattery.html http://www.juda.cn
+Redirect 301 /product/nimhbattery.html http://www.juda.cn
+Redirect 301 /product/squarenimhbattery.html http://www.juda.cn
+Redirect 301 /product/other.html http://www.juda.cn
+Redirect 301 /product/OtherVLibattery.html http://www.juda.cn
+Redirect 301 /product/OtherCLibattery.html http://www.juda.cn
+Redirect 301 /product/CapacityCategory.html http://www.juda.cn
+Redirect 301 /product/adaptror.html http://www.juda.cn
+Redirect 301 /product/solarpanel.html http://www.juda.cn
+Redirect 301 /product/cbattery.html http://www.juda.cn
+Redirect 301 /product/movePower.html http://www.juda.cn
+Redirect 301 /product/CylindricalLiBattery.html http://www.juda.cn
+Redirect 301 /product/intelligentLibattery.html http://www.juda.cn
+Redirect 301 /product/mulu.asp http://www.juda.cn
+Redirect 301 /product/fangwei.html http://www.juda.cn
+Redirect 301 /recruitment.html http://www.juda.cn
+Redirect 301 /news/makecenter.html http://www.juda.cn
+Redirect 301 /news/trymake.html http://www.juda.cn
+Redirect 301 /news/honour.html http://www.juda.cn
+Redirect 301 /news/producepic.html http://www.juda.cn
+Redirect 301 /news/makeline.html http://www.juda.cn
+Redirect 301 /news/ourcustomer.html http://www.juda.cn
+Redirect 301 /news/Companyhonor.html http://www.juda.cn
+Redirect 301 /news/certification.html http://www.juda.cn
+Redirect 301 /aboutus/fengcai.html http://www.juda.cn
+Redirect 301 /news/myteam.html http://www.juda.cn
+Redirect 301 /news/parner.html http://www.juda.cn
+Redirect 301 /news/Productcertification.html http://www.juda.cn
+Redirect 301 /news/testcenter.html http://www.juda.cn
+Redirect 301 /aboutus/show.asp http://www.juda.cn
+Redirect 301 /aboutus/show1.asp http://www.juda.cn
+Redirect 301 /aboutus/show2.asp http://www.juda.cn
+Redirect 301 /download/ http://www.juda.cn
+Redirect 301 /download/jianding.html http://www.juda.cn
+Redirect 301 /download/msds.html http://www.juda.cn
+Redirect 301 /Download/MSDS.html http://www.juda.cn
+Redirect 301 /download/other.html http://www.juda.cn
+Redirect 301 /download/reach.html http://www.juda.cn
+Redirect 301 /Download/REACH.html http://www.juda.cn
+Redirect 301 /download/sgs.html http://www.juda.cn
+Redirect 301 /Download/SGS.html http://www.juda.cn
+Redirect 301 /download/ultest.html http://www.juda.cn
+Redirect 301 /download/un38.html http://www.juda.cn
+Redirect 301 /Download/UN38.html http://www.juda.cn
+Redirect 301 /download/youhai.html http://www.juda.cn
+Redirect 301 /dingzhi.asp http://www.juda.cn 
+Redirect 301 /product/98.html http://www.juda.cn
+Redirect 301 /product/97.html http://www.juda.cn
+Redirect 301 /product/96.html http://www.juda.cn
+Redirect 301 /product/94.html http://www.juda.cn
+Redirect 301 /product/93.html http://www.juda.cn
+Redirect 301 /product/92.html http://www.juda.cn
+Redirect 301 /product/91.html http://www.juda.cn
+Redirect 301 /product/76.html http://www.juda.cn
+Redirect 301 /product/75.html http://www.juda.cn
+Redirect 301 /product/74.html http://www.juda.cn
+Redirect 301 /product/64.html http://www.juda.cn
+Redirect 301 /product/63.html http://www.juda.cn
+Redirect 301 /product/62.html http://www.juda.cn
+Redirect 301 /product/61.html http://www.juda.cn
+Redirect 301 /product/60.html http://www.juda.cn
+Redirect 301 /product/58.html http://www.juda.cn
+Redirect 301 /product/57.html http://www.juda.cn
+Redirect 301 /product/56.html http://www.juda.cn
+Redirect 301 /product/55.html http://www.juda.cn
+Redirect 301 /product/45.html http://www.juda.cn
+Redirect 301 /product/44.html http://www.juda.cn
+Redirect 301 /product/43.html http://www.juda.cn
+Redirect 301 /product/42.html http://www.juda.cn
+Redirect 301 /product/41.html http://www.juda.cn
+Redirect 301 /product/40.html http://www.juda.cn
+Redirect 301 /product/38.html http://www.juda.cn
+Redirect 301 /product/139.html http://www.juda.cn
+Redirect 301 /product/138.html http://www.juda.cn
+Redirect 301 /product/137.html http://www.juda.cn
+Redirect 301 /product/136.html http://www.juda.cn
+Redirect 301 /product/135.html http://www.juda.cn
+Redirect 301 /product/125.html http://www.juda.cn
+Redirect 301 /product/124.html http://www.juda.cn
+Redirect 301 /product/123.html http://www.juda.cn
+Redirect 301 /product/122.html http://www.juda.cn
+Redirect 301 /product/121.html http://www.juda.cn
+Redirect 301 /product/120.html http://www.juda.cn
+Redirect 301 /product/119.html http://www.juda.cn
+Redirect 301 /product/118.html http://www.juda.cn
+Redirect 301 /product/117.html http://www.juda.cn
+Redirect 301 /product/116.html http://www.juda.cn
+Redirect 301 /product/115.html http://www.juda.cn
+Redirect 301 /product/114.html http://www.juda.cn
+Redirect 301 /product/111.html http://www.juda.cn
+Redirect 301 /product/109.html http://www.juda.cn
+Redirect 301 /product/107.html http://www.juda.cn
+Redirect 301 /product/106.html http://www.juda.cn
+Redirect 301 /product/104.html http://www.juda.cn
+Redirect 301 /product/103.html http://www.juda.cn
+Redirect 301 /product/102.html http://www.juda.cn
+Redirect 301 /product/101.html http://www.juda.cn
+Redirect 301 /product/100.html http://www.juda.cn
+Redirect 301 /product/49.html http://www.juda.cn
+Redirect 301 /product/402.html http://www.juda.cn
+Redirect 301 /product/401.html http://www.juda.cn
+Redirect 301 /product/400.html http://www.juda.cn
+Redirect 301 /product/393.html http://www.juda.cn
+Redirect 301 /product/392.html http://www.juda.cn
+Redirect 301 /product/39.html http://www.juda.cn
+Redirect 301 /product/387.html http://www.juda.cn
+Redirect 301 /product/362.html http://www.juda.cn
+Redirect 301 /product/36.html http://www.juda.cn
+Redirect 301 /product/35.html http://www.juda.cn
+Redirect 301 /product/336.html http://www.juda.cn
+Redirect 301 /product/335.html http://www.juda.cn
+Redirect 301 /product/330.html http://www.juda.cn
+Redirect 301 /product/33.html http://www.juda.cn
+Redirect 301 /product/329.html http://www.juda.cn
+Redirect 301 /product/32.html http://www.juda.cn
+Redirect 301 /product/284.html http://www.juda.cn
+Redirect 301 /product/147.html http://www.juda.cn
+Redirect 301 /product/145.html http://www.juda.cn
+Redirect 301 /product/143.html http://www.juda.cn
+Redirect 301 /product/142.html http://www.juda.cn
+Redirect 301 /product/141.html http://www.juda.cn
+Redirect 301 /product/140.html http://www.juda.cn
+Redirect 301 /product/134.html http://www.juda.cn
+Redirect 301 /product/133.html http://www.juda.cn
+Redirect 301 /product/132.html http://www.juda.cn
+Redirect 301 /product/131.html http://www.juda.cn
+Redirect 301 /product/130.html http://www.juda.cn
+Redirect 301 /product/129.html http://www.juda.cn
+Redirect 301 /product/113.html http://www.juda.cn
+
