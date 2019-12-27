@@ -150,6 +150,7 @@ p{
     padding: 0;
 }
 .p{font-size: 16px;line-height: 2}
+
 /*分页样式*/
 .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
     z-index: 3;
@@ -260,12 +261,12 @@ header .dropdown-menu .menu-arrow{position: absolute;
 
 header .header_top{width: 100%;height:58px;margin-bottom: 25px}
 header nav {width: 100%;height: 40px;border-bottom: 2px solid #edad0e;}
-header nav .allnav {position: relative;width: 190px;}
-header nav .allnav .text {background-color: #edad0e;padding: 0 10px;color: #FFFFFF;height: 40px;line-height: 40px;}
+header nav .allnav {position: relative;width: 270px;}
+header nav .allnav .text {background-color: #edad0e;padding: 0 20px;color: #FFFFFF;height: 40px;line-height: 40px;}
 header nav .allnav .text p {}
 header nav .allnav .text p span {float: right;line-height: 40px;}
 
-header nav .allnav .list{position: absolute;top: 40px;  background-color: rgba(0,0,0,0.8);width: 190px;display: none;z-index: 9999}
+header nav .allnav .list{position: absolute;top: 60px;  background-color: rgba(0,0,0,0.8);width: auto;display: none;z-index: 9999}
 
 
 header nav #nav_tree .list{display: block;z-index: 99999;}
@@ -273,13 +274,18 @@ header .fix_top nav #nav_tree .list{display: none}
 header .fix_top nav #nav_tree:hover .list{display: block}
 header nav .allnav:hover .list{display: block}
 
-header nav .allnav .list .pp{overflow: hidden;padding: 16px 0 17px 20px;border-bottom: 1px solid #888889;}
-header nav .allnav .list .pp.end{border-bottom: 1px solid #241916;}
+header nav .allnav .list .pp:first-child{border-top:none}
+header nav .allnav .list .pp{overflow: hidden;padding: 35px 0 17px 25px;border-top: 1px solid #888889;height: 166px}
+header nav .allnav .list.is_index .pp{height: 150px;padding: 27px 0 17px 25px;}
+header nav .allnav .list .pp:last-child{display: none}
+header nav .allnav .list.is_index .pp:last-child{display: block}
+
+
 header nav .allnav .list .title{}
 header nav .allnav .list .title a{color: #ffffff;font-size: 16px;}
-header nav .allnav .list .item_list{}
+header nav .allnav .list .item_list{overflow: hidden;margin-top: 10px}
 header nav .allnav .list .item_list ul{}
-header nav .allnav .list .item_list ul li{float: left;}
+header nav .allnav .list .item_list ul li{float: left;width: 50%;line-height: 2}
 header nav .allnav .list .item_list ul li .item{padding-right: 12px;}
 header nav .allnav .list .item_list ul li .item a{color: #9E9F9F;font-size: 12px;}
 header nav .allnav .list .item_list ul li .item a:hover{color: #edad0e}
@@ -1748,3 +1754,11 @@ footer .twoPart .bottom_dibu .l_p p a{color:#d0d0d0 }
 .xiangguan_keywords .list{overflow: hidden;border-top: 1px solid #c8c8c9}
 .xiangguan_keywords .list ul{margin-top: 15px;}
 .xiangguan_keywords .list ul li{    float: left;  line-height: 34px;width:122px;text-align: center;font-size: 13px;}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1200px;
+    }
+}
+
+/*-----------------------------------------------分割线-----------------------------------------------*/

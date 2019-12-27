@@ -36,9 +36,24 @@ class CommonController extends Controller
     public $controllerName;
 
     public $is_zhizhu=1;
-    public $nav_tree=array('special','case','gongsixinwen','dianchizhunati','hangyezixun','zhishi','diwen','detail','kuanwen','taisuanli','fanbao','search','libattery','juhewu','blog'
+    public $nav_tree=array('index','special','case','gongsixinwen','dianchizhunati','hangyezixun','zhishi','diwen','detail','kuanwen','taisuanli','fanbao','search','libattery','juhewu','blog'
 
     ,'chuneng','lilizi','ironicphosphate','dongli','tezhong','junjing','robots','yiliao','gongye','yingji','shangyong','xiaofei','zhineng','industrial','zhuanti','changjianwenti','lifepo4','about','make');//判断是否现实树形的分类
+
+    public function init(){
+//          初始化后台的数据
+        Yii::$app->params['nav_tree_block'] = false;
+        $controllerName = $this->id;//获取类名
+        if (ArrayHelper::isIn($controllerName,$this->nav_tree)){
+            Yii::$app->params['nav_tree_block']=true;//判断是否现实树形的分类
+        }
+        Yii::$app->params['is_index'] = $this->id=='index'?true:false;
+        foreach (Config::find()->asArray()->all() as $key=>$value){
+
+            Yii::$app->params['web'][$value['name']]=$value['value'];
+
+        }
+    }
 
     public function common(){
 //        \Yii::$app->db->schema->refresh();
@@ -46,8 +61,6 @@ class CommonController extends Controller
         //钜大至今的年份
         $year=date('Y',time())-'2002';
         Yii::$app->params['year']=$year;
-
-        Yii::$app->params['nav_tree_block']=false;
 
         $action= Yii::$app->controller->action->id;//获取方法名
 
@@ -123,21 +136,13 @@ class CommonController extends Controller
 //        var_dump(Yii::$app->params['breadcrumbs']);
 
 
-
-
-
-
-
-        if (ArrayHelper::isIn($action,$this->nav_tree)||ArrayHelper::isIn($controllerName,$this->nav_tree)){
-            Yii::$app->params['nav_tree_block']=true;//判断是否现实树形的分类
-        }
         if ($controllerName=='index'){
 
-            $title=Yii::$app->params['web']['WEB_SITE_TITLE']->value;
+            $title=Yii::$app->params['web']['WEB_SITE_TITLE'];
 
-            $keywords=Yii::$app->params['web']['WEB_SITE_KEYWORD']->value;
+            $keywords=Yii::$app->params['web']['WEB_SITE_KEYWORD'];
 
-            $description=Yii::$app->params['web']['WEB_SITE_DESCRIPTION']->value;
+            $description=Yii::$app->params['web']['WEB_SITE_DESCRIPTION'];
 
         }elseif ($action=='detail'){
 
@@ -231,16 +236,20 @@ class CommonController extends Controller
 
 //        $randAtricle=Yii::$app->db->createCommand("SELECT id,title,description,create_time FROM yii2_article where category_id in (36,37,38) ORDER BY RAND() LIMIT 11")->queryAll();;
 
+        //点击最高的资讯
         $data=Yii::$app->cache->get('randAtricle');
         if ($data === false){
-            $randAtricle=Article::find()->limit(11)->orderBy('click desc')->where(['>','category_id',0])->all();
+            $randAtricle=Article::find()->where(['status'=>1])->limit(12)->orderBy('click desc')->where(['>','category_id',0])->all();
             Yii::$app->cache->set('randAtricle',$randAtricle,86400);
         }else{
             $randAtricle=$data;
         }
-
-
         $this->view->params['randAtricle']=$randAtricle;
+
+        //最新资讯
+        Yii::$app->params['new_news'] = Article::find()->where(['status'=>1])->limit(12)->orderBy('id desc')->where(['>','category_id',0])->all();
+
+
 
 //        var_dump($randAtricle);
 
@@ -252,12 +261,6 @@ class CommonController extends Controller
 
     }
 
-	public function init(){
-//          初始化后台的数据
-        foreach (Config::find()->all() as $key=>$value){
-            Yii::$app->params['web'][$value->name]=$value;
-        }
-	}
 
 
 

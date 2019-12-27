@@ -1,1 +1,269 @@
-<?phpuse yii\helpers\Html;use yii\helpers\Url;use common\helpers\ArrayHelper;$dataProvider = new \yii\data\ActiveDataProvider([    'query' => \common\models\Category::find()->where(['pid'=>8]),]);$categoty1 = new \yii\data\ActiveDataProvider([    'query' => \common\models\Category::find()->where(['pid'=>13]),]);$productProvider= new \yii\data\ActiveDataProvider([    'query' => $this->params['product_list'],    'pagination'=>[        'pageSize'=>24,        'pageSizeParam' => false,    ],]);//var_dump($this->params['product_list']);$this -> beginPage();$listUrl='/'.$this->params['action'].'/list-';$listUrlL='/'.$this->params['action'].'/';?>    <div class="commom_product container">        <?php $this->beginContent('@app/views/layouts/public/common_left.php') ?>        <?php $this->endContent() ?>        <div class="commom_right">            <div class="category-filter">                <?php if(isset(Yii::$app->params['urlad'])):?>                    <div class="category_ad">                        <div class="img">                            <img src="<?=Yii::$app->params['urlad']->imageUrl?>" />                            <div class="text">                                <?=Yii::$app->params['urlad']->content?>                            </div>                        </div>                    </div>                <?php else:?>                    <div class="category_ad">                        <div class="img">                            <img src="<?= Yii::getAlias('@imagesUrl').'/'.Yii::$app->params['lanmu']['cover']?>" />                            <div class="text">                                <?=Yii::$app->params['lanmu']['list_content']?>                            </div>                        </div>                    </div>                <?php endif;?>                <div class="w_l">                    <div id="JS_category_filter" class="filter">                        <dl class="cat clearfix list_one">                            <dt>                                特种锂电池                            </dt>                            <dd>                                <table>                                    <tbody>                                    <tr>                                        <td id="JS_filter_cats">                                            <?=\yii\widgets\ListView::widget([                                                'dataProvider' => $dataProvider,                                                'itemView' => function ($model, $key, $index, $widget) {                                                    return Html::a(Html::encode($model->title).Html::tag('span',"(".$model->imagesCount.")"),Yii::$app->homeUrl.$model->name."/",['class'=>$model['id']==Yii::$app->params['lanmu']['id']?'current':'']);                                                },                                                'layout' => "{items}<div id='fenye'>{pager}</div>",//加个这就好了                                                'options' => [                                                    'tag' => 'div',                                                ],                                                'itemOptions' => [                                                    'tag' => false,                                                ],                                                'pager'=>['options'=>['id'=>'none']]                                            ]);                                            ?>                                        </td>                                    </tr>                                    </tbody>                                </table>                            </dd>                        </dl>                        <dl class="cat clearfix">                            <dt>                                工业锂电池                            </dt>                            <dd>                                <table>                                    <tbody>                                    <tr>                                        <td id="JS_filter_cats">                                            <?=\yii\widgets\ListView::widget([                                                'dataProvider' => $categoty1,                                                'itemView' => function ($model, $key, $index, $widget) {                                                    return Html::a(Html::encode($model->title).Html::tag('span',"(".$model->imagesCount.")"),Yii::$app->homeUrl.$model->name."/",['class'=>$model['id']==Yii::$app->params['lanmu']['id']?'current':'']);                                                },                                                'layout' => "{items}<div id='fenye'>{pager}</div>",//加个这就好了                                                'options' => [                                                    'tag' => 'div',                                                ],                                                'itemOptions' => [                                                    'tag' => false,                                                ],                                                'pager'=>['options'=>['id'=>'none']]                                            ]);                                            ?>                                        </td>                                    </tr>                                    </tbody>                                </table>                            </dd>                        </dl>                        <?php if(!empty($this->params['choose'])):?>                            <dl class="normal clearfix choose">                                <dt>                                    您已选择                                </dt>                                <dd>                                    <div class="shell">                                        <table>                                            <tbody>                                            <tr>                                                <?php foreach ($this->params['choose'] as $key=>$value): ?>                                                    <?php $chooseIdArray= $this->params['chooseIdArray']?>                                                    <td class="list">                                                        <div class="current">                                                 <span ><?=$value['attr']['name']?>: <b><?=$value['name']?></b><a                                                             href="javascript:location.href='<?=\common\helpers\UrlHelp::ProductChooseAttr($this->params['action'],$chooseIdArray,$key,$this->params['order'])?>';" rel="nofollow">x</a></span>                                                        </div>                                                    </td>                                                <?php endforeach;?>                                                <td class="list">                                                    <div class="qingchu">                                                        <?php if ($this->params['order']>0):?>                                                            <a href="javascript:location.href='/<?=$this->params['action']?>/list-o<?=$this->params['order']?>.html';" rel="nofollow">清除所有</a>                                                        <?php else:?>                                                            <a href="javascript:location.href='/<?=$this->params['action']?>/';" rel="nofollow">清除所有</a>                                                        <?php endif; ?>                                                    </div>                                                </td>                                            </tr>                                            </tbody>                                        </table>                                    </div>                                </dd>                            </dl>                        <?php endif;?>                        <?php foreach ($this->params['attr_list'] as $key=>$value): ?>                        <?php if (($key>=4&&!empty($this->params['choose']))||$key>=5): ?>                        <dl class="normal clearfix none disblock">                            <?php else:?>                            <dl class="normal clearfix">                                <?php endif;?>                                <dt>                                    <?=$value['attr']?>                                </dt>                                <dd>                                    <div class="shell">                                        <table>                                            <tbody>                                            <tr>                                                <td class="list">                                                    <?php foreach ($value['values'] as $k=>$v): ?>                                                        <a data-type="453" href="<?=$listUrl?><?=\common\helpers\UrlHelp::ProductAttr($this->params['chooseId'],$v['id'],$this->params['order']) ?>"><?=$v['name']?></a>                                                    <?php endforeach;?>                                                </td>                                            </tr>                                            </tbody>                                        </table>                                    </div>                                </dd>                            </dl>                            <?php endforeach;?>                    </div>                    <div class="handle">                        <div class="text">                            <div class="p">                                <a id="JS_exp_fliter" href="javascript:;"><span>更多选项&nbsp;∨</span><i></i></a>                            </div>                        </div>                    </div>                </div>                <div class="w_r hidden-sm hidden-xm none" >                    <div class="list">                        <ul>                            <li>                                <div class="item">                                    <div class="img"><img src="<?=Yii::getAlias('@web/static/images/kouhao1.png')?>" alt="按需开发" title="按需开发" /></div>                                    <div class="title"><p>按需开发</p></div>                                </div>                            </li>                            <li>                                <div class="item">                                    <div class="img"><img src="<?=Yii::getAlias('@web/static/images/kouhao2.png')?>" alt="8小时响应" title="8小时响应" /></div>                                    <div class="title"><p>8小时响应</p></div>                                </div>                            </li>                            <li>                                <div class="item">                                    <div class="img"><img src="<?=Yii::getAlias('@web/static/images/kouhao3.png')?>" alt="24小时上门" title="24小时上门" /></div>                                    <div class="title"><p>24小时上门</p></div>                                </div>                            </li>                            <li>                                <div class="item">                                    <div class="img"><img src="<?=Yii::getAlias('@web/static/images/kouhao4.png')?>" alt="十年维护" title="十年维护" /></div>                                    <div class="title"><p>十年维护</p></div>                                </div>                            </li>                        </ul>                    </div>                    <div class="lj_dingzhi">                        <div class="text"><a href="http://ddt.zoosnet.net/LR/Chatpre.aspx?id=DDT94811403&lng=cn" rel="nofollow" target="_blank">立即定制</a></div>                    </div>                </div>            </div>            <section>                <div class="product_zhanshi_list">                    <div class="top">                        <div class="left">                            <ul>                                <li class="<?= in_array($this->params['order'],array(0))? 'checked':''?>">                                    <a href="<?=\common\helpers\UrlHelp::ProductOrderBy($this->params['action'],$this->params['chooseIdArray'],$this->params['order'],array(0)) ?>">综合排序</a>                                </li>                                <li class="<?= in_array($this->params['order'],array(1,2))? 'checked':''?>">                                    <a href="<?=\common\helpers\UrlHelp::ProductOrderBy($this->params['action'],$this->params['chooseIdArray'],$this->params['order'],array(1,2)) ?>">电压排序</a></li>                                <li class="<?= in_array($this->params['order'],array(3,4))? 'checked':''?>">                                    <a href="<?=\common\helpers\UrlHelp::ProductOrderBy($this->params['action'],$this->params['chooseIdArray'],$this->params['order'],array(3,4)) ?>">容量排序</a></li>                                <li class="<?= in_array($this->params['order'],array(5))? 'checked':''?>">                                    <a href="<?=\common\helpers\UrlHelp::ProductOrderBy($this->params['action'],$this->params['chooseIdArray'],$this->params['order'],array(5)) ?>">新品</a></li>                            </ul>                        </div>                        <div class="right">                            <div class="kouhao">                                <ul>                                    <li class="kouhao_first">                                        <div class="item">                                            <div class="first"><h2><?=Yii::$app->params['lanmu']['title']?></h2></div>                                        </div>                                    </li>                                    <li class="col-md-2 col-sm-2 bj">                                        <div class="item">                                            <p><img src="/static/images/kouhao1.png">按需开发     </p>                                        </div>                                    </li>                                    <li class="col-md-2 col-sm-2 bj">                                        <div class="item">                                            <p><img src="/static/images/kouhao2.png">8小时响应     </p>                                        </div>                                    </li>                                    <li class="col-md-2 col-sm-2 bj">                                        <div class="item">                                            <p><img src="/static/images/kouhao3.png">24小时上门     </p>                                        </div>                                    </li>                                    <li class="col-md-2 col-sm-2 bj">                                        <div class="item">                                            <p><img src="/static/images/kouhao4.png">十年维护</p>                                        </div>                                    </li>                                </ul>                            </div>                        </div>                    </div>                    <div class="content">                        <ul>                            <?=\yii\widgets\ListView::widget([                                'dataProvider' => $productProvider,                                'itemView' => '_list',                                'layout' => "{items}<div id='fenye'>{pager}</div>",//加个这就好了                                'options' => [                                    'tag' => 'div',                                ],                                'itemOptions' => [                                    'tag' => false,                                ],                                'pager'=>[                                    //'options'=>['class'=>'hidden']//关闭自带分页                                    'prevPageLabel'=>'上一页',                                    'nextPageLabel'=>'下一页',                                ],                            ]);                            ?>                        </ul>                    </div>                </div>            </section>            <section class="section30">                <div class="product_content">                    <div class="p">                        <p>                            <?=Yii::$app->params['lanmu']['content']?>                        </p>                    </div>                </div>            </section>            <section class="section30">                <?php $this->beginContent('@app/views/layouts/public/ad.php'); ?>                <?php $this->endContent(); ?>            </section>            <section class="section30">                <?php $this->beginContent('@app/views/layouts/public/xiangguan_zixun.php'); ?>                <?php $this->endContent(); ?>            </section>        </div>    </div><?php $this->endPage()?>
+<?php
+use yii\helpers\Html;
+use yii\helpers\Url;
+use common\helpers\ArrayHelper;
+$dataProvider = new \yii\data\ActiveDataProvider([
+    'query' => \common\models\Category::find()->where(['pid'=>8]),
+]);
+$categoty1 = new \yii\data\ActiveDataProvider([
+    'query' => \common\models\Category::find()->where(['pid'=>13]),
+]);
+$productProvider= new \yii\data\ActiveDataProvider([
+    'query' => $this->params['product_list'],
+    'pagination'=>[
+        'pageSize'=>24,
+        'pageSizeParam' => false,
+    ],
+]);
+$product_num = $this->params['product_list']->count();
+//var_dump($this->params['product_list']);
+$this -> beginPage();
+$listUrl='/'.$this->params['action'].'/list-';
+$listUrlL='/'.$this->params['action'].'/';
+
+
+?>
+
+<div class="product-list-index">
+    <div class="banner_common relative pic_open">
+        <?php if(isset(Yii::$app->params['urlad'])):?>
+        <div class="img"><img src="<?=Yii::$app->params['urlad']->imageUrl?>" alt=""></div>
+        <div class="text">
+            <div class="content">
+                <?=Yii::$app->params['urlad']->content?>
+            </div>
+        </div>
+        <?php else:?>
+        <div class="img"><img src="<?= Yii::getAlias('@imagesUrl').'/'.Yii::$app->params['lanmu']['cover']?>" alt=""></div>
+        <div class="text">
+            <div class="content">
+                <?=Yii::$app->params['lanmu']['list_content']?>
+            </div>
+        </div>
+        <?php endif;?>
+    </div>
+    <div class="top-title" id="car-attr-title">
+        <div class="container">
+            <div class="title size6-4p pull-left font-bold">
+                <div class="pull-left"><?=Yii::$app->params['lanmu']['title']?></div>
+                <?php if(!empty($this->params['choose'])):?>
+                    <div class="choose">
+                        <span class="pull-left"> > </span>
+                        <?php foreach ($this->params['choose'] as $key=>$value): ?>
+                            <?php $chooseIdArray= $this->params['chooseIdArray']?>
+                            <div class="item pull-left">
+                                <a href="javascript:location.href='<?=\common\helpers\UrlHelp::ProductChooseAttr($this->params['action'],$chooseIdArray,$key,$this->params['order'])?>#car-attr-title';" rel="nofollow">
+                                    <?=$value['attr']['name']?>:
+                                <b><?=$value['name']?>  X</b>
+                              </a>
+                            </div>
+                        <?php endforeach;?>
+                        <div class="qingchu pull-left">
+                            <?php if ($this->params['order']>0):?>
+                                <a href="javascript:location.href='/<?=$this->params['action']?>/list-o<?=$this->params['order']?>.html/#car-attr-title';" rel="nofollow">清除所有</a>
+                            <?php else:?>
+                                <a href="javascript:location.href='/<?=$this->params['action']?>/#car-attr-title';" rel="nofollow">清除筛选</a>
+                            <?php endif; ?>
+                        </div>
+                    </div>
+                <?php endif;?>
+            </div>
+            <div class="pull-right"><p>共<span><?= $product_num?></span>个产品</p></div>
+        </div>
+    </div>
+    <div class="category-attr container">
+        <div class="selector-line">
+            <div class="con-wrap extend">
+                <div class="con-key"><span>特种锂电池</span></div>
+                <div class="con-value">
+                    <div class="list">
+                        <ul>
+                            <?=\yii\widgets\ListView::widget([
+                                'dataProvider' => $dataProvider,
+                                'itemView' => function ($model, $key, $index, $widget) {
+                                    return Html::tag('li',Html::a(Html::encode($model->title),Yii::$app->homeUrl.$model->name."/#car-attr-title",['class'=>$model['id']==Yii::$app->params['lanmu']['id']?'current':'']));
+                                },
+                                'layout' => "{items}",//加个这就好了
+                                'options' => [
+                                    'tag' => 'div',
+                                ],
+                                'itemOptions' => [
+                                    'tag' => false,
+                                ],
+                                'pager'=>['options'=>['id'=>'none']]
+                            ]);
+                            ?>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ext">
+
+                </div>
+            </div>
+        </div>
+        <div class="selector-line">
+            <div class="con-wrap extend">
+                <div class="con-key"><span>工业锂电池</span></div>
+                <div class="con-value">
+                    <div class="list">
+                        <ul>
+                            <?=\yii\widgets\ListView::widget([
+                                'dataProvider' => $categoty1,
+                                'itemView' => function ($model, $key, $index, $widget) {
+                                    return Html::tag('li',Html::a(Html::encode($model->title),Yii::$app->homeUrl.$model->name."/#car-attr-title",['class'=>$model['id']==Yii::$app->params['lanmu']['id']?'current':'']));
+                                },
+                                'layout' => "{items}",//加个这就好了
+                                'options' => [
+                                    'tag' => 'div',
+                                ],
+                                'itemOptions' => [
+                                    'tag' => false,
+                                ],
+                                'pager'=>['options'=>['id'=>'none']]
+                            ]);
+                            ?>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ext">
+
+                </div>
+            </div>
+        </div>
+
+        <?php foreach ($this->params['attr_list'] as $key=>$value): ?>
+            <?php if ($key<3): ?>
+                <div class="selector-line">
+                    <div class="con-wrap extend">
+                        <div class="con-key"><span><?=$value['attr']?></span></div>
+                        <div class="con-value">
+                            <div class="list">
+                                <ul>
+                                    <?php foreach ($value['values'] as $k=>$v): ?>
+                                    <li>
+                                        <a data-type="453" href="<?=$listUrl?><?=\common\helpers\UrlHelp::ProductAttr($this->params['chooseId'],$v['id'],$this->params['order']) ?>#car-attr-title"><?=$v['name']?></a>
+                                    </li>
+                                    <?php endforeach;?>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="ext">
+                            <a class="more" href="javascript:;" style="visibility: visible;">更多<i></i></a>
+                        </div>
+                    </div>
+                </div>
+            <?php endif; ?>
+        <?php endforeach;?>
+
+        <?php if (count(Yii::$app->params['attr_list_end'])>0): ?>
+            <div class="selector-line" id="selectorSenior">
+                <div class="con-wrap extend">
+                    <div class="con-key"><span>高级筛选</span></div>
+                    <div class="con-value">
+                        <div class="list">
+                            <div class="sele-adve-tab">
+                                <div class="seleadve-itemwrap">
+                                    <?php foreach (Yii::$app->params['attr_list_end'] as $key=>$value): ?>
+                                        <a class="seleadve-itemaaa" title="<?=$value['attr']?>">
+                                            <span class="text"><?=$value['attr']?></span>
+                                            <i class="arrow"></i>
+                                        </a>
+                                    <?php endforeach;?>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sele-adve-con">
+                     <?php foreach (Yii::$app->params['attr_list_end'] as $key=>$value): ?>
+                        <div class="sl-tab-cont-item" >
+                            <div class="seleadvecon-item" style="display: none" data-title="<?=$value['attr']?>">
+                                <ul class="selecbaseul">
+                                    <?php foreach ($value['values'] as $k=>$v): ?>
+                                        <li>
+                                            <a data-type="453" title="<?=$v['name']?>" href="<?=$listUrl?><?=\common\helpers\UrlHelp::ProductAttr($this->params['chooseId'],$v['id'],$this->params['order']) ?>#car-attr-title"><?=$v['name']?></a>
+                                        </li>
+                                    <?php endforeach;?>
+                                </ul>
+                                <div class="yseah-ext none"><a href="#" class="ys-e-multi multiposition single">多选<i></i></a></div>
+                                <div class="seleadvecon-item" data-title="学年" style="display: none;">
+                                    <ul class="selecbaseul">>
+                                        <li>
+                                            <a title="<?=$v['name']?>" data-type="453" href="<?=$listUrl?><?=\common\helpers\UrlHelp::ProductAttr($this->params['chooseId'],$v['id'],$this->params['order']) ?>#car-attr-title"><i></i><?=$v['name']?></a>
+                                        </li>
+                                    </ul>
+                                    <div class="yseah-ext none"><a href="#" class="ys-e-multi multiposition single">多选<i></i></a></div>
+                                    <div class="ybtnwrap" style="display: none;"><button type="button" class="ybtn ybtn-sure">确定</button><button type="button" class="ybtn snb ybtncancel">取消</button></div></div>
+                            </div>
+
+                        </div>
+                     <?php endforeach;?>
+                    </div>
+                </div>
+            </div>
+        <?php endif; ?>
+    </div>
+
+    <div class="product-list">
+        <div class="list container">
+            <div class="top col-md-12">
+              <div class="title pull-left"><h2><?=Yii::$app->params['lanmu']['title']?><span><?php foreach ($this->params['choose'] as $key=>$value): ?><?php $chooseIdArray= $this->params['chooseIdArray']?><?=$value['name']?> <?php endforeach;?></span></h2></div>
+                <div class="pull-right order-by">
+                    <ul>
+                        <li class="<?= in_array($this->params['order'],array(0))? 'checked':''?>">
+                            <a href="<?=\common\helpers\UrlHelp::ProductOrderBy($this->params['action'],$this->params['chooseIdArray'],$this->params['order'],array(0)) ?>">综合排序</a>
+                        </li>
+                        <li class="<?= in_array($this->params['order'],array(1,2))? 'checked':''?>">
+                            <a href="<?=\common\helpers\UrlHelp::ProductOrderBy($this->params['action'],$this->params['chooseIdArray'],$this->params['order'],array(1,2)) ?>">电压排序</a></li>
+                        <li class="<?= in_array($this->params['order'],array(3,4))? 'checked':''?>">
+                            <a href="<?=\common\helpers\UrlHelp::ProductOrderBy($this->params['action'],$this->params['chooseIdArray'],$this->params['order'],array(3,4)) ?>">容量排序</a></li>
+                        <li class="<?= in_array($this->params['order'],array(5))? 'checked':''?>">
+                            <a href="<?=\common\helpers\UrlHelp::ProductOrderBy($this->params['action'],$this->params['chooseIdArray'],$this->params['order'],array(5)) ?>">新品</a></li>
+                    </ul>
+                </div>
+            </div>
+            <ul>
+                <?=\yii\widgets\ListView::widget([
+                    'dataProvider' => $productProvider,
+                    'itemView' => '_list',
+                    'layout' => "{items}<div id='fenye'>{pager}</div>",//加个这就好了
+                    'options' => [
+                        'tag' => 'div',
+                    ],
+                    'itemOptions' => [
+                        'tag' => false,
+                    ],
+                    'pager'=>[
+                        //'options'=>['class'=>'hidden']//关闭自带分页
+                        'prevPageLabel'=>'上一页',
+                        'nextPageLabel'=>'下一页',
+                    ],
+                ]);
+                ?>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="product-content">
+        <div class="img"><img src="<?=Yii::getAlias('@web/assets/images/product-content-bg.png')?>" alt=""></div>
+        <div class="text">
+            <div class="container">
+                <?=Yii::$app->params['lanmu']['content']?>
+            </div>
+
+        </div>
+    </div>
+
+
+    <?php $this->beginContent('@app/views/layouts/public/seach_jingxuan_news.php') ?>
+    <?php $this->endContent() ?>
+
+    <?php $this->beginContent('@app/views/layouts/public/hexin_jishu.php') ?>
+    <?php $this->endContent() ?>
+
+
+</div>
+
+
+
+<?php \frontend\assets\ProductAsset::register($this); ?>

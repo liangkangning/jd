@@ -1,0 +1,187 @@
+@charset "utf-8";
+
+/*初始化样式*/
+
+body,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    font-family: '微软雅黑';
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    padding: 0;
+}
+/*font-family: Arial, Helvetica, sans-serif !important;*/
+
+body {
+    background: #fff;
+    color: #595757;
+    font-size: 16px;
+    font-family: '微软雅黑';
+}
+
+td,
+th,
+caption {
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {}
+
+a {
+    color: #555;
+    text-decoration: none;
+}
+
+b {
+    font-weight: 100;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #f7b52c
+}
+
+.cur1 a {
+    color: #f7b52c
+}
+
+.cur1 {
+    background-color: #fff
+}
+
+img {
+    border: none;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+.float_left{float: left;}
+.float_right{float: right;}
+input,
+textarea,
+select,
+button {
+    font: 14px Verdana, Helvetica, Arial, sans-serif;
+}
+.none{display: none;}
+table {
+    border-collapse: collapse;
+}
+.text tbody tr  td{ border:1px #000 solid}
+
+.space {
+    clear: both;
+}
+
+.pt-35 {
+    padding-top: 35px;
+}
+
+.orange {
+    color: #f7b52c;
+}
+
+.row {
+    margin: 0
+}
+
+. {
+    margin-top: 60px
+}
+#none{display: none;}
+#_padding {
+    padding: 0
+}
+.section{margin-top: 60px;}
+.section30{margin-top: 30px;}
+ol, ul {
+    margin: 0;
+    padding: 0;
+}
+.h1, .h2, .h3, h1, h2, h3 {  margin: 0;
+    padding: 0;}
+p{
+    margin: 0;
+    padding: 0;
+}
+.p{font-size: 16px;line-height: 2}
+
+/*分页样式*/
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+    z-index: 3;
+    color: #fff;
+    background-color: #edad0e;
+    border-color: #edad0e;
+    cursor: default;
+}
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover{
+    color: #595757;
+}
+.pagination>li>a, .pagination>li>span{
+    color: #595757;
+}
+.pagination>li>a, .pagination>li>span{margin: 0 2px;}
+
+#section_padding{padding: 0;}
+.self{color: #EDA30E;}
+.self a{color: #EDA30E;}
+.seo-anchor{color: #a98326}
+/*响应式样式*/
+@media screen and (min-width: 1200px) {
+    .special .new_p .content .p_list {
+        margin-left: 423px;
+    }
+    .w20{width: 20%;float: left;}
+    .w40{width: 40%;float: left;}
+    .commom_right{margin-left: 210px;}
+    .commom_right .product_zhanshi_list .content ul {display: inline-block;}
+}
+
+#fenye{width: 100%;text-align: center;display: inline-block;}
+#fenye  li{padding: 0}
+.banner_img img{height: 400px;}

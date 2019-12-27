@@ -1,1 +1,402 @@
-<?php$listUrl = '/product/detail?id=';use \yii\helpers\Html;?><div class="index">    <div class="banner">        <div class="banner-box">            <div class="bd">                <ul>                    <?php foreach (\common\helpers\AdHelper::GetAd_list('index') as $key => $value): ?>                        <li style="background:<?= $value->tuozhan ?>;">                            <div class="m-width">                                <a href="<?= $value->url ?>"><img src="<?= $value->imageUrl ?>"                                                                  alt="<?= $value->title ?>"                                                                  title="<?= $value->title ?>"/></a>                            </div>                        </li>                    <?php endforeach; ?>                </ul>            </div>            <div class="banner-btn">                <a class="prev" href="javascript:void(0);"></a>                <a class="next" href="javascript:void(0);"></a>                <div class="hd">                    <ul></ul>                </div>            </div>        </div>    </div>    <div class="kouhao">        <section class="container">            <ul>                <li class="col-md-4 col-sm-4">                    <div class="item">                        <h2>特种锂电系统定制化方案和产品提供商</h2>                    </div>                </li>                <li class="col-md-2 col-sm-2 bj">                    <div class="item">                        <p><img src="<?= Yii::getAlias('@web/static/images/kouhao1.png') ?>"/>按需开发 </p>                    </div>                </li>                <li class="col-md-2 col-sm-2 bj">                    <div class="item">                        <p><img src="<?= Yii::getAlias('@web/static/images/kouhao2.png') ?>"/>8小时响应 </p>                    </div>                </li>                <li class="col-md-2 col-sm-2 bj">                    <div class="item">                        <p><img src="<?= Yii::getAlias('@web/static/images/kouhao3.png') ?>"/>24小时上门 </p>                    </div>                </li>                <li class="col-md-2 col-sm-2 bj">                    <div class="item">                        <p><img src="<?= Yii::getAlias('@web/static/images/kouhao4.png') ?>"/>十年维护</p>                    </div>                </li>            </ul>        </section>    </div>    <section class="container section">        <div class="tz_block">            <div class="top">                <div class="left col-sm-4"><h1><a href="/special/">特种锂电池</a></h1></div>                <div class="right col-sm-8">                    <ul>                        <?php foreach ($this->params['tezhong_tree'] as $key => $value): ?>                            <li><a href='/<?= $value->name ?>/'><?= $value->title ?></a></li>                        <?php endforeach; ?>                    </ul>                </div>            </div>            <div class="content">                <div class="img hidden-sm">                    <img src="<?= Yii::getAlias('@web/static/images/tz_block_banner.jpg') ?>" alt="特种锂电池"                         title="特种锂电池"/>                    <div class="imgdiv tezhong">                        <div class="text">                            <div class="title">应用领域</div>                            <div class="list">                                <ul>                                    <li>                                        <span>极地考察</span>                                    </li>                                    <li>                                        <span>特种装备</span>                                    </li>                                    <li>                                        <span>石油勘探</span>                                    </li>                                    <li>                                        <span>矿山测绘</span>                                    </li>                                    <li>                                        <span>专用仪器</span>                                    </li>                                </ul>                            </div>                        </div>                    </div>                </div>                <div class="product_list">                    <ul>                        <?php foreach ($this->params['tezhong'] as $key => $value): ?>                            <li class="col-md-3 col-sm-3">                                <div class="item">                                    <div class="img"><a href="<?= $value->url ?>"><img src="<?= $value['imageUrl'] ?>"                                                                                       alt="<?= $value['title'] ?>"                                                                                       title="<?= $value['title'] ?>"/></a>                                    </div>                                    <div class="title"><a href="<?= $value->url ?>"                                                          title="<?= $value['title'] ?>"><?= $value['title'] ?></a>                                    </div>                                </div>                            </li>                        <?php endforeach; ?>                    </ul>                </div>            </div>        </div>    </section>    <section class="container section cn_block">        <div class="tz_block">            <div class="top">                <div class="left col-sm-4"><h2><a href="/chuneng/">动力/储能电池</a></h2></div>                <div class="right col-sm-8">                    <ul>                        <li><a href="/lilizi/list-11.html">12V锂电池 </a></li>                        <li><a href="/lilizi/list-12.html">24V锂电池 </a></li>                        <li><a href="/lilizi/list-13.html">36V锂电池 </a></li>                        <li><a href="/lilizi/list-14.html">48V锂电池 </a></li>                    </ul>                </div>            </div>            <div class="content">                <div class="img hidden-sm">                    <img src="<?= Yii::getAlias('@web/static/images/cn_block_banner.jpg') ?>" alt="动力/储能电池"                         title="动力/储能电池"/>                    <div class="imgdiv cuneng">                        <div class="text">                            <div class="title">应用领域</div>                            <div class="list">                                <ul>                                    <li>                                        <span>动力储能   </span>                                    </li>                                    <li>                                        <span>医疗设备  </span>                                    </li>                                    <li>                                        <span>机器人   </span>                                    </li>                                    <li>                                        <span>安防/电力设备    </span>                                    </li>                                    <li>                                        <span>仪器仪表</span>                                    </li>                                    <li>                                        <span>金融/商用设备   </span>                                    </li>                                    <li>                                        <span>应急后备电源</span>                                    </li>                                </ul>                            </div>                        </div>                    </div>                </div>                <div class="product_list">                    <ul>                        <?php foreach ($this->params['cuneng_list'] as $key => $value): ?>                            <li class="col-md-3 col-sm-3">                                <div class="item">                                    <div class="img"><a href="<?= $value->url ?>"><img src="<?= $value['imageUrl'] ?>"                                                                                       alt="<?= $value['title'] ?>"                                                                                       title="<?= $value['title'] ?>"/></a>                                    </div>                                    <div class="title"><a href="<?= $value->url ?>"                                                          title="<?= $value['title'] ?>"><?= $value['title'] ?></a>                                    </div>                                </div>                            </li>                        <?php endforeach; ?>                    </ul>                </div>            </div>        </div>    </section>    <section class="container section gy_block">        <div class="tz_block">            <div class="top">                <div class="left col-sm-4"><h2><a href="/industrial/">工业锂电池</a></h2></div>                <div class="right col-sm-8">                    <ul>                        <?php foreach ($this->params['gongye_tree'] as $key => $value): ?>                            <li><a href='/<?= $value->name ?>/'><?= $value->title ?></a></li>                        <?php endforeach; ?>                    </ul>                </div>            </div>            <div class="content">                <div class="img hidden-sm">                    <img src="<?= Yii::getAlias('@web/static/images/gy_block_banner.jpg') ?>" alt="工业锂电池"                         title="工业锂电池"/>                    <div class="imgdiv gongye">                        <div class="text">                            <div class="title">应用领域</div>                            <div class="list">                                <ul>                                    <li>                                        <span>医疗器械        </span>                                    </li>                                    <li>                                        <span>警用安防       </span>                                    </li>                                    <li>                                        <span>商用设备        </span>                                    </li>                                    <li>                                        <span>通信通讯</span>                                    </li>                                    <li>                                        <span>仪器仪表     </span>                                    </li>                                    <li>                                        <span>电动工具        </span>                                    </li>                                    <li>                                        <span>3C数码产品 </span>                                    </li>                                </ul>                            </div>                        </div>                    </div>                </div>                <div class="product_list">                    <ul>                        <?php foreach ($this->params['gongye'] as $key => $value): ?>                            <li class="col-md-3 col-sm-3">                                <div class="item">                                    <div class="img"><a href="<?= $value->url ?>"><img src="<?= $value['imageUrl'] ?>"                                                                                       alt="<?= $value['title'] ?>"                                                                                       title="<?= $value['title'] ?>"/></a>                                    </div>                                    <div class="title"><a href="<?= $value->url ?>"                                                          title="<?= $value['title'] ?>"><?= $value['title'] ?></a>                                    </div>                                </div>                            </li>                        <?php endforeach; ?>                    </ul>                </div>            </div>        </div>    </section>    <section class="section container">        <?php $this->beginContent('@app/views/layouts/public/ad.php'); ?>        <?php $this->endContent(); ?>    </section>    <section class="section container" id="section_padding">        <div class="anli">            <div class="top">                <div class="left"><h2><a href="/news/case.html">定制案例</a></h2></div>                <div class="right">                    <ul>                        <?php foreach ($data['anli_tree'] as $key => $vlaue): ?>                            <li><a href="/news/<?= $vlaue->name ?>.html"><?= $vlaue['title'] ?></a></li>                        <?php endforeach; ?>                    </ul>                </div>            </div>            <div class="content">                <?php foreach ($this->params['fangan'] as $key => $value): ?>                    <?php if ($key < 2): ?>                        <?php $titles = \common\helpers\ArrayHelper::extend($value->extend); ?>                        <div class="pp col-md-6 col-sm-12">                            <div class="part ">                                <div class="col-sm-8">                                    <div class="img"><a href="<?= $value->url ?>">                                            <img src="<?= $value->imageUrl ?>" alt="<?= $value->title ?>"                                                 title="<?= $value->title ?>"/>                                            <div class="cover"></div>                                        </a></div>                                </div>                                <div class="col-sm-4">                                    <div class="text">                                        <div class="title">                                            <div class="t1"><p><a                                                            href="<?= $value->url ?>"><?= count($titles) <= 0 ? '' : $titles[0] ?></a>                                                </p></div>                                            <div class="t2"><a                                                        href="<?= $value->url ?>"><?= count($titles) <= 0 ? '' : $titles[1] ?></a>                                            </div>                                            <div class="t3"><span><a                                                            href="<?= $value->url ?>"><?= count($titles) <= 0 ? '' : $titles[2] ?></a></span>                                            </div>                                        </div>                                        <div class="description">                                            <p><?= \common\helpers\StringHelper::truncate($value->description, 50) ?></p>                                            <div class="more"><p><a href="<?= $value->url ?>">案例详情》</a></p></div>                                        </div>                                    </div>                                </div>                            </div>                        </div>                    <?php endif ?>                <?php endforeach; ?>            </div>            <div class="list">                <ul>                    <?php foreach ($this->params['fangan'] as $key => $value): ?>                        <?php if ($key >= 2): ?>                            <?php $titles = \common\helpers\ArrayHelper::extend($value->extend); ?>                            <li class="col-md-3 col-sm-6">                                <div class="item">                                    <div class="img"><a href="<?= $value->url ?>">                                            <img src="<?= $value->imageUrl ?>" alt="<?= $value->title ?>"                                                 title="<?= $value->title ?>"/>                                            <div class="cover"></div>                                        </a></div>                                    <div class="text">                                        <div class="title"><a                                                    href="<?= $value->url ?>"><?= count($titles) <= 0 ? '' : $titles[0] ?></a><br>                                            <a href="<?= $value->url ?>"><?= count($titles) <= 0 ? '' : $titles[1] ?></a>                                        </div>                                        <div class="p">                                            <p><?= \common\helpers\StringHelper::truncate($value->description, 30) ?></p>                                        </div>                                    </div>                                </div>                            </li>                        <?php endif ?>                    <?php endforeach; ?>                </ul>            </div>        </div>    </section>    <section class="section">        <?php foreach (\common\helpers\AdHelper::GetAd_list('index_safe') as $key => $value): ?>            <a id="qiao" href="<?= $value->url ?>" rel="nofollow" target="_blank"><img width="100%" src="<?= $value->imageUrl ?>"                                                        alt="<?= $value->title ?>" title="<?= $value->title ?>"/></a>        <?php endforeach; ?>    </section>    <section class="section container">        <div class="shili">            <div class="common_title"><h2>钜大综合实力</h2></div>            <div class="content">                <div class="col-md-4 col-sm-4">                    <div class="list">                        <ul>                            <li>                                <p>国家高新技术企业 </p>                            </li>                            <li>                                <p><?=Yii::$app->params['year']?>年专注锂电池定制 </p>                            </li>                            <li>                                <p>3000余成功定制案列 </p>                            </li>                            <li>                                <p>3000万注册资本 </p>                            </li>                            <li>                                <p>2017年东莞南城内资工业纳税第3名</p>                            </li>                        </ul>                    </div>                </div>                <div class="col-md-8 col-sm-8">                    <div class="img"><img src="<?= Yii::getAlias('@web/static/images/index_shili.png') ?>" alt=""/>                    </div>                </div>            </div>        </div>    </section>    <section class="section container" id="section_padding">        <div class="team_jishu">            <div class="common_title"><h2>研究院技术团队</h2></div>            <div class="gaisu">                <div class="p">                    <p><strong>专家团队：</strong>包括教授专家<b>9</b>人，副教授专家<b>2</b>人，中高级职称工程师<b>12</b>人，其中国家千人计划<b>2</b>人，教授博导<b>7</b>人                    </p>                    <p><strong>研究院技术团队：</strong><b>60</b>余人，包括工业设计、电子、结构、软件、电化学、电源、工艺、测控、信号处理和仪器仪表等专业技术门类</p>                    <p>                        公司累计专利<b>103</b>项，其中发明专利<b>11</b>项，使用新型专利<b>42</b>项，外观专利<b>50</b>项</p>                </div>            </div>            <div class="p_list">                <?=\common\helpers\DiyContetnHelper::Get('index_yanjiyuan')?>                        </div>        </div>    </section>    <section class="section container" id="section_padding">        <div class="keyan">            <div class="common_title"><h2>公司科研平台</h2></div>            <div class="list">                <ul>                    <li class="col-md-3 col-sm-3">                        <div class="item">                            <div class="img"><img src="<?= Yii::getAlias('@web/static/images/index_ky1.jpg') ?>"                                                  alt=""/></div>                            <div class="text">                                <p>广东省光伏储能及能源互联网工程技术研究院</p>                            </div>                        </div>                    </li>                    <li class="col-md-3 col-sm-3">                        <div class="item">                            <div class="img"><img src="<?= Yii::getAlias('@web/static/images/index_ky2.jpg') ?>"                                                  alt=""/></div>                            <div class="text">                                <p>华南理工大学研究生科研和创新实验基地</p>                            </div>                        </div>                    </li>                    <li class="col-md-3 col-sm-3">                        <div class="item">                            <div class="img"><img src="<?= Yii::getAlias('@web/static/images/index_ky3.jpg') ?>"                                                  alt=""/></div>                            <div class="text">                                <p>华南理工大学新能源联合实验室</p>                            </div>                        </div>                    </li>                    <li class="col-md-3 col-sm-3">                        <div class="item">                            <div class="img"><img src="<?= Yii::getAlias('@web/static/images/index_ky4.jpg') ?>"                                                  alt=""/></div>                            <div class="text">                                <p>东莞理工学院教学实验基地</p>                            </div>                        </div>                    </li>                </ul>            </div>        </div>    </section>    <section class="section container">        <div class="renzhen">            <div class="common_title"><h2>公司完善的体系及产品认证</h2></div>            <div class="text">                <div class="p"><p><strong>企业认证：</strong>ISO9001、ISO14001、OHSAS18000、欧洲BSCI认证、苹果公司MFI认证、美国沃尔玛认证</p>                    <p><strong>产品认证：</strong>ROHS、REACH、CB、UL、FCC、CE、CQC、UN38.3、CCC、BSMI、PSE、KC等                    </p></div>                <div class="img"><img src="<?= Yii::getAlias('@web/static/images/index_renzhen.jpg') ?>" alt=""/></div>            </div>        </div>    </section>    <section class="section container" id="section_padding">        <div class="safe">            <div class="title">                <div class="common_title">                    <h2 class="title_name">产品质量与安全</h2>                </div>                <div class="img">                    <img src="<?= Yii::getAlias('@web/static/images/baozaopic.jpg') ?>" alt="锂电池解剖图" title="锂电池解剖图">                </div>                <div class="quality_title">                    <div class="title_name">锂电池核心部件：电芯、BMS 、结构件</div>                </div>                <div class="quality_list">                    <ul>                        <li>                            <div class="left"><i></i>产品责任险：</div>                            <div class="right"><p>中国平安产品责任险，￥3000万，保单号:10590003900575009566；</p></div>                        </li>                        <li>                            <div class="left"><i></i>电芯：</div>                            <div class="right"><p>采用全球一线品牌电芯及钜大自主知识产权特种电芯；</p></div>                        </li>                        <li>                            <div class="left"><i></i>BMS：</div>                            <div class="right"><p>完全采用进口元器件，具备通讯、均衡、反充、温度保护、过充、过放、过流、短路等多重保护功能；</p></div>                        </li>                        <li>                            <div class="left"><i></i>结构及工艺：</div>                            <div class="right"><p>根据用户需求可以采用防爆、防水、防尘、阻燃、三轴震动、模块多点汇流、薄膜加热、热平衡管理等工艺，保证产品的安全性、可靠性和稳定性。</p>                            </div>                        </li>                    </ul>                </div>            </div>        </div>    </section>    <section class="section container">        <div class="kehu">            <div class="common_title"><h2>我们的客户</h2></div>            <div class="img"><img src="<?= Yii::getAlias('@web/static/images/index_kehu.jpg') ?>" alt=""/></div>        </div>    </section>    <section class="section container">        <div class="zixun">            <div class="top">                <div class="tile col-sm-2"><p>资讯中心</p></div>                <div class="nav_list col-sm-10">                    <ul>                        <li class="checked" onmousemove="index_news(1,this)">                            <div class="item"><a href="/news/gongsixinwen.html">公司新闻</a></div>                        </li>                        <li>                            <div class="item" onmousemove="index_news(2,this)"><a href="/news/hangyezixun.html">行业资讯</a>                            </div>                        </li>                        <li>                            <div class="item" onmousemove="index_news(3,this)"><a href="/news/zhuanti.html">电池专题</a>                            </div>                        </li>                        <li>                            <div class="item" onmousemove="index_news(4,this)"><a                                        href="/news/changjianwenti.html">电池知识</a></div>                        </li>                    </ul>                </div>            </div>            <div class="bottom">                <div class="img col-md-6">                    <div class="example">                        <div class="ft-carousel" id="carousel_1">                            <ul class="carousel-inner">                                <?php foreach ($this->params['news_company_toutiao'] as $key => $value): ?>                                    <li class="carousel-item" <a href="<?= $value['url'] ?>"><img                                                src="<?= $value->imageUrl ?>" alt="<?= $value['title'] ?>"                                                title="<?= $value['title'] ?>"/></a>                                    <div class="bottom_tilte">                                        <p><a href=""><?= $value['title'] ?></a></p>                                    </div>                                    </li>                                <?php endforeach; ?>                            </ul>                        </div>                    </div>                </div>                <div class="text_list col-md-6">                    <ul class="block">                        <?php foreach ($this->params['news_company'] as $key => $value): ?>                            <li class="more_<?= $key ?>">                                <div class="one_title">                                    <p>                                        <span></span>                                        <a href="<?= $value->url ?>"                                           title="<?= $value['title'] ?>"><?= \common\helpers\StringHelper::truncate($value['title'], 30) ?></a>                                        <a class="right" href="<?= $value->url ?>"                                           title="<?= $value['title'] ?>"><?= date('Y-m-d', $value['create_time']) ?></a>                                    </p>                                </div>                            </li>                        <?php endforeach; ?>                    </ul>                    <ul>                        <?php foreach ($this->params['news_hangye'] as $key => $value): ?>                            <li class="more_<?= $key ?>">                                <div class="one_title">                                    <p>                                        <span></span>                                        <a href="<?= $value->url ?>"                                           title="<?= $value['title'] ?>"><?= \common\helpers\StringHelper::truncate($value['title'], 30) ?></a>                                        <a class="right" href="<?= $value->url ?>"                                           title="<?= $value['title'] ?>"><?= date('Y-m-d', $value['create_time']) ?></a>                                    </p>                                </div>                            </li>                        <?php endforeach; ?>                    </ul>                    <ul>                        <?php foreach ($this->params['news_zhuanti'] as $key => $value): ?>                            <li class="more_<?= $key ?>">                                <div class="one_title">                                    <p>                                        <span></span>                                        <a href="<?= $value->url ?>"                                           title="<?= $value['title'] ?>"><?= \common\helpers\StringHelper::truncate($value['title'], 30) ?></a>                                        <a class="right" href="<?= $value->url ?>"                                           title="<?= $value['title'] ?>"><?= date('Y-m-d', $value['create_time']) ?></a>                                    </p>                                </div>                            </li>                        <?php endforeach; ?>                    </ul>                    <ul>                        <?php foreach ($this->params['news_zhishi'] as $key => $value): ?>                            <li class="more_<?= $key ?>">                                <div class="one_title">                                    <p>                                        <span></span>                                        <a href="<?= $value->url ?>"                                           title="<?= $value['title'] ?>"><?= \common\helpers\StringHelper::truncate($value['title'], 30) ?></a>                                        <a class="right" href="<?= $value->url ?>"                                           title="<?= $value['title'] ?>"><?= date('Y-m-d', $value['create_time']) ?></a>                                    </p>                                </div>                            </li>                        <?php endforeach; ?>                    </ul>                </div>            </div>    </section></div><?php \frontend\assets\IndexAsset::register($this); ?><?php $this->beginBlock('test') ?>$(document).ready(function(){$(".prev,.next").hover(function(){$(this).stop(true,false).fadeTo("show",0.9);},function(){$(this).stop(true,false).fadeTo("show",0.4);});$(".banner-box").slide({titCell:".hd ul",mainCell:".bd ul",effect:"fold",interTime:3500,delayTime:500,autoPlay:true,autoPage:true,trigger:"click"});});<?php $this->endBlock() ?><?php $this->registerJs($this->blocks['test'], \yii\web\View::POS_END); ?>
+<?php
+$listUrl = '/product/detail?id=';
+use \yii\helpers\Html;
+?>
+
+<div class="index">
+    <div class="banner">
+        <!-- Swiper -->
+        <div class="index-banner">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><div class="item"><a href="#"><img src="/assets/images/index_banner_1.jpg" alt="" title=""/></a></div></div>
+                    <div class="swiper-slide"><div class="item"><a href="#"><img src="/assets/images/index_banner_2.jpg" alt="" title=""/></a></div></div>
+                    <div class="swiper-slide"><div class="item"><a href="#"><img src="/assets/images/index_banner_3.jpg" alt="" title=""/></a></div></div>
+
+
+
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination swiper-pagination-white"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next swiper-button-white"></div>
+                <div class="swiper-button-prev swiper-button-white"></div>
+            </div>
+        </div>
+    </div>
+
+    <section class="section container index-tezhong">
+        <div class="tabswitch-title">
+            <div class="longline"></div>
+            <div class="tabswitch-title-info"><p>特种锂电池</p></div>
+        </div>
+        <div class="index-nav-min nav-list">
+            <ul>
+                <li class=""><div class="item"><a href="/diwen/">低温锂电池</a></div></li>
+                <li class=""><div class="item"><a href="/kuanwen/">宽温锂电池</a></div></li>
+                <li class=""><div class="item"><a href="/taisuanli/">钛酸锂电池</a></div></li>
+                <li class=""><div class="item"><a href="/fanbao/">防爆锂电池</a></div></li>
+            </ul>
+        </div>
+        <div class="nav-product-list section">
+            <?php foreach (Yii::$app->params['index-tezhong'] as $key=>$value):?>
+            <div class="list product_common <?= $key>0?'none':'' ?>">
+                <ul>
+                    <?php foreach ($value as $k=>$v):?>
+                    <li class="col-md-3">
+                        <div class="item">
+                            <div class="img"><a href="<?= $v['url']?>"><img src="<?= $v['imageUrl']?>" alt="<?= $v['title']?>" title="<?= $v['title']?>"></a></div>
+                            <div class="title"><a href="<?= $v['url']?>">低温充放电</a></div>
+                            <div class="sub_title"><a href="<?= $v['url']?>">无线光通讯磷酸铁锂电池</a></div>
+                        </div>
+                    </li>
+                    <?php endforeach;?>
+                </ul>
+            </div>
+            <?php endforeach;?>
+        </div>
+    </section>
+    <section class="section container index-cuneng">
+        <div class="tabswitch-title">
+            <div class="longline"></div>
+            <div class="tabswitch-title-info"><p>动力/储能电池</p></div>
+        </div>
+        <div class="index-nav-min nav-list">
+            <ul>
+                <li class=""><div class="item"><a href="/lilizi/list-11.html">12V锂电池</a></div></li>
+                <li class=""><div class="item"><a href="/lilizi/list-12.html">24V锂电池</a></div></li>
+                <li class=""><div class="item"><a href="/lilizi/list-13.html">36V锂电池</a></div></li>
+                <li class=""><div class="item"><a href="/lilizi/list-14.html">48V锂电池</a></div></li>
+            </ul>
+        </div>
+        <div class="nav-product-list section">
+            <?php foreach (Yii::$app->params['index-dongli'] as $key=>$value):?>
+                <div class="list product_common <?= $key>0?'none':'' ?>">
+                    <ul>
+                        <?php foreach ($value as $k=>$v):?>
+                            <li class="col-md-3">
+                                <div class="item">
+                                    <div class="img"><a href="<?= $v['url']?>"><img src="<?= $v['imageUrl']?>" alt="<?= $v['title']?>" title="<?= $v['title']?>"></a></div>
+                                    <div class="title"><a href="<?= $v['url']?>">低温充放电</a></div>
+                                    <div class="sub_title"><a href="<?= $v['url']?>">无线光通讯磷酸铁锂电池</a></div>
+                                </div>
+                            </li>
+                        <?php endforeach;?>
+                    </ul>
+                </div>
+            <?php endforeach;?>
+        </div>
+    </section>
+    <section class="section container index-gongye">
+        <div class="tabswitch-title">
+            <div class="longline"></div>
+            <div class="tabswitch-title-info"><p>工业电池</p></div>
+        </div>
+        <div class="index-nav-min nav-list">
+            <ul>
+                <li class=""><div class="item"><a href="/libattery/">18650锂电池</a></div></li>
+                <li class=""><div class="item"><a href="/juhewu/">聚合物锂电池</a></div></li>
+                <li class=""><div class="item"><a href="/chuneng/">储能锂电池</a></div></li>
+                <li class=""><div class="item"><a href="/lilizi/">锂离子电池</a></div></li>
+                <li class=""><div class="item"><a href="/lifepo4/">磷酸铁锂电池</a></div></li>
+                <li class=""><div class="item"><a href="/dongli/">动力锂电池</a></div></li>
+            </ul>
+        </div>
+        <div class="nav-product-list section">
+            <?php foreach (Yii::$app->params['index-gongye'] as $key=>$value):?>
+                <div class="list product_common <?= $key>0?'none':'' ?>">
+                    <ul>
+                        <?php foreach ($value as $k=>$v):?>
+                            <li class="col-md-3">
+                                <div class="item">
+                                    <div class="img"><a href="<?= $v['url']?>"><img src="<?= $v['imageUrl']?>" alt="<?= $v['title']?>" title="<?= $v['title']?>"></a></div>
+                                    <div class="title"><a href="<?= $v['url']?>">低温充放电</a></div>
+                                    <div class="sub_title"><a href="<?= $v['url']?>">无线光通讯磷酸铁锂电池</a></div>
+                                </div>
+                            </li>
+                        <?php endforeach;?>
+                    </ul>
+                </div>
+            <?php endforeach;?>
+        </div>
+    </section>
+
+    <section class="section container index-anli">
+        <div class="tabswitch-title">
+            <div class="longline"></div>
+            <div class="tabswitch-title-info"><p>定制案例</p></div>
+        </div>
+        <div class="index-nav-min nav-list">
+            <ul>
+                <li class=""><div class="item"><a href="/news/junjing.html">特种设备</a></div></li>
+                <li class=""><div class="item"><a href="/news/robots.html">智能机器人</a></div></li>
+                <li class=""><div class="item"><a href="/news/yiliao.html">医疗设备</a></div></li>
+                <li class=""><div class="item"><a href="/news/gongye.html">工业仪器</a></div></li>
+                <li class=""><div class="item"><a href="/news/yingji.html">应急备用</a></div></li>
+            </ul>
+        </div>
+        <div class="case-list section">
+        <?php foreach (Yii::$app->params['index-case'] as $key=>$value):?>
+            <ul class="<?= $key>0?'none':'' ?>">
+                <?php foreach ($value as $k=>$v):?>
+                <li class="col-md-4">
+                    <div class="item">
+                        <div class="img">
+                            <a href="<?= $v['url']?>">
+                                <img src="<?= $v['imageUrl']?>" alt="">
+                                <div class="bg_pic">
+                                    <img src="/assets/images/case_bg.png" alt="">
+                                </div>
+                            </a>
+
+                            <div class="text"><?= $v['title']?></div>
+                        </div>
+                    </div>
+                </li>
+                <?php endforeach;?>
+            </ul>
+        <?php endforeach;?>
+        </div>
+    </section>
+
+    <section class="section shili">
+        <div class="container">
+            <div class="tabswitch-title">
+                <div class="longline"></div>
+                <div class="tabswitch-title-info"><p>钜大综合实力</p></div>
+            </div>
+            <div class="text-center">
+                <p class="size5-5p section20">东莞市钜大电子有限公司成立于2002年，是一家为全球用户提供</p>
+                <p class="size2-8p section10">超可靠·超安全的特种锂电池系统定制化方案和产品</p>
+                <p class="size5-5p section10">的国家级高新技术企业。</p>
+            </div>
+        </div>
+        <div class="shuzi section50">
+            <div class="text  container">
+                <ul>
+                    <li><div class="num"><div class="numberRun"></div><div class="tig">年</div></div><div class="p">专注锂电池定制</div></li>
+                    <li><div class="num"><div class="numberRun2"></div><div class="tig">+</div></div><div class="p">国家专利</div></li>
+                    <li><div class="num"><div class="numberRun3"></div><div class="tig">+</div></div><div class="p">成功定制案例</div></li>
+                    <li><div class="num"><div class="numberRun4"></div><div class="tig"></div></div><div class="p">锂电模组的成功交付</div></li>
+
+                </ul>
+
+            </div>
+        </div>
+    </section>
+
+    <?php $this->beginContent('@app/views/layouts/public/hexin_jishu.php') ?>
+    <?php $this->endContent() ?>
+
+    <section class="section container team">
+        <div class="tabswitch-title">
+            <div class="longline"></div>
+            <div class="tabswitch-title-info"><p>专家团队</p></div>
+        </div>
+        <div class="title">
+            <p class="size2-8p">特种锂离子电池工程研究院</p>
+            <p class="size5-5p">授权专家<span>9</span>人，副教授专家<span>2</span>人，其中国家千人计划<span>2</span>人，教授博导<span>7</span>人</p>
+        </div>
+        <div class="list section40">
+            <ul>
+                <li class="col-md-4">
+                    <div class="item relative">
+                        <div class="to_black">
+                            <div class="img"><img src="/assets/images/40.png" alt=""></div>
+                            <div class="text">
+                                <div class="name">李成超</div>
+                                <div class="title">博士，教授，珠江学者，广东工业大学“百人计划”特聘教授</div>
+                                <div class="p"><p>新能源材料的设计合成与能源存储研究。</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="col-md-4">
+                    <div class="item relative">
+                        <div class="to_black">
+                            <div class="img"><img src="/assets/images/41.png" alt=""></div>
+                            <div class="text">
+                                <div class="name">李 辰</div>
+                                <div class="title">东莞理工学院教授</div>
+                                <div class="p"><p>研究开发锂电池 材料，抗菌剂，节能发光材 料，反应挤出轻型材料，以及新型橡胶材料等</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="col-md-4">
+                    <div class="item relative">
+                        <div class="to_black">
+                            <div class="img"><img src="/assets/images/42.png" alt=""></div>
+                            <div class="text">
+                                <div class="name">薛家祥</div>
+                                <div class="title">华南理工大学教授、博导</div>
+                                <div class="p"><p>光伏并网逆变器及其分布式发电系统、信息处理技术及应用、数字化开关电源及智能控制等。</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="col-md-4">
+                    <div class="item relative">
+                        <div class="to_black">
+                            <div class="img"><img src="/assets/images/43.png" alt=""></div>
+                            <div class="text">
+                                <div class="name">周钢</div>
+                                <div class="title">湖南大学理学博士，中南大学材料科学与工程博士后</div>
+                                <div class="p"><p>高性能电极材料及锂离子电池、防爆锂电池、低温锂电池。</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="col-md-4">
+                    <div class="item relative">
+                        <div class="to_black">
+                            <div class="img"><img src="/assets/images/44.png" alt=""></div>
+                            <div class="text">
+                                <div class="name">马建民</div>
+                                <div class="title">博士，副教授/博士生导师，湖南大学岳麓学者</div>
+                                <div class="p"><p>锂/钠离子电池、电容器、电催化等纳米技术和电催化体系的应用。</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="col-md-4">
+                    <div class="item relative">
+                        <div class="to_black">
+                            <div class="img"><img src="/assets/images/45.png" alt=""></div>
+                            <div class="text">
+                                <div class="name">袁伟</div>
+                                <div class="title">华南理工大学机械与汽车工程学院教授、博士</div>
+                                <div class="p"><p>主要围绕氢和甲醇燃料电池、锂离子电池等问题开展研究。</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </section>
+
+    <section class="section index-shiyanshi">
+        <div class="">
+            <div class="tabswitch-title container">
+                <div class="longline"></div>
+                <div class="tabswitch-title-info"><p>8大实验室</p></div>
+            </div>
+            <div class="swiper-shiyanshi">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide swiper-slide-center none-effect">
+                            <a href="javascript:;">
+                                <img src="/assets/images/index_shiyanshi_1.jpg" about="" title="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="javascript:;">
+                                <img src="/assets/images/index_shiyanshi_2.jpg" about="" title="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="javascript:;">
+                                <img src="/assets/images/index_shiyanshi_3.jpg" about="" title="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="javascript:;">
+                                <img src="/assets/images/index_shiyanshi_4.jpg" about="" title="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="javascript:;">
+                                <img src="/assets/images/index_shiyanshi_5.jpg" about="" title="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="javascript:;">
+                                <img src="/assets/images/index_shiyanshi_6.jpg" about="" title="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="javascript:;">
+                                <img src="/assets/images/index_shiyanshi_7.jpg" about="" title="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="javascript:;">
+                                <img src="/assets/images/index_shiyanshi_8.jpg" about="" title="">
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="banner-arrow">
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section class="section index-zhiliang">
+        <div class="container">
+            <div class="tabswitch-title">
+                <div class="longline"></div>
+                <div class="tabswitch-title-info"><p>产品质量与安全</p></div>
+            </div>
+        </div>
+        <div class="img section20"><img src="/assets/images/54.png" alt=""></div>
+    </section>
+
+    <section class="section container index-kehu">
+        <div class="tabswitch-title">
+            <div class="longline"></div>
+            <div class="tabswitch-title-info"><p>我们的客户</p></div>
+        </div>
+        <div class="img section20"><img src="/assets/images/55.png" alt=""></div>
+    </section>
+
+    <section class="section container news">
+        <div class="tabswitch-title">
+            <div class="longline"></div>
+            <div class="tabswitch-title-info"><p>资讯中心</p></div>
+        </div>
+        <div class="list">
+            <div class="left">
+                <div class="img"><img src="http://images.juda.cn/image/201804/1523178166939.jpg" alt=""></div>
+                <div class="text section50">
+                    <div class="title"><a href="">广东省副省长陈云贤莅临我司指导工作</a></div>
+                    <div class="p"><p>2019年2月15日下午，东莞市科技局局长卓庆偕同南城街道办事处副主任张见荣、街道创新驱动办主任林强一同调研东莞市钜大电子有限公司的创新驱动发展情况。</p></div>
+                    <div class="line"><span>1</span></div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="nav_news nav-list">
+                    <ul>
+                        <li class="col-md-3" ><a href="/news/gongsixinwen.html">公司新闻</a></li>
+                        <li class="col-md-3" ><a href="/news/hangyezixun.html">行业资讯</a></li>
+                        <li class="col-md-3" ><a href="/news/zhuanti.html">电池专题</a></li>
+                        <li class="col-md-3" ><a href="/news/changjianwenti.html">电池知识</a></li>
+                    </ul>
+                </div>
+                <div class="news_item section30">
+                    <?php foreach (Yii::$app->params['index-news'] as $key=>$value):?>
+                    <ul class="<?= $key>0?'none':'' ?>">
+                        <?php foreach ($value as $k=>$v):?>
+                        <li>
+                            <div class="text">
+                                <div class="title"><a href="<?=$v['url'] ?>" title="<?=$v['title'] ?>"><?=$v['title'] ?></a></div>
+                                <div class="p"><p><?=$v['description'] ?></p></div>
+                                <div class="line"><span>1</span></div>
+                            </div>
+                        </li>
+                        <?php endforeach;?>
+                    </ul>
+                    <?php endforeach;?>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<?php \frontend\assets\IndexAsset::register($this); ?>

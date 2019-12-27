@@ -1,1 +1,65 @@
-<?phpuse yii\helpers\Html;use yii\helpers\Url;$productProvider= new \yii\data\ActiveDataProvider([    'query' => $data['list'],    'pagination'=>[        'pageSize'=>16,        'pageSizeParam' => false,    ],]);?><div class="case">    <section class="container">        <div class="banner">            <div class="img">                <div class="example">                    <div class="ft-carousel" id="carousel_1">                        <ul class="carousel-inner">                            <?php foreach (\common\helpers\AdHelper::GetAd_list('case') as $key=>$value):?>                                <li class="carousel-item"> <a href="<?=$value->url?>"><img src="<?=$value->imageUrl?>" alt="<?=$value->title?>" title="<?=$value->title?>"/></a></li>                            <?php endforeach; ?>                        </ul>                    </div>                </div>            </div>            <div class="text">                <div class="kouhao">                    <ul>                        <li class="">                            <div class="item">                                <p><img src="<?=Yii::getAlias('@web/static/images/kouhao1.png')?>"/>按需开发     </p>                            </div>                        </li>                        <li class="bj">                            <div class="item">                                <p><img src="<?=Yii::getAlias('@web/static/images/kouhao2.png')?>"/>8小时响应     </p>                            </div>                        </li>                        <li class="bj">                            <div class="item">                                <p><img src="<?=Yii::getAlias('@web/static/images/kouhao3.png')?>"/>24小时上门     </p>                            </div>                        </li>                        <li class="bj">                            <div class="item">                                <p><img src="<?=Yii::getAlias('@web/static/images/kouhao4.png')?>"/>十年维护</p>                            </div>                        </li>                        <li class="end bj">                            <div class="item">                                <p><strong>免费</strong> 提供一对一锂电池定制设计方案 <span><a id="qiao" href="http://ddt.zoosnet.net/LR/Chatpre.aspx?id=DDT94811403&lng=cn" rel="nofollow" target="_blank">立即定制</a></span></p>                            </div>                        </li>                    </ul>                </div>            </div>        </div>    </section>    <section class="section container" id="section_padding">        <div class="jiqiren">            <div class="content">                <div class="top">                    <div class="title">定制案例</div>                    <div class="lists">                        <?php foreach ($data['tree'] as $key=>$vlaue):?>                            <dd><a href="/news/<?=$vlaue->name?>.html"><?=$vlaue['title']?></a></dd>                        <?php endforeach; ?>                    </div>                </div>                <?php foreach ($data['list_c'] as $key=>$value):?>                    <?php $titles=\common\helpers\ArrayHelper::extend($value->extend);?>                    <div class="pp col-md-6 col-sm-12">                        <div class="part ">                            <div class="col-sm-8">                                <div class="img"><a href="<?=$value->url?>">                                        <img src="<?=$value->imageUrl?>" alt="<?=$value->title?>" title="<?=$value->title?>" />                                        <div class="cover"></div>                                    </a></div>                            </div>                            <div class="col-sm-4">                                <div class="text">                                    <div class="title">                                        <div class="t1"><p><a href="<?=$value->url?>"><?= count($titles)<=0?'':$titles[0]?></a></p></div>                                        <div class="t2"><a href="<?=$value->url?>"><?= count($titles)<=0?'':$titles[1]?></a></div>                                                                           </div>                                    <div class="description">                                        <p><?= \common\helpers\StringHelper::truncate($value['description'],60)?></p>                                        <div class="more"><p><a href="<?=$value->url?>">案例详情》</a></p></div>                                    </div>                                </div>                            </div>                        </div>                    </div>                <?php endforeach; ?>                <div class="list" >                    <ul>                        <?=\yii\widgets\ListView::widget([                            'dataProvider' => $productProvider,                            'itemView' => '_case_list',                            'layout' => "{items}<div id='fenye'>{pager}</div>",//加个这就好了                            'itemOptions' => [                                'tag' => false,                            ],                        ]);                        ?>                    </ul>                </div>            </div>            <div class="top_part">                <div class="title"><h1><?=$data['lanmu']['title']?></h1></div>                <div class="p"><p>                        <?=$data['lanmu']['content']?>                    </p></div>            </div>    </section>    <section class="section container">        <?php $this->beginContent('@app/views/layouts/public/ad.php'); ?>        <?php $this->endContent(); ?>    </section>    <section class="section container" id="section_padding">        <?php $this->beginContent('@app/views/layouts/public/tuozhan.php'); ?>        <?php $this->endContent(); ?>    </section></div>
+<?php
+use yii\helpers\Html;
+use yii\helpers\Url;
+$productProvider= new \yii\data\ActiveDataProvider([
+    'query' => $data['list'],
+    'pagination'=>[
+        'pageSize'=>12,
+        'pageSizeParam' => false,
+    ],
+]);
+?>
+<div class="case-index">
+    <div class="banner_common relative">
+        <div class="img"><img src="/assets/images/case-banner.png" alt=""></div>
+        <div class="text">
+            <div class="content">
+                <h1 class="sizemax-12p">定制案例</h1>
+                <p class="size4-6p section40">3000+成功案例</p>
+            </div>
+        </div>
+    </div>
+    <div class="case_list" id="case_list">
+        <div class="container">
+            <div class="top ">
+                <div class="title pull-left">定制案例</div>
+                <div class="nav_list pull-right">
+                    <ul>
+                        <li class="pull-left">
+                            <?php foreach ($data['tree'] as $key=>$vlaue):?>
+                                <a href="/news/<?=$vlaue->name?>.html#case_list"><?=$vlaue['title']?></a>
+                            <?php endforeach; ?>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="list section30">
+                <ul>
+                    <?=\yii\widgets\ListView::widget([
+                        'dataProvider' => $productProvider,
+                        'itemView' => '_case_list',
+                        'layout' => "{items}<div id='fenye'>{pager}</div>",//加个这就好了
+                        'itemOptions' => [
+                            'tag' => false,
+                        ],
+                    ]);
+                    ?>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="case-content">
+        <div class="img"><img src="<?=Yii::getAlias('@web/assets/images/product-content-bg.png')?>" alt=""></div>
+        <div class="text">
+            <div class="container">
+                <?=Yii::$app->params['lanmu']['content']?>
+            </div>
+
+        </div>
+    </div>
+    <?php $this->beginContent('@app/views/layouts/public/seach_jingxuan_news.php') ?>
+    <?php $this->endContent() ?>
+
+
+</div>
