@@ -68,6 +68,41 @@ $(function(){
     });
 
 
+    /**
+     * 研发制造  点击+   出现更详细的内容
+    * */
+    $('.bottome_tx .list .ico').click( function () {
+        // console.log(left);
+        var boss = $(this).parent().parent().parent().parent().parent();
+        var index = $(this).parent().parent().index();
+        var list_li = $('.bottome_tx .list li.active');
+        var item_width = $(this).parent().parent().innerWidth();
+        var left = 89 + (item_width*index);
+        $('.triangle_ico').css('left',left+'px');
+        if (list_li.is($(this).parent().parent())||list_li.length<=0){
+            $(this).parent().parent().toggleClass('active');
+            $('.triangle_ico').toggleClass('active');
+            $('.bottome_tx .item_list li').eq(index).slideToggle('slow');
+
+        }else {
+            list_li.removeClass('active');
+            $('.bottome_tx .item_list li').hide();
+            $('.bottome_tx .item_list li').eq(index).slideToggle('slow');
+
+            $(this).parent().parent().toggleClass('active');
+        }
+
+
+
+        // var a = boss.children('.item_list li').eq(index).toggle(showOrHide);
+
+        console.log(obj);
+
+
+
+
+    });
+
 
 
 
