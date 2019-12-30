@@ -49,10 +49,10 @@ class CommonController extends Controller
         }
         Yii::$app->params['is_index'] = $this->id=='index'?true:false;
         foreach (Config::find()->asArray()->all() as $key=>$value){
-
             Yii::$app->params['web'][$value['name']]=$value['value'];
 
         }
+        Yii::$app->params['yanfa_team'] = Article::find()->where(['category_id' => 39])->orderBy('sort asc')->all();
     }
 
     public function common(){

@@ -30,7 +30,7 @@ use \yii\helpers\Html;
             <div class="longline"></div>
             <div class="tabswitch-title-info"><p>特种锂电池</p></div>
         </div>
-        <div class="index-nav-min nav-list">
+        <div class="index-nav-min nav-list section80">
             <ul>
                 <li class=""><div class="item"><a href="/diwen/">低温锂电池</a></div></li>
                 <li class=""><div class="item"><a href="/kuanwen/">宽温锂电池</a></div></li>
@@ -61,7 +61,7 @@ use \yii\helpers\Html;
             <div class="longline"></div>
             <div class="tabswitch-title-info"><p>动力/储能电池</p></div>
         </div>
-        <div class="index-nav-min nav-list">
+        <div class="index-nav-min nav-list section80">
             <ul>
                 <li class=""><div class="item"><a href="/lilizi/list-11.html">12V锂电池</a></div></li>
                 <li class=""><div class="item"><a href="/lilizi/list-12.html">24V锂电池</a></div></li>
@@ -92,7 +92,7 @@ use \yii\helpers\Html;
             <div class="longline"></div>
             <div class="tabswitch-title-info"><p>工业电池</p></div>
         </div>
-        <div class="index-nav-min nav-list">
+        <div class="index-nav-min nav-list section80">
             <ul>
                 <li class=""><div class="item"><a href="/libattery/">18650锂电池</a></div></li>
                 <li class=""><div class="item"><a href="/juhewu/">聚合物锂电池</a></div></li>
@@ -126,7 +126,7 @@ use \yii\helpers\Html;
             <div class="longline"></div>
             <div class="tabswitch-title-info"><p>定制案例</p></div>
         </div>
-        <div class="index-nav-min nav-list">
+        <div class="index-nav-min nav-list section80">
             <ul>
                 <li class=""><div class="item"><a href="/news/junjing.html">特种设备</a></div></li>
                 <li class=""><div class="item"><a href="/news/robots.html">智能机器人</a></div></li>
@@ -140,7 +140,7 @@ use \yii\helpers\Html;
             <ul class="<?= $key>0?'none':'' ?>">
                 <?php foreach ($value as $k=>$v):?>
                 <li class="col-md-4">
-                    <div class="item">
+                    <div class="item to_black">
                         <div class="img">
                             <a href="<?= $v['url']?>">
                                 <img src="<?= $v['imageUrl']?>" alt="">
@@ -193,84 +193,26 @@ use \yii\helpers\Html;
             <div class="longline"></div>
             <div class="tabswitch-title-info"><p>专家团队</p></div>
         </div>
-        <div class="title">
+        <div class="title section">
             <p class="size2-8p">特种锂离子电池工程研究院</p>
             <p class="size5-5p">授权专家<span>9</span>人，副教授专家<span>2</span>人，其中国家千人计划<span>2</span>人，教授博导<span>7</span>人</p>
         </div>
         <div class="list section40">
             <ul>
+                <?php foreach (Yii::$app->params['yanfa_team'] as $key=>$value):?>
                 <li class="col-md-4">
                     <div class="item relative">
                         <div class="to_black">
-                            <div class="img"><img src="/assets/images/40.png" alt=""></div>
+                            <div class="img"><img src="<?= $value['imageUrl'] ?>" alt="<?= $value['title'] ?>" title="<?= $value['title'] ?>"></div>
                             <div class="text">
-                                <div class="name">李成超</div>
-                                <div class="title">博士，教授，珠江学者，广东工业大学“百人计划”特聘教授</div>
-                                <div class="p"><p>新能源材料的设计合成与能源存储研究。</p></div>
+                                <div class="name"><?= $value['title'] ?></div>
+                                <div class="title"><?= $value['sub_title'] ?></div>
+                                <div class="p"><p><?= $value['description'] ?></p></div>
                             </div>
                         </div>
                     </div>
                 </li>
-                <li class="col-md-4">
-                    <div class="item relative">
-                        <div class="to_black">
-                            <div class="img"><img src="/assets/images/41.png" alt=""></div>
-                            <div class="text">
-                                <div class="name">李 辰</div>
-                                <div class="title">东莞理工学院教授</div>
-                                <div class="p"><p>研究开发锂电池 材料，抗菌剂，节能发光材 料，反应挤出轻型材料，以及新型橡胶材料等</p></div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="col-md-4">
-                    <div class="item relative">
-                        <div class="to_black">
-                            <div class="img"><img src="/assets/images/42.png" alt=""></div>
-                            <div class="text">
-                                <div class="name">薛家祥</div>
-                                <div class="title">华南理工大学教授、博导</div>
-                                <div class="p"><p>光伏并网逆变器及其分布式发电系统、信息处理技术及应用、数字化开关电源及智能控制等。</p></div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="col-md-4">
-                    <div class="item relative">
-                        <div class="to_black">
-                            <div class="img"><img src="/assets/images/43.png" alt=""></div>
-                            <div class="text">
-                                <div class="name">周钢</div>
-                                <div class="title">湖南大学理学博士，中南大学材料科学与工程博士后</div>
-                                <div class="p"><p>高性能电极材料及锂离子电池、防爆锂电池、低温锂电池。</p></div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="col-md-4">
-                    <div class="item relative">
-                        <div class="to_black">
-                            <div class="img"><img src="/assets/images/44.png" alt=""></div>
-                            <div class="text">
-                                <div class="name">马建民</div>
-                                <div class="title">博士，副教授/博士生导师，湖南大学岳麓学者</div>
-                                <div class="p"><p>锂/钠离子电池、电容器、电催化等纳米技术和电催化体系的应用。</p></div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="col-md-4">
-                    <div class="item relative">
-                        <div class="to_black">
-                            <div class="img"><img src="/assets/images/45.png" alt=""></div>
-                            <div class="text">
-                                <div class="name">袁伟</div>
-                                <div class="title">华南理工大学机械与汽车工程学院教授、博士</div>
-                                <div class="p"><p>主要围绕氢和甲醇燃料电池、锂离子电池等问题开展研究。</p></div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
+                <?php endforeach;?>
 
             </ul>
         </div>
@@ -361,7 +303,7 @@ use \yii\helpers\Html;
             <div class="longline"></div>
             <div class="tabswitch-title-info"><p>资讯中心</p></div>
         </div>
-        <div class="list">
+        <div class="list section">
             <div class="left">
                 <div class="img"><img src="http://images.juda.cn/image/201804/1523178166939.jpg" alt=""></div>
                 <div class="text section50">
@@ -396,6 +338,31 @@ use \yii\helpers\Html;
                 </div>
             </div>
         </div>
+    </section>
+    <section class="section container location_tel">
+        <ul>
+            <li class="col-md-4">
+                <div class="item">
+                    <div class="ico"><img src="/assets/images/index_bottom_ico_1.png" alt=""></div>
+                    <div class="title "><a href="" class="size6-4p color_b1">查看位置</a></div>
+                    <div class="text"><p>东莞市南城区周溪隆溪路5号高盛科技园A栋、B栋</p></div>
+                </div>
+            </li>
+            <li class="col-md-4">
+                <div class="item">
+                    <div class="ico"><img src="/assets/images/index_bottom_ico_1.png" alt=""></div>
+                    <div class="title "><a href="" class="size6-4p color_b1">查看位置</a></div>
+                    <div class="text"><p>东莞市南城区周溪隆溪路5号高盛科技园A栋、B栋</p></div>
+                </div>
+            </li>
+            <li class="col-md-4">
+                <div class="item">
+                    <div class="ico"><img src="/assets/images/index_bottom_ico_1.png" alt=""></div>
+                    <div class="title "><a href="" class="size6-4p color_b1">查看位置</a></div>
+                    <div class="text"><p>东莞市南城区周溪隆溪路5号高盛科技园A栋、B栋</p></div>
+                </div>
+            </li>
+        </ul>
     </section>
 </div>
 

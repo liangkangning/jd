@@ -12,8 +12,9 @@
             </div>
            <div class="right_part pull-right">
                <div class="as">
+                   <li><span href="#"><img src="/assets/images/02.png" alt=""></span></li>
                    <li><a href="/about/#about_lianxi">联系我们</a></li>
-                   <li><a href="/about/#about_lianxi">使用条款</a></li>
+
                </div>
                <div class="en">
                    <a href="https://www.large.net/">EN

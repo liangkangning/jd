@@ -1,0 +1,1 @@
+<?phpnamespace frontend\assets;use yii\web\AssetBundle;/** * 研发制造 前端资源 */class MakeAsset extends AssetBundle{    /* 全局CSS文件 */    public $css = [        'pages/css/about.min.css',    ];    /* 全局JS文件 */    public $js = [        'assets/js/make.js',    ];    /* 依赖关系 */    public $depends = [        'frontend\assets\LayoutAsset',    ];}

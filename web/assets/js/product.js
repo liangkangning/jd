@@ -1,5 +1,17 @@
 
 //商品列表
+// 点击更多，弹出更多内容
+
+$('.product-list-index .category-attr .con-wrap .con-value .list').each(function(i){
+    if ($(this).height()<100){
+        $(this).parent().parent().find('.ext').hide();
+    }
+
+
+});
+$('.product-list-index .selector-line .more').click(function () {
+    $(this).parent().parent().toggleClass('active');
+    });
 //移动到分类，出现下拉框
 advcustom();
 function advcustom() {

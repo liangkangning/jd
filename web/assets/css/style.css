@@ -80,7 +80,6 @@ b {
 
 a:hover {
 	text-decoration: none;
-	color: #f7b52c
 }
 
 .cur1 a {
@@ -260,7 +259,8 @@ header .dropdown-menu .menu-arrow{position: absolute;
 
 
 header .header_top{width: 100%;height:58px;margin-bottom: 25px}
-header nav {width: 100%;height: 40px;border-bottom: 2px solid #edad0e;}
+header nav {width: 100%;height: 40px;}
+header .fix_top nav { border-bottom: 1px solid #B4B5B5;}
 header nav .allnav {position: relative;width: 270px;}
 header nav .allnav .text {background-color: #edad0e;padding: 0 20px;color: #FFFFFF;height: 40px;line-height: 40px;}
 header nav .allnav .text p {}
@@ -275,7 +275,7 @@ header .fix_top nav #nav_tree:hover .list{display: block}
 header nav .allnav:hover .list{display: block}
 
 header nav .allnav .list .pp:first-child{border-top:none}
-header nav .allnav .list .pp{overflow: hidden;padding: 35px 0 17px 25px;border-top: 1px solid #888889;height: 166px}
+header nav .allnav .list .pp{overflow: hidden;padding: 35px 0 17px 25px;border-top: 1px solid #555555;height: 166px}
 header nav .allnav .list.is_index .pp{height: 150px;padding: 27px 0 17px 25px;}
 header nav .allnav .list .pp:last-child{display: none}
 header nav .allnav .list.is_index .pp:last-child{display: block}
@@ -302,7 +302,7 @@ header nav .navlist ul li .item a {}
     z-index: 999999;
     width: 100%;  background-color: #FFFFFF}
 
-header nav .navlist ul li .item.checked a{color:#edad0e }
+header nav .navlist ul li .item.checked a{}
 footer {}
 footer .onePart {background-color: #EEEEEE;padding: 80px 0;overflow: hidden;}
 footer .onePart .call {}
