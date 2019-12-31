@@ -5,7 +5,7 @@
                 <div class="l_p">
                     <div class="img">
                         <a href="/">
-                            <img src="<?=Yii::getAlias('@web/static/images/logo.png')?>" alt="锂电池" title="锂电池" class="logo-default">
+                            <img src="<?=Yii::getAlias('@web/assets/images/logo.png')?>" alt="锂电池" title="锂电池" class="logo-default">
                         </a>
                     </div>
                 </div>

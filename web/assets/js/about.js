@@ -4,14 +4,29 @@ $(function () {
     var scroHoutside = $(document).scrollTop();  //滚动高度
     var viewHoutside = $(window).height();  //可见高度
     for(var j=0;j<animation.length;++j){
-        if( ((animation.eq(j).offset().top)>=scroHoutside  && (animation.eq(j).offset().top) < (scroHoutside+viewHoutside)) || ((animation.eq(j).offset().top + animation.eq(j).outerHeight())>=scroHoutside  && (animation.eq(j).offset().top + animation.eq(j).outerHeight()) < (scroHoutside+viewHoutside)) ){
-
-        }else {
-            animation.eq(j).addClass('hide');
-        }
+        // if( ((animation.eq(j).offset().top)>=scroHoutside  && (animation.eq(j).offset().top) < (scroHoutside+viewHoutside)) || ((animation.eq(j).offset().top + animation.eq(j).outerHeight())>=scroHoutside  && (animation.eq(j).offset().top + animation.eq(j).outerHeight()) < (scroHoutside+viewHoutside)) ){
+        //
+        // }else {
+        //     animation.eq(j).addClass('hide-pic');
+        // }
+        animation.eq(j).addClass('hide-pic');
     }
 
     $(document).scroll(function () {
+        gundong();
+    });
+    $('.about-index .main .nav-list li').mousemove(function () {
+        gundong();
+    });
+
+
+});
+
+function gundong() {
+    var is_licheng = $('.nav-con-item-active.checked');
+    console.log(is_licheng.length);
+    if (is_licheng.length>0){
+        console.log('存在')
         var scroH = $(document).scrollTop();  //滚动高度
         var viewH = $(window).height();  //可见高度
         var contentH = $(document).height();  //内容高度
@@ -45,8 +60,8 @@ $(function () {
         viewH = null;
         contentH = null;
         hide = null;
-    });
-});
+    }
+}
 
 
 function tijiao()

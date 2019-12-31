@@ -8,8 +8,10 @@ $(document).ready(function(){
         paginationClickable: true,
         spaceBetween: 30,
         autoplay: 3000, //是否自动滚动
-        loop: true
+        loop: true,
+        //or initialSlide: 2,
     });
+
     var swiper2 = new Swiper('.swiper-shiyanshi .swiper-container',{
         autoplay: 3000, //是否自动滚动
         speed: 500,      //滚动速速
@@ -205,6 +207,10 @@ $(document).ready(function(){
         if (top_max<$(window).scrollTop()){
             is_gun = false;
         }
+    });
+
+    $('.location_tel .top').mousemove(function(e){
+        $(this).parent().parent().addClass('active');
     });
 
 

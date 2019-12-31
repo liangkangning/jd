@@ -343,23 +343,36 @@ use \yii\helpers\Html;
         <ul>
             <li class="col-md-4">
                 <div class="item">
-                    <div class="ico"><img src="/assets/images/index_bottom_ico_1.png" alt=""></div>
-                    <div class="title "><a href="" class="size6-4p color_b1">查看位置</a></div>
+                    <div class="ico"><a href="http://j.map.baidu.com/R7jAL" target="_blank" rel="nofollow"><img src="/assets/images/index_bottom_ico_1.png" alt="查看位置"></a></div>
+                    <div class="title "><a href="http://j.map.baidu.com/R7jAL" class="size6-4p color_b1" target="_blank" rel="nofollow">查看位置</a></div>
                     <div class="text"><p>东莞市南城区周溪隆溪路5号高盛科技园A栋、B栋</p></div>
                 </div>
             </li>
             <li class="col-md-4">
                 <div class="item">
-                    <div class="ico"><img src="/assets/images/index_bottom_ico_1.png" alt=""></div>
-                    <div class="title "><a href="" class="size6-4p color_b1">查看位置</a></div>
-                    <div class="text"><p>东莞市南城区周溪隆溪路5号高盛科技园A栋、B栋</p></div>
+                    <div class="ico"><img src="/assets/images/index_bottom_ico_2.png" alt=""></div>
+                    <div class="title "><span     class="size6-4p color_b1">联系我们</span></div>
+                    <div class="text"><p>
+                            <span class="size2-8p color_y lh_1">400-800-6752</span><br>
+                            或0769-26983348
+                        </p></div>
                 </div>
             </li>
-            <li class="col-md-4">
+            <li class="col-md-4 relative">
                 <div class="item">
-                    <div class="ico"><img src="/assets/images/index_bottom_ico_1.png" alt=""></div>
-                    <div class="title "><a href="" class="size6-4p color_b1">查看位置</a></div>
-                    <div class="text"><p>东莞市南城区周溪隆溪路5号高盛科技园A栋、B栋</p></div>
+                    <div class="top">
+                        <div class="ico"><img src="/assets/images/index_bottom_ico_3.png" alt=""></div>
+                        <div class="title "><span  class="size6-4p color_b1">移动网站</span></div>
+                    </div>
+                    <div class="share">
+                        <ul>
+                            <dd class="col-md-3"><div class="ico"><a href="#"><img src="/assets/images/index_share_1.png" alt=""></a></div></dd>
+                            <dd class="col-md-3"> <div class="ico"><a href="#"><img src="/assets/images/index_share_2.png" alt=""></a></div></dd>
+                            <dd class="col-md-3"><div class="ico"><a href="#"><img src="/assets/images/index_share_3.png" alt=""></a></div></dd>
+                            <dd class="col-md-3"><div class="ico"><a href="#"><img src="/assets/images/index_share_4.png" alt=""></a></div></dd>
+                        </ul>
+                    </div>
+                    <div class="erweima"><img src="/assets/images/index_share_wx.png" alt=""></div>
                 </div>
             </li>
         </ul>
