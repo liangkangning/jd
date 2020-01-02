@@ -46,8 +46,8 @@ use \yii\helpers\Html;
                     <li class="col-md-3">
                         <div class="item">
                             <div class="img"><a href="<?= $v['url']?>"><img src="<?= $v['imageUrl']?>" alt="<?= $v['title']?>" title="<?= $v['title']?>"></a></div>
-                            <div class="title"><a href="<?= $v['url']?>">低温充放电</a></div>
-                            <div class="sub_title"><a href="<?= $v['url']?>">无线光通讯磷酸铁锂电池</a></div>
+                            <div class="title"><a href="<?= $v['url']?>"><?= $v['h1']?></a></div>
+                            <div class="sub_title"><a href="<?= $v['url']?>"><?= $v['h2']?></a></div>
                         </div>
                     </li>
                     <?php endforeach;?>
@@ -77,8 +77,8 @@ use \yii\helpers\Html;
                             <li class="col-md-3">
                                 <div class="item">
                                     <div class="img"><a href="<?= $v['url']?>"><img src="<?= $v['imageUrl']?>" alt="<?= $v['title']?>" title="<?= $v['title']?>"></a></div>
-                                    <div class="title"><a href="<?= $v['url']?>">低温充放电</a></div>
-                                    <div class="sub_title"><a href="<?= $v['url']?>">无线光通讯磷酸铁锂电池</a></div>
+                                    <div class="title"><a href="<?= $v['url']?>"><?= $v['h1']?></a></div>
+                                    <div class="sub_title"><a href="<?= $v['url']?>"><?= $v['h2']?></a></div>
                                 </div>
                             </li>
                         <?php endforeach;?>
@@ -110,8 +110,8 @@ use \yii\helpers\Html;
                             <li class="col-md-3">
                                 <div class="item">
                                     <div class="img"><a href="<?= $v['url']?>"><img src="<?= $v['imageUrl']?>" alt="<?= $v['title']?>" title="<?= $v['title']?>"></a></div>
-                                    <div class="title"><a href="<?= $v['url']?>">低温充放电</a></div>
-                                    <div class="sub_title"><a href="<?= $v['url']?>">无线光通讯磷酸铁锂电池</a></div>
+                                    <div class="title"><a href="<?= $v['url']?>"><?= $v['h1']?></a></div>
+                                    <div class="sub_title"><a href="<?= $v['url']?>"><?= $v['h2']?></a></div>
                                 </div>
                             </li>
                         <?php endforeach;?>

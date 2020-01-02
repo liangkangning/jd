@@ -180,6 +180,23 @@ class Images extends \yii\db\ActiveRecord
             ['product/detail','id'=>$this->id]
         );
     }
+    public function getH1(){
+        if ($this->tags){
+            $arr = explode('|', $this->tags);
+            return $arr[0];
+        }else{
+            return '';
+        }
+    }
+
+    public function getH2(){
+        if ($this->tags){
+            $arr = explode('|', $this->tags);
+            return end($arr);
+        }else{
+            return '';
+        }
+    }
 }
 
 
