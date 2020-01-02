@@ -10,16 +10,18 @@ $('.yanjiuyuan .bottome_tx .list .ico').click( function () {
     var left = 89 + (item_width*index);
     var triangle_ico = boss.find('.triangle_ico');
     var bottome_tx_item_list_li = boss.find('.item_list li');
+    var item_list = boss.find('.item_list');
     $(triangle_ico).css('left',left+'px');
     if (list_li.is($(this).parent().parent())||list_li.length<=0){
         $(this).parent().parent().toggleClass('active');
+        $(item_list).toggleClass('active');
         $(triangle_ico).toggleClass('active');
         $(bottome_tx_item_list_li).eq(index).slideToggle('slow');
     }else {
         list_li.removeClass('active');
+        item_list.removeClass('active');
         $(bottome_tx_item_list_li).hide();
         $(bottome_tx_item_list_li).eq(index).slideToggle('slow');
-
         $(this).parent().parent().toggleClass('active');
     }
 });
@@ -33,13 +35,16 @@ $('.shiyanshi .bottome_tx .list .ico').click( function () {
     var left = -15 + (item_width*(index%2));
     var triangle_ico = boss.find('.triangle_ico');
     var bottome_tx_item_list_li = boss.find('.item_list li');
+    var item_list = boss.find('.item_list');
     $(triangle_ico).css('left',left+'px');
     if (list_li.is($(this).parent().parent())||list_li.length<=0){
         $(this).parent().parent().toggleClass('active');
+        $(item_list).toggleClass('active');
         $(triangle_ico).toggleClass('active');
         $(bottome_tx_item_list_li).eq(index).slideToggle('slow');
     }else {
         list_li.removeClass('active');
+        item_list.removeClass('active');
         $(bottome_tx_item_list_li).hide();
         $(bottome_tx_item_list_li).eq(index).slideToggle('slow');
 

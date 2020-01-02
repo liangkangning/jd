@@ -49,7 +49,7 @@
 .getiao{width: 100%;height: 1px;overflow: hidden;}
 .lh_1{line-height: 1}
 .lh_2{line-height: 2}
-.product_zoom(@scale:1.2;@s:0.6s){//商品图片变大效果
+.product_zoom(@scale:1.2;@s:0.6s){//商品图片变大效果  放大
   img{transition: all @s;}
   &:hover img{transform: scale(@scale); }
 }
@@ -370,6 +370,8 @@ header {
   .team .title span{.size2-8p}
   .team .list ul{.ul-li-padding(30px);}
   .team .list li{.handle;}
+  .team .list li .item{overflow: hidden}
+  .team .list li .item .to_black{.product_zoom(1.1,2s);}
   .team .list li:first-child:hover .p{ height: 18px;}
   .team .list li:hover .p{ height: 38px;}
   .team .list .text{position: absolute;bottom: 0;left: 0;color: #ffffff;padding: 0 20px 30px 20px;z-index: 99}
@@ -381,15 +383,19 @@ header {
 
   //资讯中心
   .news{}
-  .news .left{float: left;width: 60%;padding-right: 50px}
-  .news .right{float: left;width: 40%;padding-left: 50px}
+  .news .left{
+    float: left;width: 60%;padding-right: 100px;
+
+    .img {height: 340px;overflow: hidden; .product_zoom(1.1,2s);}
+  }
+  .news .right{float: left;width: 40%;padding-left: 0px}
   .news .right .nav_news li.checked a{color: @color_y}
   .news .right .news_item ul{overflow: hidden}
   .news .right .news_item li{margin-top: 25px}
   .news .text{}
   .news .text .title a{.size5-5p;color: @color_b1;font-weight: bold;.line-over(1)}
   .news .left .text .title a{.size2-8p;margin-bottom: 5px;line-height: 1.5;.line-over();}
-  .news .text p{.line-over(2);line-height: 1.5;margin: 3px 0 50px 0;color: @color_b2}
+  .news .text p{.line-over(2);line-height: 2;margin: 3px 0 50px 0;color: @color_b2;height: 70px;}
   .news .text .line{width: 100%;background-color: @product_bg_color;height: 2px;overflow: hidden}
   .news .text .line span{width: 50px;background-color: @color_y;height: 2px;display: inline-block;.guodu(1s,width)}
   .news .text:hover{
@@ -819,7 +825,7 @@ header {
           li:first-child{border: none}
         }
         .num_title{
-          text-align: center;.size3-7p;
+          text-align: center;.size3-7p;font-family: Arial;
           .num4{color: #873B35;font-size: 72px;}
           .num2{color: #4B2A35;font-size: 72px;}
           .num1{color: #14315B;font-size: 72px;}
@@ -929,8 +935,9 @@ header {
     }
   }
   .item_list{
+    &.active{margin-bottom: 60px}
     li{display: none;padding: 40px 0 ;}
-    background-color: @bg_color_max;overflow: hidden;
+    background-color: @bg_color_max;overflow: hidden;;
     .img{padding-right: 25px}
     .text{
       padding-left: 25px;.size6-4p;line-height: 2;
@@ -986,8 +993,8 @@ footer{
 .left_zixun{
   position: fixed;right: 1px;top: 35%;z-index: 9999999;
   ul{width: 90px;overflow: hidden}
-  li:first-child{border: none;background-color: @color_y;}
-  li{float: left;width: 90px;height: 90px;border-top: 1px solid #FFFFFF;background-color: #1e1e1e}
+  li:first-child{border: none;background-color:  rgba(250,150,0,0.9);}
+  li{float: left;width: 90px;height: 90px;border-top: 1px solid #FFFFFF;background-color: rgba(30,30,30,0.9)}
 }
 /*--------------------------------------------------------------特效样式----------------------------------------------------*/
 /*轮播*/

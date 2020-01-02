@@ -121,6 +121,11 @@ use \yii\helpers\Html;
         </div>
     </section>
 
+    <section class="section container">
+        <div class="getiao_adv img"><a href="http://ddt.zoosnet.net/lr/chatpre.aspx?id=ddt94811403&lng=cn&r=&rf1=http%3a//www.juda&rf2=.cn/&p=http%3a//www.juda.cn/make/&cid=f7c8d509db4d4b649cef925dab4b8855&sid=52a63a8545c64b38b7d212f2839442ef"><img src="/assets/images/adv_getiao.jpg" alt="立即咨询"></a></div>
+        
+    </section>
+    
     <section class="section container index-anli">
         <div class="tabswitch-title">
             <div class="longline"></div>
@@ -166,7 +171,7 @@ use \yii\helpers\Html;
                 <div class="tabswitch-title-info"><p>钜大综合实力</p></div>
             </div>
             <div class="text-center">
-                <p class="size5-5p section20">东莞市钜大电子有限公司成立于2002年，是一家为全球用户提供</p>
+                <p class="size5-5p section">东莞市钜大电子有限公司成立于2002年，是一家为全球用户提供</p>
                 <p class="size2-8p section10">超可靠·超安全的特种锂电池系统定制化方案和产品</p>
                 <p class="size5-5p section10">的国家级高新技术企业。</p>
             </div>
@@ -281,9 +286,9 @@ use \yii\helpers\Html;
         </div>
         <div class="list section">
             <div class="left">
-                <div class="img"><img src="http://images.juda.cn/image/201804/1523178166939.jpg" alt=""></div>
+                <div class="img"><a href="/news/3471.html"><img src="http://images.juda.cn/image/201804/1523178166939.jpg" alt="广东省副省长陈云贤莅临我司指导工作"></a></div>
                 <div class="text section50">
-                    <div class="title"><a href="">广东省副省长陈云贤莅临我司指导工作</a></div>
+                    <div class="title"><a href="/news/3471.html">广东省副省长陈云贤莅临我司指导工作</a></div>
                     <div class="p"><p>2019年2月15日下午，东莞市科技局局长卓庆偕同南城街道办事处副主任张见荣、街道创新驱动办主任林强一同调研东莞市钜大电子有限公司的创新驱动发展情况。</p></div>
                     <div class="line"><span>1</span></div>
                 </div>
