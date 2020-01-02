@@ -25,7 +25,7 @@ $listUrlL='/'.$this->params['action'].'/';
 ?>
 
 <div class="product-list-index">
-    <div class="banner_common relative pic_open">
+    <div class="banner_common header_banner_common relative pic_open">
         <?php if(isset(Yii::$app->params['urlad'])):?>
         <div class="img"><img src="<?=Yii::$app->params['urlad']->imageUrl?>" alt=""></div>
         <div class="text">

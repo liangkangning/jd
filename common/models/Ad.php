@@ -69,6 +69,33 @@ class Ad extends \common\core\BaseActiveRecord
 //        return Yii::getAlias('@imagesUrl').'//'.$url['path'];
         return Yii::getAlias('@imagesUrl').'/'.$url['path'];
     }
-    
+
+    public function getH1(){
+        $arr = explode('|', $this->title);
+        $arr = explode(',', $arr[0]);
+        return $arr ? $arr[0] : '';
+    }
+
+    public function getH2(){
+        $arr = explode('|', $this->title);
+        $arr = explode(',', $arr[0]);
+        return count($arr)>1 ? end($arr) : '';
+    }
+
+    public function getText(){
+        if (strstr($this->title,'|')){
+            $arr = explode('|', $this->title);
+            $data = [];
+            foreach ($arr as $key=>$value) {
+                if ($key>0){
+                    $data[] = $value;
+                }
+            }
+            return $data;
+        }else{
+            return '';
+        }
+
+    }
     
 }

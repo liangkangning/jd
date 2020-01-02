@@ -1,5 +1,5 @@
 <div class="category-index">
-    <div class="banner_common relative">
+    <div class="banner_common header_banner_common relative">
         <div class="img"><img src="/assets/images/tezhong_banner.png" alt=""></div>
         <div class="text">
             <div class="content">
@@ -13,7 +13,7 @@
             <div class="container">
                 <div class="title">
                     <h2 class="pull-left"><?=$value['title'] ?></h2>
-                    <div class="more pull-right"><a href="<?=$value['url'] ?>">更多 ></a></div>
+                    <div class="more pull-right"><a href="<?=$value['url'] ?>"">更多</a></div>
                 </div>
                 <div class="content section30">
                     <div class="left-part pull-left ">

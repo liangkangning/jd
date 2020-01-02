@@ -1,6 +1,8 @@
 $(function(){
 
-    //移动nav  list跟着变化
+    /**
+    * 移动到nav  list跟着变化
+    * */
     $('.nav-list li:first-child').addClass('checked');
     $('.nav-list li').mouseover(function(){
         $(this).siblings().removeClass('checked');
@@ -67,13 +69,17 @@ $(function(){
         }
     });
 
-    //返回头部
+    /**
+    * 返回头部
+    * */
     $('.gotop').bind('click',function(){
         $('body,html').animate({'scrollTop':'3'},1000);
     })
 
 
-    //锚文本点击统计
+    /**
+    * 锚文本点击统计
+    * */
     $('.seo-anchor').click(function(){
         $anchor_id= $(this).attr('data-anchorid');
         $article_id=$('h1').attr('data-id');
@@ -96,17 +102,22 @@ $(function(){
             $('.left_float .left').removeClass('none')
         });
     });
-    //导航条 置顶
+
+    /**
+    * 导航条 置顶
+    * */
     $(function(){
         var top=$('#nav_bar').offset().top+400;
         $(window).scroll(function(){
             if(top<$(window).scrollTop())
             {
-                $('#nav_bar').addClass('fix_top')
+                $('#nav_bar').addClass('fix_top');
+                $('#nav_bar .allnav .list').hide();
             }
             if($('#nav_bar').offset().top<top)
             {
-                $('#nav_bar').removeClass('fix_top')
+                $('#nav_bar').removeClass('fix_top');
+                $('#nav_bar #nav_tree .list').show();
             }
         });
     })
@@ -170,15 +181,44 @@ $(function(){
     //
     // });
 
+    /**
+    * 移动到，导航条，有二级分类的时候，左侧的导航条要隐藏
+    * */
 
+    $('#nav_bar .navlist .active').hover(
+        function () {
+            $('#nav_bar .allnav .list').hide();
+        },
+        function () {
+            //延迟500毫秒执行
+            $('#nav_bar .allnav .list').show();
+            // t = setTimeout(function() {
+            //     $('#nav_bar .allnav .list').show();
+            // }, 300);
+        }
+    );
 
-    //轮播
-    //        导航条已选
+    // $('#nav_bar .navlist .active .item_list').hover(
+    //     function () {
+    //         $('#nav_bar .allnav .list').hide();
+    //     },
+    //     function () {
+    //         //延迟500毫秒执行
+    //         $('#nav_bar .allnav .list').show();
+    //         // t = setTimeout(function() {
+    //         //     $('#nav_bar .allnav .list').show();
+    //         // }, 300);
+    //     }
+    // );
+
+    /**
+    * 导航条已选
+    * */
     $url=window.location.pathname;
     $('#nav_bar .navlist li a').each(function(){
         $src=$(this).attr('href');
         if($url==$src){
-            $(this).parent().addClass('checked')
+            $(this).parent().addClass('checked');
         }
     });
 

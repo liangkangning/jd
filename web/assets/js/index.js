@@ -213,5 +213,21 @@ $(document).ready(function(){
         $(this).parent().parent().addClass('active');
     });
 
+    // $('.location_tel li.relative').mouseout(function(e){
+    //     console.log($(this));
+    //     $(this).removeClass('active');
+    // });
+
+    $('.location_tel li.relative').hover(
+        function () {
+
+        },
+        function () {
+            $(this).removeClass('active');
+        }
+    );
+
+
+
 
 });

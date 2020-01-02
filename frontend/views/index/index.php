@@ -227,46 +227,22 @@ use \yii\helpers\Html;
             <div class="swiper-shiyanshi">
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide swiper-slide-center none-effect">
-                            <a href="javascript:;">
-                                <img src="/assets/images/index_shiyanshi_1.jpg" about="" title="">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="javascript:;">
-                                <img src="/assets/images/index_shiyanshi_2.jpg" about="" title="">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="javascript:;">
-                                <img src="/assets/images/index_shiyanshi_3.jpg" about="" title="">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="javascript:;">
-                                <img src="/assets/images/index_shiyanshi_4.jpg" about="" title="">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="javascript:;">
-                                <img src="/assets/images/index_shiyanshi_5.jpg" about="" title="">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="javascript:;">
-                                <img src="/assets/images/index_shiyanshi_6.jpg" about="" title="">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="javascript:;">
-                                <img src="/assets/images/index_shiyanshi_7.jpg" about="" title="">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="javascript:;">
-                                <img src="/assets/images/index_shiyanshi_8.jpg" about="" title="">
-                            </a>
-                        </div>
+
+                        <?php foreach (Yii::$app->params['shiyanshi_list'] as $key=>$value):?>
+                            <div class="swiper-slide <?=$key==0?'swiper-slide-center none-effect':''?>">
+                                <div class="text">
+                                    <div class="title"><?=$value['title']?></div>
+                                    <div class="p"><?=$value['text']?></div>
+                                </div>
+                                <div class="content">
+                                    <a href="javascript:;">
+                                        <img src="<?=$value['imageUrl']?>" about="<?=$value['title']?>" title="<?=$value['title']?>">
+                                    </a>
+                                </div>
+
+                            </div>
+                        <?php endforeach;?>
+
 
                     </div>
                     <div class="banner-arrow">
@@ -287,7 +263,7 @@ use \yii\helpers\Html;
                 <div class="tabswitch-title-info"><p>产品质量与安全</p></div>
             </div>
         </div>
-        <div class="img section20"><img src="/assets/images/54.png" alt=""></div>
+        <div class="img section90"><img src="/assets/images/54.png" alt=""></div>
     </section>
 
     <section class="section container index-kehu">

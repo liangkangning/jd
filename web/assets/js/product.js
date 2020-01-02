@@ -1,14 +1,12 @@
 
 //商品列表
-// 点击更多，弹出更多内容
-
+//内容长度超过这个范围的，才显示更多按钮
 $('.product-list-index .category-attr .con-wrap .con-value .list').each(function(i){
     if ($(this).height()<100){
         $(this).parent().parent().find('.ext').hide();
     }
-
-
 });
+// 点击更多，弹出更多内容
 $('.product-list-index .selector-line .more').click(function () {
     $(this).parent().parent().toggleClass('active');
     });
@@ -40,6 +38,7 @@ function advcustom() {
 
         $(sea).children('.ybtnwrap').children('.ybtncancel').trigger('click');
 
+        //延迟500秒
         function settim(op, opa) {
             var opl = op;
             t = setTimeout(function() {
@@ -48,8 +47,9 @@ function advcustom() {
             }, 500);
         }
         settim(se, sea);
+    });
 
-    })
+
     $('.sele-adve-con .seleadvecon-item').hover(function() {
         clearTimeout(t);
         var title = $(this).attr('data-title');

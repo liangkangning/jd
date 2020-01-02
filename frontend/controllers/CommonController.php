@@ -38,7 +38,7 @@ class CommonController extends Controller
     public $is_zhizhu=1;
     public $nav_tree=array('index','special','case','gongsixinwen','dianchizhunati','hangyezixun','zhishi','diwen','detail','kuanwen','taisuanli','fanbao','search','libattery','juhewu','blog'
 
-    ,'chuneng','lilizi','ironicphosphate','dongli','tezhong','junjing','robots','yiliao','gongye','yingji','shangyong','xiaofei','zhineng','industrial','zhuanti','changjianwenti','lifepo4','about','make');//判断是否现实树形的分类
+    ,'chuneng','lilizi','ironicphosphate','dongli','tezhong','junjing','robots','yiliao','gongye','yingji','shangyong','xiaofei','zhineng','industrial','zhuanti','changjianwenti','lifepo4','make');//判断是否现实树形的分类
 
     public function init(){
 //          初始化后台的数据
@@ -53,6 +53,53 @@ class CommonController extends Controller
 
         }
         Yii::$app->params['yanfa_team'] = Article::find()->where(['category_id' => 39])->orderBy('sort asc')->all();
+
+
+        Yii::$app->params['shiyanshi_list'] = [
+            [
+                'imageUrl' => '/assets/images/index_shiyanshi_1.jpg',
+                'title' => '理化实验室',
+                'content' => '<p>评估检测电子器件的<br>各项电气特性和物理特性<br>测试电子产品的<br>机械使用性能及使用环境要求。</p>',
+            ],
+            [
+                'imageUrl' => '/assets/images/index_shiyanshi_2.jpg',
+                'title' => '电性能实验室',
+                'content' => '<p>评估检测电子器件的<br>各项电气特性和物理特性<br>测试电子产品的<br>机械使用性能及使用环境要求。</p>',
+            ],
+            [
+                'imageUrl' => '/assets/images/index_shiyanshi_3.jpg',
+                'title' => '电子结构实验室',
+                'content' => '<p>评估检测电子器件的<br>各项电气特性和物理特性<br>测试电子产品的<br>机械使用性能及使用环境要求。</p>',
+            ],
+            [
+                'imageUrl' => '/assets/images/index_shiyanshi_4.jpg',
+                'title' => '安全测试实验室',
+                'content' => '<p>评估检测电子器件的<br>各项电气特性和物理特性<br>测试电子产品的<br>机械使用性能及使用环境要求。</p>',
+            ],
+            [
+                'imageUrl' => '/assets/images/index_shiyanshi_5.jpg',
+                'title' => '环境仿真实验室',
+                'content' => '<p>评估检测电子器件的<br>各项电气特性和物理特性<br>测试电子产品的<br>机械使用性能及使用环境要求。</p>',
+            ],
+            [
+                'imageUrl' => '/assets/images/index_shiyanshi_6.jpg',
+                'title' => '光伏储能实验室',
+                'content' => '<p>评估检测电子器件的<br>各项电气特性和物理特性<br>测试电子产品的<br>机械使用性能及使用环境要求。</p>',
+            ],
+            [
+                'imageUrl' => '/assets/images/index_shiyanshi_7.jpg',
+                'title' => '光伏电能变换实验室',
+                'content' => '<p>评估检测电子器件的<br>各项电气特性和物理特性<br>测试电子产品的<br>机械使用性能及使用环境要求。</p>',
+            ],
+            [
+                'imageUrl' => '/assets/images/index_shiyanshi_8.jpg',
+                'title' => '光伏云监控实验室',
+                'content' => '<p>评估检测电子器件的<br>各项电气特性和物理特性<br>测试电子产品的<br>机械使用性能及使用环境要求。</p>',
+            ],
+        ];
+        foreach (Yii::$app->params['shiyanshi_list'] as $key=>$value) {
+            Yii::$app->params['shiyanshi_list'][$key]['text'] = str_replace('<br>','',$value['content']);
+        }
     }
 
     public function common(){

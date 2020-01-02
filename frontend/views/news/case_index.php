@@ -10,7 +10,7 @@ $productProvider= new \yii\data\ActiveDataProvider([
 ]);
 ?>
 <div class="case-index">
-    <div class="banner_common relative">
+    <div class="banner_common header_banner_common relative">
         <div class="img"><img src="/assets/images/case-banner.png" alt=""></div>
         <div class="text">
             <div class="content">
