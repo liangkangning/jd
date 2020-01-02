@@ -245,7 +245,7 @@ $listUrlL='/'.$this->params['action'].'/';
     </div>
 
     <div class="product-content">
-        <div class="img"><img src="<?=Yii::getAlias('@web/assets/images/product-content-bg.png')?>" alt=""></div>
+        <div class="img"><img src="<?=Yii::getAlias('@web/assets/images/product-content-bg.jpg')?>" alt=""></div>
         <div class="text">
             <div class="container">
                 <?=Yii::$app->params['lanmu']['content']?>

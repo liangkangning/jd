@@ -1,7 +1,7 @@
 
 <div class="category-index">
     <div class="banner_common relative pic_open">
-        <div class="img"><img src="/assets/images/gongye_banner.png" alt=""></div>
+        <div class="img"><img src="/assets/images/gongye_banner.jpg" alt="工业电池" title="工业电池"></div>
         <div class="text">
             <div class="content">
                 <h1 class="sizemax-12p">工业电池</h1>

@@ -263,7 +263,7 @@ use \yii\helpers\Html;
                 <div class="tabswitch-title-info"><p>产品质量与安全</p></div>
             </div>
         </div>
-        <div class="img section90"><img src="/assets/images/54.png" alt=""></div>
+        <div class="img section90"><img src="/assets/images/54.jpg" alt=""></div>
     </section>
 
     <section class="section container index-kehu">
