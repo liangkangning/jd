@@ -179,7 +179,7 @@ use \yii\helpers\Html;
         <div class="shuzi section50">
             <div class="text  container">
                 <ul>
-                    <li><div class="num"><div class="numberRun"></div><div class="tig">年</div></div><div class="p">专注锂电池定制</div></li>
+                    <li><div class="num"><div class="numberRun"></div><div class="tig year">年</div></div><div class="p">专注锂电池定制</div></li>
                     <li><div class="num"><div class="numberRun2"></div><div class="tig">+</div></div><div class="p">国家专利</div></li>
                     <li><div class="num"><div class="numberRun3"></div><div class="tig">+</div></div><div class="p">成功定制案例</div></li>
                     <li><div class="num"><div class="numberRun4"></div><div class="tig"></div></div><div class="p">锂电模组的成功交付</div></li>
@@ -230,31 +230,26 @@ use \yii\helpers\Html;
                 <div class="tabswitch-title-info"><p>8大实验室</p></div>
             </div>
             <div class="swiper-shiyanshi">
+
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
-
                         <?php foreach (Yii::$app->params['shiyanshi_list'] as $key=>$value):?>
                             <div class="swiper-slide <?=$key==0?'swiper-slide-center none-effect':''?>">
-                                <div class="text">
-                                    <div class="title"><?=$value['title']?></div>
-                                    <div class="p"><?=$value['text']?></div>
-                                </div>
-                                <div class="content">
-                                    <a href="javascript:;">
-                                        <img src="<?=$value['imageUrl']?>" about="<?=$value['title']?>" title="<?=$value['title']?>">
-                                    </a>
-                                </div>
-
+                                <a href="#">
+                                    <img src="<?=$value['imageUrl']?>" about="<?=$value['title']?>" title="<?=$value['title']?>">
+                                </a>
+                                <div class="layer-mask"></div>
                             </div>
                         <?php endforeach;?>
 
-
                     </div>
-                    <div class="banner-arrow">
+                    <div class="button">
                         <div class="swiper-button-prev"></div>
                         <div class="swiper-button-next"></div>
                     </div>
                 </div>
+
+
             </div>
         </div>
 

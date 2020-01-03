@@ -13,25 +13,46 @@ $(document).ready(function(){
     });
 
     var swiper2 = new Swiper('.swiper-shiyanshi .swiper-container',{
-        autoplay: 3000, //是否自动滚动
-        speed: 500,      //滚动速速
-        autoplayDisableOnInteraction: true,
+        autoplay: false,
+        speed: 1000,
+        autoplayDisableOnInteraction: false,
         loop: true,
         centeredSlides: true,
-        slidesPerView: 3, //当前选中
-        pagination: '.swiper-pagination-shiyan',
+        slidesPerView: 2,
+        pagination: '.swiper-pagination',
         paginationClickable: true,
-        prevButton: '.swiper-button-prev', // 左右切换
-        nextButton: '.swiper-button-next', // 左右切换
+        prevButton: '.swiper-button-prev',
+        nextButton: '.swiper-button-next',
         onInit: function(swiper) {
-            swiper.slides[3].className = "swiper-slide swiper-slide-active"; //当前选中 状态
+            swiper.slides[2].className = "swiper-slide swiper-slide-active";
         },
         breakpoints: {
-            100: {
-                slidesPerView: 0,
+            668: {
+                slidesPerView: 1,
             }
         }
     });
+
+    // var swiper2 = new Swiper('.swiper-shiyanshi .swiper-container',{
+    //     autoplay: 3000, //是否自动滚动
+    //     speed: 500,      //滚动速速
+    //     autoplayDisableOnInteraction: true,
+    //     loop: true,
+    //     centeredSlides: true,
+    //     slidesPerView: 3, //当前选中
+    //     pagination: '.swiper-pagination-shiyan',
+    //     paginationClickable: true,
+    //     prevButton: '.swiper-button-prev', // 左右切换
+    //     nextButton: '.swiper-button-next', // 左右切换
+    //     onInit: function(swiper) {
+    //         swiper.slides[3].className = "swiper-slide swiper-slide-active"; //当前选中 状态
+    //     },
+    //     breakpoints: {
+    //         100: {
+    //             slidesPerView: 0,
+    //         }
+    //     }
+    // });
 
     //数字滚动
 
