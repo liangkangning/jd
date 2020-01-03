@@ -44,8 +44,8 @@ $listUrlL='/'.$this->params['action'].'/';
     </div>
     <div class="top-title" id="car-attr-title">
         <div class="container">
-            <div class="title size6-4p pull-left font-bold">
-                <div class="pull-left"><?=Yii::$app->params['lanmu']['title']?></div>
+            <div class="title size6-4p pull-left">
+                <div class="pull-left font-bold"><?=Yii::$app->params['lanmu']['title']?></div>
                 <?php if(!empty($this->params['choose'])):?>
                     <div class="choose">
                         <span class="pull-left"> > </span>

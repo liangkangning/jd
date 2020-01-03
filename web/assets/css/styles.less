@@ -600,7 +600,7 @@ header {
       float: left;
       span{padding: 0 6px}
       a{
-        border: 1px solid #acacad;background-color: #FFFFFF;padding: 3px 5px;margin-right: 8px;&:hover{color: #555555;}
+        border: 1px solid #acacad;background-color: #FFFFFF;padding: 3px 10px;margin-right: 8px;&:hover{color: #555555;}
         b{color: @color_y;&:hover{color: @color_y}}
       }
     }
@@ -623,6 +623,7 @@ header {
         ul{overflow: hidden;}
         li{
           padding-left: 10px;float: left;_display: inline;margin-right: 50px;margin-bottom: 4px;height: 60px;line-height: 60px;
+          a.current{color: @color_y;}
         }
       }
       &.active .con-value{height:auto;}
@@ -679,6 +680,7 @@ header {
 
   //商品列表
   .product-list{
+    ul{width: 100%;}
     background-color: @product_list_bg_color;padding: 30px 0 ;
     .top{margin: 10px 0 }
     h2{
@@ -691,6 +693,8 @@ header {
     }
     .list{.product_common_while()}
   }
+  .product-list .list .order-by ul{margin: 0;}
+
 
   .product-content{
     position: relative;
@@ -1717,7 +1721,6 @@ footer{
 
   .swiper-slide img {
     width: 100%;
-    border-radius: 5px;
     display: block;
     height: 100%;
     border: none;
