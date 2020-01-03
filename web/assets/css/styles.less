@@ -440,7 +440,9 @@ header {
 .tabswitch-title-info{.size2-8p;color: @color_b1;line-height: 1;text-align: center;margin:10px 0  50px 0}
 .jishunengli{}
 .jishunengli ul{.ul-li-padding}
-.jishunengli li{.handle()}
+.jishunengli li{.handle();}
+.jishunengli li .item{overflow: hidden;}
+.jishunengli li .item .to_black{.product_zoom(1.1,2s);}
 .jishunengli li:last-child:hover .text .title p{height: 53px;}
 .jishunengli li:hover .text .title p{height: 30px;}
 
@@ -466,7 +468,7 @@ header {
     margin: 0 45px
   }
   .item {
-    line-height: 2;
+    line-height: 2;margin-bottom: 10px;
     display: inline-block;
     cursor: pointer;
   }
@@ -994,7 +996,7 @@ footer{
   position: fixed;right: 1px;top: 35%;z-index: 9999999;
   ul{width: 90px;overflow: hidden}
   li:first-child{border: none;background-color:  rgba(250,150,0,0.9);}
-  li{float: left;width: 90px;height: 90px;border-top: 1px solid #FFFFFF;background-color: rgba(30,30,30,0.9)}
+  li{float: left;width: 90px;height: 90px;border-top: 1px solid @color_b2;background-color: rgba(30,30,30,0.9)}
 }
 /*--------------------------------------------------------------特效样式----------------------------------------------------*/
 /*轮播*/

@@ -276,7 +276,7 @@ use \yii\helpers\Html;
             <div class="longline"></div>
             <div class="tabswitch-title-info"><p>我们的客户</p></div>
         </div>
-        <div class="img section20"><img src="/assets/images/55.png" alt=""></div>
+        <div class="img section"><img src="/assets/images/55.png" alt=""></div>
     </section>
 
     <section class="section container news">

@@ -79,7 +79,12 @@ class Ad extends \common\core\BaseActiveRecord
     public function getH2(){
         $arr = explode('|', $this->title);
         $arr = explode(',', $arr[0]);
-        return count($arr)>1 ? end($arr) : '';
+        return count($arr)>2 ?  $arr[2]: '';
+    }
+    public function getH3(){
+        $arr = explode('|', $this->title);
+        $arr = explode(',', $arr[0]);
+        return count($arr)>2 ? end($arr) : '';
     }
 
     public function getText(){
