@@ -235,9 +235,15 @@ use \yii\helpers\Html;
                     <div class="swiper-wrapper">
                         <?php foreach (Yii::$app->params['shiyanshi_list'] as $key=>$value):?>
                             <div class="swiper-slide <?=$key==0?'swiper-slide-center none-effect':''?>">
-                                <a href="#">
-                                    <img src="<?=$value['imageUrl']?>" about="<?=$value['title']?>" title="<?=$value['title']?>">
-                                </a>
+                                <div class="text">
+                                    <div class="title"><?=$value['title']?></div>
+                                    <div class="p"><?=$value['text']?></div>
+                                </div>
+                                <div class="content">
+                                    <a href="#">
+                                        <img src="<?=$value['imageUrl']?>" about="<?=$value['title']?>" title="<?=$value['title']?>">
+                                    </a>
+                                </div>
                                 <div class="layer-mask"></div>
                             </div>
                         <?php endforeach;?>
