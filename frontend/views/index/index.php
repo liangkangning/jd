@@ -250,8 +250,8 @@ use \yii\helpers\Html;
 
                     </div>
                     <div class="button">
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev swiper-button-white"></div>
+                        <div class="swiper-button-next swiper-button-white"></div>
                     </div>
                 </div>
 

@@ -19,7 +19,7 @@ $(document).ready(function(){
         loop: true,
         centeredSlides: true,
         slidesPerView: 2,
-        pagination: '.swiper-pagination',
+        pagination: '.swiper-pagination-shiyan',
         paginationClickable: true,
         prevButton: '.swiper-button-prev',
         nextButton: '.swiper-button-next',

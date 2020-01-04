@@ -212,7 +212,7 @@ class ArrayHelper extends \yii\helpers\ArrayHelper
        return $lanmArray;
    }
    public static function CategoryList($id){
-       $tree=Category::find()->select(['id','name','title'])->where(['pid'=>$id])->all();
+       $tree=Category::find()->select(['id','name','title'])->where(['pid'=>$id,'status'=>1])->all();
        return $tree;
 
    }

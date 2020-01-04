@@ -190,11 +190,21 @@ $(function(){
             $('#nav_bar .allnav .list').hide();
         },
         function () {
-            //延迟500毫秒执行
+            var top = $('#nav_bar.fix_top');
+            var nav_tree = $('#nav_tree');
+            console.log(top.length);
+            if (top.length==0&&nav_tree.length>0){
+                $('#nav_bar .allnav .list').show();
+            }
+        }
+    );
+
+    $('#nav_bar .allnav').hover(
+        function () {
             $('#nav_bar .allnav .list').show();
-            // t = setTimeout(function() {
-            //     $('#nav_bar .allnav .list').show();
-            // }, 300);
+        },
+        function () {
+            $('#nav_bar .allnav .list').hide();
         }
     );
 

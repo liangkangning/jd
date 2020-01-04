@@ -44,6 +44,7 @@ class CommonController extends Controller
 //          初始化后台的数据
         Yii::$app->params['nav_tree_block'] = false;
         $controllerName = $this->id;//获取类名
+        Yii::$app->params['className'] = $controllerName;
         if (ArrayHelper::isIn($controllerName,$this->nav_tree)){
             Yii::$app->params['nav_tree_block']=true;//判断是否现实树形的分类
         }

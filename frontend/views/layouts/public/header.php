@@ -1,4 +1,4 @@
-<header>
+<header class="<?= Yii::$app->params['className'] ?>_class">
     <section class="container section">
         <div class="header_top">
             <div class="logo">
