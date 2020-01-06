@@ -179,7 +179,7 @@ use \yii\helpers\Html;
             </div>
             <div class="video section40">
                 <video width="1200" height="675" controls>
-                    <source src="movie.mp4" type="video/mp4">
+                    <source src="http://images.juda.cn/image/video/slogan.mp4" type="video/mp4">
                     <source src="movie.ogg" type="video/ogg">
                     您的浏览器不支持Video标签。
                 </video>
