@@ -154,7 +154,11 @@ use \yii\helpers\Html;
                                 </div>
                             </a>
 
-                            <div class="text"><?= $v['title']?></div>
+                            <div class="text">
+                                <?= count($v['titles'])<=0?'':$v['titles'][0]?><br>
+                                <?= count($v['titles'])<=0?'':$v['titles'][1]?>
+
+                            </div>
                         </div>
                     </div>
                 </li>
@@ -164,6 +168,24 @@ use \yii\helpers\Html;
         </div>
     </section>
 
+    <section class="section video_index">
+        <div class="content container">
+            <div class="text-center">
+                <div class="title size1-9p">品牌故事</div>
+                <div class="p size5-5p section20">
+                    十八年来，我们一直专注锂电池定制。因为专注，所以专业。<br>
+                    公司累计完成3000+成功案例，超过1亿套锂电模组交付。钜大相信，一定能给您带来"超可靠·超安全"的品质服务。
+                </div>
+            </div>
+            <div class="video section40">
+                <video width="1200" height="675" controls>
+                    <source src="movie.mp4" type="video/mp4">
+                    <source src="movie.ogg" type="video/ogg">
+                    您的浏览器不支持Video标签。
+                </video>
+            </div>
+        </div>
+    </section>
     <section class="section shili">
         <div class="container">
             <div class="tabswitch-title">

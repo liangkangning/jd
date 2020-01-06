@@ -101,6 +101,11 @@ class CommonController extends Controller
         foreach (Yii::$app->params['shiyanshi_list'] as $key=>$value) {
             Yii::$app->params['shiyanshi_list'][$key]['text'] = str_replace('<br>','',$value['content']);
         }
+
+        Yii::$app->params['news_nav_tuijian'] = [
+            0 => ['title'=>'相关资讯','url'=>'/news/'],
+            1 => ['title'=>'最新资讯','url'=>'/news/'],
+        ];
     }
 
     public function common(){

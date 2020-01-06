@@ -150,8 +150,9 @@ class Article extends \common\core\BaseActiveRecord
         }else{
             return '';
         }
-
-
+    }
+    public function getTitles(){
+         return \common\helpers\ArrayHelper::extend($this->extend);
     }
 
 

@@ -21,7 +21,7 @@
                 <div class="content section30">
                     <div class="left-part pull-left ">
                         <div class="relative">
-                            <div class="to_black">
+                            <div class="to_black fade-out">
                                 <dvi class="img ">
                                     <img src="/assets/images/<?=$value['images'] ?>" alt="<?=$value['title'] ?>" title="<?=$value['title'] ?>">
                                 </dvi>

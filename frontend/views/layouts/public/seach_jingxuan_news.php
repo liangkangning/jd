@@ -7,8 +7,9 @@
     <div class="news-list container section">
         <div class="nav-list">
             <ul>
-                <li><a href="/news/">相关资讯</a></li>
-                <li><a href="/news/">最新资讯</a></li>
+                <?php foreach (Yii::$app->params['news_nav_tuijian'] as $key=>$value):?>
+                    <li><a href="<?=$value['url']?>"><?=$value['title']?></a></li>
+                <?php endforeach;?>
             </ul>
         </div>
         <div class="list section20">
