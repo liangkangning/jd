@@ -25,7 +25,7 @@ use yii\helpers\Url;
 <?=$form->field($model, 'style')->selectList(['article'=>'普通文章|article','image'=>'图片集|image'],['class'=>'form-control c-md-2'])->label('内容模型')?>
 <?=$form->field($model, 'cover')->widget('\common\widgets\images\Images',[
     //'type' => \backend\widgets\images\Images::TYPE_IMAGE, // 单图
-    'saveDB'=>0, //图片是否保存到picture表，默认不保存
+    'saveDB'=>1, //图片是否保存到picture表，默认不保存
 ],['class'=>'c-md-12'])->label('封面图片');?>
 <?=$form->field($model, 'list_content')->widget('\kucha\ueditor\UEditor',[
     'clientOptions' => [
@@ -50,7 +50,7 @@ use yii\helpers\Url;
 ],['class'=>'c-md-7'])->label('列表内容');?>
 <?=$form->field($model, 'm_cover')->widget('\common\widgets\images\Images',[
     //'type' => \backend\widgets\images\Images::TYPE_IMAGE, // 单图
-    'saveDB'=>0, //图片是否保存到picture表，默认不保存
+    'saveDB'=>1, //图片是否保存到picture表，默认不保存
 ],['class'=>'c-md-12'])->label('手机分类封面图片');?>
 <?=$form->field($model, 'm_list_content')->textarea(['rows'=>2])->label('手机端分类描述') ?>
 

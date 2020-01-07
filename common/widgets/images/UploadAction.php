@@ -35,8 +35,11 @@ class UploadAction extends Action
         if ($url) {
             $json['data']['url'] = $url;
             /* 保存图片到picture表 */
+            error_log(json_encode($saveDB), 3, 'test.log');
+//            die;
             if ($saveDB) {
                 $pic = $this->savePic($url);
+
                 if (!$pic) {
                     $this->ajaxReturn($json);
                 }
@@ -63,6 +66,7 @@ class UploadAction extends Action
         $ossfile='image/'.$url;
         $filePath=$file_path;
         $ossupload = Yii::$app->Aliyunoss->upload($ossfile, $filePath);
+
         //阿里云图片上传  end
 
         $file_md5  = md5_file($file_path);
