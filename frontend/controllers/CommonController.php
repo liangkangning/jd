@@ -130,11 +130,11 @@ class CommonController extends Controller
 
 
 
-        $self_lanmu=Category::find()->where(['name'=>$controllerName])->asArray()->one();
+        $self_lanmu=Category::find()->where(['name'=>$controllerName])->one();
 
         if ($self_lanmu['pid']!=0){//如果不是真正的父栏目，因为为了优化URL，二级栏目当一级栏目的方式写
 
-            $top_lanm=Category::find()->where(['id'=>$self_lanmu['pid']])->asArray()->one();
+            $top_lanm=Category::find()->where(['id'=>$self_lanmu['pid']])->one();
 
 //            echo '----2--';
 
@@ -152,7 +152,7 @@ class CommonController extends Controller
 
             if ($action!='detail'){
 
-                $this->lanmu=Category::find()->where(['name'=>$action])->asArray()->one();
+                $this->lanmu=Category::find()->where(['name'=>$action])->one();
 
                 Yii::$app->params['breadcrumbs'][]='>'.Html::tag('a',$this->lanmu['title'],['href'=>'/'.$controllerName.'/'.$action.'.html']);
 
