@@ -155,6 +155,9 @@ class Article extends \common\core\BaseActiveRecord
          return \common\helpers\ArrayHelper::extend($this->extend);
     }
 
+    public function getIndexTitles(){
+        return explode('|', $this->tags);
+    }
 
 
 }

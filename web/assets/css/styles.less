@@ -347,15 +347,27 @@ header {
     //定制案例
     .case-list{
       ul{.ul-li-padding}
-      .item{overflow: hidden;position: relative;}
-      .img{
-        .handle;.product_zoom(1.1,2s);
-        //position: relative;overflow: hidden;
-        .bg_pic{position: absolute;top: 0;left: 0;z-index: 1;}
+      .item{
+        overflow: hidden;position: relative;
+        .img{
+          .handle;.product_zoom(1.1,2s);
+          //position: relative;overflow: hidden;
+          .bg_pic{position: absolute;top: 0;left: 0;z-index: 1;}
+        }
+        .text{
+          position: absolute;bottom: 0;left: 0;width: 100%;padding: 0 30px 22px 30px;color: #FFFFFF;.size4-6p;line-height: 1.5;z-index: 2;
+        }
+        .arrow{
+          opacity: 0;width: 25px;height: 20px;position: absolute;bottom:30px;right: 30%;z-index: 999;
+          -webkit-transition: all .5s ease-in;
+          -moz-transition: all .5s ease-in;
+          transition: all .5s ease-in;
+        }
+        &:hover .arrow{
+          opacity: 1; right: 5%;
+        }
       }
-      .text{
-        position: absolute;bottom: 0;left: 0;width: 100%;padding: 0 30px 10px 30px;color: #FFFFFF;.size4-6p;line-height: 1.5;z-index: 2;
-      }
+
     }
 
     //综合实力
@@ -584,7 +596,6 @@ header {
 
 
 .seach_jingxuan_news{
-
   //产品推荐
   .product_tuijian{
     .title{.size4-6p;line-height: 2;color: @color_b_title;}
@@ -595,8 +606,13 @@ header {
         position: absolute;left: 0;top: 0;padding:33px 22px ;text-align: left;color: #FFFFFF;line-height: 1.8;
       }
     }
-    .product_common a{width: 100%;}
-    .product_common a img{width: 100%;}
+    .product_common{
+      a{width: 100%;}
+      a img{width: 100%;}
+      .item{
+        .product_zoom(1.1,2s);
+      }
+    }
   }
 
   //相关资讯
@@ -609,6 +625,11 @@ header {
       li.checked{border-bottom: 2px solid @color_y;}
     }
     .list{
+      .companyAtricle{
+        padding-top: 26px;overflow: hidden;
+        ul{.ul-li-padding(50px,1px);}
+        a{.size5-5p;color: @color_b1;line-height: 1.6;}
+      }
       ul{.ul-li-padding(70px,8px)}
       .size6-4p;line-height: 1.8;color: @color_b3;
       .title{max-width: 460px;.line-over(1)}
@@ -742,6 +763,7 @@ header {
       .title{.size4-6p;}
       li{
         margin-left: 10px;.size6-4p;
+        a{padding-left: 25px}
       }
     }
     .list{
@@ -749,16 +771,19 @@ header {
       .product_common_while(30px,30px);
       .item .img{
         overflow: hidden;
-        .text{position: absolute;bottom: 5px;right: 15px;color: #FFFFFF;.size6-4p;padding: 0;margin: 0;height: auto;width: auto;
+        .text{position: absolute;bottom: 0px;right: 15px;color: #FFFFFF;.size6-4p;padding: 0;margin: 0;height: auto;width: auto;
           //background-color: rgba(238,238,238, 0.3);
         }
       }
       .item .img img{width: 100%}
       .text{
-        text-align: left;padding: 0 20px;height: 195px;padding-top: 30px;
+        text-align: left;padding: 0 20px;height: 195px;
+        .title{margin-top: 23px;}
         .title a{.size5-5p;line-height: 1.8;}
-        .sub_title a{.size5-5p;color: @color_b1;line-height: 1.8;.line-over(1)}
-        p{.line-over(2);line-height: 1.8;}
+        .sub_title{margin-bottom: 0px;}
+        .sub_title a{.size5-5p;color: @color_b1;line-height: 1.8;.line-over(1);}
+        .p{margin-top: 12px}
+        p{.line-over(2);line-height: 1.8;.size6-4p;}
       }
     }
   }

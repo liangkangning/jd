@@ -60,12 +60,12 @@ class CommonController extends Controller
             [
                 'imageUrl' => '/assets/images/index_shiyanshi_1.jpg',
                 'title' => '理化实验室',
-                'content' => '<p>评估检测电子器件的<br>各项电气特性和物理特性<br>测试电子产品的<br>机械使用性能及使用环境要求。</p>',
+                'content' => '<p>评估电源系统中各类材料的<br>理化性质和元素含量。</p>',
             ],
             [
                 'imageUrl' => '/assets/images/index_shiyanshi_2.jpg',
                 'title' => '电性能实验室',
-                'content' => '<p>评估检测电子器件的<br>各项电气特性和物理特性<br>测试电子产品的<br>机械使用性能及使用环境要求。</p>',
+                'content' => '<p>评估电池在不同环境温度、<br>不同倍率电流下的充放电性能。</p>',
             ],
             [
                 'imageUrl' => '/assets/images/index_shiyanshi_3.jpg',
@@ -75,27 +75,27 @@ class CommonController extends Controller
             [
                 'imageUrl' => '/assets/images/index_shiyanshi_4.jpg',
                 'title' => '安全测试实验室',
-                'content' => '<p>评估检测电子器件的<br>各项电气特性和物理特性<br>测试电子产品的<br>机械使用性能及使用环境要求。</p>',
+                'content' => '<p>测试评估电池在极端滥用、<br>破坏等条件下的安全性。</p>',
             ],
             [
                 'imageUrl' => '/assets/images/index_shiyanshi_5.jpg',
                 'title' => '环境仿真实验室',
-                'content' => '<p>评估检测电子器件的<br>各项电气特性和物理特性<br>测试电子产品的<br>机械使用性能及使用环境要求。</p>',
+                'content' => '<p>模拟电池、电池组工作的实际环境和工况，<br>评估其可靠性和安全性。</p>',
             ],
             [
                 'imageUrl' => '/assets/images/index_shiyanshi_6.jpg',
                 'title' => '光伏储能实验室',
-                'content' => '<p>评估检测电子器件的<br>各项电气特性和物理特性<br>测试电子产品的<br>机械使用性能及使用环境要求。</p>',
+                'content' => '<p>负责储能电池的充放电控制与<br>监控系统的开发与测试。</p>',
             ],
             [
                 'imageUrl' => '/assets/images/index_shiyanshi_7.jpg',
                 'title' => '光伏电能变换实验室',
-                'content' => '<p>评估检测电子器件的<br>各项电气特性和物理特性<br>测试电子产品的<br>机械使用性能及使用环境要求。</p>',
+                'content' => '<p>负责研发测试光伏并网、离网、离并网多功能逆变器，<br>便携式光伏电源等产品的研究与开发。</p>',
             ],
             [
                 'imageUrl' => '/assets/images/index_shiyanshi_8.jpg',
                 'title' => '光伏云监控实验室',
-                'content' => '<p>评估检测电子器件的<br>各项电气特性和物理特性<br>测试电子产品的<br>机械使用性能及使用环境要求。</p>',
+                'content' => '<p>负责光伏储能分布式发电系统的研发，<br>建立光伏发电云监控系统研发与测试平台。</p>',
             ],
         ];
         foreach (Yii::$app->params['shiyanshi_list'] as $key=>$value) {

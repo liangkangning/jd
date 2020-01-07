@@ -133,11 +133,10 @@ use \yii\helpers\Html;
         </div>
         <div class="index-nav-min nav-list section80">
             <ul>
-                <li class=""><div class="item"><a href="/news/junjing.html">特种设备</a></div></li>
-                <li class=""><div class="item"><a href="/news/robots.html">智能机器人</a></div></li>
-                <li class=""><div class="item"><a href="/news/yiliao.html">医疗设备</a></div></li>
-                <li class=""><div class="item"><a href="/news/gongye.html">工业仪器</a></div></li>
-                <li class=""><div class="item"><a href="/news/yingji.html">应急备用</a></div></li>
+                <li class=""><div class="item"><a href="/news/junjing.html#case_list">特种设备</a></div></li>
+                <li class=""><div class="item"><a href="/news/yiliao.html#case_list">医疗设备</a></div></li>
+                <li class=""><div class="item"><a href="/news/kantan.html#case_list">勘探测绘</a></div></li>
+                <li class=""><div class="item"><a href="/news/shouchi.html#case_list">手持设备</a></div></li>
             </ul>
         </div>
         <div class="case-list section">
@@ -155,10 +154,10 @@ use \yii\helpers\Html;
                             </a>
 
                             <div class="text">
-                                <?= count($v['titles'])<=0?'':$v['titles'][0]?><br>
-                                <?= count($v['titles'])<=0?'':$v['titles'][1]?>
-
+                                <?= count($v['indexTitles'])<=0?'':$v['indexTitles'][0]?><br>
+                                <?= count($v['indexTitles'])<=1?'':$v['indexTitles'][1]?>
                             </div>
+                            <div class="arrow img"><img src="/assets/images/arrow.png" alt=""></div>
                         </div>
                     </div>
                 </li>
