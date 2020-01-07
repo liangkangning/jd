@@ -23,7 +23,7 @@
                         <div class="relative">
                             <div class="to_black fade-out">
                                 <dvi class="img ">
-                                    <img src="/assets/images/<?=$value['images'] ?>" alt="<?=$value['title'] ?>" title="<?=$value['title'] ?>">
+                                    <img src="<?=$value['imagesUrl'] ?>" alt="<?=$value['title'] ?>" title="<?=$value['title'] ?>">
                                 </dvi>
                                 <div class="text">
                                     <p><?=$value['text'] ?></p>

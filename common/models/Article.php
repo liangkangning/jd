@@ -131,11 +131,6 @@ class Article extends \common\core\BaseActiveRecord
     }
     public function getImageUrl(){
        $url=Picture::find(['path'])->where(['id'=>$this->cover])->asArray()->one();
-//        $url=$this->hasOne(Picture::className(),['id'=>'cover'])->asArray()->one();
-
-//       var_dump($url);
-//       exit();
-//        return Yii::getAlias('@imagesUrl').'//'.$url['path'];
         return Yii::getAlias('@imagesUrl').'/'.$url['path'];
     }
     public function getUrl(){

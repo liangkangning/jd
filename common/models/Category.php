@@ -132,5 +132,10 @@ class Category extends \common\core\BaseActiveRecord
             ->via('categoryImages')->count();
     }
 
+    public function getImageUrl(){
+        $url=Picture::find(['path'])->where(['id'=>$this->cover])->asArray()->one();
+        return Yii::getAlias('@imagesUrl').'/'.$url['path'];
+    }
+
 
 }
