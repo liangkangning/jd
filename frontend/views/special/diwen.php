@@ -34,7 +34,7 @@ $listUrlL='/'.$this->params['action'].'/';
             </div>
         </div>
         <?php else:?>
-        <div class="img"><img src="<?= Yii::getAlias('@imagesUrl').'/'.Yii::$app->params['lanmu']['cover']?>" alt=""></div>
+        <div class="img"><img src="<?=Yii::$app->params['lanmu']['imageUrl']?>" alt=""></div>
         <div class="text">
             <div class="content">
                 <?=Yii::$app->params['lanmu']['list_content']?>
