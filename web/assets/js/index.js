@@ -207,14 +207,16 @@ $(document).ready(function(){
             symbol: ","
         });
     }
-    var wind_h = $(window).height()
-    console.log(wind_h);
-    var top=$('.shili .shuzi .text').offset().top-wind_h+500;
-    var top_max = top+wind_h;
-    console.log(top)
+    var wind_h = $(window).height();//可见高度
     var is_gun = false;
     $(window).scroll(function(){
-        console.log($(window).scrollTop())
+        // console.log(wind_h);
+        // console.log('实验室模块到头部距离：'+$('.shili .shuzi .text').offset().top)
+        var top=$('.shili .shuzi .text').offset().top-wind_h;
+        var top_max = top+wind_h;
+        // console.log(top)
+        //
+        // console.log($(window).scrollTop())
         if(top<$(window).scrollTop())
         {
             if (!is_gun){
