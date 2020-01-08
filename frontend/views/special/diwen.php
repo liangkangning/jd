@@ -27,14 +27,14 @@ $listUrlL='/'.$this->params['action'].'/';
 <div class="product-list-index">
     <div class="banner_common header_banner_common relative pic_open">
         <?php if(isset(Yii::$app->params['urlad'])):?>
-        <div class="img"><img src="<?=Yii::$app->params['urlad']->imageUrl?>" alt=""></div>
+        <div class="img"><img src="<?=Yii::$app->params['urlad']->imageUrl?>" alt="111"></div>
         <div class="text">
             <div class="content">
                 <?=Yii::$app->params['urlad']->content?>
             </div>
         </div>
         <?php else:?>
-        <div class="img"><img src="<?=Yii::$app->params['lanmu']['imageUrl']?>" alt=""></div>
+        <div class="img"><img src="<?=Yii::$app->params['lanmu']['imageUrl']?>" alt="222"></div>
         <div class="text">
             <div class="content">
                 <?=Yii::$app->params['lanmu']['list_content']?>
@@ -110,7 +110,7 @@ $listUrlL='/'.$this->params['action'].'/';
                             <?=\yii\widgets\ListView::widget([
                                 'dataProvider' => $categoty1,
                                 'itemView' => function ($model, $key, $index, $widget) {
-                                    return Html::tag('li',Html::a(Html::encode($model->title),Yii::$app->homeUrl.$model->name."/#car-attr-title",['class'=>$model['id']==Yii::$app->params['lanmu']['id']?'current':'']));
+                                    return Html::tag('li',Html::a(Html::encode($model->title),Yii::$app->homeUrl.$model->name,['class'=>$model['id']==Yii::$app->params['lanmu']['id']?'current':'']));
                                 },
                                 'layout' => "{items}",//加个这就好了
                                 'options' => [
