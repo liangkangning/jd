@@ -19,8 +19,8 @@
                         <?php foreach (Yii::$app->params['companyAtricle'] as $key => $value): ?>
                             <li class="col-md-4">
                                 <div class="item ">
-                                    <div class="img"><a href="<?= $value['url']?>"><img src="<?= $value['imageUrl']?>" alt=""></a></div>
-                                    <div class="text section20"><a href="<?= $value['url']?>"><?= $value['title']?></a></div>
+                                    <div class="img"><a href="<?= $value['url']?>"><img src="<?= $value['imageUrl']?>" alt="<?= $value['title']?>" title="<?= $value['title']?>"></a></div>
+                                    <div class="text section20"><a href="<?= $value['url']?>" title="<?= $value['title']?>"><?= $value['title']?></a></div>
                                 </div>
                             </li>
                         <?php endforeach; ?>

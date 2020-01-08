@@ -81,7 +81,7 @@ $listUrlL='/'.$this->params['action'].'/';
                             <?=\yii\widgets\ListView::widget([
                                 'dataProvider' => $dataProvider,
                                 'itemView' => function ($model, $key, $index, $widget) {
-                                    return Html::tag('li',Html::a(Html::encode($model->title),Yii::$app->homeUrl.$model->name,['class'=>$model['id']==Yii::$app->params['lanmu']['id']?'current':'']));
+                                    return Html::tag('li',Html::a(Html::encode($model->title),Yii::$app->homeUrl.$model->name.'/',['class'=>$model['id']==Yii::$app->params['lanmu']['id']?'current':'']));
                                 },
                                 'layout' => "{items}",//加个这就好了
                                 'options' => [
@@ -110,7 +110,7 @@ $listUrlL='/'.$this->params['action'].'/';
                             <?=\yii\widgets\ListView::widget([
                                 'dataProvider' => $categoty1,
                                 'itemView' => function ($model, $key, $index, $widget) {
-                                    return Html::tag('li',Html::a(Html::encode($model->title),Yii::$app->homeUrl.$model->name,['class'=>$model['id']==Yii::$app->params['lanmu']['id']?'current':'']));
+                                    return Html::tag('li',Html::a(Html::encode($model->title),Yii::$app->homeUrl.$model->name.'/',['class'=>$model['id']==Yii::$app->params['lanmu']['id']?'current':'']));
                                 },
                                 'layout' => "{items}",//加个这就好了
                                 'options' => [
