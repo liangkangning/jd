@@ -56,7 +56,7 @@ $columns = [
         'label' => '状态',
         'options' => ['width' => '50px;'],
         'content' => function($model){
-            return '正常';
+            return $model['status']==1?'正常':'禁用';
         }
     ],
     [
