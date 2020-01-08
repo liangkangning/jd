@@ -24,7 +24,7 @@ class AdHelper
       if (isset($name)){
            $ad=Adposition::find()->where(['url'=>$name])->one();
            if (isset($ad)){
-               $array=Ad::find()->where(['type'=>$ad->id])->orderBy('sort asc')->all();
+               $array=Ad::find()->where(['type'=>$ad->id,'status'=>1])->orderBy('sort asc')->all();
            }
       }
       return $array;

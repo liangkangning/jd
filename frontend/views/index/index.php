@@ -9,11 +9,9 @@ use \yii\helpers\Html;
         <div class="index-banner">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide"><div class="item"><a href="#"><img src="/assets/images/index_banner_1.jpg" alt="" title=""/></a></div></div>
-                    <div class="swiper-slide"><div class="item"><a href="#"><img src="/assets/images/index_banner_2.jpg" alt="" title=""/></a></div></div>
-                    <div class="swiper-slide"><div class="item"><a href="#"><img src="/assets/images/index_banner_3.jpg" alt="" title=""/></a></div></div>
-
-
+                    <?php foreach (\common\helpers\AdHelper::GetAd_list('index') as $key => $value): ?>
+                    <div class="swiper-slide"><div class="item"><a href="<?= $value->url ?>"><img src="<?= $value->imageUrl ?>" alt="<?= $value->title ?>" title="<?= $value->title ?>"/></a></div></div>
+                    <?php endforeach; ?>
 
                 </div>
                 <!-- Add Pagination -->
@@ -122,7 +120,7 @@ use \yii\helpers\Html;
     </section>
 
     <section class="section container">
-        <div class="getiao_adv img"><a href="http://ddt.zoosnet.net/lr/chatpre.aspx?id=ddt94811403&lng=cn&r=&rf1=http%3a//www.juda&rf2=.cn/&p=http%3a//www.juda.cn/make/&cid=f7c8d509db4d4b649cef925dab4b8855&sid=52a63a8545c64b38b7d212f2839442ef"><img src="/assets/images/adv_getiao.jpg" alt="立即咨询"></a></div>
+        <div class="getiao_adv img"><a target="_blank" rel="nofollow" href="http://ddt.zoosnet.net/lr/chatpre.aspx?id=ddt94811403&lng=cn&r=&rf1=http%3a//www.juda&rf2=.cn/&p=http%3a//www.juda.cn/make/&cid=f7c8d509db4d4b649cef925dab4b8855&sid=52a63a8545c64b38b7d212f2839442ef"><img src="/assets/images/adv_getiao.jpg" alt="立即咨询"></a></div>
         
     </section>
     
@@ -261,7 +259,7 @@ use \yii\helpers\Html;
                                     <div class="p"><?=$value['text']?></div>
                                 </div>
                                 <div class="content">
-                                    <a href="#">
+                                    <a href="javascript:void(0)">
                                         <img src="<?=$value['imageUrl']?>" about="<?=$value['title']?>" title="<?=$value['title']?>">
                                     </a>
                                 </div>

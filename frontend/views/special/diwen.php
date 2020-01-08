@@ -52,7 +52,7 @@ $listUrlL='/'.$this->params['action'].'/';
                         <?php foreach ($this->params['choose'] as $key=>$value): ?>
                             <?php $chooseIdArray= $this->params['chooseIdArray']?>
                             <div class="item pull-left">
-                                <a href="javascript:location.href='<?=\common\helpers\UrlHelp::ProductChooseAttr($this->params['action'],$chooseIdArray,$key,$this->params['order'])?>#car-attr-title';" rel="nofollow">
+                                <a href="javascript:location.href='<?=\common\helpers\UrlHelp::ProductChooseAttr($this->params['action'],$chooseIdArray,$key,$this->params['order'])?>';" rel="nofollow">
                                     <?=$value['attr']['name']?>:
                                 <b><?=$value['name']?>  X</b>
                               </a>
@@ -60,9 +60,9 @@ $listUrlL='/'.$this->params['action'].'/';
                         <?php endforeach;?>
                         <div class="qingchu pull-left">
                             <?php if ($this->params['order']>0):?>
-                                <a href="javascript:location.href='/<?=$this->params['action']?>/list-o<?=$this->params['order']?>.html/#car-attr-title';" rel="nofollow">清除所有</a>
+                                <a href="javascript:location.href='/<?=$this->params['action']?>/list-o<?=$this->params['order']?>.html';" rel="nofollow">清除所有</a>
                             <?php else:?>
-                                <a href="javascript:location.href='/<?=$this->params['action']?>/#car-attr-title';" rel="nofollow">清除筛选</a>
+                                <a href="javascript:location.href='/<?=$this->params['action']?>';" rel="nofollow">清除筛选</a>
                             <?php endif; ?>
                         </div>
                     </div>
@@ -81,7 +81,7 @@ $listUrlL='/'.$this->params['action'].'/';
                             <?=\yii\widgets\ListView::widget([
                                 'dataProvider' => $dataProvider,
                                 'itemView' => function ($model, $key, $index, $widget) {
-                                    return Html::tag('li',Html::a(Html::encode($model->title),Yii::$app->homeUrl.$model->name."/#car-attr-title",['class'=>$model['id']==Yii::$app->params['lanmu']['id']?'current':'']));
+                                    return Html::tag('li',Html::a(Html::encode($model->title),Yii::$app->homeUrl.$model->name,['class'=>$model['id']==Yii::$app->params['lanmu']['id']?'current':'']));
                                 },
                                 'layout' => "{items}",//加个这就好了
                                 'options' => [
@@ -141,7 +141,7 @@ $listUrlL='/'.$this->params['action'].'/';
                                 <ul>
                                     <?php foreach ($value['values'] as $k=>$v): ?>
                                     <li>
-                                        <a data-type="453" href="<?=$listUrl?><?=\common\helpers\UrlHelp::ProductAttr($this->params['chooseId'],$v['id'],$this->params['order']) ?>#car-attr-title"><?=$v['name']?></a>
+                                        <a data-type="453" href="<?=$listUrl?><?=\common\helpers\UrlHelp::ProductAttr($this->params['chooseId'],$v['id'],$this->params['order']) ?>"><?=$v['name']?></a>
                                     </li>
                                     <?php endforeach;?>
                                 </ul>
@@ -180,7 +180,7 @@ $listUrlL='/'.$this->params['action'].'/';
                                 <ul class="selecbaseul">
                                     <?php foreach ($value['values'] as $k=>$v): ?>
                                         <li>
-                                            <a data-type="453" title="<?=$v['name']?>" href="<?=$listUrl?><?=\common\helpers\UrlHelp::ProductAttr($this->params['chooseId'],$v['id'],$this->params['order']) ?>#car-attr-title"><?=$v['name']?></a>
+                                            <a data-type="453" title="<?=$v['name']?>" href="<?=$listUrl?><?=\common\helpers\UrlHelp::ProductAttr($this->params['chooseId'],$v['id'],$this->params['order']) ?>"><?=$v['name']?></a>
                                         </li>
                                     <?php endforeach;?>
                                 </ul>
@@ -188,7 +188,7 @@ $listUrlL='/'.$this->params['action'].'/';
                                 <div class="seleadvecon-item" data-title="学年" style="display: none;">
                                     <ul class="selecbaseul">>
                                         <li>
-                                            <a title="<?=$v['name']?>" data-type="453" href="<?=$listUrl?><?=\common\helpers\UrlHelp::ProductAttr($this->params['chooseId'],$v['id'],$this->params['order']) ?>#car-attr-title"><i></i><?=$v['name']?></a>
+                                            <a title="<?=$v['name']?>" data-type="453" href="<?=$listUrl?><?=\common\helpers\UrlHelp::ProductAttr($this->params['chooseId'],$v['id'],$this->params['order']) ?>"><i></i><?=$v['name']?></a>
                                         </li>
                                     </ul>
                                     <div class="yseah-ext none"><a href="#" class="ys-e-multi multiposition single">多选<i></i></a></div>
