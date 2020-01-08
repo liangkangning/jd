@@ -36,9 +36,8 @@ class CommonController extends Controller
     public $controllerName;
 
     public $is_zhizhu=1;
-    public $nav_tree=array('index','special','case','gongsixinwen','dianchizhunati','hangyezixun','zhishi','diwen','detail','kuanwen','taisuanli','fanbao','search','libattery','juhewu','blog'
-
-    ,'chuneng','lilizi','ironicphosphate','dongli','tezhong','junjing','robots','yiliao','gongye','yingji','shangyong','xiaofei','zhineng','industrial','zhuanti','changjianwenti','lifepo4');//判断是否现实树形的分类
+    public $nav_tree=array('index','special','case','gongsixinwen','dianchizhunati','hangyezixun','zhishi','diwen','detail','kuanwen','taisuanli','fanbao','search',
+        'libattery','juhewu','chuneng','lilizi','ironicphosphate','dongli','tezhong','junjing','robots','yiliao','gongye','yingji','shangyong','xiaofei','zhineng','industrial','zhuanti','changjianwenti','lifepo4');//判断是否现实树形的分类
 
     public function init(){
 //          初始化后台的数据
