@@ -1415,7 +1415,7 @@ header .search_form_head .search_form .form-label {
     position: relative;
     float: left;
     width: 1090px;
-    height: 65px;
+    height: 65px;padding-right: 60px;
 }
 .product-list-index .category-attr .con-wrap .con-value .list {
     overflow: hidden;
