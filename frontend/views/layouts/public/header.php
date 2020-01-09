@@ -5,7 +5,7 @@
                 <div class="l_p">
                     <div class="img">
                         <a href="/">
-                            <img src="<?=Yii::getAlias('@web/assets/images/logo.png')?>" alt="锂电池" title="锂电池" class="logo-default">
+                            <img src="<?=Yii::getAlias('@web/assets/images/logo.png')?>" alt="钜大锂电-超可靠 超安全" title="钜大锂电-超可靠 超安全" class="logo-default">
                         </a>
                     </div>
                 </div>
@@ -247,19 +247,26 @@
                                     <div class="container">
                                         <div class="child_item">
                                             <div class="nav_img">
+                                                <a href="/lilizi/"><img src="/assets/images/nav_lilizi.png" alt="锂离子电池" title="锂离子电池"></a>
+                                            </div>
+                                            <div class="text">
+                                                <a href="/lilizi/">锂离子电池</a>
+                                            </div>
+                                        </div>
+                                        <div class="child_item">
+                                            <div class="nav_img">
                                                 <a href="/libattery/"><img src="/assets/images/nav_18650.png" alt="18650锂电池" title="18650锂电池"></a>
                                             </div>
                                             <div class="text">
                                                 <a href="/libattery/">18650锂电池</a>
                                             </div>
-
                                         </div>
                                         <div class="child_item">
                                             <div class="nav_img">
-                                                <a href="/juhewu/"><img src="/assets/images/nav_juhewu.png" alt="聚合物锂电池" title="聚合物锂电池"></a>
+                                                <a href="/dongli/"><img src="/assets/images/nav_dongli.png" alt="动力锂电池" title="动力锂电池"></a>
                                             </div>
                                             <div class="text">
-                                                <a href="/juhewu/">聚合物锂电池</a>
+                                                <a href="/fanbao/">动力锂电池</a>
                                             </div>
                                         </div>
                                         <div class="child_item">
@@ -272,14 +279,6 @@
                                         </div>
                                         <div class="child_item">
                                             <div class="nav_img">
-                                                <a href="/lilizi/"><img src="/assets/images/nav_lilizi.png" alt="锂离子电池" title="锂离子电池"></a>
-                                            </div>
-                                            <div class="text">
-                                                <a href="/lilizi/">锂离子电池</a>
-                                            </div>
-                                        </div>
-                                        <div class="child_item">
-                                            <div class="nav_img">
                                                 <a href="/lifepo4/"><img src="/assets/images/nav_lifepo4.png" alt="磷酸铁锂电池" title="磷酸铁锂电池"></a>
                                             </div>
                                             <div class="text">
@@ -288,10 +287,10 @@
                                         </div>
                                         <div class="child_item">
                                             <div class="nav_img">
-                                                <a href="/dongli/"><img src="/assets/images/nav_dongli.png" alt="动力锂电池" title="动力锂电池"></a>
+                                                <a href="/juhewu/"><img src="/assets/images/nav_juhewu.png" alt="聚合物锂电池" title="聚合物锂电池"></a>
                                             </div>
                                             <div class="text">
-                                                <a href="/fanbao/">动力锂电池</a>
+                                                <a href="/juhewu/">聚合物锂电池</a>
                                             </div>
                                         </div>
                                     </div>

@@ -589,7 +589,7 @@ header .search_form_head .search_form .form-label {
     font-size: 36px;
     margin: 0;
 }
-.index .tabswitch-title .tabswitch-title-info p {
+.index .tabswitch-title .tabswitch-title-info p,.index .tabswitch-title .tabswitch-title-info h2 {
     margin: 0 auto;
     width: 336px;
     height: 42px;

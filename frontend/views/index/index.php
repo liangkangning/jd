@@ -26,7 +26,7 @@ use \yii\helpers\Html;
     <section class="section container index-tezhong">
         <div class="tabswitch-title">
             <div class="longline"></div>
-            <div class="tabswitch-title-info"><p>特种锂电池</p></div>
+            <div class="tabswitch-title-info"><h2>特种锂电池</h2></div>
         </div>
         <div class="index-nav-min nav-list section80">
             <ul>
@@ -57,7 +57,7 @@ use \yii\helpers\Html;
     <section class="section container index-cuneng">
         <div class="tabswitch-title">
             <div class="longline"></div>
-            <div class="tabswitch-title-info"><p>动力/储能电池</p></div>
+            <div class="tabswitch-title-info"><h2>动力/储能电池</h2></div>
         </div>
         <div class="index-nav-min nav-list section80">
             <ul>
@@ -88,7 +88,7 @@ use \yii\helpers\Html;
     <section class="section container index-gongye">
         <div class="tabswitch-title">
             <div class="longline"></div>
-            <div class="tabswitch-title-info"><p>工业电池</p></div>
+            <div class="tabswitch-title-info"><h2>工业锂电池</h2></div>
         </div>
         <div class="index-nav-min nav-list section80">
             <ul>
@@ -127,14 +127,14 @@ use \yii\helpers\Html;
     <section class="section container index-anli">
         <div class="tabswitch-title">
             <div class="longline"></div>
-            <div class="tabswitch-title-info"><p>定制案例</p></div>
+            <div class="tabswitch-title-info"><h2>定制案例</h2></div>
         </div>
         <div class="index-nav-min nav-list section80">
             <ul>
-                <li class=""><div class="item"><a href="/news/junjing.html#case_list">特种设备</a></div></li>
-                <li class=""><div class="item"><a href="/news/yiliao.html#case_list">医疗设备</a></div></li>
-                <li class=""><div class="item"><a href="/news/kantan.html#case_list">勘探测绘</a></div></li>
-                <li class=""><div class="item"><a href="/news/shouchi.html#case_list">手持设备</a></div></li>
+                <li class=""><div class="item"><a href="/news/junjing.html">特种设备电池</a></div></li>
+                <li class=""><div class="item"><a href="/news/yiliao.html">医疗设备电池</a></div></li>
+                <li class=""><div class="item"><a href="/news/kantan.html">勘探测绘电池</a></div></li>
+                <li class=""><div class="item"><a href="/news/shouchi.html">手持设备电池</a></div></li>
             </ul>
         </div>
         <div class="case-list section">
@@ -145,7 +145,7 @@ use \yii\helpers\Html;
                     <div class="item to_black">
                         <div class="img">
                             <a href="<?= $v['url']?>">
-                                <img src="<?= $v['imageUrl']?>" alt="">
+                                <img src="<?= $v['imageUrl']?>" alt="<?=$v['title']?>" title="<?=$v['title']?>">
                                 <div class="bg_pic">
                                     <img src="/assets/images/case_bg.png" alt="">
                                 </div>
@@ -168,7 +168,7 @@ use \yii\helpers\Html;
     <section class="section video_index">
         <div class="content container">
             <div class="text-center">
-                <div class="title size1-9p">品牌故事</div>
+                <div class="title size1-9p"><h2>品牌故事</h2></div>
                 <div class="p size5-5p section20">
                     十八年来，我们一直专注锂电池定制。因为专注，所以专业。<br>
                     公司累计完成3000+成功案例，超过1亿套锂电模组交付。钜大相信，一定能给您带来"超可靠·超安全"的品质服务。
@@ -187,7 +187,7 @@ use \yii\helpers\Html;
         <div class="container">
             <div class="tabswitch-title">
                 <div class="longline"></div>
-                <div class="tabswitch-title-info"><p>钜大综合实力</p></div>
+                <div class="tabswitch-title-info"><h2>钜大综合实力</h2></div>
             </div>
             <div class="text-center">
                 <p class="size5-5p section">东莞市钜大电子有限公司成立于2002年，是一家为全球用户提供</p>
@@ -215,7 +215,7 @@ use \yii\helpers\Html;
     <section class="section container team">
         <div class="tabswitch-title">
             <div class="longline"></div>
-            <div class="tabswitch-title-info"><p>专家团队</p></div>
+            <div class="tabswitch-title-info"><h2>专家团队</h2></div>
         </div>
         <div class="title section">
             <p class="size2-8p">特种锂离子电池工程研究院</p>
@@ -246,7 +246,7 @@ use \yii\helpers\Html;
         <div class="">
             <div class="tabswitch-title container">
                 <div class="longline"></div>
-                <div class="tabswitch-title-info"><p>8大实验室</p></div>
+                <div class="tabswitch-title-info"><h2>8大实验室</h2></div>
             </div>
             <div class="swiper-shiyanshi">
 
@@ -285,7 +285,7 @@ use \yii\helpers\Html;
         <div class="container">
             <div class="tabswitch-title">
                 <div class="longline"></div>
-                <div class="tabswitch-title-info"><p>产品质量与安全</p></div>
+                <div class="tabswitch-title-info"><h2>产品质量与安全</h2></div>
             </div>
         </div>
         <div class="img section90"><img src="/assets/images/54.jpg" alt=""></div>
@@ -294,7 +294,7 @@ use \yii\helpers\Html;
     <section class="section container index-kehu">
         <div class="tabswitch-title">
             <div class="longline"></div>
-            <div class="tabswitch-title-info"><p>我们的客户</p></div>
+            <div class="tabswitch-title-info"><h2>我们的客户</h2></div>
         </div>
         <div class="img section"><img src="/assets/images/55.png" alt=""></div>
     </section>
@@ -302,7 +302,7 @@ use \yii\helpers\Html;
     <section class="section container news">
         <div class="tabswitch-title">
             <div class="longline"></div>
-            <div class="tabswitch-title-info"><p>资讯中心</p></div>
+            <div class="tabswitch-title-info"><h2>资讯中心</h2></div>
         </div>
         <div class="list section">
             <div class="left">

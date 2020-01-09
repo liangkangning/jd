@@ -1,7 +1,7 @@
 <section class="section jishunengli container">
     <div class="tabswitch-title">
         <div class="longline"></div>
-        <div class="tabswitch-title-info"><p>核心技术能力</p></div>
+        <div class="tabswitch-title-info"><h2>核心技术能力</h2></div>
     </div>
     <div class="list section">
         <ul>
