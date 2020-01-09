@@ -354,7 +354,7 @@ use \yii\helpers\Html;
                     <div class="ico"><img src="/assets/images/index_bottom_ico_2.png" alt=""></div>
                     <div class="title "><span     class="size6-4p color_b1">联系我们</span></div>
                     <div class="text"><p>
-                            <span class="size2-8p color_y lh_1">400-800-6752</span><br>
+                            <span class="size2-8p color_y lh_1">400-666-3615</span><br>
                             或0769-26983348
                         </p></div>
                 </div>
