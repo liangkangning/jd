@@ -152,8 +152,8 @@ use \yii\helpers\Html;
                             </a>
 
                             <div class="text">
-                                <?= count($v['indexTitles'])<=0?'':$v['indexTitles'][0]?><br>
-                                <?= count($v['indexTitles'])<=1?'':$v['indexTitles'][1]?>
+                                <a href="<?= $v['url']?>"><?= count($v['indexTitles'])<=0?'':$v['indexTitles'][0]?></a><br>
+                                <a href="<?= $v['url']?>"><?= count($v['indexTitles'])<=1?'':$v['indexTitles'][1]?></a>
                             </div>
                             <div class="arrow img"><img src="/assets/images/arrow.png" alt=""></div>
                         </div>
