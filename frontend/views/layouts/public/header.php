@@ -1,11 +1,11 @@
 <header class="<?= Yii::$app->params['className'] ?>_class">
-    <section class="container section">
+    <section class="container section50">
         <div class="header_top">
             <div class="logo">
                 <div class="l_p">
                     <div class="img">
                         <a href="/">
-                            <img src="<?=Yii::getAlias('@web/assets/images/logo.png')?>" alt="钜大锂电-超可靠 超安全" title="钜大锂电-超可靠 超安全" class="logo-default">
+                            <img src="<?=Yii::getAlias('@web/assets/images/logo.jpg')?>" alt="钜大锂电-超可靠 超安全" title="钜大锂电-超可靠 超安全" class="logo-default">
                         </a>
                     </div>
                 </div>
