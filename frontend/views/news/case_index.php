@@ -22,12 +22,14 @@ $productProvider= new \yii\data\ActiveDataProvider([
     <div class="case_list" id="case_list">
         <div class="container">
             <div class="top ">
-                <div class="title pull-left"><?= $data['title']?></div>
+                <div class="title pull-left"><h1><?= $data['title']?></h1></div>
                 <div class="nav_list pull-right">
                     <ul>
                         <li class="pull-left">
                             <?php foreach ($data['tree'] as $key=>$vlaue):?>
-                                <a class="<?= $vlaue['title']==$data['title']?'color_y':''?>" href="/news/<?=$vlaue->name?>.html"><?=$vlaue['title']?></a>
+                                <a class="pull-left <?= $vlaue['title']==$data['title']?'color_y':''?>" href="/news/<?=$vlaue->name?>.html">
+                                    <h2><?=$vlaue['title']?></h2>
+                                </a>
                             <?php endforeach; ?>
                         </li>
                     </ul>

@@ -41,11 +41,12 @@
                                             <div class="item"><a href="/kuanwen/">宽温锂电池</a></div>
                                         </li>
                                         <li>
-                                            <div class="item"><a href="/taisuanli/">钛酸锂电池</a></div>
-                                        </li>
-                                        <li>
                                             <div class="item"><a href="/fanbao/">防爆锂电池</a></div>
                                         </li>
+                                        <li>
+                                            <div class="item"><a href="/taisuanli/">钛酸锂电池</a></div>
+                                        </li>
+
                                     </ul>
                                 </div>
                             </div>
@@ -92,16 +93,16 @@
                                 <div class="item_list">
                                     <ul>
                                         <li>
-                                            <div class="item"><a href="/news/tezhong.html">特种锂电池</a></div>
-                                        </li>
-                                        <li>
                                             <div class="item"><a href="/news/junjing.html">特种设备</a></div>
                                         </li>
                                         <li>
-                                            <div class="item"><a href="/news/robots.html">机器人电池</a></div>
+                                            <div class="item"><a href="/news/yiliao.html">医疗设备</a></div>
                                         </li>
                                         <li>
-                                            <div class="item"><a href="/news/yiliao.html">医疗锂电池</a></div>
+                                            <div class="item"><a href="/news/kantan.html">勘探测绘</a></div>
+                                        </li>
+                                        <li>
+                                            <div class="item"><a href="/news/shouchi.html">手持设备</a></div>
                                         </li>
                                     </ul>
                                 </div>
@@ -139,18 +140,18 @@
                                         </div>
                                         <div class="child_item">
                                             <div class="nav_img">
-                                                <a href="/taisuanli/"><img src="/assets/images/nav_taisuan.png" alt="钛酸锂电池" title="钛酸锂电池"></a>
-                                            </div>
-                                            <div class="text">
-                                                <a href="/taisuanli/">钛酸锂电池</a>
-                                            </div>
-                                        </div>
-                                        <div class="child_item">
-                                            <div class="nav_img">
                                                 <a href="/fanbao/"><img src="/assets/images/nav_fangbao.png" alt="防爆锂电池" title="防爆锂电池"></a>
                                             </div>
                                             <div class="text">
                                                 <a href="/fanbao/">防爆锂电池</a>
+                                            </div>
+                                        </div>
+                                        <div class="child_item">
+                                            <div class="nav_img">
+                                                <a href="/taisuanli/"><img src="/assets/images/nav_taisuan.png" alt="钛酸锂电池" title="钛酸锂电池"></a>
+                                            </div>
+                                            <div class="text">
+                                                <a href="/taisuanli/">钛酸锂电池</a>
                                             </div>
                                         </div>
                                     </div>
@@ -296,8 +297,51 @@
                                     </div>
                                 </div>
                             </li>
-                            <li>
+                            <li class="active">
                                 <div class="item"><a href="/news/case.html">定制案例   </a></div>
+                                <div class="item_list">
+                                    <div class="container">
+                                        <div class="col-md-2 col-sm-2"></div>
+                                        <div class="child_item">
+                                            <div class="nav_img">
+                                                <a href="/news/junjing.html"><img src="/assets/images/nav_tezhong.png" alt="特种设备" title="特种设备"></a>
+                                            </div>
+                                            <div class="text">
+                                                <a href="/news/junjing.html">特种设备</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="child_item">
+                                            <div class="nav_img">
+                                                <a href="/news/yiliao.html"><img src="/assets/images/nav_yiliao.png" alt="医疗设备" title="医疗设备"></a>
+                                            </div>
+                                            <div class="text">
+                                                <a href="/news/yiliao.html">医疗设备</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="child_item">
+                                            <div class="nav_img">
+                                                <a href="/news/kantan.html"><img src="/assets/images/nav_kantan.png" alt="勘探测绘" title="勘探测绘"></a>
+                                            </div>
+                                            <div class="text">
+                                                <a href="/news/kantan.html">勘探测绘</a>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="child_item">
+                                            <div class="nav_img">
+                                                <a href="/news/shouchi.html"><img src="/assets/images/nav_shouchi.png" alt="手持设备" title="手持设备"></a>
+                                            </div>
+                                            <div class="text">
+                                                <a href="/news/shouchi.html">手持设备</a>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
                             </li>
                             <li>
                                 <div class="item"><a href="/make/">研发&制造  </a></div>

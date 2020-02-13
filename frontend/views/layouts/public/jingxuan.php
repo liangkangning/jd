@@ -11,12 +11,18 @@
                             <a href="<?= $v['url']?>"><img src="<?= $v['imageUrl']?>" alt="<?= $v['title']?>" title="<?= $v['title']?>"></a>
                         </div>
                         <div class="text">
-                            <div class="title1 size2-8p" style="color: <?= $v['tuozhan']?>"><?= $v['h1']?></div>
+                            <div class="title1 size2-8p" >
+                                <a href="<?= $v['url']?>" style="color: <?= $v['tuozhan']?>"><?= $v['h1']?></a>
+                            </div>
                             <?php if ($v['h2']): ?>
-                                <div class="title2 size4-6p" style="color: <?= $v['tuozhan']?>"><?=$v['h2'] ?></div>
+                                <div class="title2 size4-6p" >
+                                    <a href="<?= $v['url']?>" style="color: <?= $v['tuozhan']?>"><?=$v['h2'] ?></a>
+                                </div>
                             <?php endif;?>
                             <?php if ($v['h3']): ?>
-                                <div class="title3 size5-5p" style="color: <?= $v['tuozhan']?>"><?=$v['h3'] ?></div>
+                                <div class="title3 size5-5p" >
+                                    <a href="<?= $v['url']?>" style="color: <?= $v['tuozhan']?>"><?=$v['h3'] ?></a>
+                                </div>
                             <?php endif;?>
                             <div class="p">
                                 <?php if ($v['text']): ?>
