@@ -116,8 +116,10 @@ class IndexController extends CommonController
         //首页新闻
         $cid = [35, 37, 36, 38];//公司新闻  行业资讯  电池专题  电池知识
         foreach ($cid as $id) {
-            Yii::$app->params['index-news'][] = Article::find()->where(['category_id'=>$id])->andWhere(['status'=>1])->select(['id','title','description','create_time','content'])->orderBy('id desc')->limit('3')->all();
+            Yii::$app->params['index-news'][] = Article::find()->where(['category_id'=>$id])->andWhere(['status'=>1])->orderBy('id desc')->limit('3')->all();
         }
+
+
 
 
 
