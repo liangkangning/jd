@@ -306,10 +306,10 @@ use \yii\helpers\Html;
         </div>
         <div class="list section">
             <div class="left">
-                <div class="img"><a href="/news/3471.html"><img src="http://images.juda.cn/image/201804/1523178166939.jpg" alt="广东省副省长陈云贤莅临我司指导工作"></a></div>
+                <div class="img"><a href="<?= Yii::$app->params['index-news'][0][0]['url'] ?>"><img src="<?= Yii::$app->params['index-news'][0][0]['imageUrl'] ?>" alt="<?= Yii::$app->params['index-news'][0][0]['title']?>"></a></div>
                 <div class="text section50">
-                    <div class="title"><a href="/news/3471.html">广东省副省长陈云贤莅临我司指导工作</a></div>
-                    <div class="p"><p>2019年2月15日下午，东莞市科技局局长卓庆偕同南城街道办事处副主任张见荣、街道创新驱动办主任林强一同调研东莞市钜大电子有限公司的创新驱动发展情况。</p></div>
+                    <div class="title"><a href="<?= Yii::$app->params['index-news'][0][0]['url'] ?>"><?= Yii::$app->params['index-news'][0][0]['title']?></a></div>
+                    <div class="p"><p><?= Yii::$app->params['index-news'][0][0]['description'] ?></p></div>
                     <div class="line"><span>1</span></div>
                 </div>
             </div>
