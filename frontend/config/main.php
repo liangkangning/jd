@@ -70,17 +70,13 @@ return [
             'suffix'=>'.html',
             'rules' => [
                 '<controller:(news|product|blog)>/<id:\d+>'=>'<controller>/detail',
-                ['pattern'=>'<controller:(industrial|diwen|kuanwen|taisuanli|fanbao|libattery|juhewu|chuneng|lilizi|ironicphosphate|dongli|special|libattery|make|news|about|lifepo4|search|blog|zizhi|test|anchor|keywords|sitemap|apis)>','route'=>'<controller>','suffix'=>'/'],
+                ['pattern'=>'<controller:(industrial|diwen|kuanwen|taisuanli|fanbao|libattery|juhewu|chuneng|lilizi|ironicphosphate|dongli|special|libattery|make|jishu|shiyanshi|zhizao|news|about|licheng|zizhi|contact|lifepo4|search|blog|zizhi|test|anchor|keywords|sitemap|apis)>','route'=>'<controller>','suffix'=>'/'],
                 ['pattern'=>'<controller:(industrial|diwen|kuanwen|taisuanli|fanbao|libattery|juhewu|chuneng|lilizi|ironicphosphate|dongli|lifepo4)>/list-<list:.+>-p<page:\d+>','route'=>'<controller>/index','suffix'=>'.html'],
                 ['pattern'=>'<controller:(industrial|diwen|kuanwen|taisuanli|fanbao|libattery|juhewu|chuneng|lilizi|ironicphosphate|dongli|lifepo4)>/list-<list:.+>','route'=>'<controller>','suffix'=>'.html'],
                 ['pattern'=>'<controller:(industrial|diwen|kuanwen|taisuanli|fanbao|libattery|juhewu|chuneng|lilizi|ironicphosphate|dongli|lifepo4)>/index-<page:\d+>','route'=>'<controller>/index','suffix'=>'.html'],
                 ['pattern'=>'<controller:(news|blog)>/<action:\w+>_<page:\d+>','route'=>'<controller>/<action>','suffix'=>'.html'],
-
-
                 ['pattern'=>'<controller:(keywords)>/<id:\w+>/index-<page:\d+>','route'=>'<controller>/item','suffix'=>'.html'],
                 ['pattern'=>'<controller:(keywords)>/<id:\w+>','route'=>'<controller>/item','suffix'=>'/'],
-
-
 
             ],
         ],

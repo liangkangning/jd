@@ -138,4 +138,10 @@ class Category extends \common\core\BaseActiveRecord
     }
 
 
+    public function getUrl(){
+
+        return '/' . $this->name . '/';
+    }
+
+
 }
