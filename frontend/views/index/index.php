@@ -120,7 +120,7 @@ use \yii\helpers\Html;
     </section>
 
     <section class="section container">
-        <div class="getiao_adv img"><a target="_blank" rel="nofollow" href="http://ddt.zoosnet.net/lr/chatpre.aspx?id=ddt94811403&lng=cn&r=&rf1=http%3a//www.juda&rf2=.cn/&p=http%3a//www.juda.cn/make/&cid=f7c8d509db4d4b649cef925dab4b8855&sid=52a63a8545c64b38b7d212f2839442ef"><img src="/assets/images/adv_getiao.jpg" alt="立即咨询"></a></div>
+        <div class="getiao_adv img"><a target="_blank" rel="nofollow" href="http://ddt.zoosnet.net/lr/chatpre.aspx?id=ddt94811403&lng=cn"><img src="/assets/images/adv_getiao.jpg" alt="立即咨询"></a></div>
         
     </section>
     
