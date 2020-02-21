@@ -284,7 +284,7 @@ header nav {
 header nav .allnav .text {
     height: 60px;
     line-height: 60px;
-    background-color: #FA9600;
+    background-color: #1e1e1e;
     font-size: 20px;
 }
 header nav .allnav .text p span {
@@ -2294,15 +2294,21 @@ footer .bottom .text a {
 }
 .left_zixun li:first-child {
     border: none;
-    background-color: rgba(250, 150, 0, 0.9);
+    /*background-color: rgba(250, 150, 0, 0.9);*/
 }
 .left_zixun li {
     float: left;
     width: 90px;
     height: 90px;
-    border-top: 1px solid #555555;
+    border-top: 1px solid #FFFFFF;
     background-color: rgba(30, 30, 30, 0.9);
 }
+
+.left_zixun li .img1{display: block}
+.left_zixun li .img2{display: none}
+
+.left_zixun li:hover .img1{display: none}
+.left_zixun li:hover .img2{display: block}
 /*--------------------------------------------------------------特效样式----------------------------------------------------*/
 /*轮播*/
 .index-banner .swiper-container {
