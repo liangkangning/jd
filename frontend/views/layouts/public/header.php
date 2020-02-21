@@ -1,5 +1,5 @@
 <header class="<?= Yii::$app->params['className'] ?>_class">
-    <section class="container section50">
+    <section class="container">
         <div class="header_top">
             <div class="logo">
                 <div class="l_p">
