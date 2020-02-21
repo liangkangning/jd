@@ -244,7 +244,7 @@ h6 {
     padding-left: 0px;
     padding-right: 0px;
 }
-header{margin-top: 47px;overflow: hidden}
+header{margin-top: 47px;}
 header nav .allnav .list .title a {
     font-size: 20px;
 }
@@ -290,7 +290,19 @@ header nav .allnav .text {
 }
 header nav .allnav .text p span {
     line-height: 60px;
+    position: relative;
 }
+header nav .allnav .text p span:before{
+    content: '';
+    background: url(/assets/images/top_list_ico.png) no-repeat;
+    position: absolute;
+    right: -12px;
+    bottom: -48px;
+    z-index: 2;
+    width: 32px;
+    height: 26px;
+}
+
 header nav .col-md-10,
 header nav .col-sm-10 {
     position: static;

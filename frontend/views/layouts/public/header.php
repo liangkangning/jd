@@ -28,7 +28,7 @@
         <nav>
             <div class="container">
                 <div class="pull-left">
-                    <div class="allnav" id="<?=Yii::$app->params['nav_tree_block']?'nav_tree':'' ?>"><div class="text"><p>全部分类<span class="fa fa-bars"></span></p></div>
+                    <div class="allnav" id="<?=Yii::$app->params['nav_tree_block']?'nav_tree':'' ?>"><div class="text"><p>全部分类<span class="top_list_ico"></span></p></div>
                         <div class="list  hidden-sm <?=Yii::$app->params['is_index']?'is_index':''?>">
                             <div class="pp">
                                 <div class="title"><a href="/special/">特种锂电池</a></div>
