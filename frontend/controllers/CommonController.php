@@ -36,6 +36,7 @@ class CommonController extends Controller
     public $controllerName;
 
     public $is_zhizhu=1;
+    public $cache_time = 10;//缓存时间
     public $nav_tree=array('index','special','case','gongsixinwen','dianchizhunati','hangyezixun','zhishi','diwen','detail','kuanwen','taisuanli','fanbao','search',
         'libattery','juhewu','chuneng','lilizi','ironicphosphate','dongli','tezhong','junjing','robots','yiliao','gongye','yingji','shangyong','xiaofei','zhineng','industrial','zhuanti','changjianwenti','lifepo4');//判断是否现实树形的分类
 
@@ -48,11 +49,15 @@ class CommonController extends Controller
             Yii::$app->params['nav_tree_block']=true;//判断是否现实树形的分类
         }
         Yii::$app->params['is_index'] = $this->id=='index'?true:false;
-        foreach (Config::find()->asArray()->all() as $key=>$value){
+
+        $config = $this->getCache('config') ?: $this->setCache('config',Config::find()->asArray()->all());
+        foreach ($config as $key=>$value){
             Yii::$app->params['web'][$value['name']]=$value['value'];
 
         }
-        Yii::$app->params['yanfa_team'] = Article::find()->where(['category_id' => 39])->orderBy('sort asc')->all();
+
+        Yii::$app->params['yanfa_team'] = $this->getCache('yanfa_team') ?: $this->setCache('yanfa_team',Article::find()->where(['category_id' => 39])->orderBy('sort asc')->all());
+//        Yii::$app->params['yanfa_team'] = Article::find()->where(['category_id' => 39])->orderBy('sort asc')->all();
 
 
         Yii::$app->params['shiyanshi_list'] = [
@@ -137,11 +142,13 @@ class CommonController extends Controller
 
 
 
-        $self_lanmu=Category::find()->where(['name'=>$controllerName])->one();
+        $self_lanmu = $this->getCache('self_lanmu'.$controllerName) ?: $this->setCache('self_lanmu'.$controllerName,Category::find()->where(['name'=>$controllerName])->one());
+//        $self_lanmu = Category::find()->where(['name'=>$controllerName])->one();
 
         if ($self_lanmu['pid']!=0){//如果不是真正的父栏目，因为为了优化URL，二级栏目当一级栏目的方式写
 
-            $top_lanm=Category::find()->where(['id'=>$self_lanmu['pid']])->one();
+            $top_lanm = $this->getCache('top_lanm'.$self_lanmu['pid']) ?: $this->setCache('top_lanm'.$self_lanmu['pid'],Category::find()->where(['id'=>$self_lanmu['pid']])->one());
+//            $top_lanm = Category::find()->where(['id'=>$self_lanmu['pid']])->one();
 
 //            echo '----2--';
 
@@ -307,7 +314,8 @@ class CommonController extends Controller
         $this->view->params['randAtricle']=$randAtricle;
 
         //最新资讯
-        Yii::$app->params['new_news'] = Article::find()->where(['status'=>1])->limit(12)->orderBy('id desc')->where(['>','category_id',0])->all();
+        Yii::$app->params['new_news'] = $this->getCache('new_news') ?: $this->setCache('new_news',Article::find()->where(['status'=>1])->limit(12)->orderBy('id desc')->where(['>','category_id',0])->all());
+//        Yii::$app->params['new_news'] = Article::find()->where(['status'=>1])->limit(12)->orderBy('id desc')->where(['>','category_id',0])->all();
 
 
 
@@ -322,13 +330,6 @@ class CommonController extends Controller
     }
 
 
-
-
-	public function get_lanmu($obj){
-
-
-
-    }
 
     public function get_controller_name(){
 
@@ -418,6 +419,15 @@ class CommonController extends Controller
 
         return $product_list;
 
+    }
+
+    public function getCache($value){
+        return Yii::$app->cache->get($value);
+    }
+
+    public function setCache($key,$value){
+        Yii::$app->cache->set($key, $value, $this->cache_time);
+        return $value;
     }
 
 }

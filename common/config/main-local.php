@@ -9,9 +9,9 @@ return [
             'password'    => env('DB_PASSWORD'),
             'charset'     => env('DB_CHARSET'),
             'tablePrefix' => env('DB_TABLE_PREFIX'),
-            'enableSchemaCache' => false, //开启schema缓存  数据表结构
+            'enableSchemaCache' => true, //开启schema缓存  数据表结构
             // Duration of schema cache.
-            'schemaCacheDuration' => 604800, //一周
+            'schemaCacheDuration' => 10*60, //10分钟
             // Name of the cache component used to store schema information
             'schemaCache' => 'cache',
         ],
