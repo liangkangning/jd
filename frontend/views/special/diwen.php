@@ -256,12 +256,16 @@ $listUrlL='/'.$this->params['action'].'/';
 
 
 
+    <?php $this->beginContent('@app/views/layouts/public/bottom_seach.php') ?>
+    <?php $this->endContent() ?>
+    <?php $this->beginContent('@app/views/layouts/public/jingxuan.php') ?>
+    <?php $this->endContent() ?>
 
     <?php $this->beginContent('@app/views/layouts/public/hexin_jishu.php') ?>
     <?php $this->endContent() ?>
-    <?php $this->beginContent('@app/views/layouts/public/seach_jingxuan_news.php') ?>
-    <?php $this->endContent() ?>
 
+    <?php $this->beginContent('@app/views/layouts/public/news-list.php') ?>
+    <?php $this->endContent() ?>
 </div>
 
 
