@@ -255,12 +255,12 @@ $listUrlL='/'.$this->params['action'].'/';
     </div>
 
 
-    <?php $this->beginContent('@app/views/layouts/public/seach_jingxuan_news.php') ?>
-    <?php $this->endContent() ?>
+
 
     <?php $this->beginContent('@app/views/layouts/public/hexin_jishu.php') ?>
     <?php $this->endContent() ?>
-
+    <?php $this->beginContent('@app/views/layouts/public/seach_jingxuan_news.php') ?>
+    <?php $this->endContent() ?>
 
 </div>
 
