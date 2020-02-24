@@ -115,9 +115,9 @@ class CommonController extends Controller
     public function common(){
         $firewall =  Yii::$app->params['web']['firewall'];
         if ($firewall=='open'){
-            //超过4个属性的就直接跳到404,非常时期才使用
+            //超过5个属性的就直接跳到404,非常时期才使用
             $shuxing = explode("-", Yii::$app->request->url);
-            if (count($shuxing)>=5){
+            if (count($shuxing)>=6){
                 throw new \yii\web\NotFoundHttpException('The requested page does not exist.');
             }
         }
