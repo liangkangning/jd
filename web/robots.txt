@@ -2,7 +2,8 @@ User-agent:*
 Disallow: /*?*
 Disallow: /*%*
 Disallow: /*php*
+Disallow: /*/list-*-*-*-*.html
 User-agent: YisouSpider
 Disallow: /
 
-Sitemap: http://www.juda.cn/sitemap.xml 
+Sitemap: http://www.juda.cn/sitemap.xml
