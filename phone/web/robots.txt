@@ -4,4 +4,5 @@ Disallow: /*%*
 Disallow: /*php*
 Disallow: /*asp*
 Disallow: /Files/adminfiles/
+Disallow: /*/list-*-*-*-*.html
 Sitemap: http://m.juda.cn/sitemap.xml
