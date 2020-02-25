@@ -13,7 +13,7 @@
 
     $.fn.jqueryzoom = function(options){
         var settings = {
-            xzoom: 200,//zoomed width default width
+            xzoom: 300,//zoomed width default width
             yzoom: 200,//zoomed div default width
             offset: 10,	//zoomed div default offset
             position: "right",//zoomed div default position,offset position is to the right of the image
@@ -31,8 +31,10 @@
             var imageLeft = this.offsetLeft;
             var imageRight = this.offsetRight;
             var imageTop =  $(this).get(0).offsetTop;
-            var imageWidth = $(this).children('img').get(0).offsetWidth;
-            var imageHeight = $(this).children('img').get(0).offsetHeight;
+            // var imageWidth = $(this).children('img').get(0).offsetWidth;
+            // var imageHeight = $(this).children('img').get(0).offsetHeight;
+            var imageWidth = $(this).width();
+            var imageHeight = $(this).height();
 
 
             noalt= $(this).children("img").attr("alt");
@@ -128,7 +130,7 @@
                 xpos = mouse.x - $("div.jqZoomPup").width()/2 - imageLeft;
 
                 ypos = mouse.y - $("div.jqZoomPup").height()/2 - imageTop ;
-                console.log(imageTop);
+
                 if(settings.lens){
 
                     xpos = (mouse.x - $("div.jqZoomPup").width()/2 < imageLeft ) ? 0 : (mouse.x + $("div.jqZoomPup").width()/2 > imageWidth + imageLeft ) ?  (imageWidth -$("div.jqZoomPup").width() -2)  : xpos;

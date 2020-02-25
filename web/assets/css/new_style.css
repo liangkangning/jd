@@ -3018,3 +3018,68 @@ footer .bottom .text a {
     height: 70px;
     cursor: pointer;
 }
+
+/*详情页公用h2样式*/
+.detail_common_h2 h2,.detail_common_h2 .h2{    font-size: 24px;line-height: 1;color: #3e3938;}
+/*产品详情页 start*/
+
+.product_detail_2020{}
+.product_detail_2020 .top_crumbs{}
+.product_detail_2020 .top_crumbs,.news_detail_2020 .top_crumbs{width: 100%;height: 80px;}
+.product_detail_2020 .top_crumbs a:first-child,.news_detail_2020 .top_crumbs a:first-child{padding-left: 0px}
+.product_detail_2020 .top_crumbs a,.news_detail_2020 .top_crumbs a{height: 80px;line-height: 80px;padding: 0 9px}
+.product_detail_2020 .top_crumbs a:hover,.news_detail_2020 .top_crumbs a:hover{color: #FA9600}
+.product_detail_2020 .p_detail_top{ width: 100%;float: left}
+
+/*产品图片*/
+.product_detail_2020 .p_detail_top .right-extra{ width: 45.83%;float: left;}
+.product_detail_2020 .p_detail_top .text_list{width: 54.17%; float: left;}
+.product_detail_2020 .p_detail_top .text_list .title h1{line-height: 1.3}
+.product_detail_2020 .p_detail_top .right-extra .spec-preview{width: 550px;height: 400px}
+.product_detail_2020 .p_detail_top .right-extra .spec-preview .jqzoom{width: 550px;height: 400px;overflow: hidden;}
+.product_detail_2020 .p_detail_top .right-extra .spec-preview .jqzoom img{position: absolute;top: -75px;}
+
+.product_detail_2020 .p_detail_top .text_list{padding: 0 54px;}
+.product_detail_2020 .p_detail_top .text_list li{line-height: 34px}
+.product_detail_2020 .p_detail_top .text_list li .clicks{color: #B5B5B6}
+
+
+/*产品图片右侧*/
+.product_detail_2020 .p_detail_top .text_list .zx{}
+.product_detail_2020 .p_detail_top .text_list .zx li{float: left}
+.product_detail_2020 .p_detail_top .text_list .zx li:first-child{margin-right: 18px;}
+.product_detail_2020 .p_detail_top .text_list .zx li a{width: 185px;height: 45px;line-height:45px;border-radius: 3px;display: block;text-align: center;font-size: 18px}
+.product_detail_2020 .p_detail_top .text_list .zx .qiao{background: #FA9600;color: #FFFFFF}
+.product_detail_2020 .p_detail_top .text_list .zx .qiao:hover{background: #FCAD37;}
+.product_detail_2020 .p_detail_top .text_list .zx .tel{border: 1px solid #FA9600;color: #FA9600}
+.product_detail_2020 .p_detail_top .text_list .zx li span{width: 42px;height: auto;display: inline-block}
+.product_detail_2020 .p_detail_top .text_list .zx .ico{position: relative;}
+.product_detail_2020 .p_detail_top .text_list .zx .zixun_ico:before{
+    content: '';background: url(/assets/images/zixun_ico.png) no-repeat;position: absolute;right: 10px;bottom: -11px;z-index: 2;width: 32px;height: 32px;
+}
+.product_detail_2020 .p_detail_top .text_list .zx .tel_ico:before{
+    content: '';background: url(/assets/images/tel_ico.png) no-repeat;position: absolute;right: 10px;bottom: -11px;z-index: 2;width: 32px;height: 32px;
+}
+/*产品详情*/
+.product_detail_2020 .p_detail_content{}
+.product_detail_2020 .p_detail_content .text{background-color: #F5F5F5;padding: 60px 0;}
+.product_detail_2020 .p_detail_content .text p{font-size: 16px;line-height: 2}
+.product_detail_2020 .p_detail_content .text p strong{font-size: 20px;}
+
+/*产品详情和新闻详情，关键词公用模块*/
+.commom_keywords_top{}
+.commom_keywords_top .top{padding-bottom: 25px;border-bottom: 1px solid #d8d8d8;}
+.commom_keywords_top .list{margin-top: 21px;overflow: hidden}
+.commom_keywords_top .list li {float: left;margin-right: 10px;
+    line-height: 40px}
+.commom_keywords_top .list li a:hover{color: #FA9600;}
+
+/*新闻详情*/
+.news_detail_2020{}
+.news_detail_2020 .main_content{background-color: #F5F5F5;padding-bottom: 88px;overflow: hidden}
+.news_detail_2020 .main_content h1{color: #231916;margin-top: 55px}
+.news_detail_2020 .main_content .title_part .text{color: #717071;margin: 25px 0 10px 0;}
+.news_detail_2020 .main_content .title_part .text{}
+.news_detail_2020 .main_content .content{background-color: #FFFFFF;padding: 70px 100px}
+.news_detail_2020 .main_content .content img{width: 100%;}
+.news_detail_2020 .main_content .content p{padding: 10px 0 ;line-height: 1.8}
