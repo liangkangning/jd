@@ -663,7 +663,7 @@ footer .twoPart .bottom_dibu .l_p p a{color:#d0d0d0 }
 .common_xiangguan_product .content ul li .item .img img{width: 88%;margin-left: 6%;}
 .common_xiangguan_product .content ul li .item .text{ padding: 0 6px; height: 60px;  overflow: hidden;text-align: center}
 .common_xiangguan_product .content ul li .item .text a{    font-size: 14px;  height: 37px;  margin-top: 11px;  display: block;  overflow: hidden;}
-.common_xiangguan_product .product_common ul li{border-bottom: 0px;}
+.common_xiangguan_product .product_common ul li{border-bottom: 0px;margin-bottom: 5px;}
 .common_xiangguan_product .product_common li .sub_title{
     padding: 0 25px;
     display: -webkit-box;

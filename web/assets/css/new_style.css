@@ -83,6 +83,9 @@
 .section30 {
     margin-top: 30px;
 }
+.section25 {
+    margin-top: 25px;
+}
 .section20 {
     margin-top: 20px;
 }
@@ -933,7 +936,7 @@ header .search_form_head .search_form .form-label {
     color: #212121;
     line-height: 1;
     text-align: center;
-    margin: 10px 0 50px 0;
+    margin: 5px 0 0 0;
 }
 .jishunengli ul {
     margin-left: -15px;
@@ -941,7 +944,7 @@ header .search_form_head .search_form .form-label {
 }
 .jishunengli ul li {
     padding-left: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
 }
 .jishunengli li {
     cursor: pointer;
@@ -1262,10 +1265,7 @@ header .search_form_head .search_form .form-label {
 .form_main.open .search_form .input-wrap {
     transform: translateX(1px);
 }
-.seach_jingxuan_news .product_tuijian .title {
-    font-size: 24px;
-    line-height: 2;
-    color: #3e3938;
+.seach_jingxuan_news .product_tuijian .title {font-size: 24px;color: #3e3938;margin-bottom: 24px;margin-top:3px;line-height: 1;
 }
 .seach_jingxuan_news .product_tuijian ul {
     margin-left: -15px;
@@ -1273,7 +1273,7 @@ header .search_form_head .search_form .form-label {
 }
 .seach_jingxuan_news .product_tuijian ul li {
     padding-left: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 0;
 }
 .seach_jingxuan_news .product_tuijian .item {
     background-color: #FFFFFF;
@@ -1369,6 +1369,7 @@ header .search_form_head .search_form .form-label {
 .seach_jingxuan_news .news-list .list a {
     color: #717070;
 }
+.seach_jingxuan_news .news-list .list a:hover{color: #FA9600}
 .product-list-index .top-title {
     width: 100%;
     line-height: 100px;
@@ -2313,7 +2314,7 @@ footer .bottom .text a {
     float: left;
     width: 90px;
     height: 90px;
-    border-top: 1px solid #FFFFFF;
+    border-top: 1px solid #717070;
     background-color: rgba(30, 30, 30, 0.9);
 }
 
@@ -3020,7 +3021,7 @@ footer .bottom .text a {
 }
 
 /*详情页公用h2样式*/
-.detail_common_h2 h2,.detail_common_h2 .h2{    font-size: 24px;line-height: 1;color: #3e3938;}
+.detail_common_h2 h2,.detail_common_h2 .h2,.product_detail_2020 .h2{    font-size: 24px;line-height: 1;color: #3e3938;}
 /*产品详情页 start*/
 
 .product_detail_2020{}
@@ -3068,8 +3069,8 @@ footer .bottom .text a {
 
 /*产品详情和新闻详情，关键词公用模块*/
 .commom_keywords_top{}
-.commom_keywords_top .top{padding-bottom: 25px;border-bottom: 1px solid #d8d8d8;}
-.commom_keywords_top .list{margin-top: 21px;overflow: hidden}
+.commom_keywords_top .top{padding-bottom: 25px;border-bottom: 1px solid #d8d8d8;line-height: 1;}
+.commom_keywords_top .list{margin-top: 15px;overflow: hidden}
 .commom_keywords_top .list li {float: left;margin-right: 10px;
     line-height: 40px}
 .commom_keywords_top .list li a:hover{color: #FA9600;}
