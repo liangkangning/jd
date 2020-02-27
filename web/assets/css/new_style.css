@@ -1323,10 +1323,12 @@ header .search_form_head .search_form .form-label {
     color: #3e3938;
     height: 60px;
     line-height: 60px;
+
 }
 .seach_jingxuan_news .news-list .nav-list li.checked {
     border-bottom: 2px solid #FA9600;
 }
+.seach_jingxuan_news .news-list .nav-list li a{color: #212121}
 .seach_jingxuan_news .news-list .list {
     font-size: 16px;
     line-height: 1.8;
