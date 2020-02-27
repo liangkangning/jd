@@ -74,8 +74,14 @@
 .section60 {
     margin-top: 60px;
 }
+.section55 {
+    margin-top: 55px;
+}
 .section50 {
     margin-top: 50px;
+}
+.section45 {
+    margin-top: 45px;
 }
 .section40 {
     margin-top: 40px;
@@ -1306,8 +1312,8 @@ header .search_form_head .search_form .form-label {
     width: 100%;
     border-bottom: 1px solid #d8d8d8;
     background-color: #FFFFFF;
-    height: 60px;
-    line-height: 60px;
+    height: 70px;
+    line-height: 70px;
     position: relative;
 }
 .seach_jingxuan_news .news-list .nav-list ul {
@@ -1321,8 +1327,8 @@ header .search_form_head .search_form .form-label {
     margin-right: 30px;
     font-size: 24px;
     color: #3e3938;
-    height: 60px;
-    line-height: 60px;
+    height: 70px;
+    line-height: 70px;
 
 }
 .seach_jingxuan_news .news-list .nav-list li.checked {
@@ -1335,7 +1341,7 @@ header .search_form_head .search_form .form-label {
     color: #717070;
 }
 .seach_jingxuan_news .news-list .list .companyAtricle {
-    padding-top: 26px;
+    padding-top: 5px;
     overflow: hidden;
 }
 .seach_jingxuan_news .news-list .list .companyAtricle ul {

@@ -19,7 +19,7 @@ if ($controller_name=="news"||$controller_name=="product"){
 ?>
 
 <div class="seach_jingxuan_news">
-    <div class="news-list container section60">
+    <div class="news-list container section55">
         <div class="nav-list">
             <ul>
                 <?php foreach ($news_nav_tuijian as $key=>$value):?>

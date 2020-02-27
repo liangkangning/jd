@@ -1,6 +1,6 @@
 <div class="seach_jingxuan_news">
 
-<div class="product_tuijian container section60">
+<div class="product_tuijian container section">
     <div class="title">钜大精选</div>
     <div class="list product_common">
         <ul>
