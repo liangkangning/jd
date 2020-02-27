@@ -8,10 +8,10 @@
         </div>
     </section>
     <div class="banner_common relative h300 section">
-        <div class="img"><img src="/assets/images/about_zizhi_2.jpg" alt="核心技术能力" title="核心技术能力"></div>
+        <div class="img"><img src="/assets/images/about_zizhi_2.jpg" alt="钜大核心技术能力" title="钜大核心技术能力"></div>
         <div class="text">
             <div class="content">
-                <h1 class="size2-8p">核心技术能力</h1>
+                <h1 class="size2-8p">钜大核心技术能力</h1>
             </div>
         </div>
     </div>
