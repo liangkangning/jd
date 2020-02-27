@@ -9,7 +9,7 @@ $news_nav_tuijian = [
 ];
 
 $controller_name =  Yii::$app->controller->id;
-if ($controller_name=="news"){
+if ($controller_name=="news"||$controller_name=="product"){
 
 }elseif ($controller_name=="licheng"){
     unset($news_nav_tuijian['related']);
