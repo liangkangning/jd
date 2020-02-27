@@ -1265,7 +1265,7 @@ header .search_form_head .search_form .form-label {
 .form_main.open .search_form .input-wrap {
     transform: translateX(1px);
 }
-.seach_jingxuan_news .product_tuijian .title {font-size: 24px;color: #3e3938;margin-bottom: 24px;margin-top:3px;line-height: 1;
+.seach_jingxuan_news .product_tuijian .title {font-size: 24px;color: #212121;margin-bottom: 24px;margin-top:3px;line-height: 1;
 }
 .seach_jingxuan_news .product_tuijian ul {
     margin-left: -15px;
@@ -3025,6 +3025,7 @@ footer .bottom .text a {
 /*产品详情页 start*/
 
 .product_detail_2020{}
+.product_detail_2020 h2{color: #212121}
 .product_detail_2020 .top_crumbs{}
 .product_detail_2020 .top_crumbs,.news_detail_2020 .top_crumbs{width: 100%;height: 80px;}
 .product_detail_2020 .top_crumbs a:first-child,.news_detail_2020 .top_crumbs a:first-child{padding-left: 0px}
@@ -3065,11 +3066,12 @@ footer .bottom .text a {
 .product_detail_2020 .p_detail_content{}
 .product_detail_2020 .p_detail_content .text{background-color: #F5F5F5;padding: 60px 0;}
 .product_detail_2020 .p_detail_content .text p{font-size: 16px;line-height: 2}
-.product_detail_2020 .p_detail_content .text p strong{font-size: 20px;}
+.product_detail_2020 .p_detail_content .text p strong{font-size: 20px;color: #212121}
 
 /*产品详情和新闻详情，关键词公用模块*/
 .commom_keywords_top{}
 .commom_keywords_top .top{padding-bottom: 25px;border-bottom: 1px solid #d8d8d8;line-height: 1;}
+.commom_keywords_top .title a {color: #212121}
 .commom_keywords_top .list{margin-top: 15px;overflow: hidden}
 .commom_keywords_top .list li {float: left;margin-right: 10px;
     line-height: 40px}
