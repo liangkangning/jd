@@ -24,6 +24,7 @@ class Visitors
         $address = $this->GetIpFrom();
         $froms = $address[0];
         $ip = $address[1];
+        Yii::$app->params['ip'] = $ip;
         #获取浏览器和系统类型
 
         $broswer = $this->get_broswer();
