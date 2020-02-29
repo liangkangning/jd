@@ -7,7 +7,7 @@
 
 namespace common\helpers;
 
-
+use Yii;
 /**
  * ArrayHelper provides additional array functionality that you can use in your
  * application.
@@ -57,6 +57,10 @@ class Visitors
 //        if($res>2){
 //            exit('Sorry... You visited the number more than 10000 times today, and the access denied!');
 //        }
+
+//        获取url的属性个数，用于判断属性组合
+        $shuxing = explode("-", Yii::$app->request->url);
+
         #获取到的信息放入数据库
         $visitors = new \common\models\Visitors();
         $visitors->ip = $ip;
@@ -67,6 +71,7 @@ class Visitors
         $visitors->pageview = $url;
         $visitors->source_link = $source_link;
         $visitors->type = $is_zhizhu;
+        $visitors->level = $shuxing;
         $visitors->save();
     }
     //获取浏览器信息
