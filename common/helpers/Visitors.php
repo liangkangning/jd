@@ -59,7 +59,8 @@ class Visitors
 //        }
 
 //        获取url的属性个数，用于判断属性组合
-        $shuxing = explode("-", Yii::$app->request->url);
+        $shuxing = count(explode("-", Yii::$app->request->url));
+
 
         #获取到的信息放入数据库
         $visitors = new \common\models\Visitors();
