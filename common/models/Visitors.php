@@ -16,6 +16,7 @@ use Yii;
  * @property string $pageview
  * @property string $source_link
  * @property integer $type
+ * @property integer $level
  */
 class Visitors extends \yii\db\ActiveRecord
 {
