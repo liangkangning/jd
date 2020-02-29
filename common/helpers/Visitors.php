@@ -61,7 +61,7 @@ class Visitors
 //        }
 
 //        获取url的属性个数，用于判断属性组合
-        $shuxing = count(explode("-", Yii::$app->request->url));
+        $shuxing = count(explode("-", Yii::$app->request->url))-1;
 
 
         #获取到的信息放入数据库
@@ -78,7 +78,7 @@ class Visitors
         $visitors->save();
 
         $black = VisitorsBlacklist::find()->where(['ip' => $ip])->one();
-        if ($black && $shuxing>4){
+        if ($black && $shuxing>=4){
             throw new \yii\web\NotFoundHttpException('The requested page does not exist.');
         }
     }
