@@ -140,7 +140,7 @@ class TestController extends CommonController
                         $article->from = $res->from;
                         $article->article_from_id = $res->id;
                         $article->conlin = 2;
-                        $article->create_time = time()-rand(0,300);
+                        $article->create_time = time()+ $i*30 + rand(0,15);
                         $article->category_id = 38;//电池知识
 
                         $admin = Admin::find()->where(['username'=>$data['edit'][rand(0,$edit_num-1)]])->one();
