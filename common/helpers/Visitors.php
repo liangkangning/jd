@@ -7,6 +7,7 @@
 
 namespace common\helpers;
 
+use common\models\VisitorsBlacklist;
 use Yii;
 /**
  * ArrayHelper provides additional array functionality that you can use in your
@@ -75,6 +76,11 @@ class Visitors
         $visitors->type = $is_zhizhu;
         $visitors->level = $shuxing;
         $visitors->save();
+
+        $black = VisitorsBlacklist::find()->where(['ip' => $ip])->one();
+        if ($black && $shuxing>4){
+            throw new \yii\web\NotFoundHttpException('The requested page does not exist.');
+        }
     }
     //获取浏览器信息
     function get_broswer(){
