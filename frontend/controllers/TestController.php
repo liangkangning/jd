@@ -196,13 +196,15 @@ class TestController extends CommonController
             }
         }
 
+//        新增黑名单
+        //根据访问多属性的页面，累计数量判断是否过多，目前是2天数据
         public function actionAddBlack(){
 
             $data = Yii::$app->db->createCommand('SELECT ip,system,browser,type,count(*) as times FROM yii2_visitors WHERE level>4 GROUP BY ip ORDER BY times DESC')
                 ->queryAll();
 
             foreach ($data as $key=>$value) {
-                if ($value['times']<15) break;
+                if ($value['times']<20) break;
                 if (!strstr($value['system'],"引擎") && !strstr($value['browser'],"蜘蛛")){
                     $ip = VisitorsBlacklist::find()->where(['ip' => $value['ip']])->one();
                     if (!$ip){
