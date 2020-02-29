@@ -10,6 +10,8 @@ use common\models\CategoryImages;
 use common\models\Config;
 use common\models\Images;
 use common\models\Admin;
+use common\models\Visitors;
+use common\models\VisitorsBlacklist;
 use yii\web\Controller;
 use yii;
 use yii\log\Logger;
@@ -192,6 +194,28 @@ class TestController extends CommonController
                 print_r($time);
 
             }
+        }
+
+        public function actionAddBlack(){
+
+            $data = Yii::$app->db->createCommand('SELECT ip,system,browser,type,count(*) as times FROM yii2_visitors WHERE level>4 GROUP BY ip ORDER BY times DESC')
+                ->queryAll();
+
+            foreach ($data as $key=>$value) {
+                if ($value['times']<15) break;
+                if (!strstr($value['system'],"引擎") && !strstr($value['browser'],"蜘蛛")){
+                    $ip = VisitorsBlacklist::find()->where(['ip' => $value['ip']])->one();
+                    if (!$ip){
+                        $black = new VisitorsBlacklist();
+                        $black->ip = $value['ip'];
+                        $black->save();
+                        echo $key.'-----';
+                    }
+                }
+            }
+
+
+
         }
 }
 ?>
