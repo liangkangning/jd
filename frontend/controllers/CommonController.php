@@ -121,8 +121,8 @@ class CommonController extends Controller
                 throw new \yii\web\NotFoundHttpException('The requested page does not exist.');
             }
         }
-//        \Yii::$app->db->schema->refresh();
-//        (new Visitors())->index();//用户访问统计和限制
+        \Yii::$app->db->schema->refresh();
+        (new Visitors())->index();//用户访问统计和限制
         //钜大至今的年份
         $year=date('Y',time())-'2002';
         Yii::$app->params['year']=$year;
