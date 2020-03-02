@@ -187,19 +187,19 @@ $(function(){
 
     $('#nav_bar .navlist .active').hover(
         function () {
-            $('#nav_bar .allnav .list').hide();
+            // $('#nav_bar .allnav .list').hide();
         },
         function () {
             var top = $('#nav_bar.fix_top');
             var nav_tree = $('#nav_tree');
             console.log(top.length);
             if (top.length==0&&nav_tree.length>0){
-                $('#nav_bar .allnav .list').show();
+                // $('#nav_bar .allnav .list').show();
             }
         }
     );
 
-    $('#nav_bar .allnav').hover(
+    $('#nav_bar.fix_top .allnav').hover(
         function () {
             $('#nav_bar .allnav .list').show();
         },

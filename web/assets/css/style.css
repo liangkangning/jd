@@ -267,7 +267,7 @@ header nav .allnav .text {background-color: #FA9600;padding: 0 20px;color: #FFFF
 header nav .allnav .text p {}
 header nav .allnav .text p span {float: right;line-height: 40px;}
 
-header nav .allnav .list{position: absolute;top: 60px;  background-color: rgba(0,0,0,0.8);width: auto;display: none;z-index: 9999}
+header nav .allnav .list{position: absolute;top: 60px;  background-color: rgba(0,0,0,0.4);width: auto;display: none;z-index: 9999}
 
 
 header nav #nav_tree .list{display: block;z-index: 99999;}

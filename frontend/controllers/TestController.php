@@ -197,7 +197,7 @@ class TestController extends CommonController
         }
 
 //        新增黑名单
-        //根据访问多属性的页面，累计数量判断是否过多，目前是2天数据
+        //根据访问多属性的页面，累计数量判断是否过多，目前是10分钟数据
         public function actionAddBlack(){
 
             $data = Yii::$app->db->createCommand('SELECT ip,system,browser,type,add_time,count(*) as times FROM yii2_visitors WHERE from_unixtime(add_time) >=DATE_SUB(NOW(),INTERVAL 10 MINUTE) and level>4 GROUP BY ip ORDER BY times DESC')

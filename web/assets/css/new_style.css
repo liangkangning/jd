@@ -259,7 +259,7 @@ header nav .allnav .list .title a {
 }
 header nav .allnav .list .item_list ul li .item a {
     font-size: 16px;
-    color: #B4B5B5;
+    color: #DCDCDD;
 }
 header .header_top .right_part {
     font-size: 14px;
@@ -323,7 +323,7 @@ header nav .navlist .item_list {
     left: 0;
     width: 100%;
     background-color: #f5f5f5;
-    z-index: 999;
+    z-index: 99999;
     border-top: 1px solid #d8d8d8;
 }
 header nav .navlist .item_list .child_item {
@@ -2323,7 +2323,7 @@ footer .bottom .text a {
     width: 90px;
     height: 90px;
     border-top: 1px solid #717070;
-    background-color: rgba(30, 30, 30, 0.9);
+    background-color: rgba(113,112,112, 0.9);
 }
 
 .left_zixun li .img1{display: block}
