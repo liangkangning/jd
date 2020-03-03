@@ -663,7 +663,7 @@ header .search_form_head .search_form .form-label {
     height: 20px;
     position: absolute;
     bottom: 30px;
-    right: 30%;
+    right: 40%;
     z-index: 999;
     -webkit-transition: all 0.5s ease-in;
     -moz-transition: all 0.5s ease-in;
@@ -671,7 +671,7 @@ header .search_form_head .search_form .form-label {
 }
 .index .case-list .item:hover .arrow {
     opacity: 1;
-    right: 5%;
+    right: 50px;
 }
 .index .shili .shuzi {
     background: url("/assets/images/33.jpg") no-repeat;
