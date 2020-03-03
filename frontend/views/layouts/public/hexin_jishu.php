@@ -9,6 +9,7 @@
                 <div class="item relative">
                     <div class="to_black">
                         <div class="img"><img src="/assets/images/hexinjishu_1.jpg" alt=""></div>
+                        <div class="top_bg"></div>
                         <div class="top"><p>4<span>高</span></p></div>
                         <div class="text">
                             <div class="title">高能量密度
@@ -31,6 +32,7 @@
                 <div class="item relative">
                     <div class="to_black">
                         <div class="img"><img src="/assets/images/hexinjishu_2.jpg" alt=""></div>
+                        <div class="top_bg"></div>
                         <div class="top"><p>2<span>低</span></p></div>
                         <div class="text">
                             <div class="title">低温充电
@@ -48,6 +50,7 @@
                 <div class="item relative">
                     <div class="to_black">
                         <div class="img"><img src="/assets/images/hexinjishu_3.jpg" alt=""></div>
+                        <div class="top_bg"></div>
                         <div class="top"><p>1<span>防爆</span></p></div>
                         <div class="text">
                             <div class="title">满足EX ia\ib IIA</div>
