@@ -53,7 +53,7 @@ $listUrlL='/'.$this->params['action'].'/';
                             <?php $chooseIdArray= $this->params['chooseIdArray']?>
                             <div class="item pull-left">
                                 <a href="javascript:location.href='<?=\common\helpers\UrlHelp::ProductChooseAttr($this->params['action'],$chooseIdArray,$key,$this->params['order'])?>';" rel="nofollow">
-                                    <?=$value['attr']['name']?>:
+                                   <i><?=$value['attr']['name']?>:</i>
                                 <b><?=$value['name']?>  X</b>
                               </a>
                             </div>
