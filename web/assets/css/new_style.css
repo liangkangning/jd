@@ -1658,7 +1658,7 @@ header .search_form_head .search_form .form-label {
 }
 .product-list-index .product-content .text p {
     line-height: 1.8;
-    margin-bottom: 10px;
+    margin: 10px 0;
     color: #DCDCDD;
 }
 
