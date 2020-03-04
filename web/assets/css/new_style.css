@@ -1659,6 +1659,11 @@ header .search_form_head .search_form .form-label {
 .product-list-index .product-content .text p {
     line-height: 1.8;
     margin-bottom: 10px;
+    color: #DCDCDD;
+}
+
+.product-list-index .product-content .text tbody tr td{
+    border: 1px #9E9F9F solid;
 }
 .case-index .case_list {
     background-color: #f5f5f5;
