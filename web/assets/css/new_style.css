@@ -1647,6 +1647,7 @@ header .search_form_head .search_form .form-label {
 .product-list-index .product-content {
     position: relative;
 }
+.product-list-index .product-content>.img img{height: 350px;}
 .product-list-index .product-content .text {
     color: #FFFFFF;
     width: 100%;
