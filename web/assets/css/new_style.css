@@ -1661,6 +1661,7 @@ header .search_form_head .search_form .form-label {
     line-height: 1.8;
     margin: 10px 0;
     color: #DCDCDD;
+    padding: 0 15px;
 }
 
 .product-list-index .product-content .text tbody tr td{
