@@ -508,6 +508,16 @@ class CommonController extends Controller
 
     }
 
+    public function getCache($value){
+        return Yii::$app->cache->get($value);
+    }
+
+    public function setCache($key,$value){
+        Yii::$app->cache->set($key, $value, $this->cache_time);
+        return $value;
+    }
+
+
 
 
 }
