@@ -70,7 +70,7 @@ class CommonController extends Controller
 
 
     public $controllerName;
-
+    public $cache_time = 600;//缓存时间
 
 
     public $nav_tree=array('special','case','gongsixinwen','dianchizhunati','hangyezixun','zhishi','diwen','detail','kuanwen','taisuanli','fanbao','search','libattery','juhewu','blog'
