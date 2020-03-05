@@ -14,6 +14,7 @@ namespace phone\controllers;
 
 
 
+use common\helpers\Visitors;
 use common\models\Article;
 
 
@@ -25,7 +26,7 @@ use common\models\Blog;
 use common\models\CategoryImages;
 
 
-
+use common\models\Config;
 use common\models\Images;
 
 
@@ -79,6 +80,23 @@ class CommonController extends Controller
     ,'chuneng','lilizi','ironicphosphate','dongli','tezhong','junjing','robots','yiliao','gongye','yingji','shangyong','xiaofei','zhineng','industrial','zhuanti','changjianwenti','lifepo4');//判断是否现实树形的分类
 
     public function common(){
+        $config = $this->getCache('config') ?: $this->setCache('config',Config::find()->asArray()->all());
+        foreach ($config as $key=>$value){
+            Yii::$app->params['web'][$value['name']]=$value['value'];
+
+        }
+        $firewall =  Yii::$app->params['web']['firewall'];
+        if ($firewall=='open'){
+            //超过5个属性的就直接跳到404,非常时期才使用
+            $shuxing = explode("-", Yii::$app->request->url);
+            if (count($shuxing)>=6){
+                throw new \yii\web\NotFoundHttpException('The requested page does not exist.');
+            }
+        }
+        \Yii::$app->db->schema->refresh();
+        (new Visitors())->index();//用户访问统计和限制
+
+
         //钜大至今的年份
         $year=date('Y',time())-'2002';
         Yii::$app->params['year']=$year;
