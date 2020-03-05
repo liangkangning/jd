@@ -2,7 +2,7 @@ User-agent:*
 Disallow: /*?*
 Disallow: /*%*
 Disallow: /*php*
-Disallow: /*/list-*-*-*-*.html
+Disallow: /*/list-*-*-*.html
 User-agent: YisouSpider
 Disallow: /
 

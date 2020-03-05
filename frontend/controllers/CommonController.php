@@ -303,10 +303,11 @@ class CommonController extends Controller
 
 //        $randAtricle=Yii::$app->db->createCommand("SELECT id,title,description,create_time FROM yii2_article where category_id in (36,37,38) ORDER BY RAND() LIMIT 11")->queryAll();;
 
+
         //点击最高的资讯
         $data=Yii::$app->cache->get('randAtricle');
         if ($data === false){
-            $randAtricle=Article::find()->where(['status'=>1])->limit(12)->orderBy('click desc')->where(['>','category_id',0])->all();
+            $randAtricle = Article::find()->where(['status'=>1])->limit(12)->orderBy('RAND()')->where(['>','category_id',0])->andWhere(['>','create_time',strtotime('-5 month', time())])->all();
             Yii::$app->cache->set('randAtricle',$randAtricle,86400);
         }else{
             $randAtricle=$data;
