@@ -55,7 +55,7 @@ class Visitors
         }
 
         #限制ip访问次数
-        $res = \common\models\Visitors::find()->where(['ip'=>$ip])->andWhere(['>','add_time',strtotime('today')])->count();
+//        $res = \common\models\Visitors::find()->where(['ip'=>$ip])->andWhere(['>','add_time',strtotime('today')])->count();
 //        if($res>2){
 //            exit('Sorry... You visited the number more than 10000 times today, and the access denied!');
 //        }
