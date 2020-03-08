@@ -118,11 +118,15 @@ class CommonController extends Controller
             //超过5个属性的就直接跳到404,非常时期才使用
             $shuxing = explode("-", Yii::$app->request->url);
             if (count($shuxing)>=6){
-                throw new \yii\web\NotFoundHttpException('The requested page does not exist.');
+                ob_start();
+                //返回503状态码
+                header('HTTP/1.1 503 Service Temporarily Unavailable');
+                header('Status: 503 Service Temporarily Unavailable');
+                exit;
             }
         }
-        \Yii::$app->db->schema->refresh();
-        (new Visitors())->index();//用户访问统计和限制
+//        \Yii::$app->db->schema->refresh();
+//        (new Visitors())->index();//用户访问统计和限制
         //钜大至今的年份
         $year=date('Y',time())-'2002';
         Yii::$app->params['year']=$year;

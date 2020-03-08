@@ -304,10 +304,10 @@ use \yii\helpers\Html;
         </div>
         <div class="list section">
             <div class="left">
-                <div class="img"><a href="<?= Yii::$app->params['index-news'][0][0]['url'] ?>"><img src="<?= Yii::$app->params['index-news'][0][0]['imageUrl'] ?>" alt="<?= Yii::$app->params['index-news'][0][0]['title']?>"></a></div>
+                <div class="img"><a href="<?= Yii::$app->params['index_tetui']['url'] ?>"><img src="<?= Yii::$app->params['index_tetui']['imageUrl'] ?>" alt="<?= Yii::$app->params['index_tetui']['title']?>"></a></div>
                 <div class="text section50">
-                    <div class="title"><a href="<?= Yii::$app->params['index-news'][0][0]['url'] ?>"><?= Yii::$app->params['index-news'][0][0]['title']?></a></div>
-                    <div class="p"><p><?= Yii::$app->params['index-news'][0][0]['description'] ?></p></div>
+                    <div class="title"><a href="<?= Yii::$app->params['index_tetui']['url'] ?>"><?= Yii::$app->params['index_tetui']['title']?></a></div>
+                    <div class="p"><p><?= Yii::$app->params['index_tetui']['description'] ?></p></div>
                     <div class="line"><span>1</span></div>
                 </div>
             </div>
