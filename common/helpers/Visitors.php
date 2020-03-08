@@ -65,8 +65,11 @@ class Visitors
 
         $black = VisitorsBlacklist::find()->where(['ip' => $ip])->one();
         if ($black && $shuxing>=4){
-            throw new \yii\web\NotFoundHttpException('The requested page does not exist.');
-            die();
+            ob_start();
+            //返回503状态码
+            header('HTTP/1.1 503 Service Temporarily Unavailable');
+            header('Status: 503 Service Temporarily Unavailable');
+            exit;
         }
 
         #获取到的信息放入数据库

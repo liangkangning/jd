@@ -9,7 +9,7 @@ $news_nav_tuijian = [
 ];
 
 $controller_name =  Yii::$app->controller->id;
-if ($controller_name=="news"||$controller_name=="product"){
+if ($controller_name=="news"||$controller_name=="product" || $controller_name=="keywords"){
     $news_list = [
         'company' => $news_nav_tuijian['company'],
         'new' => $news_nav_tuijian['new'],

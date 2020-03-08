@@ -132,9 +132,9 @@ class KeywordsController extends CommonController
 
             $search=StringHelper::filterKeyword($keyw['keyword']);
 //            查询符合的id
-            $case_key=Article::find()->where(['category_id'=>[29,30,31,32]])->andWhere(['like','title',$search])->select('id')->limit(8)->asArray()->all();
+            $case_key=Article::find()->where(['category_id'=>[29,30,31,32]])->andWhere(['like','title',$search])->select('id')->limit(3)->asArray()->all();
             $case_key_id=ArrayHelper::getColumn($case_key,'id');
-            $num=8-count($case_key_id);
+            $num=3-count($case_key_id);
             $rand_id=ArrayHelper::getColumn(Article::find()->where(['category_id'=>[29,30,31,32]])->andWhere(['not in','id',$case_key_id])->orderBy('Rand()')->limit($num)->all(),'id');
             $case_all_id=array_merge($case_key_id,$rand_id);
             //根据id的顺序查找到数据

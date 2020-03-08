@@ -3115,3 +3115,42 @@ footer .bottom .text a {
 
 /*首页视频*/
 .video_index{background-color: #F5F5F6;padding-top: 90px;}
+
+/*聚合页首页*/
+.key_index{background-color: #F5F5F5;padding-bottom: 88px;}
+.key_index .cate_list{}
+.key_index .cate_list h1{text-align: left}
+.key_index .cate_list .list{background-color: #FFFFFF}
+.key_index .cate_list .list ul{padding: 50px 0px 50px 60px;}
+.key_index .cate_list .list ul li{text-align: left;width: 188px;}
+/*聚合页item页面*/
+.keywords_item_2020{}
+.keywords_item_2020 .category_ad{position: relative;}
+.keywords_item_2020 .category_ad img{vertical-align: middle;width: auto}
+.keywords_item_2020 .category_ad .text{text-align: center;width: 100%;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);color: #FFFFFF}
+.keywords_item_2020 .category_ad .text h1{font-size: 28px;}
+.keywords_item_2020 .category_ad .text p{font-size: 16px;margin-top: 18px;}
+.keywords_item_2020 .keywords_filter{margin-top: 23px;}
+.keywords_item_2020 .keywords_filter ul{width: 100%;border-bottom: 1px solid #EEEFEF;overflow: hidden;}
+.keywords_item_2020 .keywords_filter ul li{margin-right: 43px;overflow: hidden;display: inline-block;padding: 18px 0 13px 0}
+.keywords_item_2020 .keywords_filter ul li:last-child{margin-right: 0;}
+.keywords_item_2020 .keywords_filter ul li:first-child{font-weight: bold;width: 80px;}
+.keywords_item_2020 .keywords_filter ul li a{float: left}
+.keywords_item_2020 .keywords_filter ul li a:hover,.keywords_item_2020 .keywords_filter ul li a.current{color: #FA9600}
+
+.keywords_item_2020 .product-list-index .product-list .top{margin: 30px 0 25px 0;}
+.keywords_item_2020 .top_part{overflow: hidden}
+.keywords_item_2020 .top_part .p1 .title{border-bottom: 1px solid #d8d8d8;}
+.keywords_item_2020 .top_part .p1 .title h2{line-height: 1;padding-bottom: 21px;}
+.keywords_item_2020 .top_part .p1 .p{padding: 36px 0;line-height: 2;border-bottom: 1px dashed #c8c9c9; }
+.keywords_item_2020 .top_part .xiangguan_news{}
+.keywords_item_2020 .top_part .xiangguan_news li{margin-bottom: 25px;}
+.keywords_item_2020 .top_part .xiangguan_news li .title{font-size: 20px;margin-bottom: 8px;}
+.keywords_item_2020 .top_part .xiangguan_news li .title a{color: #212121}
+.keywords_item_2020 .top_part .xiangguan_news li .p{padding-right: 25px;}
+.keywords_item_2020 .xiangguan_anli{}
+.keywords_item_2020 .xiangguan_anli .title{}
+.keywords_item_2020 .xiangguan_anli .title h2{font-size: 24px; }
+
+
+
