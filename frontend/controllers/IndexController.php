@@ -49,6 +49,7 @@ class IndexController extends CommonController
     }
     public function actionIndex()
     {
+
         parent::common();
         $tezhong=parent::ca_lujin_image_list(8,8,'sort DESC');
         $tezhong_tree=ArrayHelper::CategoryList(8);
@@ -89,6 +90,11 @@ class IndexController extends CommonController
         $this->view->params['tezhong_tree']=$tezhong_tree;
         $this->view->params['gongye_tree']=$gongye_tree;
         $this->view->params['gongye']=$gongye;
+
+//        首页新闻图，特荐
+        Yii::$app->params['index_tetui'] = Article::find()->where(['like', 'np','a'])->andWhere(['in','category_id',['34','35','36','37','38']])->one();
+
+
 
 
 

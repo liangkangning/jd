@@ -3152,5 +3152,20 @@ footer .bottom .text a {
 .keywords_item_2020 .xiangguan_anli .title{}
 .keywords_item_2020 .xiangguan_anli .title h2{font-size: 24px; }
 
-
-
+/*搜索页*/
+.search_index_2020{}
+.search_index_2020 .search{position: relative}
+.search_index_2020 .search img{vertical-align: center;height: 200px;}
+.search_index_2020 .search .form{text-align: center;width: 100%;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);}
+.search_index_2020 .search .form form{display: inline-block}
+.search_index_2020 .search .form .input{height: 50px;width: 880px;outline: 0;border: none;outline: 0;padding-left: 15px;}
+.search_index_2020 .search .form .search_ico{width: 30px;display: block;height: 40px;line-height: 40px;text-align: right;position: absolute;right: 1px;top: 5px}
+.search_index_2020 .search .form .search_ico:before {
+    content: '';background: url(/assets/images/search_ico.png) no-repeat;position: absolute;z-index: 2;width: 32px;height: 26px;top: 1px;right: 11px;cursor:pointer;top: 10px;
+}
+.search_index_2020 .search_nav{}
+.search_index_2020 .search_nav ul{overflow: hidden;height: 80px;}
+.search_index_2020 .search_nav ul li{padding-right: 92px;float: left;display: inline-block}
+.search_index_2020 .search_nav ul li a{font-size: 16px; position: relative;line-height: 80px;display: inline-block;color: #212121}
+.search_index_2020 .search_nav ul li a.active:after{position: absolute;bottom: 0px;height: 2px;background: #FA9600;content: "";opacity: 1;left: 0;width: 100%;}
+.search_index_2020 .content{padding: 70px 0;background-color: #F5F5F5}

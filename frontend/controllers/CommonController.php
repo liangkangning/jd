@@ -37,7 +37,7 @@ class CommonController extends Controller
 
     public $is_zhizhu=1;
     public $cache_time = 600;//缓存时间
-    public $nav_tree=array('index','special','case','gongsixinwen','dianchizhunati','hangyezixun','zhishi','diwen','detail','kuanwen','taisuanli','fanbao','search',
+    public $nav_tree=array('index','special','case','gongsixinwen','dianchizhunati','hangyezixun','zhishi','diwen','detail','kuanwen','taisuanli','fanbao',
         'libattery','juhewu','chuneng','lilizi','ironicphosphate','dongli','tezhong','junjing','robots','yiliao','gongye','yingji','shangyong','xiaofei','zhineng','industrial','zhuanti','changjianwenti','lifepo4');//判断是否现实树形的分类
 
     public function init(){
