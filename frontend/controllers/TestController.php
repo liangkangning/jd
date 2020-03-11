@@ -215,9 +215,14 @@ class TestController extends CommonController
                     }
                 }
             }
+        }
 
-
-
+        /**
+         * 手动清除缓存
+         */
+        public function actionClearCache(){
+            Yii::$app->cache->flush();
+            echo '清理成功';
         }
 }
 ?>
