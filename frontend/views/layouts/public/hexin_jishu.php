@@ -36,7 +36,7 @@
                         <div class="top"><p>2<span>低</span></p></div>
                         <div class="text">
                             <div class="title">低温充电
-                                <p>-40℃低温0.2℃充电</p>
+                                <p>-40℃低温0.2C充电</p>
                             </div>
                             <div class="title">
                                 低温放电
