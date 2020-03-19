@@ -140,8 +140,17 @@ class Category extends \common\core\BaseActiveRecord
 
     public function getUrl(){
 
-        return '/' . $this->name . '/';
+        $url = '/' . $this->name . '/';
+        if ($this->pid==34){
+            $url = '/news/' . $this->name . '.html';
+        }
+        return $url;
     }
 
+    public static function NewsNavList(){
+        $news_nav = Category::find()->where(['pid' => 34])->all();
+        $news_nav[] = ['title' => '热门新闻', 'url' => '/news/hot.html','name'=>"hot"];
+        return $news_nav;
+    }
 
 }

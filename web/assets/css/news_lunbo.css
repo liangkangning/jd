@@ -1,0 +1,33 @@
+/* news_slide 新闻首页轮播 */
+.news_slide,.news_slide li{width:1200px;height:440px;background-color:#fbfbfb;}
+.news_slide{overflow:hidden;border:1px #ededed solid;position:relative;margin:40px auto 0 auto;}
+.news_slide li{position:absolute;overflow:hidden;display:none;}
+.news_slide li.current{display:block;}
+.news_slide li .image{position:absolute;top:0;left:0;}
+.news_slide li .text{
+    bottom:0;overflow:hidden;background-color:rgba(0,0,0,0.2);
+    width:386px;float:right;position:relative;height:440px;filter:none;text-indent:0;padding:50px 57px;
+}
+.news_slide li .text a{color:#fff;font-size:14px;line-height:17px;float:left;}
+.news_slide li img{width:100%;height:auto;}
+.news_slide li .text .title a{font-size:32px;font-weight:700;color:#ffffff;line-height:1.5;text-indent:0;float:none;}
+.news_slide li .text p{color:#efefef;font-size:14px;text-indent:0;clear:both;line-height:1.8;margin-top:4px;}
+.news_slide li .text .page{position: absolute;bottom: 35px;color: #ffffff;left: 169px;font-size: 16px;font-family: Arial;}
+.news_slide li .text .page span{font-size: 20px;color: #ffffff}
+
+.news_slide .triggers{position:absolute;z-index:1;width:400px;text-align:center;bottom:10px;height:38px;right:0;left:0;padding:0 0 8px;}
+.news_slide .triggers a{font-size:11px;line-height:12px;color:#000;overflow:hidden;border-radius:1px;-webkit-text-size-adjust:none;float:none;width:62px;height:42px;text-align:center;display:inline-block;background:0;margin:0 3px 0 0;}
+.news_slide .triggers a:hover{text-decoration:none;}
+.news_slide .triggers a img{width:58px;height:38px;border:1px #999 solid;vertical-align:middle;opacity:.6;}
+.news_slide .triggers a.current img{border:2px #2fac00 solid;opacity:1;}
+
+.news_slide .icon-dot{display:inline-block;position:absolute;bottom:20px;right:43px;}
+.news_slide .icon-dot a{width:9px;height:9px;display:inline-block;background-repeat:no-repeat;background-position:-1px -1px;overflow:hidden;margin:0 2px;}
+.news_slide .icon-dot a.current{background-position:-1px -12px;}
+
+.news_slide .pre_next{display:inline-block;position:absolute;bottom:73px;right:330px;}
+
+.news_slide .link-watch{width:30px;height:30px;position:absolute;top:7px;filter:alpha(opacity=60);cursor:pointer;}
+.news_slide .link-watch.pre{left:0;background:url(../images/left_ioc.png) no-repeat;}
+.news_slide .link-watch.next{left:242px;right:0;background-position:right -57px;background:url(../images/right_ioc.png) no-repeat;}
+/*.news_slide .link-watch.down{background-position-y:-2px;}*/

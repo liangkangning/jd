@@ -32,22 +32,22 @@ class NewsAsset extends AssetBundle
 
 {
 
-    public $sourcePath = '@common/metronic';
+//    public $sourcePath = '@common/metronic';
 
 
 
     /* 全局CSS文件 */
 
     public $css = [
-
-
-
+        'assets/css/news_lunbo.css',//新闻首页轮播
     ];
 
     /* 全局JS文件 */
     /* ft-carousel 新闻滚动 */
     public $js = [
         'layouts/layout3/scripts/ft-carousel.min.js',
+        'assets/js/news_index/prototype.js',//新闻首页轮播
+        'assets/js/news_index/ImageSlide.js',//新闻首页轮播
     ];
 
     /* 选项 */

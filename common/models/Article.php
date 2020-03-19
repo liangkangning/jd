@@ -133,6 +133,7 @@ class Article extends \common\core\BaseActiveRecord
        $url=Picture::find(['path'])->where(['id'=>$this->cover])->asArray()->one();
         return Yii::getAlias('@imagesUrl').'/'.$url['path'];
     }
+
     public function getUrl(){
         return \Yii::$app->urlManager->createUrl(
             ['news/detail','id'=>$this->id]

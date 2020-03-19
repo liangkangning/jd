@@ -1,9 +1,12 @@
 <?php
 namespace frontend\controllers;
 use common\helpers\ArrayHelper;
+use common\models\Article;
+use common\models\Category;
 use common\models\Images;
 use common\models\ImagesElasticsearch;
 use common\models\Keywords;
+use yii\caching\DummyCache;
 use yii\web\Controller;
 use Yii;
 class SearchController extends CommonController
@@ -87,14 +90,64 @@ class SearchController extends CommonController
         foreach ($count as $key=>$value){
             $c=$key+1;
         }
+
 //        var_dump($product_list);
         //        1.根据编号搜索
         $title = $search . $this->view->params['meta_title'];
         $this->view->params['meta_title'] = $title;
-        $this->view->params['count']=$c;
+        Yii::$app->params['count']=$c;
         $this->view->params['keyword']= Yii::$app->request->get('keyword');
-        $this->view->params['product_list']=$product_list;
-//        var_dump($product_list);
+
+
+
+        $type = Yii::$app->request->get('type') ?: "product";
+        if ($type=="product"){
+            Yii::$app->params['product_list']=new \yii\data\ActiveDataProvider([
+                'query' => $product_list,
+                'pagination'=>[
+                    'pageSize'=>12,
+                    'pageSizeParam' => false,
+                ],
+            ]);
+        }elseif ($type=="news"){
+            $ids = Category::find()->where(['pid' => 34])->column();
+            Yii::$app->params['news_list'] = new \yii\data\ActiveDataProvider([
+                'query' => Article::find()->where(['like', 'title', $search])->andWhere(['in','category_id',$ids]),
+                'pagination'=>[
+                    'pageSize'=>12,
+                    'pageSizeParam' => false,
+                ],
+            ]);
+            Yii::$app->params['count'] = Article::find()->where(['like', 'title', $search])->andWhere(['in', 'category_id', $ids])->count();
+        }elseif ($type=="case"){
+            $ids = Category::find()->where(['pid' => 28])->column();
+            array_push($ids, "28");
+            $query = Article::find()->where(['like', 'title', $search])->andWhere(['in', 'category_id', $ids]);
+            Yii::$app->params['case_list'] = new \yii\data\ActiveDataProvider([
+                'query' => $query,
+                'pagination'=>[
+                    'pageSize'=>12,
+                    'pageSizeParam' => false,
+                ],
+            ]);
+
+            Yii::$app->params['count'] = $query->count();
+        }
+
+        /**
+         * 如果没有搜索到内容的话，就显示点击量最高的8个产品
+         */
+        if (Yii::$app->params['count']==0 && $type=="product"){
+            Yii::$app->params['product_list'] = new \yii\data\ActiveDataProvider([
+                'query' => Images::find()->orderBy("click desc")->limit(8),
+                'pagination' => false,
+            ]);
+
+        }
+
+
         return $this->render('index',['data'=>$this->data]);
     }
+
+
 }
