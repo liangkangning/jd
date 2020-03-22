@@ -365,10 +365,15 @@ use \yii\helpers\Html;
                     </div>
                     <div class="share">
                         <ul>
-                            <dd class="col-md-3"><div class="ico"><a href="#"><img src="/assets/images/index_share_1.png" alt=""></a></div></dd>
-                            <dd class="col-md-3"> <div class="ico"><a href="#"><img src="/assets/images/index_share_2.png" alt=""></a></div></dd>
-                            <dd class="col-md-3"><div class="ico"><a href="#"><img src="/assets/images/index_share_3.png" alt=""></a></div></dd>
-                            <dd class="col-md-3"><div class="ico"><a href="#"><img src="/assets/images/index_share_4.png" alt=""></a></div></dd>
+                            <div class="bdsharebuttonbox">
+                                <dd class="col-md-3"><div class="ico"><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a></div></dd>
+                                <dd class="col-md-3"><div class="ico"><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a></div></dd>
+
+                                <dd class="col-md-3"><div class="ico"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a></div></dd>
+                                <dd class="col-md-3"><div class="ico"><a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a></div></dd>
+
+                            </div>
+                            <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
                         </ul>
                     </div>
                     <div class="erweima"><img src="/assets/images/index_share_wx.png" alt=""></div>

@@ -26,11 +26,11 @@ if ($type=="product"){
     <section class="search">
         <div class="img"><img src="<?= Yii::getAlias('@web/assets/images/search_bg.jpg')?>" /></div>
         <div class="form">
-            <form id="search_form" method="get&quot;&quot;" action="/search/" name="form">
+            <form id="search_form_index" method="get&quot;&quot;" action="/search/" name="form">
                 <div class="top">
                     <div class="input-group">
                         <input class="input" type="text" id="keywordInput" name="keyword" placeholder="搜索" value="<?=$keyword?>">
-
+                        <input class="input" type="hidden"  name="type"  value="<?=$type?>">
                         <i class="search_ico" id="topSearchButton"></i>
 
                     </div>
@@ -58,7 +58,7 @@ if ($type=="product"){
     <section class="content">
         <div class="container">
 <!--            产品列表-->
-            <?php if (isset(Yii::$app->params['product_list'])): ?>
+            <?php if ($type=="product"): ?>
                 <div class="product_list">
                     <div class="title">
                         <p>已为您找到<span><?=Yii::$app->params['count']?></span>件<?= $text?></p>
@@ -87,7 +87,7 @@ if ($type=="product"){
                 <?php endif;?>
 
 <!--            新闻列表-->
-            <?php if (isset(Yii::$app->params['news_list'])): ?>
+            <?php if ($type=="news"): ?>
                 <div class="news_list">
                     <div class="title">
                         <p>已为您找到<span><?=Yii::$app->params['count']?></span>条<?= $text?></p>
@@ -112,7 +112,7 @@ if ($type=="product"){
             <?php endif;?>
 
 <!--            案例列表-->
-            <?php if (isset(Yii::$app->params['case_list'])): ?>
+            <?php if ($type=="case"): ?>
                 <div class="case_list">
                     <div class="title">
                         <p>已为您找到<span><?=Yii::$app->params['count']?></span>个<?= $text?></p>

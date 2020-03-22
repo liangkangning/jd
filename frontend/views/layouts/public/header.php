@@ -346,8 +346,51 @@
                             <li>
                                 <div class="item"><a href="/make/">研发&制造  </a></div>
                             </li>
-                            <li>
+                            <li class="active">
                                 <div class="item"><a href="/news/">资讯中心</a></div>
+                                <div class="item_list">
+                                    <div class="container">
+                                        <div class="col-md-2 col-sm-2"></div>
+                                        <div class="child_item">
+                                            <div class="nav_img">
+                                                <a href="/news/gongsixinwen.html"><img src="/assets/images/nav_gongsixinwen.png" alt="公司新闻" title="公司新闻"></a>
+                                            </div>
+                                            <div class="text">
+                                                <a href="/news/gongsixinwen.html">公司新闻</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="child_item">
+                                            <div class="nav_img">
+                                                <a href="/news/jishuzixun.html"><img src="/assets/images/nav_dianchijishu.png" alt="电池技术" title="电池技术"></a>
+                                            </div>
+                                            <div class="text">
+                                                <a href="/news/jishuzixun.html">电池技术</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="child_item">
+                                            <div class="nav_img">
+                                                <a href="/news/xuangou.html"><img src="/assets/images/nav_dianchixuangou.png" alt="电池选购" title="电池选购"></a>
+                                            </div>
+                                            <div class="text">
+                                                <a href="/news/xuangou.html">电池选购</a>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="child_item">
+                                            <div class="nav_img">
+                                                <a href="/news/baoyang.html"><img src="/assets/images/nav_weihubaoyang.png" alt="维护保养" title="维护保养"></a>
+                                            </div>
+                                            <div class="text">
+                                                <a href="/news/baoyang.html">维护保养</a>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
                             </li>
                             <li>
                                 <div class="item"><a href="/about/">关于钜大   </a></div>

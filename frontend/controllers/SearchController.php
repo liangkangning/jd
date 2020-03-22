@@ -105,7 +105,7 @@ class SearchController extends CommonController
             Yii::$app->params['product_list']=new \yii\data\ActiveDataProvider([
                 'query' => $product_list,
                 'pagination'=>[
-                    'pageSize'=>12,
+                    'pageSize'=>16,
                     'pageSizeParam' => false,
                 ],
             ]);
@@ -114,11 +114,21 @@ class SearchController extends CommonController
             Yii::$app->params['news_list'] = new \yii\data\ActiveDataProvider([
                 'query' => Article::find()->where(['like', 'title', $search])->andWhere(['in','category_id',$ids]),
                 'pagination'=>[
-                    'pageSize'=>12,
+                    'pageSize'=>16,
                     'pageSizeParam' => false,
                 ],
             ]);
             Yii::$app->params['count'] = Article::find()->where(['like', 'title', $search])->andWhere(['in', 'category_id', $ids])->count();
+            /**
+             * 如果没有搜索到内容的话，就显示点击量最高的8个产品
+             */
+            if (Yii::$app->params['count']==0){
+                Yii::$app->params['news_list'] = new \yii\data\ActiveDataProvider([
+                    'query' => Article::find()->orderBy("click desc")->limit(12),
+                    'pagination' => false,
+                ]);
+
+            }
         }elseif ($type=="case"){
             $ids = Category::find()->where(['pid' => 28])->column();
             array_push($ids, "28");
@@ -139,11 +149,13 @@ class SearchController extends CommonController
          */
         if (Yii::$app->params['count']==0 && $type=="product"){
             Yii::$app->params['product_list'] = new \yii\data\ActiveDataProvider([
-                'query' => Images::find()->orderBy("click desc")->limit(8),
+                'query' => Images::find()->orderBy("sort desc")->limit(4),
                 'pagination' => false,
             ]);
 
         }
+
+
 
 
         return $this->render('index',['data'=>$this->data]);

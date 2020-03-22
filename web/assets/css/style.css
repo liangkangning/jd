@@ -260,7 +260,7 @@ header .dropdown-menu .menu-arrow{position: absolute;
 
 header .header_top{width: 100%;height:auto;margin-bottom: 38px;overflow: hidden}
 header nav {width: 100%;height: 40px;}
-header .fix_top nav { border-bottom: 1px solid #B4B5B5;}
+header .fix_top nav { }
 header.news_class nav,header.product_class nav{border-bottom: 1px solid #B4B5B5;}
 header nav .allnav {position: relative;width: 270px;}
 header nav .allnav .text {background-color: #FA9600;padding: 0 20px;color: #FFFFFF;height: 40px;line-height: 40px;}

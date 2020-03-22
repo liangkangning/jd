@@ -43,6 +43,10 @@ $(function(){
             // }, 800);
             // $('.search_form .input-wrap').animate({marginLeft:'0'},300);
             isTrue = false;
+
+            $(obj).find('input').trigger('focus'); //聚焦输入框
+
+
         }
         else{
             // $('.search_form').submit();
@@ -67,6 +71,14 @@ $(function(){
         }
         else{
         }
+    });
+
+
+    /**
+     * 搜索页面的提交事件
+     */
+    $('.search_index_2020 .search .search_ico').click(function () {
+        $('.search_index_2020 #search_form_index').submit();
     });
 
     /**
@@ -150,6 +162,8 @@ $(function(){
             }
         });
     }
+
+
 
 
     // $('#search_form').submit(function(e){
