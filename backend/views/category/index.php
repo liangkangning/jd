@@ -33,7 +33,7 @@ $columns = [
     [
         'header' => '名称',
         'attribute' => 'title',
-    	'content'=>function($model, $key, $index, $column) {return $model['style']=='image'?Html::a($model['title'],['/images/index/','ImagesSearch[category_id]'=>$model['id']]):Html::a($model['title'],['/article/index/','ArticleSearch[category_id]'=>$model['id']]);},
+    	'content'=>function($model, $key, $index, $column) {return $model['style']=='image'?Html::a($model['title'],['/images/index/','ImagesSearch[category_id2]'=>$model['id']]):Html::a($model['title'],['/article/index/','ArticleSearch[category_id]'=>$model['id']]);},
     ],
     [
         'header' => '标识',
