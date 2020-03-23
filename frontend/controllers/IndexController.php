@@ -92,7 +92,7 @@ class IndexController extends CommonController
         $this->view->params['gongye']=$gongye;
 
 //        首页新闻图，特荐
-        Yii::$app->params['index_tetui'] = Article::find()->where(['like', 'np','a'])->andWhere(['in','category_id',['34','35','36','37','38']])->one();
+        Yii::$app->params['index_tetui'] = Article::find()->where(['like', 'np','a'])->andWhere(['category_id'=>35])->one();//公司新闻，特荐
 
 
 
