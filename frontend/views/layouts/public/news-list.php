@@ -3,7 +3,7 @@
 use common\models\Article;
 
 $news_nav_tuijian = [
-    'company' => ['title'=>'公司新闻','url'=>'/news/gongsixinwen.html','data'=>Article::find()->where(['category_id'=>35])->andWhere(['status'=>1])->andWhere(['like','np','h'])->limit(3)->all()],
+    'company' => ['title'=>'公司新闻','url'=>'/news/gongsixinwen.html','data'=>Article::find()->where(['category_id'=>35])->andWhere(['status'=>1])->andWhere(['like','np','h'])->orderBy('sort desc')->limit(3)->all()],
     'related' => ['title'=>'相关资讯','url'=>'/news/','data'=>$this->params['randAtricle']],
     'new' => ['title'=>'最新资讯','url'=>'/news/','data'=>Yii::$app->params['new_news']],
 ];
