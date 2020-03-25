@@ -3250,7 +3250,7 @@ footer .bottom .text a {
 .new_index_2020 .common_seciton .top .more a:hover:after{content: '';background: url(/assets/images/more_ico_hover.png) no-repeat;position: absolute;right: -24px;bottom: 2px;z-index: 2;width: 32px;height: 16px;}
 .new_index_2020 .common_seciton .top .nav_title{font-size: 24px;float: left ;color: #212121}
 .new_index_2020 .common_seciton .top .more{float: right}
-.new_index_2020 .common_seciton .list{height: 426px;overflow: hidden;}
+.new_index_2020 .common_seciton .list{min-height: 426px;overflow: hidden;}
 
 .new_index_2020 .common_seciton .list .item{position: relative}
 .new_index_2020 .common_seciton .list .item .text{padding-left: 230px;font-size: 14px;line-height: 2;height: 124px;}
