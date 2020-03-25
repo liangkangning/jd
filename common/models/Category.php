@@ -148,7 +148,9 @@ class Category extends \common\core\BaseActiveRecord
     }
 
     public static function NewsNavList(){
+        $a = ['title' => '资讯首页', 'url' => '/news/','name'=>"news"];
         $news_nav = Category::find()->where(['pid' => 34])->all();
+        array_unshift($news_nav, $a);
         $news_nav[] = ['title' => '热门新闻', 'url' => '/news/hot.html','name'=>"hot"];
         return $news_nav;
     }

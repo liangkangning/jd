@@ -128,6 +128,7 @@ em, i, u{font-style: normal;}
 .fade-out:hover .text {
     opacity: 1;
 }
+
 .h1,
 .h2,
 .h3,
@@ -1129,17 +1130,9 @@ header .search_form_head .search_form .form-label {
     position: relative;
     padding-right: 15px;
 }
-.category-index .part .title .more a:after {
-    content: '';
-    background: url('/assets/images/more_ico.png') no-repeat;
-    /*兼容没测*/
-    position: absolute;
-    right: -25px;
-    bottom: 2px;
-    z-index: 2;
-    width: 32px;
-    height: 16px;
-}
+.category-index .part .title .more a:hover{color: #FA9600;}
+.category-index .part .title .more a:after {content: '';background: url('/assets/images/more_ico.png') no-repeat; /*兼容没测*/position: absolute;right: -25px;bottom: 2px;z-index: 2;width: 32px;height: 16px;}
+.category-index .part .title .more a:hover:after {content: '';background: url('/assets/images/more_ico_hover.png') no-repeat; /*兼容没测*/position: absolute;right: -24px;bottom: 2px;z-index: 2;width: 32px;height: 16px;}
 .category-index .part .left-part {
     width: 242px;
     padding-right: 15px;
@@ -3092,7 +3085,7 @@ footer .bottom .text a {
 .detail_common_h2 h2,.detail_common_h2 .h2,.product_detail_2020 .h2{    font-size: 24px;line-height: 1;color: #3e3938;}
 /*产品详情页 start*/
 
-.product_detail_2020{}
+.product_detail_2020
 .product_detail_2020 h2{color: #212121}
 .product_detail_2020 .top_crumbs{}
 .product_detail_2020 .top_crumbs,.news_detail_2020 .top_crumbs{width: 100%;height: 80px;}
@@ -3148,7 +3141,8 @@ footer .bottom .text a {
 .commom_keywords_top .list li a:hover{color: #FA9600;}
 
 /*新闻详情*/
-.news_detail_2020{}
+.news_detail_2020 section{overflow: hidden}
+.news_detail_2020 .before_next{overflow: hidden;margin-top: 52px;}
 
 .news_detail_2020 .swiper-container {width: 1200px;height: 260px;margin: 0px auto;}
 .news_detail_2020 .swiper-slide {
@@ -3161,7 +3155,9 @@ footer .bottom .text a {
 .news_detail_2020 .main_content h1{color: #231916;margin-top: 55px}
 .news_detail_2020 .main_content .title_part .text{color: #717071;margin: 25px 0 10px 0;}
 .news_detail_2020 .main_content .title_part .text .from{color: #B5B5B6}
-.news_detail_2020 .main_content .content{background-color: #FFFFFF;padding: 70px 100px}
+.news_detail_2020 .main_content .zaiyao{background-color: #FFFFFF;padding: 70px 100px;border-bottom: 1px solid #d8d8d8}
+.news_detail_2020 .main_content .zaiyao .text{ padding-left: 58px;}
+.news_detail_2020 .main_content .content{background-color: #FFFFFF;padding: 70px 100px;}
 .news_detail_2020 .main_content .content img{width: 100%;}
 .news_detail_2020 .main_content .content p{padding: 10px 0 ;line-height: 1.8}
 
@@ -3230,10 +3226,8 @@ footer .bottom .text a {
 .search_index_2020 .news_list .list ul li{padding: 50px 100px;border-bottom: 1px solid #d8d8d8;}
 .search_index_2020 .news_list .list ul li .item{height: auto;    position: relative;}
 .search_index_2020 .news_list .list ul li .item .text{padding-left: 193px;}
-.search_index_2020 .news_list .list ul li .item .time{width: 95px;position: absolute;left: 0px;top: 0px;color: #212121;text-align: right;font-family: Arial; }
+.search_index_2020 .news_list .list ul li .item .time{width: 95px;position: absolute;left: 0px;top: 0px;color: #555555;text-align: right;font-family: Arial; }
 .search_index_2020 .news_list .list a:hover{color: #FA9600}
-
-
 .search_index_2020 #fenye{background-color: #F5F5F5;padding-top: 40px; }
 
 
@@ -3250,17 +3244,13 @@ footer .bottom .text a {
 .new_index_2020 .common_seciton{}
 .new_index_2020 .common_seciton .top{height: 65px;border-bottom: 1px solid #d8d8d8;}
 .new_index_2020 .common_seciton .top a{line-height: 65px;position: relative;color: #212121;}
+.new_index_2020 .common_seciton .top a:hover{color: #FA9600;}
 .new_index_2020 .common_seciton .top .more a{padding-right: 10px;}
-.new_index_2020 .common_seciton .top .more a:after{    content: '';
-    background: url(/assets/images/more_ico.png) no-repeat;
-    position: absolute;
-    right: -25px;
-    bottom: 2px;
-    z-index: 2;
-    width: 32px;
-    height: 16px;}
+.new_index_2020 .common_seciton .top .more a:after{    content: '';background: url(/assets/images/more_ico.png) no-repeat;position: absolute;right: -25px;bottom: 2px;z-index: 2;width: 32px;height: 16px;}
+.new_index_2020 .common_seciton .top .more a:hover:after{content: '';background: url(/assets/images/more_ico_hover.png) no-repeat;position: absolute;right: -24px;bottom: 2px;z-index: 2;width: 32px;height: 16px;}
 .new_index_2020 .common_seciton .top .nav_title{font-size: 24px;float: left ;color: #212121}
 .new_index_2020 .common_seciton .top .more{float: right}
+.new_index_2020 .common_seciton .list{height: 426px;overflow: hidden;}
 
 .new_index_2020 .common_seciton .list .item{position: relative}
 .new_index_2020 .common_seciton .list .item .text{padding-left: 230px;font-size: 14px;line-height: 2;height: 124px;}
@@ -3273,6 +3263,7 @@ footer .bottom .text a {
 .new_index_2020 .common_seciton .list .item .title_time {position: relative;}
 .new_index_2020 .common_seciton .list .item .title_time a{color: #212121}
 .new_index_2020 .common_seciton .list .item .title_time .title{font-size: 16px;padding-right: 100px;}
+.new_index_2020 .common_seciton .list .item .title_time .title a:hover{color: #FA9600}
 .new_index_2020 .common_seciton .list .item .title_time .time{font-size: 14px;width: 100px;position: absolute;right: 0px;top: 0px;text-align: right}
 
 .new_index_2020 .common_seciton.col-md-12 li{width: 50%;float: left;}
@@ -3298,11 +3289,12 @@ footer .bottom .text a {
 .news_item_2020 .item_content .content ul li.is_text{padding: 50px 100px;}
 .news_item_2020 .item_content .content ul li.is_text .item{height: auto}
 .news_item_2020 .item_content .content ul li.is_text .item .text{padding-left: 193px;}
-.news_item_2020 .item_content .content ul li.is_text .item .time{width: 95px;position: absolute;left: 0px;top: 0px;color: #212121;text-align: right;font-family: Arial; }
+.news_item_2020 .item_content .content ul li.is_text .item .time{width: 95px;position: absolute;left: 0px;top: 0px;color: #555555;text-align: right;font-family: Arial; }
 .news_item_2020 .item_content #fenye{background-color: #F5F5F5;padding-top: 40px; }
 
     /*左右部分的空隙*/
 .new_index_2020 .left_right{}
+.new_index_2020 .left_right .part{}
 .new_index_2020 .left_right .part:nth-child(odd){padding-right: 55px;}/*奇数行*/
 .new_index_2020 .left_right .part:nth-child(even){padding-left: 55px;}/*偶数行*/
 

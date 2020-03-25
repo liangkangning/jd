@@ -11,7 +11,7 @@ $type = Yii::$app->request->get('type') ?: "product";
 $text = "";
 if ($type=="product"){
     if (Yii::$app->params['count']==0){
-        $text = "产品,为你推荐以下产品";
+        $text = "产品，为您推荐以下产品";
     }else{
         $text = "产品";
     }

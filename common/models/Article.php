@@ -54,7 +54,7 @@ class Article extends \common\core\BaseActiveRecord
     public function rules()
     {
         return [
-            [['title'],'unique'],
+            [['title','content'],'unique'],
             [['category_id', 'content','from'], 'required'],
             [['category_id', 'type', 'position', 'sort', 'create_time', 'update_time', 'status', 'category_id2', 'click','author_id'], 'integer'],
             [['content', 'extend','zonghui'], 'string'],
