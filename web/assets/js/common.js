@@ -132,15 +132,20 @@ $(function(){
                 $('#nav_bar #nav_tree .list').show();
             }
         });
-    })
+
+
+    });
+
     $('#JS_exp_fliter').click( function () {
         $('.disblock').toggle();
         if( $('#JS_exp_fliter span').text()=='收起 ∧'){
-            $('#JS_exp_fliter span').text('更多选项 ∨')
+            $('#JS_exp_fliter span').text('更多选项 ∨');
         }else {
-            $('#JS_exp_fliter span').text('收起 ∧')
+            $('#JS_exp_fliter span').text('收起 ∧');
         }
     });
+
+
 
     function index_news(e,obj) {
         var k=0;

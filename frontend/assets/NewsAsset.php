@@ -47,9 +47,7 @@ class NewsAsset extends AssetBundle
     /* ft-carousel 新闻滚动 */
     public $js = [
         'layouts/layout3/scripts/ft-carousel.min.js',
-
         'assets/js/swiper.js',//轮播需要
-        'assets/js/index.js',
         'assets/js/news_index/news.js',//新闻页面公用
         'assets/js/news_index/prototype.js',//新闻首页轮播
         'assets/js/news_index/ImageSlide.js',//新闻首页轮播

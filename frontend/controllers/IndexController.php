@@ -19,33 +19,16 @@ class IndexController extends CommonController
     public $layout = 'main';
     public function behaviors()
     {
-        $reference = parse_url( $_SERVER['HTTP_REFERER'] );
-        if ( stristr( $reference['host'], 'huowang.' ) ){
-            //来自于百度
-            return ArrayHelper::merge([
-                [
-                    'class' => Cors::className(),
-                    'cors' => [
-                        'Origin' => ['http://www.lidianchi.org/'],
-                        'Access-Control-Request-Method' => ['GET', 'HEAD', 'OPTIONS'],
-                    ],
+        return [
+            [
+                'class' => 'yii\filters\PageCache',
+                'duration' => 1200,
+                'variations' => [
+                    \Yii::$app->language,
                 ],
-            ], parent::behaviors());
 
-        }else{
-            return [
-                [
-                    'class' => 'yii\filters\PageCache',
-                    'duration' => 1200,
-                    'variations' => [
-                        \Yii::$app->language,
-                    ],
-
-                ],
-            ];
-        }
-
-
+            ],
+        ];
     }
     public function actionIndex()
     {
