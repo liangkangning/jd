@@ -3163,8 +3163,8 @@ footer .bottom .text a {
     -ms-flex-pack: center;-webkit-justify-content: center;justify-content: center;-webkit-box-align: center;-ms-flex-align: center;-webkit-align-items: center;align-items: center;
 }
 
-.news_detail_2020 .swiper-pagination-bullet{border: 1px solid #FEFEFE;background: none}
-.news_detail_2020 .swiper-pagination-bullet-active{background: #FEFEFE;}
+.news_detail_2020 .swiper-pagination-bullet{border: 1px solid #FEFEFE;background: none;opacity:0.5;}
+.news_detail_2020 .swiper-pagination-bullet-active{background: #FEFEFE;opacity:1;}
 .news_detail_2020 .swiper-container-horizontal > .swiper-pagination-bullets{right: 0px;width: 100px;left: auto;}
 
 .news_detail_2020 .main_content{background-color: #F5F5F5;padding-bottom: 88px;overflow: hidden}
