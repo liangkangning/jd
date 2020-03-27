@@ -214,7 +214,19 @@ h6 {
 /*下划线*/
 .border_bottom_line{position: relative;overflow: hidden}
 .border_bottom_line:after{position: absolute;left: 0;bottom: 0px;width: 100%;height: 2px;opacity: 1;background: #FA9600;content: "";}
-
+.border_bottom_line_hover{    position: relative;overflow: hidden;}
+.border_bottom_line_hover:hover:after{opacity: 1;left: 0;width: 100%;}
+.border_bottom_line_hover:after{
+    position: absolute;
+    left: 25%;
+    bottom: 0px;
+    width: 50%;
+    height: 2px;
+    opacity: 0;
+    background: #FA9600;
+    content: "";
+    transition: 0.4s;
+}
 /*超过1行出现省略号    可填参数，行数量*/
 .line-over1{
     display: -webkit-box;word-break: break-all;text-overflow: ellipsis;overflow: hidden;-webkit-box-orient: vertical;
@@ -3161,11 +3173,17 @@ footer .bottom .text a {
 .news_detail_2020 .main_content .title_part .text .from{color: #B5B5B6}
 .news_detail_2020 .main_content .zaiyao{background-color: #FFFFFF;padding: 70px 100px;border-bottom: 1px solid #d8d8d8}
 .news_detail_2020 .main_content .zaiyao .text{ padding-left: 58px;}
-.news_detail_2020 .main_content .content{background-color: #FFFFFF;padding: 70px 100px;}
+.news_detail_2020 .main_content .zhaunti_main{overflow: hidden;max-height: 1000px;}
+.news_detail_2020 .main_content .content{background-color: #FFFFFF;padding: 70px 100px;position: relative;}
 .news_detail_2020 .main_content .content img{width: 100%;}
-.news_detail_2020 .main_content .content p{padding: 10px 0 ;line-height: 1.8}
+.news_detail_2020 .main_content .content p{line-height: 1.8}
 .news_detail_2020 .main_content .content .from p{font-size: 12px;color: #B4B5B5;}
-
+.news_detail_2020 .main_content .content .hide-article-box{ position: absolute; bottom: 0px;left: 0px;  width: 100%;
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(255,255,255,0)),color-stop(50%, #fff));padding-top: 160px;
+    background-image: linear-gradient(-180deg,rgba(255,255,255,0) 0%,#fff 70%);
+    padding-bottom: 20px;text-align: center;
+    margin-bottom: 70px;}
+.news_detail_2020 .main_content .content .hide-article-box a{line-height: 2.5;width: 130px;border: 1px solid #7e7d7e;color: #212121;display: inline-block;cursor: pointer;}
 .news_detail_2020 .new_index_2020 .common_seciton .list{min-height: 312px;}
 
 
@@ -3240,6 +3258,12 @@ footer .bottom .text a {
 .search_index_2020 #fenye{background-color: #F5F5F5;padding-top: 40px; }
 
 
+/*更多，有箭头的*/
+.more_a a{padding-right: 10px;}
+.more_a a:hover{color: #FA9600;}
+.more_a a:after{  content: '';background: url(/assets/images/more_ico.png) no-repeat;position: absolute;right: -25px;bottom: -2px;z-index: 2;width: 32px;height: 16px;}
+.more_a a:hover:after{  content: '';background: url(/assets/images/more_ico_hover.png) no-repeat;position: absolute;right: -24px;bottom: -2px;z-index: 2;width: 32px;height: 16px;}
+
 
 /*新闻中心*/
 .new_index_2020{}
@@ -3255,7 +3279,7 @@ footer .bottom .text a {
 .new_index_2020 .common_seciton .top a{line-height: 65px;position: relative;color: #212121;}
 .new_index_2020 .common_seciton .top a:hover{color: #FA9600;}
 .new_index_2020 .common_seciton .top .more a{padding-right: 10px;}
-.new_index_2020 .common_seciton .top .more a:after{    content: '';background: url(/assets/images/more_ico.png) no-repeat;position: absolute;right: -25px;bottom: 2px;z-index: 2;width: 32px;height: 16px;}
+.new_index_2020 .common_seciton .top .more a:after{content: '';background: url(/assets/images/more_ico.png) no-repeat;position: absolute;right: -25px;bottom: 2px;z-index: 2;width: 32px;height: 16px;}
 .new_index_2020 .common_seciton .top .more a:hover:after{content: '';background: url(/assets/images/more_ico_hover.png) no-repeat;position: absolute;right: -24px;bottom: 2px;z-index: 2;width: 32px;height: 16px;}
 .new_index_2020 .common_seciton .top .nav_title{font-size: 24px;float: left ;color: #212121}
 .new_index_2020 .common_seciton .top .more{float: right}
@@ -3299,7 +3323,8 @@ footer .bottom .text a {
 .news_item_2020 .item_content .content ul li.is_text .item{height: auto}
 .news_item_2020 .item_content .content ul li.is_text .item .text{padding-left: 193px;}
 .news_item_2020 .item_content .content ul li.is_text .item .time{width: 95px;position: absolute;left: 0px;top: 0px;color: #555555;text-align: right;font-family: Arial; }
-.news_item_2020 .item_content #fenye{background-color: #F5F5F5;padding-top: 40px; }
+.news_item_2020 .item_content #fenye{background-color: #F5F5F5;}
+.news_item_2020 .item_content #fenye .pagination{margin-top: 60px;}
 
     /*左右部分的空隙*/
 .new_index_2020 .left_right{}

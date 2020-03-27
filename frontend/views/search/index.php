@@ -43,13 +43,13 @@ if ($type=="product"){
         <div class="container">
             <ul>
                 <li>
-                    <div class="item"><a class="<?=$type=='product'?'active':''?>" href="/search/?keyword=<?= $keyword?>&type=product">相关产品</a></div>
+                    <div class="item border_bottom_line_hover"><a class="<?=$type=='product'?'active':''?>" href="/search/?keyword=<?= $keyword?>&type=product">相关产品</a></div>
                 </li>
                 <li>
-                    <div class="item"><a class="<?=$type=='news'?'active':''?>" href="/search/?keyword=<?= $keyword?>&type=news">相关资讯</a></div>
+                    <div class="item border_bottom_line_hover"><a class="<?=$type=='news'?'active':''?>" href="/search/?keyword=<?= $keyword?>&type=news">相关资讯</a></div>
                 </li>
                 <li>
-                    <div class="item"><a class="<?=$type=='case'?'active':''?>" href="/search/?keyword=<?= $keyword?>&type=case">定制案例</a></div>
+                    <div class="item border_bottom_line_hover"><a class="<?=$type=='case'?'active':''?>" href="/search/?keyword=<?= $keyword?>&type=case">定制案例</a></div>
                 </li>
             </ul>
         </div>
