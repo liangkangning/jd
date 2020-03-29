@@ -227,6 +227,8 @@ $(document).ready(function(){
         }else {
             is_gun = false;
         }
+
+
         if (top_max<$(window).scrollTop()){
             is_gun = false;
         }
@@ -250,7 +252,37 @@ $(document).ready(function(){
         }
     );
 
+    /**
+     * 视频播放
+     */
 
 
+    $(window).scroll(function(){
+        var top=$('.video_index video').offset().top;
+        //console.log(top);
+        top = top - $('.video_index video').height();
+        top_max = top+wind_h;
+        video = $('.video_index video');
+        var is_bo = false;
+        if(top<$(window).scrollTop())
+        {
+            if (!is_bo){
+                //$('video').trigger('play');
+                console.log('play');
+                is_bo = true;
+            }
+
+        }else {
+
+            is_bo = false;
+        }
+
+        if (top_max<$(window).scrollTop()){
+            is_bo = false;
+            ///$('video').trigger('pause');
+            console.log('stop');
+        }
+
+    });
 
 });

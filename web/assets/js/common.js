@@ -124,7 +124,7 @@ $(function(){
             if(top<$(window).scrollTop())
             {
                 $('#nav_bar').addClass('fix_top');
-                $('#nav_bar .allnav .list').hide();
+                $('#nav_bar .allnav .list').css('display','');
             }
             if($('#nav_bar').offset().top<top)
             {
@@ -133,8 +133,9 @@ $(function(){
             }
         });
 
-
     });
+
+
 
     $('#JS_exp_fliter').click( function () {
         $('.disblock').toggle();
@@ -218,14 +219,26 @@ $(function(){
         }
     );
 
-    $('#nav_bar.fix_top .allnav').hover(
+    //导航条悬浮的时候，移动到全部分类，显示下拉列表
+    $('#nav_bar .allnav').hover(
         function () {
-            $('#nav_bar .allnav .list').show();
+            //判断是否找到 nav_bar fix_top
+            var obj = $('#nav_bar.fix_top');
+            if (obj.length>0){
+                $('#nav_bar .allnav .list').css('display','block');
+            }
+
         },
         function () {
-            $('#nav_bar .allnav .list').hide();
+            var obj = $('#nav_bar.fix_top');
+            if (obj.length>0){
+                $('#nav_bar .allnav .list').css('display','');
+            }
+
         }
     );
+
+
 
     // $('#nav_bar .navlist .active .item_list').hover(
     //     function () {

@@ -53,3 +53,6 @@
 
 <?php $this->beginContent('@app/views/layouts/public/bottom_seach.php') ?>
 <?php $this->endContent() ?>
+
+<?php $this->beginContent('@app/views/layouts/public/hexin_jishu_new.php') ?>
+<?php $this->endContent() ?>

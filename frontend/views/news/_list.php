@@ -5,7 +5,7 @@
         <div class="text">
             <div class="title"><a class="size4-6p" href="<?= $model->url?>"><?= $model->title?></a></div>
             <div class="des line-over2 size7-3_5p"><p><?= $model->description?></p></div>
-            <div class="time size7-3_5p"><?= date("Y-m-d",$model->create_time)?></div>
+            <div class="time size7-3_5p section40"><?= date("Y-m-d",$model->create_time)?></div>
         </div>
     </div>
 </li>
@@ -20,7 +20,7 @@
         <div class="text">
             <div class="title"><a class="size4-6p" href="<?= $model->url?>"><?= $model->title?></a></div>
             <div class="des size7-3_5p line-over2"><p><?= $model->description?></p></div>
-            <div class="time_text size7-3_5p section20"><?= date("Y-m-d",$model->create_time)?></div>
+            <div class="time_text size7-3_5p section10"><?= date("Y-m-d",$model->create_time)?></div>
         </div>
     </div>
 </li>

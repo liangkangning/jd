@@ -377,7 +377,7 @@ header nav .navlist ul li {
 header nav .navlist ul li .item {
     position: relative;
     line-height: 60px;
-    margin-right: 15px;
+    margin-right: 25px;
 }
 header nav .navlist ul li .item:after {
     position: absolute;
@@ -416,7 +416,7 @@ header .search_form_head {
 }
 header .search_form_head .form_main {
     height: auto;
-    width: 150px;
+    width: 32px;
     right: 15px;
     margin: 0;
     padding-top: 25px;
@@ -430,6 +430,15 @@ header .search_form_head .form_main {
     /* Safari and Chrome */
     -o-transition: width 1s;
     /* Opera */
+
+}
+
+header .search_form_head .form_main .search_form{
+    border: none;
+}
+
+header .search_form_head .form_main.open .search_form .form-label{
+    border-bottom: 1px solid #B4B5B5;
 }
 header .search_form_head .form_main.open {
     width: calc(100% - 290px);
@@ -444,6 +453,15 @@ header .search_form_head .search_form .form-label {
     padding-left: 7px;
     width: 150px;
 }
+
+header .search_form_head .input-wrap .seach_ico{background-color: #FFFFFF}
+
+header .search_form_head  .open .input-wrap .seach_ico{background:none}
+
+header  .search_form .form-label span{opacity:0}
+header .search_form .input-wrap .close{opacity:0}
+header .open .search_form .input-wrap .close{opacity:1}
+
 .product_item_common {
     padding: 9px 0 20px 0;
     background-color: #EEEEEE;
@@ -3317,7 +3335,7 @@ footer .bottom .text a {
 .news_item_2020 .item_content .content ul li .text .title a{color: #212121}
 .news_item_2020 .item_content .content ul li .text .title a:hover{color: #FA9600;}
 .news_item_2020 .item_content .content ul li .text .des{line-height: 1.8;margin-top: 9px;}
-.news_item_2020 .item_content .content ul li .text .time{margin-top: 47px;}
+.news_item_2020 .item_content .content ul li .text .time{}
 
 .news_item_2020 .item_content .content ul li.is_text{padding: 50px 100px;}
 .news_item_2020 .item_content .content ul li.is_text .item{height: auto}
