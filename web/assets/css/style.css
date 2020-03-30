@@ -1735,6 +1735,7 @@ footer .twoPart .bottom_dibu .l_p p a{color:#d0d0d0 }
 .key_index .cate_list .list ul{overflow: hidden;padding: 28px 20px}
 .key_index .cate_list .list ul li{    float: left;  height: 40px;  line-height: 40px; width: 160px;text-align: center}
 .key_index .cate_list .list ul li a{}
+.key_index .cate_list .list ul li a:hover{color: #FA9600;}
 
 .key_index .tijian{}
 .key_index .tijian .title{text-align: center}

@@ -167,13 +167,13 @@ use \yii\helpers\Html;
         <div class="content container">
             <div class="text-center">
                 <div class="title size1-9p"><h2>品牌故事</h2></div>
-                <div class="p size5-5p section20">
+                <div class="p size5-5p section45">
                     十八年来，我们一直专注锂电池定制。因为专注，所以专业。<br>
                     公司累计完成3000+成功案例，超过1亿套锂电模组交付。钜大相信，一定能给您带来"超可靠·超安全"的品质服务。
                 </div>
             </div>
             <div class="video section40">
-                <video width="1200" height="675" controls poster="/assets/images/video_pic.jpg" >
+                <video width="1200" height="675" controls="controls" poster="/assets/images/video_pic.jpg"  id="video">
                     <source src="http://images.juda.cn/image/video/slogan.mp4" type="video/mp4">
                     <source src="movie.ogg" type="video/ogg">
                     您的浏览器不支持Video标签。
@@ -188,7 +188,7 @@ use \yii\helpers\Html;
                 <div class="tabswitch-title-info"><h2>钜大综合实力</h2></div>
             </div>
             <div class="text-center">
-                <p class="size5-5p section">东莞市钜大电子有限公司成立于2002年，是一家为全球用户提供</p>
+                <p class="size5-5p section50">东莞市钜大电子有限公司成立于2002年，是一家为全球用户提供</p>
                 <p class="size2-8p section10">超可靠·超安全的特种锂电池系统定制化方案和产品</p>
                 <p class="size5-5p section10">的国家级高新技术企业。</p>
             </div>

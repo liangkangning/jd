@@ -3,7 +3,7 @@
         <div class="longline"></div>
         <div class="tabswitch-title-info"><h2 class="size1-9p">钜大核心技术能力</h2></div>
     </div>
-    <div class="list section45">
+    <div class="list section50">
         <ul>
             <li class="col-md-4">
                 <div class="item relative">

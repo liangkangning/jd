@@ -262,13 +262,16 @@ $(document).ready(function(){
         //console.log(top);
         top = top - $('.video_index video').height();
         top_max = top+wind_h;
-        video = $('.video_index video');
+        var video = document.getElementById('video');
+
+
         var is_bo = false;
         if(top<$(window).scrollTop())
         {
             if (!is_bo){
-                //$('video').trigger('play');
-                console.log('play');
+                console.log(video);
+                // video.play();
+
                 is_bo = true;
             }
 
