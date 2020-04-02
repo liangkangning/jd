@@ -104,25 +104,25 @@
             <ul class="overflow-hidden">
                 <li class="col-md-3">
                     <div class="item">
-                        <div class="top"><span>103</span>项</div>
+                        <div class="top"><span>140</span>项</div>
                         <div class="bottom">钜大目前拥有专利</div>
                     </div>
                 </li>
                 <li class="col-md-3">
                     <div class="item">
-                        <div class="top"><span>11</span>项</div>
+                        <div class="top"><span>44</span>项</div>
                         <div class="bottom">国家发明</div>
                     </div>
                 </li>
                 <li class="col-md-3">
                     <div class="item">
-                        <div class="top"><span>42</span>项</div>
+                        <div class="top"><span>48</span>项</div>
                         <div class="bottom">实用新型专利</div>
                     </div>
                 </li>
                 <li class="col-md-3">
                     <div class="item">
-                        <div class="top"><span>50</span>项</div>
+                        <div class="top"><span>48</span>项</div>
                         <div class="bottom">外观设计专利</div>
                     </div>
                 </li>
