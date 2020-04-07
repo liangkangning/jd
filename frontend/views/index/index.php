@@ -215,7 +215,7 @@ use \yii\helpers\Html;
             <div class="longline"></div>
             <div class="tabswitch-title-info"><h2>专家团队</h2></div>
         </div>
-        <div class="title section">
+        <div class="title section50">
             <p class="size2-8p">特种锂离子电池工程研究院</p>
             <p class="size5-5p">教授专家<span>9</span>人，副教授专家<span>2</span>人，其中国家千人计划<span>2</span>人，教授博导<span>7</span>人</p>
         </div>

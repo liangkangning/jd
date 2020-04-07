@@ -3,6 +3,8 @@ $(document).ready(function(){
         pagination: '.swiper-pagination',
         paginationClickable: true,
         spaceBetween: 30,
+        autoplay: 3000, //是否自动滚动
+        loop: true,
     });
 
     $('.news_detail_2020 .hide-article-box ').click( function () {
@@ -10,4 +12,6 @@ $(document).ready(function(){
         $(this).hide();
 
     });
+
+    $('table').addClass("table-bordered");
 });

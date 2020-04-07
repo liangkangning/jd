@@ -2,7 +2,7 @@
 
 use common\models\Keywords;
 
-$keywords_category = Keywords::find()->orderBy(['sort'=>SORT_ASC])->limit(28)->asArray()->all();
+$keywords_category = Keywords::find()->orderBy(['sort'=>SORT_ASC])->limit(35)->asArray()->all();
 ?>
 <div class="commom_keywords_top container section">
     <div class="top">
