@@ -192,7 +192,7 @@ $(document).ready(function(){
             symbol: ","
         });
         var numRun2 = $(".numberRun2").numberAnimate({
-            num: '100',
+            num: '140',
             speed: 2000,
             symbol: ","
         });
