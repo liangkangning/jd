@@ -202,7 +202,7 @@ $(document).ready(function(){
             symbol: ","
         });
         var numRun4 = $(".numberRun4").numberAnimate({
-            num: '100000000',
+            num: '10000000',
             speed: 2000,
             symbol: ","
         });
