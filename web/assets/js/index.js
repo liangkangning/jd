@@ -197,12 +197,12 @@ $(document).ready(function(){
             symbol: ","
         });
         var numRun3 = $(".numberRun3").numberAnimate({
-            num: '3000',
+            num: '5000',
             speed: 2000,
             symbol: ","
         });
         var numRun4 = $(".numberRun4").numberAnimate({
-            num: '10000000',
+            num: '100000000',
             speed: 2000,
             symbol: ","
         });

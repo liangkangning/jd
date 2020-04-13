@@ -217,7 +217,7 @@ use \yii\helpers\Html;
         </div>
         <div class="title section50">
             <p class="size2-8p">特种锂离子电池工程研究院</p>
-            <p class="size5-5p">教授专家<span>9</span>人，副教授专家<span>2</span>人，中高级职称工程师<span>2</span>人</p>
+            <p class="size5-5p">教授专家<span>9</span>人，副教授专家<span>2</span>人，中高级职称工程师<span>12</span>人</p>
         </div>
         <div class="list section40">
             <ul>
