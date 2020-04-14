@@ -1031,6 +1031,9 @@ header .open .search_form .input-wrap .close{opacity:1}
 .jishunengli li .item {
     overflow: hidden;
 }
+.jishunengli li .item a{
+    display: block;
+}
 .jishunengli li .item .to_black img {
     transition: all 2s;
 }
