@@ -78,10 +78,10 @@ return [
         3 => '后台',
     ],
     'oss' =>[
-        'accessKeyId'=>'LTAIoruSGXmjlhdV',
-        'accessKeySecret'=>'P23p1L7F8mwzbfhTr0n6OXna8wqG3S',
-        'bucket' => 'juda',
-        'endPoint' => 'oss-cn-beijing.aliyuncs.com',
+        'accessKeyId'=> env("accessKeyId"),
+        'accessKeySecret'=> env("accessKeySecret"),
+        'bucket' => env("bucket"),
+        'endPoint' => env("endPoint"),
     ]
 
 
