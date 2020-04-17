@@ -199,7 +199,7 @@ use \yii\helpers\Html;
                     <li><div class="num"><div class="numberRun"></div><div class="tig year">年</div></div><div class="p">专注锂电池定制</div></li>
                     <li><div class="num"><div class="numberRun2"></div><div class="tig">+</div></div><div class="p">国家专利</div></li>
                     <li><div class="num"><div class="numberRun3"></div><div class="tig">+</div></div><div class="p">成功定制案例</div></li>
-                    <li><div class="num"><div class="numberRun4"></div><div class="tig"></div></div><div class="p">锂电模组的成功交付</div></li>
+                    <li><div class="num"><div class="numberRun4"></div><div class="tig">+</div></div><div class="p">锂电模组的成功交付</div></li>
 
                 </ul>
 
