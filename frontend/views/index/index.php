@@ -169,7 +169,7 @@ use \yii\helpers\Html;
                 <div class="title size1-9p"><h2>品牌故事</h2></div>
                 <div class="p size5-5p section45">
                     十八年来，我们一直专注锂电池定制。因为专注，所以专业。<br>
-                    公司累计完成3000+成功案例，超过1亿套锂电模组交付。钜大相信，一定能给您带来"超可靠·超安全"的品质服务。
+                    公司累计完成5000+成功案例，超过1亿套锂电模组交付。钜大相信，一定能给您带来"超可靠·超安全"的品质服务。
                 </div>
             </div>
             <div class="video section40">
