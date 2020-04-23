@@ -18,6 +18,14 @@
         </div>
     </section>
     <section class="widht-margin"><div class="img section"><img src="/assets/images/yanfa_yanjiuyuan_3.jpg" alt=""></div></section>
+    <section class="widht-margin">
+        <div class="text section">
+            <h3>研究院技术能力</h3>
+            <p>
+                研究院通过技术团队多年的研发，已拥有锂离子电池快充技术、防爆技术、低温充放电技术、低温高倍率放电技术等成熟特种锂离子电池解决方案，尤其在低温锂离子电池技术上，开发有-40℃3~5C倍率放电容量保持率75%以上的高平台锂离子电池以及可在-40℃下充放电循环使用的锂离子电池，已拥有自主知识产权和多项国家发明专利。
+            </p>
+        </div>
+    </section>
     <div class="banner_common relative h300 section">
         <div class="img"><img src="/assets/images/about_zizhi_2.jpg" alt="专家团队" title="专家团队"></div>
         <div class="text">
