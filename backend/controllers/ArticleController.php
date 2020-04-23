@@ -114,7 +114,6 @@ class ArticleController extends BaseController
             if (empty($data['author_id'])){
                 $data['author_id']=Yii::$app->user->identity->id;
             }
-            $data['update_time'] = time();
             if ($this->saveRow($model, $data)) {
                 $this->success('操作成功', $this->getForward());
             }else{
