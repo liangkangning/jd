@@ -319,7 +319,8 @@ class CommonController extends Controller
         $this->view->params['randAtricle']=$randAtricle;
 
         //最新资讯
-        Yii::$app->params['new_news'] = $this->getCache('new_news') ?: $this->setCache('new_news',Article::find()->where(['status'=>1])->limit(12)->orderBy('id desc')->where(['>','category_id',0])->all());
+        $ids = Category::find()->where(['pid' => 34])->orderBy('sort asc')->andWhere(['not in','id',['35']])->column();//除了公司新闻
+        Yii::$app->params['new_news'] = $this->getCache('new_news') ?: $this->setCache('new_news',Article::find()->where(['status'=>1])->limit(12)->orderBy('id desc')->where(['in','category_id',$ids])->all());
 //        Yii::$app->params['new_news'] = Article::find()->where(['status'=>1])->limit(12)->orderBy('id desc')->where(['>','category_id',0])->all();
 
 
