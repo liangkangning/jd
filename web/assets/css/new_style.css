@@ -217,6 +217,7 @@ h6 {
     /* Opera */
 }
 
+
 /*下划线*/
 .border_bottom_line{position: relative;overflow: hidden}
 .border_bottom_line:after{position: absolute;left: 0;bottom: 0px;width: 100%;height: 2px;opacity: 1;background: #FA9600;content: "";}
@@ -233,6 +234,8 @@ h6 {
     content: "";
     transition: 0.4s;
 }
+/*隔条线*/
+.getiao.border_bottom_line:after{background: #d8d8d8}
 /*超过1行出现省略号    可填参数，行数量*/
 .line-over1{
     display: -webkit-box;word-break: break-all;text-overflow: ellipsis;overflow: hidden;-webkit-box-orient: vertical;
@@ -2020,6 +2023,81 @@ header .open .search_form .input-wrap .close{opacity:1}
     border: 1px solid #FA9600;
     background: none;
 }
+
+/*人才招聘*/
+.about-index .main .main-content .job .widht-margin{  width: 1000px;margin: 0 auto;overflow: visible;}
+.about-index .main .main-content .job .content{}
+.about-index .main .main-content .job .content .items{}
+.about-index .main .main-content .job .content .items .item{padding: 30px 0;overflow: hidden;position: relative;border-bottom: 1px solid #d8d8d8}
+.about-index .main .main-content .job .content .items li.active .item{border: none}
+.about-index .main .main-content .job .content .items .title{font-size: 16px;color: #212121;line-height: 1;position: relative}
+.about-index .main .main-content .job .content .items .title i{    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-position: 4px 7px;
+    background: url(/assets/images/ji.jpg) no-repeat 0px 0px;}
+.about-index .main .main-content .job .content .items .text{font-size: 14px;color: #999999;margin-top: 15px;}
+.about-index .main .main-content .job .content .items .description{background-color: #ECECEC;padding: 50px 0;display: none}
+.about-index .main .main-content .job #fenye{margin-top: 38px;}
+.about-index .main .main-content .job .content .items .item .triangle_ico{cursor: pointer;
+    opacity: 0;
+    content: '';
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 22px solid transparent;
+    border-right: 22px solid transparent;
+    border-bottom: 22px solid #ECECEC;
+    transition: opacity cubic-bezier(0.38, 0.04, 0.35, 0.96);}
+.about-index .main .main-content .job .content .items li.active .item .triangle_ico{opacity:1}
+.about-index .main .main-content .job .content .items .item .ico{
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    -webkit-flex: none;
+    -ms-flex: none;
+    flex: none;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    transition: transform cubic-bezier(0.38, 0.04, 0.35, 0.96) 600ms;
+    transition: transform cubic-bezier(0.38, 0.04, 0.35, 0.96) 600ms, -webkit-transform cubic-bezier(0.38, 0.04, 0.35, 0.96) 600ms;
+}
+.about-index .main .main-content .job .content .items .item .ico:before{
+    position: absolute;
+    top: 21px;
+    left: 14px;
+    content: '';
+    background: #4f4d4d;
+    width: 16px;
+    height: 2px;
+}
+
+.about-index .main .main-content .job .content .items li.active .item .ico:after {
+    opacity: 0;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+.about-index .main .main-content .job .content .items .item .ico:after{
+    opacity: 1;
+    transition: all cubic-bezier(0.38, 0.04, 0.35, 0.96) 600ms;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    position: absolute;
+    top: 21px;
+    left: 14px;
+    content: '';
+    background: #4f4d4d;
+    width: 16px;
+    height: 2px;
+}
+
 .yanfa-index .main .banner_common .img img {
     width: 1200px;
     margin-left: 0;
@@ -2352,8 +2430,9 @@ footer .main .right-part .tel {
 footer .main .right-part .tel_or {
     text-align: center;
     color: #B4B5B5;
-    font-size: 20px;
-    margin: 20px 0 30px 0;
+    font-size: 16px;
+    line-height: 1.8;
+    margin: 15px 0 22px 0;
 }
 footer .main .right-part .zixun a {
     width: 219px;
