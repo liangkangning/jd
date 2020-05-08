@@ -37,6 +37,14 @@ $(function(){
             // $('.form_main').addClass('open');
             obj.addClass('open');
             $(obj).find('.form-label span').fadeOut('200');
+
+
+            //头部的搜索框操作
+            var top = $(this).parent().parent().parent().parent().parent();
+            var res = $(top).find('.search_form_head');
+            if (res.length>0){
+                $('.search-dropdown').show();
+            }
             // $('.search_form .form-label span').fadeOut('200');
             // setTimeout(function(){
             //     obj.addClass('open_head');
@@ -60,13 +68,24 @@ $(function(){
         e.stopPropagation();//阻止冒泡到boay节点上
     });
 
+
+    $('.search_form_head .input-group-btn').click(function (e) {
+        e.stopPropagation();//阻止冒泡，防止冒泡到body
+        $(this).toggleClass('open');
+    });
+
+
+
+
     $('body,.search_form .close').on('click',function (e) {
+
         // e.preventDefault();//阻止默认事件，可不加
         if(!isTrue){
             //alert('点击了body')
             $('.form_main').removeClass('open');
             $('.search_form .form-label span').fadeIn('200');
             // $('.search_form .input-wrap').animate({marginLeft:marigin_width},300);
+            $('.search_form_head .search-dropdown').hide();
             isTrue = true;
         }
         else{
@@ -262,6 +281,29 @@ $(function(){
         if($url==$src){
             $(this).parent().addClass('checked');
         }
+    });
+
+
+    /**
+     * 搜索框的下拉效果
+     * */
+
+
+
+
+    $('.search-dropdown .dropdown-menu li a').click( function () {
+
+        var boss = $(this).parent().parent().parent().parent().parent();
+        // console.log(boss);
+        var button = boss.find('button').first();
+        $(button).html($(this).text()+'<i></i>');
+        var title = $(this).data('title');
+        // console.log(title);
+        //修改input的value
+        var input_value = boss.find('input[name=type]');
+        $(input_value).attr('value', title);
+        // console.log(input_value);
+
     });
 
 });

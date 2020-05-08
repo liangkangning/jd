@@ -16,7 +16,7 @@ if ($type=="product"){
         $text = "产品";
     }
 
-}elseif ($type=="produc"){
+}elseif ($type=="news"){
     $text = "资讯";
 } elseif ($type=="case"){
     $text = "案例";
@@ -29,6 +29,14 @@ if ($type=="product"){
             <form id="search_form_index" method="get&quot;&quot;" action="/search/" name="form">
                 <div class="top">
                     <div class="input-group">
+                        <div class="input-group-btn search-dropdown">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?=$text?><i></i></button>
+                            <ul class="dropdown-menu">
+                                <li><a href="javascript:void(0)" data-title="product">产品</a></li>
+                                <li><a href="javascript:void(0)" data-title="news">资讯</a></li>
+                                <li><a href="javascript:void(0)" data-title="case">案例</a></li>
+                            </ul>
+                        </div><!-- /btn-group -->
                         <input class="input" type="text" id="keywordInput" name="keyword" placeholder="搜索" value="<?=$keyword?>">
                         <input class="input" type="hidden"  name="type"  value="<?=$type?>">
                         <i class="search_ico" id="topSearchButton"></i>

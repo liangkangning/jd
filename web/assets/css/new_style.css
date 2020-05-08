@@ -441,6 +441,8 @@ header .search_form_head .form_main {
     /* Opera */
 
 }
+header .search_form_head .form_main .search-dropdown{display: none;border-bottom: 1px solid #B4B5B5}
+header .search_form_head .form_main .dropdown-menu{top: 40px;}
 
 header .search_form_head .form_main .search_form{
     border: none;
@@ -1248,16 +1250,26 @@ header .open .search_form .input-wrap .close{opacity:1}
     -webkit-line-clamp: 2;
     line-height: 1.8;
 }
+
+.form_main{position: relative;}
+.form_main .search-dropdown{position: absolute;height: 40px;width: 80px}
+.form_main .search-dropdown button{border: 0;height: 40px;width: 93px;font-size: 16px;background: none;text-align: left;padding: 0;}
+.form_main .search-dropdown button i{background: url(/assets/images/search.png) no-repeat 7px 10px;width: 20px;display: inline-block;height: 18px;}
+.form_main .search-dropdown .dropdown-menu{min-width: 99px;border: none;border-radius:0px;margin: 0;border: 1px solid #d8d8d8}
+.form_main .search-dropdown .dropdown-menu li{min-width: 99px;font-size: 16px;line-height: 2;text-align: center}
+
 .search_form {
     overflow: hidden;
     position: relative;
     border-bottom: 1px solid #B4B5B5;
+    padding-left: 80px;
 }
+.search_form .search-dropdown{position: static;width: 100px;height: 50px;}
 .search_form .form-label {
     float: none;
     height: 40px;
     cursor: text;
-    padding-left: 15px;
+    padding-left: 0px;
     display: block;
 }
 .search_form .form-label:focus {
@@ -1357,6 +1369,7 @@ header .open .search_form .input-wrap .close{opacity:1}
 }
 .form_main.open .search_form .input-wrap {
     transform: translateX(1px);
+    padding-left: 80px;
 }
 .seach_jingxuan_news .product_tuijian .title {font-size: 24px;color: #212121;margin-bottom: 24px;margin-top:3px;line-height: 1;
 }
@@ -1440,7 +1453,7 @@ header .open .search_form .input-wrap .close{opacity:1}
     margin-bottom: 1px;
 }
 .seach_jingxuan_news .news-list .list .companyAtricle .img {height: 207px;overflow: hidden}
-.seach_jingxuan_news .news-list .list .companyAtricle .img img{width: 100%;height: 207px;}
+.seach_jingxuan_news .news-list .list .companyAtricle .img img{width: 367px;height: 210px;}
 .seach_jingxuan_news .news-list .list .companyAtricle a {
     font-size: 20px;
     color: #212121;
@@ -3342,7 +3355,14 @@ footer .bottom .text a {
 .search_index_2020 .search img{vertical-align: center;height: 200px;}
 .search_index_2020 .search .form{text-align: center;width: 100%;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);}
 .search_index_2020 .search .form form{display: inline-block}
-.search_index_2020 .search .form .input{height: 50px;width: 880px;outline: 0;border: none;outline: 0;padding-left: 15px;}
+.search_index_2020 .search .form .input{height: 50px;width: 880px;outline: 0;border: none;outline: 0;padding-left: 120px;}
+.search_index_2020 #search_form_index{width: 880px;height:50px;position: relative}
+.search_index_2020 #search_form_index .input-group{position: static}
+.search_index_2020 #search_form_index .input-group button{border: 0;background-color: #ECECEC;height: 50px;width: 100px;font-size: 16px;}
+.search_index_2020 #search_form_index .input-group button i{background: url(/assets/images/search.png) no-repeat 7px 10px;width: 20px;display: inline-block;height: 18px;}
+.search_index_2020 #search_form_index .input-group .input-group-btn{position: absolute}
+.search_index_2020 #search_form_index .input-group .dropdown-menu{min-width: 100px;border: none;border-radius:0px;margin: 0;border: 1px solid #d8d8d8}
+.search_index_2020 #search_form_index .input-group .dropdown-menu li{min-width: 100px;font-size: 16px;line-height: 2;text-align: center}
 .search_index_2020 .search .form .search_ico{width: 30px;display: block;height: 40px;line-height: 40px;text-align: right;position: absolute;right: 1px;top: 5px}
 .search_index_2020 .search .form .search_ico:before {
     content: '';background: url(/assets/images/search_ico.png) no-repeat;position: absolute;z-index: 2;width: 32px;height: 26px;top: 1px;right: 11px;cursor:pointer;top: 10px;
@@ -3421,7 +3441,7 @@ footer .bottom .text a {
 .news_item_2020 .item_content .content ul li:hover{background-color: #F5F5F5;}
 .news_item_2020 .item_content .content ul li .item{position: relative;height: 155px;}
 .news_item_2020 .item_content .content ul li .img{position: absolute;left: 0;top: 0;}
-.news_item_2020 .item_content .content ul li .img img{width: 260px;height: 155px;}
+.news_item_2020 .item_content .content ul li .img img{width: 260px;height: 149px;}
 .news_item_2020 .item_content .content ul li .text{width: 100%;padding-left: 293px;}
 .news_item_2020 .item_content .content ul li .text .title a{color: #212121}
 .news_item_2020 .item_content .content ul li .text .title a:hover{color: #FA9600;}

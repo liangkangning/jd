@@ -33,9 +33,26 @@ class ApiHelper
             return $data;
         }
 
-        return null;
+        return $data;
     }
 
+    static function noRepeatTitle($data,$news_title){//处理重复标题,1.不能跟文章标题（$news_title）重复，数组中文章标题不能重复
+        $list = [];
+        $title_arr = [];
+        foreach ($data as $key=>$value) {
+            $repeat = false;
+            foreach ($title_arr as $title) {
+                if (strstr($value['title'],$title)||strstr($title,$value['title'])) {
+                    $repeat = true;
+                }
+            }
+            if (!$repeat&&$value['title']!=$news_title){
+                $list[] = $value;
+                $title_arr[] = $value['title'];
+            }
+        }
+        return $list;
+    }
     static function curl_post($url,$param)
     {
         $ch = curl_init();
