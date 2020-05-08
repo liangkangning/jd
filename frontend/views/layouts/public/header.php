@@ -345,6 +345,44 @@
                             </li>
                             <li>
                                 <div class="item"><a href="/make/">研发&制造  </a></div>
+                                <div class="item_list">
+                                    <div class="container">
+                                        <div class="col-md-2 col-sm-2"></div>
+                                        <div class="child_item">
+                                            <div class="nav_img">
+                                                <a href="/make/"><img src="/assets/images/nav_make.png" alt="锂电研究院" title="锂电研究院"></a>
+                                            </div>
+                                            <div class="text">
+                                                <a href="/make/">锂电研究院</a>
+                                            </div>
+
+                                        </div>
+                                        <div class="child_item">
+                                            <div class="nav_img">
+                                                <a href="/jishu/"><img src="/assets/images/nav_jishu.png" alt="技术中心" title="技术中心"></a>
+                                            </div>
+                                            <div class="text">
+                                                <a href="/jishu/">技术中心</a>
+                                            </div>
+                                        </div>
+                                        <div class="child_item">
+                                            <div class="nav_img">
+                                                <a href="/shiyanshi/"><img src="/assets/images/nav_shiyanshi.png" alt="科研实验室" title="科研实验室"></a>
+                                            </div>
+                                            <div class="text">
+                                                <a href="/shiyanshi/">科研实验室</a>
+                                            </div>
+                                        </div>
+                                        <div class="child_item">
+                                            <div class="nav_img">
+                                                <a href="/zhizao/"><img src="/assets/images/nav_zhizao.png" alt="制造中心" title="制造中心"></a>
+                                            </div>
+                                            <div class="text">
+                                                <a href="/zhizao/">制造中心</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </li>
                             <li class="active">
                                 <div class="item"><a href="/news/">资讯中心</a></div>
@@ -393,7 +431,53 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="item"><a href="/about/">关于钜大   </a></div>
+                                <div class="item"><a href="/about/">关于钜大</a></div>
+                                <div class="item_list">
+                                    <div class="container">
+                                        <div class="col-md-2 col-sm-2"></div>
+                                        <div class="child_item">
+                                            <div class="nav_img">
+                                                <a href="/about/"><img src="/assets/images/nav_about.png" alt="公司简介" title="公司简介"></a>
+                                            </div>
+                                            <div class="text">
+                                                <a href="/about/">公司简介</a>
+                                            </div>
+
+                                        </div>
+                                        <div class="child_item">
+                                            <div class="nav_img">
+                                                <a href="/licheng/"><img src="/assets/images/nav_licheng.png" alt="发展历程" title="发展历程"></a>
+                                            </div>
+                                            <div class="text">
+                                                <a href="/licheng/">发展历程</a>
+                                            </div>
+                                        </div>
+                                        <div class="child_item">
+                                            <div class="nav_img">
+                                                <a href="/zizhi/"><img src="/assets/images/nav_zizhi.png" alt="公司资质" title="公司资质"></a>
+                                            </div>
+                                            <div class="text">
+                                                <a href="/zizhi/">公司资质</a>
+                                            </div>
+                                        </div>
+                                        <div class="child_item">
+                                            <div class="nav_img">
+                                                <a href="/contact/"><img src="/assets/images/nav_contact.png" alt="联系我们" title="联系我们"></a>
+                                            </div>
+                                            <div class="text">
+                                                <a href="/contact/">联系我们</a>
+                                            </div>
+                                        </div>
+                                        <div class="child_item">
+                                            <div class="nav_img">
+                                                <a href="/job/"><img src="/assets/images/nav_job.png" alt="人才招聘" title="人才招聘"></a>
+                                            </div>
+                                            <div class="text">
+                                                <a href="/job/">人才招聘</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </li>
                         </ul>
                     </div>
