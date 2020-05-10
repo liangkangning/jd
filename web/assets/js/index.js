@@ -253,25 +253,23 @@ $(document).ready(function(){
     );
 
     /**
-     * 视频播放
+     * 视频播放  失败了
      */
 
-
+    var is_bo = false;
     $(window).scroll(function(){
         var top=$('.video_index video').offset().top;
         //console.log(top);
-        top = top - $('.video_index video').height();
+        // top = top - $('.video_index video').height();
+        top = top - 100;
         top_max = top+wind_h;
         var video = document.getElementById('video');
 
-
-        var is_bo = false;
         if(top<$(window).scrollTop())
         {
             if (!is_bo){
                 console.log(video);
-                // video.play();
-
+                video.play();
                 is_bo = true;
             }
 
@@ -282,7 +280,7 @@ $(document).ready(function(){
 
         if (top_max<$(window).scrollTop()){
             is_bo = false;
-            ///$('video').trigger('pause');
+            video.pause();
             console.log('stop');
         }
 
