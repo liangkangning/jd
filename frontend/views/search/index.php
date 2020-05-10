@@ -9,6 +9,8 @@ $listUrl='?list=';
 $keyword = Yii::$app->request->get('keyword');
 $type = Yii::$app->request->get('type') ?: "product";
 $text = "";
+$type_list = ['product' => '产品', 'news' => '资讯', 'case' => '案例'];
+$type_text = $type_list[$type];
 if ($type=="product"){
     if (Yii::$app->params['count']==0){
         $text = "产品，为您推荐以下产品";
@@ -30,7 +32,7 @@ if ($type=="product"){
                 <div class="top">
                     <div class="input-group">
                         <div class="input-group-btn search-dropdown">
-                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?=$text?><i></i></button>
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?=$type_text?><i></i></button>
                             <ul class="dropdown-menu">
                                 <li><a href="javascript:void(0)" data-title="product">产品</a></li>
                                 <li><a href="javascript:void(0)" data-title="news">资讯</a></li>
