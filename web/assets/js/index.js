@@ -261,7 +261,7 @@ $(document).ready(function(){
         var top=$('.video_index video').offset().top;
         //console.log(top);
         // top = top - $('.video_index video').height();
-        top = top - 350;
+        top = top - 650;
         top_max = top+wind_h-200;
         var video = document.getElementById('video');
 
