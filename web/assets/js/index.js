@@ -261,7 +261,7 @@ $(document).ready(function(){
         var top=$('.video_index video').offset().top;
         //console.log(top);
         // top = top - $('.video_index video').height();
-        top = top - 100;
+        top = top - 150;
         top_max = top+wind_h;
         var video = document.getElementById('video');
 
@@ -274,7 +274,7 @@ $(document).ready(function(){
             }
 
         }else {
-
+            video.pause();
             is_bo = false;
         }
 
