@@ -1,4 +1,6 @@
 <?php
+
+use common\models\Picture;
 use yii\helpers\Html;
 use yii\helpers\Url;
 use common\helpers\ArrayHelper;
@@ -71,24 +73,30 @@ if ($type=="product"){
             <?php if ($type=="product"): ?>
                 <div class="product_list">
                     <div class="title">
-                        <p>已为您找到<span><?=Yii::$app->params['count']?></span>件<?= $text?></p>
+                        <p>已为您找到<span><?=Yii::$app->params['product_data']['total']?></span>件<?= $text?></p>
                     </div>
                     <div class="product-list-index">
                         <div class="product-list">
                           <div class="list">
                               <ul>
-                                  <?=\yii\widgets\ListView::widget([
-                                      'dataProvider' => Yii::$app->params['product_list'],
-                                      'itemView' => '_list',
-                                      'layout' => "{items}<div id='fenye'>{pager}</div>",//加个这就好了
-                                      'options' => [
-                                          'tag' => 'div',
-                                      ],
-                                      'itemOptions' => [
-                                          'tag' => false,
-                                      ],
-                                  ]);
-                                  ?>
+                                  <?php foreach (Yii::$app->params['product_data']['list'] as $key=>$model):?>
+                                      <li class="col-md-3 col-sm-6">
+                                          <div class="item">
+                                              <div class="img"><a href="<?= \yii\helpers\Url::to(['product/detail','id'=>$model['id']])?>"><img  src="http://images.juda.cn/image/<?=$model['path']?>" alt="<?=$model['title']?>"  title="<?=$model['title']?>"/></a></div>
+                                              <div class="text"><p><a href="<?= \yii\helpers\Url::to(['product/detail','id'=>$model['id']])?>"><?= $model['title']?></a></p></div>
+                                          </div>
+                                      </li>
+                                  <?php endforeach;?>
+                                  <?php $newspagination = new \yii\data\Pagination(['totalCount'=>Yii::$app->params['product_data']['totalPage'],'defaultPageSize' => 2]); ?>
+                                  <div id="fenye">
+                                      <?php
+                                      echo \yii\widgets\LinkPager::widget([
+                                          'pagination'=>$newspagination,//分页类
+                                          'options'=>[ 'class' => 'pagination'],  //设置分页组件样式
+                                      ]);
+                                      ?>
+                                  </div>
+
                               </ul>
 
                           </div>
@@ -100,22 +108,36 @@ if ($type=="product"){
             <?php if ($type=="news"): ?>
                 <div class="news_list">
                     <div class="title">
-                        <p>已为您找到<span><?=Yii::$app->params['count']?></span>条<?= $text?></p>
+                        <p>已为您找到<span><?=Yii::$app->params['news_data']['total']?></span>条<?= $text?></p>
                     </div>
                     <div class="list">
                         <ul>
-                            <?=\yii\widgets\ListView::widget([
-                                'dataProvider' => Yii::$app->params['news_list'],
-                                'itemView' => '_news_list',
-                                'layout' => "{items}<div id='fenye'>{pager}</div>",//加个这就好了
-                                'options' => [
-                                    'tag' => 'div',
-                                ],
-                                'itemOptions' => [
-                                    'tag' => false,
-                                ],
-                            ]);
-                            ?>
+                            <?php foreach (Yii::$app->params['news_data']['list'] as $key=>$model):?>
+                            <?php $model['create_time'] = isset($model['create_time'])?$model['create_time']:$model['createTime']?>
+                                <li class="col-md-12 col-sm-12">
+                                    <div class="item">
+                                        <div class="time">
+                                            <div class="day size2-8p"><?=$model['click']?></div>
+                                            <div class="year size6-4p text-right">点击量</div>
+                                        </div>
+                                        <div class="text">
+                                            <div class="a_title"><a class="size4-6p" href="<?= \yii\helpers\Url::to(['news/detail','id'=>$model['id']])?>"><?= $model['title']?></a></div>
+                                            <div class="p size7-3_5p"><p><?= $model['description']?></p></div>
+                                            <div class="time_text size7-3_5p section10"><?= date("Y-m-d",$model['create_time'])?></div>
+                                        </div>
+                                    </div>
+                                </li>
+                            <?php endforeach;?>
+                            <?php $newspagination = new \yii\data\Pagination(['totalCount'=>Yii::$app->params['news_data']['totalPage'],'defaultPageSize' => 2]); ?>
+                            <div id="fenye">
+                                <?php
+                                echo \yii\widgets\LinkPager::widget([
+                                    'pagination'=>$newspagination,//分页类
+                                    'options'=>[ 'class' => 'pagination'],  //设置分页组件样式
+                                ]);
+                                ?>
+                            </div>
+
                         </ul>
                     </div>
                 </div>
@@ -125,24 +147,53 @@ if ($type=="product"){
             <?php if ($type=="case"): ?>
                 <div class="case_list">
                     <div class="title">
-                        <p>已为您找到<span><?=Yii::$app->params['count']?></span>个<?= $text?></p>
+                        <p>已为您找到<span><?=Yii::$app->params['cases_data']['total']?></span>个<?= $text?></p>
                     </div>
                     <div class="case-index">
                         <div class="case_list">
                             <div class="list">
                                 <ul>
-                                    <?=\yii\widgets\ListView::widget([
-                                        'dataProvider' => Yii::$app->params['case_list'],
-                                        'itemView' => '/news/_case_list',
-                                        'layout' => "{items}<div id='fenye'>{pager}</div>",//加个这就好了
-                                        'options' => [
-                                            'tag' => 'div',
-                                        ],
-                                        'itemOptions' => [
-                                            'tag' => false,
-                                        ],
-                                    ]);
-                                    ?>
+                                    <?php foreach (Yii::$app->params['cases_data']['list'] as $key=>$model):?>
+                                        <?php $titles=\common\helpers\ArrayHelper::extend($model['extend']); $url = \yii\helpers\Url::to(['news/detail','id'=>$model['id']]);
+                                        $picture = Picture::find(['path'])->where(['id' => $model['cover']])->asArray()->one();
+                                        $imageUrl = Yii::getAlias('@imagesUrl') . '/' . $picture['path'] . '?x-oss-process=style/small';
+                                        ?>
+                                        <li class="col-md-4 col-sm-6">
+                                            <div class="item">
+                                                <div class="img relative fade-out">
+                                                    <a href="<?=$url?>">
+                                                        <img src="<?=$imageUrl?>" alt="<?=$model['title']?>" title="<?=$model['title']?>"/>
+                                                    </a>
+                                                    <div class="text"><p>点击量：<?=$model['click']?>次</p></div>
+                                                </div>
+                                                <div class="text">
+                                                    <?php if (count($titles)>0): ?>
+                                                        <div class="title">
+                                                            <a href="<?=$url?>"><?= count($titles)<=0?'':$titles[0]?></a>
+                                                        </div>
+                                                        <div class="sub_title">
+                                                            <a href="<?=$url?>"><?= count($titles)<=0?'':$titles[1]?></a>
+                                                        </div>
+                                                    <?php else:?>
+                                                        <div class="title">
+                                                            <a href="<?=$url?>"><?= $model['title']?></a>
+                                                        </div>
+                                                    <?php endif;?>
+                                                    <div class="p"><p><?= $model['description']?></p></div>
+                                                </div>
+
+                                            </div>
+                                        </li>
+                                    <?php endforeach;?>
+                                    <?php $newspagination = new \yii\data\Pagination(['totalCount'=>Yii::$app->params['cases_data']['totalPage'],'defaultPageSize' => 2]); ?>
+                                    <div id="fenye">
+                                        <?php
+                                        echo \yii\widgets\LinkPager::widget([
+                                            'pagination'=>$newspagination,//分页类
+                                            'options'=>[ 'class' => 'pagination'],  //设置分页组件样式
+                                        ]);
+                                        ?>
+                                    </div>
                                 </ul>
                             </div>
                         </div>

@@ -149,6 +149,11 @@ class Images extends \yii\db\ActiveRecord
 //        return Yii::getAlias('@imagesUrl').'//'.$url['path'];
         return Yii::getAlias('@imagesUrl').'/'.$url['path'].'?x-oss-process=style/small';
     }
+
+    public function getPath(){
+        $path = Picture::find(['path'])->where(['id'=>$this->cover])->asArray()->one();
+        return $path['path'];
+    }
     public function  getImagesUrl(){
         $imagesArray=explode(',',$this->images);
         $urls=Picture::find(['path'])->where(['in','id',$imagesArray])->orderBy("id desc")->asArray()->all();

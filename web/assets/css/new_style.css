@@ -3376,6 +3376,7 @@ footer .bottom .text a {
 .search_index_2020 .content .title{}
 .search_index_2020 .content .title{ font-size: 16px;padding-bottom: 15px;}
 .search_index_2020 .content .title span{ font-size: 24px;color: #FA9600;padding: 0 6px}
+.search_index_2020 .content em{color: #FA9600}
 .search_index_2020 .news_list .list{background-color: #FFFFFF;}
 .search_index_2020 .news_list .list ul li:hover{background-color: #F5F5F5}
 .search_index_2020 .news_list .list ul li{padding: 50px 100px;border-bottom: 1px solid #d8d8d8;}

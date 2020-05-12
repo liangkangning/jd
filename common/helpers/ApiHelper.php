@@ -32,7 +32,36 @@ class ApiHelper
             }
             return $data;
         }
+        return $data;
+    }
 
+    public static function getProducts($keyword,$pageNum=0,$pageSize=16){
+        $url = "http://59.110.143.45:9099/search/product";
+        $param['keyword'] = $keyword;
+        $param['pageNum'] = $pageNum;
+        $param['pageSize'] = $pageSize;
+        $res = self::curl_post($url,$param);
+        $res = json_decode($res, true);
+        $data = [];
+        if ($res['code']=="200"){//请求成功
+            $data = $res['data'];
+            return $data;
+        }
+        return $data;
+    }
+
+    public static function getCases($keyword,$pageNum=0,$pageSize=16){
+        $url = "http://59.110.143.45:9099/search/cases";
+        $param['keyword'] = $keyword;
+        $param['pageNum'] = $pageNum;
+        $param['pageSize'] = $pageSize;
+        $res = self::curl_post($url,$param);
+        $res = json_decode($res, true);
+        $data = [];
+        if ($res['code']=="200"){//请求成功
+            $data = $res['data'];
+            return $data;
+        }
         return $data;
     }
 

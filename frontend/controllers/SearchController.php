@@ -1,5 +1,6 @@
 <?php
 namespace frontend\controllers;
+use common\helpers\ApiHelper;
 use common\helpers\ArrayHelper;
 use common\models\Article;
 use common\models\Category;
@@ -17,7 +18,7 @@ class SearchController extends CommonController
         $keywords_category=Keywords::find()->orderBy(['sort'=>SORT_ASC])->limit(28)->asArray()->all();
 
         Yii::$app->params['keywords_category']=$keywords_category;
-        $search= htmlspecialchars(Yii::$app->request->get('keyword')) ;
+        $search= htmlspecialchars(Yii::$app->request->get('keyword'))?:'锂电池' ;
 
 //        $highlight=[
 //            "pre_tags"=>["<span>"],
@@ -98,62 +99,32 @@ class SearchController extends CommonController
         Yii::$app->params['count']=$c;
         $this->view->params['keyword']= Yii::$app->request->get('keyword');
 
-
-
+        $page = Yii::$app->request->get('page ') ?: 0;
         $type = Yii::$app->request->get('type') ?: "product";
         if ($type=="product"){
-            Yii::$app->params['product_list']=new \yii\data\ActiveDataProvider([
-                'query' => $product_list,
-                'pagination'=>[
-                    'pageSize'=>16,
-                    'pageSizeParam' => false,
-                ],
-            ]);
-        }elseif ($type=="news"){
-            $ids = Category::find()->where(['pid' => 34])->column();
-            Yii::$app->params['news_list'] = new \yii\data\ActiveDataProvider([
-                'query' => Article::find()->where(['like', 'title', $search])->andWhere(['in','category_id',$ids]),
-                'pagination'=>[
-                    'pageSize'=>16,
-                    'pageSizeParam' => false,
-                ],
-            ]);
-            Yii::$app->params['count'] = Article::find()->where(['like', 'title', $search])->andWhere(['in', 'category_id', $ids])->count();
+            $data = ApiHelper::getProducts($this->view->params['keyword'],$page,16);
+            Yii::$app->params['product_data'] = $data;
             /**
              * 如果没有搜索到内容的话，就显示点击量最高的8个产品
              */
-            if (Yii::$app->params['count']==0){
-                Yii::$app->params['news_list'] = new \yii\data\ActiveDataProvider([
-                    'query' => Article::find()->orderBy("click desc")->limit(12),
-                    'pagination' => false,
-                ]);
-
+            if (count($data['list'])==0){
+                Yii::$app->params['product_data']['list'] = Images::find()->orderBy("sort desc")->limit(8)->all();
             }
+        }elseif ($type=="news"){
+            $data = ApiHelper::getNews($this->view->params['keyword'],$page,16);
+            Yii::$app->params['news_data'] = $data;
+            /**
+             * 如果没有搜索到内容的话，就显示点击量最高的8个产品
+             */
+            if (count($data['list'])==0){
+                Yii::$app->params['news_data']['list'] = Article::find()->orderBy("click desc")->limit(12)->all();
+            }
+
         }elseif ($type=="case"){
-            $ids = Category::find()->where(['pid' => 28])->column();
-            array_push($ids, "28");
-            $query = Article::find()->where(['like', 'title', $search])->andWhere(['in', 'category_id', $ids]);
-            Yii::$app->params['case_list'] = new \yii\data\ActiveDataProvider([
-                'query' => $query,
-                'pagination'=>[
-                    'pageSize'=>12,
-                    'pageSizeParam' => false,
-                ],
-            ]);
-
-            Yii::$app->params['count'] = $query->count();
+            $data = ApiHelper::getCases($this->view->params['keyword'],$page,12);
+            Yii::$app->params['cases_data'] = $data;
         }
 
-        /**
-         * 如果没有搜索到内容的话，就显示点击量最高的8个产品
-         */
-        if (Yii::$app->params['count']==0 && $type=="product"){
-            Yii::$app->params['product_list'] = new \yii\data\ActiveDataProvider([
-                'query' => Images::find()->orderBy("sort desc")->limit(4),
-                'pagination' => false,
-            ]);
-
-        }
 
 
 
