@@ -99,7 +99,7 @@ class SearchController extends CommonController
         Yii::$app->params['count']=$c;
         $this->view->params['keyword']= Yii::$app->request->get('keyword');
 
-        $page = Yii::$app->request->get('page ') ?: 0;
+        $page = Yii::$app->request->get('page') ?: 0;
         $type = Yii::$app->request->get('type') ?: "product";
         if ($type=="product"){
             $data = ApiHelper::getProducts($this->view->params['keyword'],$page,16);
