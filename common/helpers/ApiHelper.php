@@ -65,6 +65,14 @@ class ApiHelper
         return $data;
     }
 
+    public static function deleteNews($id){
+        $url = "http://59.110.143.45:9090/esArticle/delete";
+        $param['id'] = $id;
+        $res = self::curl_post($url,$param);
+        return $res;
+
+    }
+
     static function noRepeatTitle($data,$news_title){//处理重复标题,1.不能跟文章标题（$news_title）重复，数组中文章标题不能重复
         $list = [];
         $title_arr = [];

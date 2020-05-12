@@ -114,7 +114,7 @@ class SearchController extends CommonController
             $data = ApiHelper::getNews($this->view->params['keyword'],$page,16);
             Yii::$app->params['news_data'] = $data;
             /**
-             * 如果没有搜索到内容的话，就显示点击量最高的8个产品
+             * 如果没有搜索到内容的话，就显示点击量最高的12篇文章
              */
             if (count($data['list'])==0){
                 Yii::$app->params['news_data']['list'] = Article::find()->orderBy("click desc")->limit(12)->all();
