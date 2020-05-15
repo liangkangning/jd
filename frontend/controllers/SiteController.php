@@ -205,7 +205,7 @@ class SiteController extends Controller
         if ($in_pid){
             $obj = Category::find()->where(['id' => $category_id])->orWhere(['pid' => $category_id])->orderBy('id asc')->all();
         }else{
-            $obj = Category::find()->where(['id' => $category_id])->orderBy('id asc')->all();
+            $obj = Category::find()->where(['pid' => $category_id])->orderBy('id asc')->all();
         }
 
 
