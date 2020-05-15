@@ -78,6 +78,37 @@ return [
                 ['pattern'=>'<controller:(keywords)>/<id:\w+>/index-<page:\d+>','route'=>'<controller>/item','suffix'=>'.html'],
                 ['pattern'=>'<controller:(keywords)>/<id:\w+>','route'=>'<controller>/item','suffix'=>'/'],
 
+                [
+                    'pattern' => 's-productlist',//首页、产品频道/列表、keywords聚合页、研发、关于钜大等，文章列表除外
+                    'route' => 'site/product-list',
+                    'suffix' => '.xml',
+                ],
+                [
+                    'pattern' => 's-product',//产品详情页
+                    'route' => 'site/product-detail-list',
+                    'suffix' => '.xml',
+                ],
+                [
+                    'pattern' => 's-blog',//博客详情页
+                    'route' => 'site/blog-detail-list',
+                    'suffix' => '.xml',
+                ],
+                [
+                    'pattern' => 's-news',//新闻列表+文章页
+                    'route' => 'site/news-list',
+                    'suffix' => '.xml',
+                ],
+                [
+                    'pattern' => 's-news1',//新闻列表+文章页
+                    'route' => 'site/news-list1',
+                    'suffix' => '.xml',
+                ],
+                [
+                    'pattern' => 's-news2',//新闻列表+文章页
+                    'route' => 'site/news-list2',
+                    'suffix' => '.xml',
+                ],
+
             ],
         ],
         'errorHandler'=>array(

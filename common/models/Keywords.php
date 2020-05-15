@@ -87,5 +87,11 @@ class Keywords extends \yii\db\ActiveRecord
         return Yii::getAlias('@imagesUrl').'/'.$url['path'];
     }
 
+    public function getUrl(){
+        return \Yii::$app->urlManager->createUrl(
+            ['keywords/item','id'=>$this->name]
+        );
+    }
+
 }
 
