@@ -60,10 +60,10 @@ class SiteController extends Controller
         $this->categoryData('28');
 
         //研发&制造 分类
-        $this->categoryData('39');
+        $this->categoryData('39',false);
 
         //关于我们 分类
-        $this->categoryData('1');
+        $this->categoryData('1',false);
 
         //keywords聚合页
         $this->data[]=[
@@ -201,8 +201,14 @@ class SiteController extends Controller
 //    }
 
 
-    private function categoryData($category_id){
-        $obj = Category::find()->where(['id' => $category_id])->orWhere(['pid' => $category_id])->orderBy('id asc')->all();
+    private function categoryData($category_id,$in_pid=true){
+        if ($in_pid){
+            $obj = Category::find()->where(['id' => $category_id])->orWhere(['pid' => $category_id])->orderBy('id asc')->all();
+        }else{
+            $obj = Category::find()->where(['id' => $category_id])->orderBy('id asc')->all();
+        }
+
+
         foreach ($obj as $item) {
             $this->data[]=[
                 'loc' => $this->home.$item->url,
