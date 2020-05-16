@@ -1,17 +1,15 @@
-<sitemapindex>
+<?xml version="1.0" encoding="UTF-8"?>
 <sitemap>
 <loc>http://m.juda.cn/s-productlist.xml</loc>
-</sitemap>
-<sitemap>
+<lastmod>2020-05-16</lastmod>
 <loc>http://m.juda.cn/s-product.xml</loc>
-</sitemap>
-<sitemap>
-<loc> http://m.juda.cn/s-news.xml</loc>
-</sitemap>
-<sitemap>
-<loc> http://m.juda.cn/s-news1.xml</loc>
-</sitemap>
-<sitemap>
+<lastmod>2020-05-16</lastmod>
+<loc>http://m.juda.cn/s-news.xml</loc>
+<lastmod>2020-05-16</lastmod>
+<loc>http://m.juda.cn/s-news1.xml</loc>
+<lastmod>2020-05-16</lastmod>
+<loc>http://m.juda.cn/s-news2.xml</loc>
+<lastmod>2020-05-16</lastmod>
 <loc>http://m.juda.cn/s-blog.xml</loc>
+<lastmod>2020-05-16</lastmod>
 </sitemap>
-</sitemapindex>

@@ -98,7 +98,7 @@ return [
 
                 '<controller:(news|product|blog)>/<id:\d+>'=>'<controller>/detail',
                 '<controller:(news|product|blog)>/mip/<id:\d+>'=>'<controller>/mip',
-                ['pattern'=>'<controller:(industrial|diwen|kuanwen|taisuanli|fanbao|libattery|juhewu|chuneng|lilizi|ironicphosphate|dongli|special|libattery|make|news|about|lifepo4|search|blog|zizhi|product|keywords)>','route'=>'<controller>','suffix'=>'/'],
+                ['pattern'=>'<controller:(industrial|diwen|kuanwen|taisuanli|fanbao|libattery|juhewu|chuneng|lilizi|ironicphosphate|dongli|special|libattery|make|news|about|lifepo4|search|blog|zizhi|product|keywords|sou)>','route'=>'<controller>','suffix'=>'/'],
                 ['pattern'=>'mip/<controller:(industrial|diwen|kuanwen|taisuanli|fanbao|libattery|juhewu|chuneng|lilizi|ironicphosphate|dongli|special|libattery|make|news|about|lifepo4|search|blog|zizhi|keywords)>','route'=>'<controller>','suffix'=>'/'],
 
 
@@ -118,7 +118,36 @@ return [
                 ['pattern'=>'<controller:(keywords)>/<id:\w+>/list-<list:.+>-p<page:\d+>','route'=>'<controller>/index','suffix'=>'.html'],
 
 
-
+                [
+                    'pattern' => 's-productlist',//首页、产品频道/列表、keywords聚合页、研发、关于钜大等，文章列表除外
+                    'route' => 'site/product-list',
+                    'suffix' => '.xml',
+                ],
+                [
+                    'pattern' => 's-product',//产品详情页
+                    'route' => 'site/product-detail-list',
+                    'suffix' => '.xml',
+                ],
+                [
+                    'pattern' => 's-blog',//博客详情页
+                    'route' => 'site/blog-detail-list',
+                    'suffix' => '.xml',
+                ],
+                [
+                    'pattern' => 's-news',//新闻列表+文章页
+                    'route' => 'site/news-list',
+                    'suffix' => '.xml',
+                ],
+                [
+                    'pattern' => 's-news1',//新闻列表+文章页
+                    'route' => 'site/news-list1',
+                    'suffix' => '.xml',
+                ],
+                [
+                    'pattern' => 's-news2',//新闻列表+文章页
+                    'route' => 'site/news-list2',
+                    'suffix' => '.xml',
+                ],
 
 
             ],
