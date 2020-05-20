@@ -141,7 +141,7 @@ class Images extends \yii\db\ActiveRecord
         AttrImagesSelect::updateFrequency($this->_oldAttr_value_id,'',$this->id);
     }
     public function getImageUrl(){
-        $url=Picture::find(['path'])->where(['id'=>$this->cover])->asArray()->one();
+        $url=Picture::find(['path'])->where(['id'=>$this->cover])->orderBy("id asc")->asArray()->one();
 //        $url=$this->hasOne(Picture::className(),['id'=>'cover'])->asArray()->one();
 
 //       var_dump($url);
@@ -156,7 +156,7 @@ class Images extends \yii\db\ActiveRecord
     }
     public function  getImagesUrl(){
         $imagesArray=explode(',',$this->images);
-        $urls=Picture::find(['path'])->where(['in','id',$imagesArray])->orderBy("id desc")->asArray()->all();
+        $urls=Picture::find(['path'])->where(['in','id',$imagesArray])->orderBy("id asc")->asArray()->all();
         $imagesUrl=array();
         foreach ($urls as $key=>$value){
             $imagesUrl[$key]= Yii::getAlias('@imagesUrl').'/'.$value['path'];
