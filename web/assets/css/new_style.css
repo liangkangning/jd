@@ -2415,7 +2415,7 @@ footer .main {
     overflow: hidden;
 }
 footer .main .left-part {
-    border-right: 1px solid #B4B5B5;
+
 }
 footer .main .left-part .title {
     font-size: 24px;
@@ -2490,6 +2490,9 @@ footer .bottom .text {
 footer .bottom .text a {
     color: #c9c9ca;
 }
+footer .erweima{width: 144px;}
+footer .erweima .erweima_img{padding-left: 6px;padding-top: 8px;}
+footer .erweima .text{color: #B4B5B5;text-align: center;margin-top: 22px;line-height: 2}
 .left_zixun {
     position: fixed;
     right: 1px;
