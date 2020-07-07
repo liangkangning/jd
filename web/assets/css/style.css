@@ -191,7 +191,7 @@ header .logo .l_p {float: left;}
 header .logo .l_p .img {}
 header .logo .l_p .img img {width: 100%;}
 header .logo .r_p {float: left;margin-left: 10px;}
-header .logo .r_p .text {height: 19px;}
+header .logo .r_p .text pp{height: 19px;}
 header .logo .r_p .text p {font-size: 17px;color: #FA9600;font-weight: bold;line-height: 17px;}
 header .logo .r_p .yuming {height: 14px;}
 header .logo .r_p .yuming p {font-size: 14px;}

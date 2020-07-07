@@ -97,7 +97,7 @@ class SiteController extends Controller
     public function actionNewsList(){
         //资讯中 分类
         $this->categoryData('34');
-        $ids = Article::find()->where(['status' => 1])->select('id')->orderBy('id asc')->limit(50000)->asArray()->all();
+        $ids = Article::find()->where(['status' => 1])->select('id')->orderBy('id asc')->limit('45000')->asArray()->all();
         $ids = array_column($ids, 'id');
         foreach ($ids as $id) {
             $this->data[]=[
@@ -115,7 +115,7 @@ class SiteController extends Controller
         //资讯中 分类
         $pagination = new Pagination(['totalCount' => 200]);
 
-        $ids = Article::find()->where(['status' => 1])->select('id')->orderBy('id asc')->offset('50000')->limit('50000')->asArray()->all();
+        $ids = Article::find()->where(['status' => 1])->select('id')->orderBy('id asc')->offset('45000')->limit('45000')->asArray()->all();
         $ids = array_column($ids, 'id');
         foreach ($ids as $id) {
             $this->data[]=[
@@ -132,7 +132,7 @@ class SiteController extends Controller
     public function actionNewsList2(){
         //资讯中 分类
 
-        $ids = Article::find()->where(['status' => 1])->select('id')->orderBy('id asc')->offset('100000')->limit('50000')->asArray()->all();
+        $ids = Article::find()->where(['status' => 1])->select('id')->orderBy('id asc')->offset('90000')->limit('50000')->asArray()->all();
         $ids = array_column($ids, 'id');
         foreach ($ids as $id) {
             $this->data[]=[
