@@ -81,6 +81,7 @@ class AboutController extends CommonController
       if(Yii::$app->request->isPost){
             $post = Yii::$app->request->post();
             $data = [
+              	'name' => $post['name'],
               	'mail' => $post['mail'],
                 'phone' => $post['phone'],
                 'dianya' => $post['dianya'],
