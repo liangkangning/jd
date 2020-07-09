@@ -100,7 +100,7 @@ class AboutController extends CommonController
             if (true){
                 echo 2;
                 $res = $mail->compose('other', ['data'=>$data,'title' => 'www.topakpower.com邮件询盘','html' => 'text'])
-                    ->setTo('jiangzg@topakpower.com')
+                    ->setTo('B2B@topakpower.com')
                     ->setSubject('www.topakpower.com邮件询盘')
                     ->send();
             }else{
