@@ -1,6 +1,7 @@
 <?php
 namespace frontend\controllers;
 use common\helpers\ArrayHelper;
+use common\helpers\ArticleHelper;
 use common\helpers\StringHelper;
 use common\models\Article;
 use common\models\ArticleFrom;
@@ -223,6 +224,17 @@ class TestController extends CommonController
         public function actionClearCache(){
             Yii::$app->cache->flush();
             echo '清理成功';
+        }
+
+        public function actionProhibitedWords(){
+
+            $list = Article::find()->limit(100)->select("id")->all();
+            foreach ($list as $item) {
+                $res = ArticleHelper::prohibitedWords($item['id']);
+                dump($res);
+                echo "<br>";
+            }
+
         }
 }
 ?>

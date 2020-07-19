@@ -6,6 +6,7 @@
  */
 namespace common\helpers;
 use common\models\Article;
+use common\models\ProhibitedWords;
 use yii;
 /**
  * ArrayHelper provides additional array functionality that you can use in your
@@ -26,5 +27,24 @@ class ArticleHelper
 
         }
         return $array;
+    }
+
+    //违禁词查询  针对文章列表
+    public static function prohibitedWords($id=false,$data=false){
+        $words = ProhibitedWords::find()->asArray()->all();
+        $article = $data?:Article::find()->where(['id'=>$id])->one();
+        $list = [];
+        foreach ($words as $word) {
+            echo $word['name'];
+            $article['title'] = $article['title']?:"--";
+            $article['description'] = $article['description']?:"--";
+            if (!empty($words['name'])){
+                if (strstr($article['title'],$word['name']) || strstr($article['description'],$word['name']) || strstr($article['content'],$word['name'])){
+                    $list[] = $word['name'];
+                }
+            }
+
+        }
+        return $list;
     }
 }
