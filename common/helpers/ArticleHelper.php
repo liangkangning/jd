@@ -64,19 +64,23 @@ class ArticleHelper
             $article->save();
 
         }else{
-            $list = Article::find()->where(['prohibite_words_status'=>0])->limit(100)->select("id")->all();
+            $list = Article::find()->where(['prohibite_words_status'=>0])->limit(200)->select("id")->all();
             foreach ($list as $item) {
                 $res = ArticleHelper::prohibitedWords($item['id']);
-                $article = Article::find()->where(['id' => $item['id']])->one();
+                $prohibite_words = $res ?implode(',', $res): null;
                 if ($res){
-                    $article->prohibite_words_status = 1;
-                    $article->prohibite_words = implode(',', $res);
+
+                    $command = Yii::$app->db->createCommand('UPDATE yii2_article SET prohibite_words_status=1, prohibite_words = "'.  $prohibite_words.'" WHERE id='.$item['id']);
+                    $command->execute();
+
                 }else{
-                    $article->prohibite_words_status = -1;
+                    $command = Yii::$app->db->createCommand('UPDATE yii2_article SET prohibite_words_status=-1 WHERE id='.$item['id']);
+                    $command->execute();
                 }
-                $article->save();
+
                 dump($item['id']);
                 echo "<br>";
+
             }
         }
 

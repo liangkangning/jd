@@ -3,6 +3,7 @@
 namespace common\models;
 
 use common\helpers\ApiHelper;
+use common\helpers\ArticleHelper;
 use Yii;
 use yii\helpers\Url;
 
@@ -166,6 +167,9 @@ class Article extends \common\core\BaseActiveRecord
         if ($insert['status']==0){
             ApiHelper::deleteNews($insert['id']);
         }
+
+        //更新文章后，要更新文章的违禁词情况
+        ArticleHelper::updateArticleProhibitedWords($insert['id']);
     }
 
 
