@@ -47,4 +47,39 @@ class ArticleHelper
         }
         return $list;
     }
+
+    //更新文章的违禁词状态
+    public static function updateArticleProhibitedWords($id =false){
+        //如果传一个id的时候，就是更新该文章的状态
+        if ($id){
+            $res = ArticleHelper::prohibitedWords($id);
+            $article = Article::find()->where(['id' => $id])->one();
+            if ($res){
+                $article->prohibite_words_status = 1;
+                $article->prohibite_words = implode(',', $res);
+            }else{
+                $article->prohibite_words_status = -1;
+                $article->prohibite_words = '';
+            }
+            $article->save();
+
+        }else{
+            $list = Article::find()->where(['prohibite_words_status'=>0])->limit(100)->select("id")->all();
+            foreach ($list as $item) {
+                $res = ArticleHelper::prohibitedWords($item['id']);
+                $article = Article::find()->where(['id' => $item['id']])->one();
+                if ($res){
+                    $article->prohibite_words_status = 1;
+                    $article->prohibite_words = implode(',', $res);
+                }else{
+                    $article->prohibite_words_status = -1;
+                }
+                $article->save();
+                dump($item['id']);
+                echo "<br>";
+            }
+        }
+
+
+    }
 }

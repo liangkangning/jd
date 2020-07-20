@@ -227,14 +227,7 @@ class TestController extends CommonController
         }
 
         public function actionProhibitedWords(){
-
-            $list = Article::find()->limit(100)->select("id")->all();
-            foreach ($list as $item) {
-                $res = ArticleHelper::prohibitedWords($item['id']);
-                dump($res);
-                echo "<br>";
-            }
-
+            ArticleHelper::updateArticleProhibitedWords();
         }
 }
 ?>

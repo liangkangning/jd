@@ -37,6 +37,8 @@ use yii\helpers\Url;
   * @property integer $conlin
   * @property integer $article_from_id
  * @property string $from
+ * @property integer $prohibite_words_status
+ * @property string $prohibite_words
  */
 class Article extends \common\core\BaseActiveRecord
 {
@@ -57,13 +59,13 @@ class Article extends \common\core\BaseActiveRecord
         return [
             [['title'],'unique'],
             [['category_id', 'content','from'], 'required'],
-            [['category_id', 'type', 'position', 'sort', 'create_time', 'update_time', 'status', 'category_id2', 'click','author_id'], 'integer'],
+            [['category_id', 'type', 'position', 'sort', 'create_time', 'update_time', 'status', 'category_id2', 'click','author_id','prohibite_words_status'], 'integer'],
             [['content', 'extend','zonghui'], 'string'],
             [['name'], 'string', 'max' => 40],
             [['title','from'], 'string', 'max' => 180],
             [['sub_title'], 'string', 'max' => 80],
             [['cover', 'link', 'tags', 'keywords','images','canshu'], 'string', 'max' => 255],
-            [['description'], 'string', 'max' => 255],
+            [['description','prohibite_words'], 'string', 'max' => 255],
             [['np'], 'string', 'max' => 50],
         ];
     }
@@ -98,6 +100,8 @@ class Article extends \common\core\BaseActiveRecord
             'images'=>'Images',
             'author_id'=>'author_id',
             'from'=>'from',
+            'prohibite_words_status'=>'prohibite_words_status',
+            'prohibite_words'=>'prohibite_words',
         ];
     }
     public function afterFind(){
