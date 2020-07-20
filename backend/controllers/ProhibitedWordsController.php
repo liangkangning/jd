@@ -8,11 +8,11 @@ use common\models\ProhibitedWordsSerarch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-
+use backend\models\search\ArticleSearch;
 /**
  * ProhibitedWordsController implements the CRUD actions for ProhibitedWords model.
  */
-class ProhibitedWordsController extends Controller
+class ProhibitedWordsController extends BaseController
 {
     /**
      * @inheritdoc
@@ -29,6 +29,21 @@ class ProhibitedWordsController extends Controller
         ];
     }
 
+    public function actionArticle(){
+     /* 添加当前位置到cookie供后续跳转调用 */
+        $this->setForward();
+        $searchModel = new ArticleSearch();
+        
+        $dataProvider = $searchModel->search(['ArticleSearch'=>['prohibite_words_status'=>1]]);
+        $category_id=Yii::$app->request->get('ArticleSearch')['category_id']?Yii::$app->request->get('ArticleSearch')['category_id']:0;
+//        var_dump(Yii::$app->request->get('ArticleSearch')['category_id']);
+        return $this->render('article', [
+            'searchModel' => $searchModel,
+            'dataProvider' => $dataProvider,
+            'category_id'=>$category_id,
+
+        ]);
+    }
     /**
      * Lists all ProhibitedWords models.
      * @return mixed

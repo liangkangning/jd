@@ -18,7 +18,7 @@ class ArticleSearch extends Article
     public function rules()
     {
         return [
-            [['id', 'category_id', 'type', 'position', 'sort', 'create_time', 'update_time', 'status'], 'integer'],
+            [['id', 'category_id', 'type', 'position', 'sort', 'create_time', 'update_time', 'status','prohibite_words_status'], 'integer'],
             [['name', 'title', 'cover', 'description', 'content', 'extend', 'link'], 'safe'],
         ];
     }
@@ -67,6 +67,7 @@ class ArticleSearch extends Article
             'create_time' => $this->create_time,
             'update_time' => $this->update_time,
             'status' => $this->status,
+            'prohibite_words_status' => $this->prohibite_words_status,
         ]);
 
         $query->andFilterWhere(['like', 'name', $this->name])
