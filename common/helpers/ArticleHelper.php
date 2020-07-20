@@ -35,10 +35,10 @@ class ArticleHelper
         $article = $data?:Article::find()->where(['id'=>$id])->one();
         $list = [];
         foreach ($words as $word) {
-            echo $word['name'];
+            //echo $word['name'];
             $article['title'] = $article['title']?:"--";
             $article['description'] = $article['description']?:"--";
-            if (!empty($words['name'])){
+            if (!empty($word['name'])){
                 if (strstr($article['title'],$word['name']) || strstr($article['description'],$word['name']) || strstr($article['content'],$word['name'])){
                     $list[] = $word['name'];
                 }
