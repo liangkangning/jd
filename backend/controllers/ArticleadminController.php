@@ -2,6 +2,7 @@
 
 namespace backend\controllers;
 
+use common\helpers\ArticleHelper;
 use Yii;
 use backend\models\Article;
 use common\helpers\ArrayHelper;
@@ -82,7 +83,11 @@ class ArticleadminController extends BaseController
             }
             /* 表单数据加载、验证、数据库操作 */
             $data['author_id']=Yii::$app->user->identity->id;
-
+            /*判断是否包含违禁词*/
+            $list = ArticleHelper::prohibitedWords(false,$data);
+            if ($list){
+                $this->error('违禁词：'.implode('==',$list));
+            }
             if ($this->saveRow($model, $data)) {
                 $this->success('操作成功', $this->getForward());
             }else{
@@ -125,7 +130,12 @@ class ArticleadminController extends BaseController
                 $data['images'] = trim(implode ( ",", $data['images']),',');
             }
             $data['create_time']=time();
-        
+
+            /*判断是否包含违禁词*/
+            $list = ArticleHelper::prohibitedWords(false,$data);
+            if ($list){
+                $this->error('违禁词：'.implode('==',$list));
+            }
             /* 表单数据加载、验证、数据库操作 */
             if ($this->saveRow($model, $data)) {
                 $this->success('操作成功', $this->getForward());
@@ -185,6 +195,11 @@ class ArticleadminController extends BaseController
                 $data['images'] = trim(implode ( ",", $data['images']),',');
             }
             $data['author_id']=Yii::$app->user->identity->id;
+            /*判断是否包含违禁词*/
+            $list = ArticleHelper::prohibitedWords(false,$data);
+            if ($list){
+                $this->error('违禁词：'.implode('==',$list));
+            }
             /* 表单数据加载、验证、数据库操作 */
             if ($this->saveRow($model, $data)) {
                 $this->success('操作成功', $this->getForward());
