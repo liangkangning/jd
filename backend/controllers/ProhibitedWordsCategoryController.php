@@ -14,6 +14,7 @@ use yii\filters\VerbFilter;
  */
 class ProhibitedWordsCategoryController extends BaseController
 {
+    public $enableCsrfValidation = false;
     /**
      * @inheritdoc
      */

@@ -14,6 +14,8 @@ use backend\models\search\ArticleSearch;
  */
 class ProhibitedWordsController extends BaseController
 {
+    public $enableCsrfValidation = false;
+
     /**
      * @inheritdoc
      */
