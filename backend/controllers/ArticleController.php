@@ -30,7 +30,8 @@ class ArticleController extends BaseController
         /* 添加当前位置到cookie供后续跳转调用 */
         $this->setForward();
         $searchModel = new ArticleSearch();
-        $dataProvider = $searchModel->search(['ArticleSearch'=>['prohibite_words_status'=>1]]);
+        $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
+//        $dataProvider = $searchModel->search(['ArticleSearch'=>['prohibite_words_status'=>1]]);
         $category_id=Yii::$app->request->get('ArticleSearch')['category_id']?Yii::$app->request->get('ArticleSearch')['category_id']:0;
 //        var_dump(Yii::$app->request->get('ArticleSearch')['category_id']);
         return $this->render('index', [
