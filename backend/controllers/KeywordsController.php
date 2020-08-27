@@ -20,6 +20,7 @@ use yii\filters\VerbFilter;
  */
 class KeywordsController extends BaseController
 {
+    public $enableCsrfValidation = false;
     /**
      * @inheritdoc
      */
