@@ -18,6 +18,7 @@ use yii\data\ActiveDataProvider;
 class BaseController extends Controller
 {
 
+    public $enableCsrfValidation = false;
     /**
      * ---------------------------------------
      * 后台构造函数
