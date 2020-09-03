@@ -54,9 +54,12 @@ class AboutController extends CommonController
           $content=Yii::$app->request->get('message');
            $arr = explode(',', Yii::$app->params['web']['email-rule']);
            foreach ($arr as $item) {
-               if (strstr($name,$item) || strstr($mail,$item) || strstr($content,$item)) {
-                   $status = true;
+               if (!empty($item)){
+                   if (strstr($name,$item) || strstr($mail,$item) || strstr($content,$item)) {
+                       $status = true;
+                   }
                }
+
            }
            if (!$status){//如果有这些特殊的词出现，就不发邮件
                $res = Yii::$app->mailer->compose('test', ['name'=>$name,'mail'=>$mail,'content'=>$content,'title' => 'juda.cn信息反馈','html' => 'text'])
