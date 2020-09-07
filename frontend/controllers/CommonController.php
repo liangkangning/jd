@@ -311,8 +311,8 @@ class CommonController extends Controller
         //点击最高的资讯
         $data=Yii::$app->cache->get('randAtricle');
         if ($data === false){
-            $randAtricle = Article::find()->where(['status'=>1])->limit(12)->orderBy('RAND()')->where(['>','category_id',0])->andWhere(['>','create_time',strtotime('-5 month', time())])->all();
-            Yii::$app->cache->set('randAtricle',$randAtricle,86400);
+            $randAtricle = Article::find()->where(['status'=>1])->limit(12)->orderBy('RAND()')->where(['>','category_id',0])->andWhere(['>','click',5000])->all();
+            Yii::$app->cache->set('randAtricle',$randAtricle,30*60);
         }else{
             $randAtricle=$data;
         }

@@ -50,13 +50,24 @@ if ($controller_name=="news"||$controller_name=="product" || $controller_name=="
                             <?php endforeach; ?>
                         </ul>
                     </div>
-                <?php else:?>
+                <?php elseif ($key=='new'): ?>
                     <ul class="<?= $key_num==1?:'none'?>">
                         <?php foreach ($list['data'] as $key => $value): ?>
                             <li class="col-md-6">
                                 <div class="item ">
                                     <div class="title pull-left"><a href="<?= $value['url']?>" title="<?= $value['title']?>"><?= $value['title']?></a></div>
                                     <div class="time pull-right"><?= date('Y-m-d', $value['create_time']) ?></div>
+                                </div>
+                            </li>
+                        <?php endforeach; ?>
+                    </ul>
+                <?php else:?>
+                    <ul class="<?= $key_num==1?:'none'?>">
+                        <?php foreach ($list['data'] as $key => $value): ?>
+                            <li class="col-md-6">
+                                <div class="item ">
+                                    <div class="title pull-left"><a href="<?= $value['url']?>" title="<?= $value['title']?>"><?= $value['title']?></a></div>
+                                    <div class="time pull-right"></div>
                                 </div>
                             </li>
                         <?php endforeach; ?>
