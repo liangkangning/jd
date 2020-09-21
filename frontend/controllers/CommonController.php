@@ -111,11 +111,8 @@ class CommonController extends Controller
             1 => ['title'=>'最新资讯','url'=>'/news/'],
         ];
 
-        Yii::$app->params['isAllowedIp'] = false;
-        if (isset(Yii::$app->params['web']['allowedIPs'])){
-            Yii::$app->params['isAllowedIp'] = $this->isAllowedIp(Yii::$app->params['web']['allowedIPs']);
-        }
-        
+
+
 
 
     }
