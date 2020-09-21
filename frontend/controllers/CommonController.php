@@ -110,6 +110,14 @@ class CommonController extends Controller
             0 => ['title'=>'相关资讯','url'=>'/news/'],
             1 => ['title'=>'最新资讯','url'=>'/news/'],
         ];
+
+        Yii::$app->params['isAllowedIp'] = false;
+        if (isset(Yii::$app->params['web']['allowedIPs'])){
+            Yii::$app->params['isAllowedIp'] = $this->isAllowedIp(Yii::$app->params['web']['allowedIPs']);
+        }
+        
+
+
     }
 
     public function common(){
@@ -435,6 +443,24 @@ class CommonController extends Controller
         Yii::$app->cache->set($key, $value, $this->cache_time);
         return $value;
     }
+
+    public function isAllowedIp($ips){
+        $visitIP = (new Visitors())->GetIps();
+        if ($ips!=null){
+            if (strlen($ips)>0){
+                $ipList = explode(',', $ips);
+                foreach ($ipList as $ip) {
+                    if (strlen($ip)>0){
+                        if (strstr($visitIP,$ip)){
+                            return true;
+                        }
+                    }
+                }
+            }
+        }
+        return false;
+    }
+
 
 }
 
