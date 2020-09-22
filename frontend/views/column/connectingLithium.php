@@ -5,74 +5,9 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
 ?>
 
 <div class="column-connecting column-common">
-    <div class="banner col-md-12 relative">
-        <div class="img">
-            <img class="hidden-xs" src="<?=Yii::getAlias('@web/static/images/column_connecting_banner.jpg')?>" alt="Connecting Lithium Batteries In Parallel And Series" title="Connecting Lithium Batteries In Parallel And Series">
-            <img class="visible-xs" src="<?=Yii::getAlias('@web/static/images/column_connecting_banner_m.jpg')?>" alt="Connecting Lithium Batteries In Parallel And Series" title="Connecting Lithium Batteries In Parallel And Series">
-        </div>
-        <div class="text center-text">
-            <h1 class="big-size">Connecting Lithium Batteries In Parallel And Series</h1>
-        </div>
-    </div>
+
     <div class="col-md-12">
-        <div class="container">
-            <section>
-                <div class="link_title size2 section" id=""><h3>Recommended Lithium Ion Battery Category </h3></div>
-                <div class="category_list col-md-12">
-                    <ul class="ul_none ul_li_padding40">
-                        <li class="col-md-3 section30 m_section30">
-                            <div class="item">
-                                <div class="img"><a target="_blank" href="/low-temperature-battery/"><img src="/static/images/column_connecting_category_1.jpg" alt="Low Temperature Battery"></a></div>
-                                <div class="text text-center section30"><a target="_blank" href="/low-temperature-battery/">Low Temperature Battery</a></div>
-                            </div>
-                        </li>
-                        <li class="col-md-3 section30 m_section60">
-                            <div class="item">
-                                <div class="img"><a target="_blank" href="/explosion-proof-battery/"><img src="/static/images/column_connecting_category_2.jpg" alt="Explosion-proof Battery"></a></div>
-                                <div class="text text-center section30"><a target="_blank" href="/explosion-proof-battery/">Explosion-proof Battery</a></div>
-                            </div>
-                        </li>
-                        <li class="col-md-3 section30 m_section60">
-                            <div class="item">
-                                <div class="img"><a target="_blank" href="/lithium-power-battery/"><img src="/static/images/column_connecting_category_3.jpg" alt="Lithium Power Battery"></a></div>
-                                <div class="text text-center section30"><a target="_blank" href="/lithium-power-battery/">Lithium Power Battery</a></div>
-                            </div>
-                        </li>
-                        <li class="col-md-3 section30 m_section60">
-                            <div class="item">
-                                <div class="img"><a target="_blank" href="/lifepo4-battery/"><img src="/static/images/column_connecting_category_4.jpg" alt="LiFePO4 Battery Pack"></a></div>
-                                <div class="text text-center section30"><a target="_blank" href="/lifepo4-battery/">LiFePO4 Battery Pack</a></div>
-                            </div>
-                        </li>
-                        <li class="col-md-3 section60">
-                            <div class="item">
-                                <div class="img"><a target="_blank" href="/lithium-ion-battery/list-133/"><img src="/static/images/column_connecting_category_5.jpg" alt="12V Lithium Battery"></a></div>
-                                <div class="text text-center section30"><a target="_blank" href="/lithium-ion-battery/list-133/">12V Lithium Battery</a></div>
-                            </div>
-                        </li>
-                        <li class="col-md-3 section60">
-                            <div class="item">
-                                <div class="img"><a target="_blank" href="/lithium-ion-battery/list-134/"><img src="/static/images/column_connecting_category_6.jpg" alt="24V Lithium Battery"></a></div>
-                                <div class="text text-center section30"><a target="_blank" href="/lithium-ion-battery/list-134/">24V Lithium Battery</a></div>
-                            </div>
-                        </li>
-                        <li class="col-md-3 section60">
-                            <div class="item">
-                                <div class="img"><a target="_blank" href="/lithium-ion-battery/list-135/"><img src="/static/images/column_connecting_category_7.jpg" alt="36V Lithium Battery"></a></div>
-                                <div class="text text-center section30"><a target="_blank" href="/lithium-ion-battery/list-135/">36V Lithium Battery</a></div>
-                            </div>
-                        </li>
-                        <li class="col-md-3 section60">
-                            <div class="item">
-                                <div class="img"><a target="_blank" href="/lithium-ion-battery/list-136/"><img src="/static/images/column_connecting_category_8.jpg" alt="48V Lithium Battery"></a></div>
-                                <div class="text text-center section30"><a target="_blank" href="/lithium-ion-battery/list-136/">48V Lithium Battery</a></div>
-                            </div>
-                        </li>
-
-                    </ul>
-                </div>
-            </section>
-
+        <div class="">
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Definition of Series and Parallel Connection of Lithium Batteries</h2></div>
                 <div class="common_p section60">
@@ -738,22 +673,9 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
             </section>
 
 
-            <div>
-                <div class="container">
-                    <section>
-                        <div class="fengxian section col-md-12">
-                            <div class="sharethis-inline-share-buttons"></div>
-                        </div>
-                    </section>
-                    <section class="section section_m col-md-12">
-                        <?php $this->beginContent('@app/views/layouts/public/send_email.php') ?>
-                        <?php $this->endContent()?>
-                    </section>
-            </div>
-    </div>
 
         </div>
 </div>
 </div>
 
-<script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5c344a1f093e83001145111b&product=inline-share-buttons' async='async'></script>
+
