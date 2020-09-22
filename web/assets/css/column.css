@@ -1,0 +1,308 @@
+.yellow_color{color: #FA9600}
+.black_color{color: #212121}
+.gray_color{color: #717171}
+.white_color{color: #FFFFFF}
+.img_bg{background-color: #F5F5F6}
+.column-common .ul_li_padding{margin-left: -60px;overflow: hidden;margin-inline-start:none;padding-inline-start:0}
+.ul_li_padding li{padding-left: 60px;}
+.column-common .ul_li_padding60{margin-left: -60px;overflow: hidden;margin-inline-start:none;padding-inline-start:0}
+.ul_li_padding60 li{padding-left: 60px;}
+.column-common .ul_li_padding50{margin-left: -50px;overflow: hidden;margin-inline-start:none;padding-inline-start:0}
+.ul_li_padding50 li{padding-left: 50px;}
+.column-common .ul_li_padding40{margin-left: -40px;overflow: hidden;margin-inline-start:none;padding-inline-start:0}
+.ul_li_padding40 li{padding-left: 40px;}
+
+
+.column-common .ul_li_item_padding{margin-left: -70px;}
+.column-common .ul_li_item_padding .item{padding-left: 70px;display: inline-block}
+.p{color: #555555}
+.font-weight{font-weight: bold;}
+.big-size{font-size: 48px;font-family:Avillar;}
+.size1,.size1 h2{font-size: 36px;font-family:Avillar;color: #212121}
+.size2{font-size: 24px;font-family:Arial;color: #212121}
+.size3{font-size: 20px;font-family:Arial;}
+
+h3{color: #212121}
+.small-size{font-size: 16px;font-family:Arial;}
+.w100{width: 100%}
+.padding0{padding: 0}
+.section{margin-top: 85px}
+.section80{margin-top: 80px}
+.section70{margin-top: 70px}
+.section60{margin-top: 60px}
+.section55{margin-top: 55px}
+.section50{margin-top: 50px}
+.section40{margin-top: 40px}
+.section30{margin-top: 30px}
+.section20{margin-top: 20px}
+.section10{margin-top: 10px}
+.section5{margin-top: 5px}
+.light1{line-height: 1}
+.light1-5{line-height: 1.5}
+.light1-8{line-height: 1.8}
+.light2{line-height: 2}
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th{
+    border: 1px solid #9E9F9F;
+}
+.border_color{border: 1px solid #9E9F9F}
+.column-common {
+    overflow: hidden;
+}
+.column-common ol{display: block;
+    list-style-type: decimal;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 20px;}
+.column-common ul{display: block;
+    list-style-type: disc;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 17px;}
+.column-common .ul_none{list-style-type: none;padding-inline-start:0px}
+.column-common section{width: 100%;overflow: hidden;float: left}
+.column-common section.tabel-section,.column-common section .tabel-section{
+    overflow: visible; overflow-y:hidden;}
+.column-common h1{color: #FFFFFF}
+.column-common a{color: #FA9600;}
+.column-common a:hover{text-decoration: underline;}
+.column-common .title_list{background-color: #F6F6F6;padding: 90px 0;}
+.column-common .title_list .title a{color: #212121}
+.column-common .title_list li{}
+.column-common .title_list li a{color: #FA9600;}
+.column-common .common_p{line-height: 1.5;width: 100%;overflow: hidden;float: left;}
+.column-common .common_p p,.column-common .common_p div{width: 100%;float: left;}
+.column-common .common_p ul li p{float: none;}
+
+/*.column-common .common_p .col-md-12{display: inline-block}*/
+
+.column-common .link_title{width: 100%;float: left}
+.column-common .img{width: 100%;overflow: hidden;}
+.column-common .img img{max-width: 100%;overflow: hidden;width: auto;}
+.column-common .common_title{border-bottom: 1px solid #212121;width: 100%;float: left}
+.column-common .common_title h1,.column-common .common_title h2{border-bottom: 1px solid #212121;font-weight: normal;}
+.column-common .two-list{width: 100%;overflow: hidden}
+.column-common .two-list .left,.column-common .two-list .right{display: inline-block}
+
+.column-best-18650 .products_18650 .item .text span a{color: #212121;font-size: 24px;margin-bottom: 10px;display: inline-block;line-height: 1.2}
+.column-common .table{margin-bottom: 0px;}
+.column-common .button-top-and-flat-top img{padding: 0 15px;}
+.column-common .products_list{width: 100%;float: left}
+.column-common .products_list ul{list-style-type: none;padding-inline-start:0px}
+.column-common .products_list ul li{background-color: #EEEEEE;}
+.column-common .products_list .item{overflow: hidden;}
+.column-common .products_list .item .product_img{position: relative;height: 350px;overflow: hidden}
+.column-common .products_list .item .product_img img{width: 84%;position: absolute;left: 8%;top: -20px;}
+.column-common .products_list .item .text{padding-left: 60px;}
+.column-common .products_list .item .text .des{overflow: hidden;width: 100%;}
+.column-common .products_list .item .text span{width: 100%;float: left;color: #555555}
+.column-common .products_list .item .text span a{color: #212121;font-size: 24px;margin-bottom: 10px;display: inline-block;}
+.column-common .products_list .item .title{max-width: 500px;}
+.column-common .products_list .item .title a{color: #212121}
+.column-common .products_list .item .button{width: 150px;height: 35px;line-height: 35px;text-align: center}
+.column-common .products_list .item .button a{color: #FFFFFF}
+.column-common .products_18650{width: 100%;float: left}
+.column-common .products_18650 ul{overflow: hidden;margin-left: -60px;list-style-type:none;padding-inline-start:0px}
+.column-common .products_18650 ul li{padding-left: 60px;}
+.column-common .products_18650 ul li .img{height: 270px;position: relative;display: block}
+.column-common .products_18650 ul li .img a{position: absolute;top: -30px;left: 0px;display: inline-block;}
+.column-common .products_18650 ul li img{background-color: #ECECEC;width: 100%;}
+.column-common .products_18650 ul li .title{}
+.column-common .products_18650 ul li .sub_title{}
+.column-common .products_18650 ul li .button {width: 150px;height: 35px;line-height: 35px;text-align: center;}
+.column-common .products_18650 ul li .button a{color: #FFFFFF}
+.column-common .products_18650 ul li p span{width: 100%;display: inline-block;color: #555555}
+
+
+
+.column-common .common-image-li li{}
+.column-common .common-image-li li .img{height: 270px;position: relative;display: block}
+.column-common .common-image-li li .img a{position: absolute;top: -30px;left: 0px;display: inline-block;}
+.column-common .common-image-li li img{background-color: #ECECEC;width: 100%;}
+
+
+
+.column-common .button{background-color: #FA9600}
+.column-common .button:hover{background-color: #FFC042;cursor: pointer}
+.column-common .button a{text-decoration:none;display: inline-block;width: 100%;}
+.column-common table{width: 100%;text-align: center;}
+.column-common table td{padding: 10px 0;}
+.column-common table .firstRow{background-color: #212121;color: #FFFFFF;}
+.column-common table tr{background-color: #EEEEEE;}
+.column-common table .firstRow p,.column-common table .firstRow span{color: #FFFFFF;}
+.column-common .images-center{text-align: center}
+.column-common .images-center ul{overflow: hidden}
+.column-common .images-center li{overflow: hidden;display: inline-block;}
+
+.column-common{}
+.column-common .brand_list{}
+.column-common .brand_list ul{list-style-type: none;padding-inline-start:0px;overflow: hidden}
+.column-common .brand_list ul li{width: 25%;float: left;text-align: center;}
+.column-common .brand_list ul li .img img{border: 1px solid #DCDCDD}
+.column-common .brand_list ul li .text{margin-top: 10px;}
+
+.column-common .brand_list li .item{padding-right: 17px;}
+
+
+.column-lithium-guide table.technology ul{padding: 15px 15px 15px 45px;}
+.column-lithium-guide table.technology li p{text-align: left;line-height: 1.8}
+/*圆柱电池*/
+
+.column-common .p_ul{width: 100%;float: left}
+.column-common .link_title{width: 100%;float: left}
+.column-common .table_title{width: 100%;float: left}
+
+.column-common .products_list_other{width: 100%;float: left}
+.column-common .products_list_other li{overflow: hidden}
+.column-common .products_list_other .product_img{background-color: #ECECEC;position: relative;height: 250px;overflow: hidden}
+.column-common .products_list_other .product_img img{width: 100%;position: absolute;top: -20px;}
+.column-common .products_list_other .item .text.col-md-9{padding-left: 60px;}
+.column-common .products_list_other .item .text .des{overflow: hidden;width: 100%;}
+.column-common .products_list_other .item .text span{width: 100%;float: left;}
+.column-common .products_list_other .item .text span b{font-size: 20px;}
+.column-common .products_list_other .item .text span a{color: #212121;font-size: 24px;margin-bottom: 10px;display: inline-block;}
+.column-common .products_list_other .item .title{max-width: 500px;}
+.column-common .products_list_other .item .title a{color: #212121}
+.column-common .products_list_other .item .button{width: 150px;height: 35px;line-height: 35px;text-align: center}
+.column-common .products_list_other .item .button a{color: #FFFFFF}
+.column-cylindrical .img_text li:nth-child(odd) {padding-right: 70px}
+.column-cylindrical .img_text li:nth-child(even) {padding-left: 70px}
+
+.column-cylindrical .module .img-list{position: relative;}
+.column-cylindrical .module .img-list .jiantou_1{position: absolute;top: 119px;left: 362px;}
+.column-cylindrical .module .img-list .jiantou_2{position: absolute;top: 119px;left: 775px;}
+
+
+.column-lifepo4{}
+.column-lifepo4 .bg_part{}
+.column-lifepo4 .bg_part .pp{padding: 60px 0 80px 0}
+.column-lifepo4 .bg_part .part1{background-color: #EAEFEA}
+.column-lifepo4 .bg_part .part2{background-color: #FBF4E8}
+.column-lifepo4 .bg_part .part3{background-color: #DEEAF1}
+.column-lifepo4 .bg_part .part4{background-color: #F6F6F6}
+
+.column-lifepo4  .brand_list ul li{overflow: hidden}
+.column-lifepo4  .brand_list ul li .text{margin-top: 5px;}
+.column-lifepo4 .brand_list ul li .img img{border: none}
+
+
+/*锂电池串联*/
+.column-connecting .table-bordered{border-top: 0px;}
+.column-connecting table{float: left;}
+.column-connecting table .one{width: 294px}
+.column-connecting table .two{width: 219px}
+.column-connecting table .three{width: 219px}
+.column-connecting .products ul li .item{padding: 27px;}
+.column-connecting .products ul li .item .text{height: 160px;}
+
+.column-common .products_list_other .item .text .des span{color: #555555}
+
+
+/*12v锂电池*/
+.battery-12v .charger {}
+.battery-12v .charger img{width: 100%}
+
+.column-connecting .category_list{width: 100%;float: left;}
+
+
+.column-best-26650 .products_18650{}
+.column-best-26650 .products_18650 .text span{}
+.column-best-26650 .products_18650 .text a{font-size: 24px;color: #212121}
+.column-best-26650 .products_18650 .text b{font-weight: bold;color: #212121;margin-top: 10px;display: inline-block}
+.column-best-26650 .products_18650 ul li .img a{top: -40px;}
+
+.column-connecting .img-list .ul_li_padding li{overflow: hidden;}
+
+.fengxian {padding: 5px 0;}
+
+.column-cylindrical .brand_list ul li{height: 111px;width: 20%;}
+/*手机端样式*/
+@media screen and (max-width: 780px) {
+    .big-size{font-size: 32px;font-family:Avillar;}
+    .size1,.size1 h2{font-size: 24px;font-family:Avillar;}
+    .size2{font-size: 20px;font-family:Arial;}
+    .size3{font-size: 20px;font-family:Arial;}
+    .small-size{font-size: 16px;font-family:Arial;}
+
+    .column-best-18650 .products_18650 .item .text span a{font-size: 20px}
+    .column-common .products_18650 ul li:first-child{margin-top: 30px;}
+    .column-common .products_18650 ul li{margin-top: 60px;}
+    .column-best-26650 .products_18650 ul li .img a{top:-35px;}
+
+    .getiao{height: 0px;}
+    /*.column-best-18650 .products_18650 ul li:first-child{margin-top: 30px;}*/
+    .column-common .products_list_other .item .text .des a{color: #212121;font-size: 20px;margin-top: 30px;margin-bottom: 7px;}
+    .column-common .products_list_other .item .text span b{color: #212121;font-size: 18px}
+
+
+    .column-common .img_text{width: 100%;float: left;}
+
+    .column-cylindrical .img_text li:nth-child(odd){padding: 0px;}
+    .column-cylindrical .img_text li:nth-child(even){padding: 0px;}
+    .section{margin-top: 60px}
+    .section0{margin-top: 0px}
+    .section80{margin-top: 60px}
+    .section70{margin-top: 60px}
+    .section60{margin-top: 60px}
+    .section55{margin-top: 55px}
+    .section50{margin-top: 30px}
+    .section40{margin-top: 30px}
+    .section30{margin-top: 30px}
+    .section20{margin-top: 20px}
+    .section10{margin-top: 10px}
+    .section5{margin-top: 5px}
+    .m_section0{margin-top: 0px}
+
+    .m_section0{margin-top: 0px}
+    .m_section{margin-top: 60px}
+    .m_section80{margin-top: 80px}
+    .m_section70{margin-top: 70px}
+    .m_section60{margin-top: 60px}
+    .m_section55{margin-top: 55px}
+    .m_section50{margin-top: 50px}
+    .m_section40{margin-top: 40px}
+    .m_section30{margin-top: 30px}
+    .m_section20{margin-top: 20px}
+    .m_section10{margin-top: 10px}
+    .m_section5{margin-top: 5px}
+
+    .column-common .products_list_other .item .text span a{font-size: 16px;color: #555555;line-height: 1.8}
+    .column-common .products_list_other .product_img img{top: -65px;}
+
+
+    .column-common h1{font-weight: 300;padding: 0 30px;line-height: 1.5}
+    .column-common .container{padding: 0 16px;}
+    .fengxian{width: 100%;float: left;}
+    .column-common .brand_list ul{display: inline-block}
+    .column-common .ul_li_padding,.column-common .ul_li_padding60,.column-common .ul_li_padding50,.column-common .ul_li_padding40{margin: 0;}
+    .column-common .products_list_other li{padding: 0;}
+    .column-common .products_list_other .item .text.col-md-9{padding-left: 0;}
+    .column-cylindrical .img_text li:nth-child(even){padding-left: 0px;}
+    .column-common .products_list .item .text{padding: 0 20px 60px 20px;}
+    .column-common ul li img{width: 100%}
+    .ul_li_padding li{padding: 0;}
+
+    .column-lifepo4 .bg_part .pp .col-md-12{float: left;}
+
+    /*移动端的产品列表显示方式*/
+    .column-common .products_list{width: 100%;float: left}
+    .column-common .products_list ul{list-style-type: none;padding-inline-start:0px}
+    .column-common .products_list ul li{background-color: #EEEEEE;}
+    .column-common .products_list .item{overflow: hidden;}
+    .column-common .products_list .item .product_img{position: relative;height: 250px;overflow: hidden}
+    .column-common .products_list .item .product_img img{width: 84%;position: absolute;left: 8%;top: 0px;}
+    .column-common .products_list .item .text{padding-left: 30px;}
+    .column-common .products_list .item .text .des{overflow: hidden;width: 100%;}
+    .column-common .products_list .item .text .des p span{color: #555555}
+    .column-common .products_list .item .text span{width: 100%;float: left;}
+    .column-common .products_list .item .text span a{color: #212121;font-size: 20px;margin-bottom: 10px;display: inline-block;}
+    .column-common .products_list .item .title{max-width: 500px;}
+    .column-common .products_list .item .title a{color: #212121}
+    .column-common .products_list .item .button{width: 150px;height: 35px;line-height: 35px;text-align: center}
+    .column-common .products_list .item .button a{color: #FFFFFF}
+    .column-connecting .category_list li{padding: 0}
+
+}
+/*手机端样式*/
+@media screen and (max-width: 375px) {
+    .column-common .products_18650 ul li .img a{top:-38px;}
+}
