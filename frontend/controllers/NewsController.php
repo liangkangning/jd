@@ -22,6 +22,7 @@ class NewsController extends CommonController
             [
                 'class' => 'yii\filters\PageCache',
                 'duration' => 30*60,
+                'except' => ['detail'],
                 'variations' => [
                     Yii::$app->language,
                     Yii::$app->request->get('page'),
