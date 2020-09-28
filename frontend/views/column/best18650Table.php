@@ -3,52 +3,52 @@
     <tr class="firstRow">
         <td width="85">
             <p >
-                <span>Brand</span>
+                <span>品牌</span>
             </p>
         </td>
         <td width="113"  >
             <p >
-                <span>Model</span>
+                <span>型号</span>
             </p>
         </td>
         <td width="66"  >
             <p >
-                <span>Nominal Voltage(V)</span>
+                <span>标称电压(V)</span>
             </p>
         </td>
         <td width="76"  >
             <p >
-                <span>Nominal Capacity(mAh</span><span>）</span>
+                <span>标称容量(mAh</span><span>）</span>
             </p>
         </td>
         <td width="85"  >
             <p >
-                <span>Continuous Discharge Rating(A)</span>
+                <span>持续放电倍率(A)</span>
             </p>
         </td>
         <td width="57"  >
             <p >
-                <span>Chemistry</span>
+                <span>化学体系</span>
             </p>
         </td>
         <td width="38"  >
             <p >
-                <span>Style</span>
+                <span>外形</span>
             </p>
         </td>
         <td width="47"  >
             <p >
-                <span>Protected</span>
+                <span>保护板</span>
             </p>
         </td>
         <td width="76"  >
             <p >
-                <span>Approximate Weight(g</span><span>）</span>
+                <span>最大重量(g</span><span>）</span>
             </p>
         </td>
         <td width="95"  >
             <p >
-                <span>Approximate Dimensions</span>
+                <span>最大尺寸</span>
             </p>
             <p >
                 <span>(mm)</span>
@@ -58,7 +58,7 @@
     <tr>
         <td width="85"  >
             <p >
-                <span >LG</span>
+                <span >LG 化学</span>
             </p>
         </td>
         <td width="113" >
@@ -88,12 +88,12 @@
         </td>
         <td width="38" >
             <p >
-                <span >Flat Top</span>
+                <span >平头</span>
             </p>
         </td>
         <td width="47" >
             <p >
-                <span >No</span>
+                <span >无</span>
             </p>
         </td>
         <td width="76" >
@@ -110,7 +110,7 @@
     <tr>
         <td width="85"  >
             <p >
-                <span >LG</span>
+                <span >LG 化学</span>
             </p>
         </td>
         <td width="113" >
@@ -140,12 +140,12 @@
         </td>
         <td width="38" >
             <p >
-                <span >Flat Top</span>
+                <span >平头</span>
             </p>
         </td>
         <td width="47" >
             <p >
-                <span >No</span>
+                <span >无</span>
             </p>
         </td>
         <td width="76" >
@@ -162,7 +162,7 @@
     <tr>
         <td width="85"  >
             <p >
-                <span >LG</span>
+                <span >LG 化学</span>
             </p>
         </td>
         <td width="113" >
@@ -192,12 +192,12 @@
         </td>
         <td width="38" >
             <p >
-                <span >Flat Top</span>
+                <span >平头</span>
             </p>
         </td>
         <td width="47" >
             <p >
-                <span >No</span>
+                <span >无</span>
             </p>
         </td>
         <td width="76" >
@@ -214,7 +214,7 @@
     <tr>
         <td width="85"  >
             <p >
-                <span >SONY</span>
+                <span >索尼</span>
             </p>
         </td>
         <td width="113" >
@@ -244,12 +244,12 @@
         </td>
         <td width="38" >
             <p >
-                <span >Flat Top</span>
+                <span >平头</span>
             </p>
         </td>
         <td width="47" >
             <p >
-                <span >No</span>
+                <span >无</span>
             </p>
         </td>
         <td width="76" >
@@ -266,7 +266,7 @@
     <tr>
         <td width="85"  >
             <p >
-                <span >SONY</span>
+                <span >索尼</span>
             </p>
         </td>
         <td width="113" >
@@ -296,12 +296,12 @@
         </td>
         <td width="38" >
             <p >
-                <span >Flat Top</span>
+                <span >平头</span>
             </p>
         </td>
         <td width="47" >
             <p >
-                <span >No</span>
+                <span >无</span>
             </p>
         </td>
         <td width="76" >
@@ -318,7 +318,7 @@
     <tr>
         <td width="85"  >
             <p >
-                <span >SONY</span>
+                <span >索尼</span>
             </p>
         </td>
         <td width="113" >
@@ -348,12 +348,12 @@
         </td>
         <td width="38" >
             <p >
-                <span >Flat Top</span>
+                <span >平头</span>
             </p>
         </td>
         <td width="47" >
             <p >
-                <span >No</span>
+                <span >无</span>
             </p>
         </td>
         <td width="76" >
@@ -370,7 +370,7 @@
     <tr>
         <td width="85"  >
             <p >
-                <span >SONY</span>
+                <span >索尼</span>
             </p>
         </td>
         <td width="113" >
@@ -400,12 +400,12 @@
         </td>
         <td width="38" >
             <p >
-                <span >Flat Top</span>
+                <span >平头</span>
             </p>
         </td>
         <td width="47" >
             <p >
-                <span >No</span>
+                <span >无</span>
             </p>
         </td>
         <td width="76" >
@@ -422,7 +422,7 @@
     <tr>
         <td width="85"  >
             <p >
-                <span >SONY</span>
+                <span >索尼</span>
             </p>
         </td>
         <td width="113" >
@@ -452,12 +452,12 @@
         </td>
         <td width="38" >
             <p >
-                <span >Flat Top</span>
+                <span >平头</span>
             </p>
         </td>
         <td width="47" >
             <p >
-                <span >No</span>
+                <span >无</span>
             </p>
         </td>
         <td width="76" >
@@ -474,7 +474,7 @@
     <tr>
         <td width="85"  >
             <p >
-                <span >SONY</span>
+                <span >索尼</span>
             </p>
         </td>
         <td width="113" >
@@ -504,12 +504,12 @@
         </td>
         <td width="38">
             <p >
-                <span>Button Top</span>
+                <span>尖头</span>
             </p>
         </td>
         <td width="47" >
             <p >
-                <span>Yes</span>
+                <span>有</span>
             </p>
         </td>
         <td width="76" >
@@ -526,7 +526,7 @@
     <tr>
         <td width="85"  >
             <p >
-                <span >Samsung</span>
+                <span >三星</span>
             </p>
         </td>
         <td width="113" >
@@ -556,12 +556,12 @@
         </td>
         <td width="38" >
             <p >
-                <span >Flat Top</span>
+                <span >平头</span>
             </p>
         </td>
         <td width="47" >
             <p >
-                <span >No</span>
+                <span >无</span>
             </p>
         </td>
         <td width="76" >
@@ -578,7 +578,7 @@
     <tr>
         <td width="85"  >
             <p >
-                <span >Samsung</span>
+                <span >三星</span>
             </p>
         </td>
         <td width="113" >
@@ -608,12 +608,12 @@
         </td>
         <td width="38" >
             <p >
-                <span >Flat Top</span>
+                <span >平头</span>
             </p>
         </td>
         <td width="47" >
             <p >
-                <span >No</span>
+                <span >无</span>
             </p>
         </td>
         <td width="76" >
@@ -630,7 +630,7 @@
     <tr>
         <td width="85"  >
             <p >
-                <span >Samsung</span>
+                <span >三星</span>
             </p>
         </td>
         <td width="113" >
@@ -660,12 +660,12 @@
         </td>
         <td width="38" >
             <p >
-                <span >Flat Top</span>
+                <span >平头</span>
             </p>
         </td>
         <td width="47" >
             <p >
-                <span >No</span>
+                <span >无</span>
             </p>
         </td>
         <td width="76" >
@@ -682,7 +682,7 @@
     <tr>
         <td width="85"  >
             <p >
-                <span >Panasonic</span>
+                <span >松下</span>
             </p>
         </td>
         <td width="113" >
@@ -712,12 +712,12 @@
         </td>
         <td width="38" >
             <p>
-                <span>Flat Top</span>
+                <span>平头</span>
             </p>
         </td>
         <td width="47" >
             <p >
-                <span>No</span>
+                <span>无</span>
             </p>
         </td>
         <td width="76" >
@@ -734,7 +734,7 @@
     <tr>
         <td width="85"  >
             <p >
-                <span >Panasonic</span>
+                <span >松下</span>
             </p>
         </td>
         <td width="113" >
@@ -764,12 +764,12 @@
         </td>
         <td width="38" >
             <p >
-                <span >Flat Top</span>
+                <span >平头</span>
             </p>
         </td>
         <td width="47" >
             <p >
-                <span >No</span>
+                <span >无</span>
             </p>
         </td>
         <td width="76" >
@@ -816,12 +816,12 @@
         </td>
         <td width="38" valign="top">
             <p >
-                <span>Flat Top</span>
+                <span>平头</span>
             </p>
         </td>
         <td width="47" valign="top">
             <p >
-                <span>No</span>
+                <span>无</span>
             </p>
         </td>
         <td width="76" valign="top">
@@ -868,12 +868,12 @@
         </td>
         <td width="38" valign="top">
             <p >
-                <span>Flat Top</span>
+                <span>平头</span>
             </p>
         </td>
         <td width="47" valign="top">
             <p >
-                <span>No</span>
+                <span>无</span>
             </p>
         </td>
         <td width="76" valign="top">
@@ -920,12 +920,12 @@
         </td>
         <td width="38" valign="top">
             <p >
-                <span>Flat Top</span>
+                <span>平头</span>
             </p>
         </td>
         <td width="47" valign="top">
             <p >
-                <span>No</span>
+                <span>无</span>
             </p>
         </td>
         <td width="76" valign="top">
@@ -972,12 +972,12 @@
         </td>
         <td width="38" valign="top">
             <p >
-                <span>Flat Top</ins></span></span><span ><span></ins></span></span>
+                <span>平头</ins></span></span><span ><span></ins></span></span>
             </p>
         </td>
         <td width="47" valign="top">
             <p >
-                <span>No</ins></span></span><span ><span></ins></span></span>
+                <span>无</ins></span></span><span ><span></ins></span></span>
             </p>
         </td>
         <td width="76" valign="top">
@@ -994,7 +994,7 @@
     <tr>
         <td width="85"  >
             <p >
-                <span >LARGE </span>
+                <span >钜大 </span>
             </p>
         </td>
         <td width="113" >
@@ -1024,12 +1024,12 @@
         </td>
         <td width="38" >
             <p >
-                <span >Flat Top</span>
+                <span >平头</span>
             </p>
         </td>
         <td width="47.0" >
             <p >
-                <span >No</span>
+                <span >无</span>
             </p>
         </td>
         <td width="76" >
@@ -1046,7 +1046,7 @@
     <tr>
         <td width="85"  >
             <p >
-                <span >LARGE</span>
+                <span >钜大</span>
             </p>
         </td>
         <td width="113" >
@@ -1076,12 +1076,12 @@
         </td>
         <td width="38" >
             <p >
-                <span >Flat Top</span>
+                <span >平头</span>
             </p>
         </td>
         <td width="47.0" >
             <p >
-                <span >No</span>
+                <span >无</span>
             </p>
         </td>
         <td width="76" >
