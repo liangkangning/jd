@@ -607,20 +607,20 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     <ul>
                         <li>
                             <p>
-                                <strong>锂电池先并后串的优点</strong><br>
+                                <strong class="black_color">锂电池先并后串的优点</strong><br>
                                 锂电池单体失效自动退出，除了容量降低，不影响并联后使用；<br>
                                 并联中某个锂电池单体短路时造成并联电路电流非常大，通常加熔断保护技术避免。
                             </p>
                         </li>
                         <li class="section30">
                             <p>
-                                <strong>锂电池先并后串的缺点</strong><br>
+                                <strong class="black_color">锂电池先并后串的缺点</strong><br>
                                 由于锂电池单体内阻的差异、散热不均等都会影响并联后锂电池组的循环寿命。
                             </p>
                         </li>
                         <li class="section30">
                             <p>
-                                <strong>锂电池先串后并的优点</strong><br>
+                                <strong class="black_color">锂电池先串后并的优点</strong><br>
                                 根据锂电池单体容量先进行串联，如整组容量1/3，最后进行并联，降低了大容量锂电池模组的故障概率；先串后并对于锂电池组一致性有很好的帮助。
                             </p>
                         </li>
@@ -667,7 +667,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="link_title size2 section60"><h3>3、锂电池充电注意事项</h3></div>
                 <div class="common_p section30">
                     <ul>
-                        <li>锂电池必须选用专用充电器，否则可能会达不到饱和状态，影响其性能发挥。S</li>
+                        <li>锂电池必须选用专用充电器，否则可能会达不到饱和状态，影响其性能发挥。</li>
                         <li>锂电池充电前，不需要完全放电。</li>
                         <li>不要长时间将充电器插在插座上，电池充饱后应尽快从充电器中取出。</li>
                         <li>应当从长期不使用的用电器具中取出电池，将电池放空后保存。</li>
