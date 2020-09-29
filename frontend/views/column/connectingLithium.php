@@ -571,7 +571,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
             <section>
                 <div class="common_title size1 section70"><h2 class="light1-5">组装锂电池先并联还是串联？</h2></div>
                 <div class="common_p section60">
-                   <li><strong>锂电池组串并联拓扑结构</strong></li>
+                   <li><strong class="black_color">锂电池组串并联拓扑结构</strong></li>
                 </div>
                 <div class="common_p section10">
                     <p>
@@ -606,21 +606,23 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="common_p section60">
                     <ul>
                         <li>
-                            <p>
-                                <strong class="black_color">锂电池先并后串的优点</strong><br>
+                            <p> <strong class="black_color">锂电池先并后串的优点</strong></p>
+                            <p class="section10">
+
                                 锂电池单体失效自动退出，除了容量降低，不影响并联后使用；<br>
                                 并联中某个锂电池单体短路时造成并联电路电流非常大，通常加熔断保护技术避免。
                             </p>
                         </li>
                         <li class="section30">
-                            <p>
-                                <strong class="black_color">锂电池先并后串的缺点</strong><br>
+                            <p><strong class="black_color">锂电池先并后串的缺点</strong></p>
+                            <p class="section10">
+
                                 由于锂电池单体内阻的差异、散热不均等都会影响并联后锂电池组的循环寿命。
                             </p>
                         </li>
                         <li class="section30">
-                            <p>
-                                <strong class="black_color">锂电池先串后并的优点</strong><br>
+                            <p> <strong class="black_color">锂电池先串后并的优点</strong></p>
+                            <p class="section10">
                                 根据锂电池单体容量先进行串联，如整组容量1/3，最后进行并联，降低了大容量锂电池模组的故障概率；先串后并对于锂电池组一致性有很好的帮助。
                             </p>
                         </li>
