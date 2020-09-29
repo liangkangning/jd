@@ -1,3 +1,4 @@
+.column-common ul , .column-common li{list-style:disc}
 .yellow_color{color: #FA9600}
 .black_color{color: #212121}
 .gray_color{color: #717171}
@@ -57,8 +58,9 @@ h3{color: #212121}
     list-style-type: disc;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    padding-inline-start: 17px;}
+    padding-inline-start: 20px;}
 .column-common .ul_none{list-style-type: none;padding-inline-start:0px}
+.column-common .ul_none li{list-style:none;}
 .column-common section{width: 100%;overflow: hidden;float: left}
 .column-common section.tabel-section,.column-common section .tabel-section{
     overflow: visible; overflow-y:hidden;}
@@ -188,9 +190,11 @@ h3{color: #212121}
 /*锂电池串联*/
 .column-connecting .table-bordered{border-top: 0px;}
 .column-connecting table{float: left;}
-.column-connecting table .one{width: 294px}
-.column-connecting table .two{width: 219px}
-.column-connecting table .three{width: 219px}
+.column-connecting table .one{width: 252px}
+.column-connecting table .other_one{width: 258px}
+.column-connecting table .other_two{width: 251px}
+.column-connecting table .two{width: 187px}
+.column-connecting table .three{width: 187px}
 .column-connecting .products ul li .item{padding: 27px;}
 .column-connecting .products ul li .item .text{height: 160px;}
 

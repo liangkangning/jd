@@ -9,7 +9,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
     <div class="col-md-12">
         <div class="">
             <section>
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">锂电池串并联定义</h2></div>
+                <div class="common_title size1 section20" id="basic-structure-of-18650"><h2 class="light1-5">锂电池串并联定义</h2></div>
                 <div class="common_p section60">
                     <p class="small-size">
                         由于单体电池的电压和容量有限，在实际使用中都需要进行串并联组合，以获得更高的电压和容量，才能满足设备的实际供电需求。
@@ -19,32 +19,32 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     <ul>
                         <li>
                             <p>
-                                <strong>锂电池串联</strong><br>
+                                <strong>锂电池串联:</strong>
                                 电压相加，容量不变，内阻增大。
                             </p>
                         </li>
                         <li class="section20">
                             <p>
-                                <strong>锂电池并联</strong><br>
+                                <strong>锂电池并联:</strong>
                                 电压不变，容量相加，内阻减小，可供电时间延长。
                             </p>
                         </li>
                         <li class="section20">
                             <p>
-                                <strong>锂电池串并联</strong><br>
+                                <strong>锂电池串并联:</strong>
                                 电池组中间既有并联组合又有串联组合，使电压增高，容量加大。
                             </p>
                         </li>
                         <li class="section20">
                             <p>
-                                <strong>串联电压</strong><br>
+                                <strong>串联电压:</strong>
                                 3.7V单体电池可以根据需要组装成电压为3.7*(N)V的电池组（N：单体电池数）<br/>
                                 如7.4V、12V、24V、36V、48V、60V、72V等。
                             </p>
                         </li>
                         <li class="section20">
                             <p>
-                                <strong>并联容量</strong><br>
+                                <strong>并联容量:</strong>
                                 2000mAh单体电池可以根据需要组装成容量为2*(N)Ah的电池组（N：单体电池数）<br/>
                                 如4000mAh、6000mAh、8000mAh、<a href="http://www.juda.cn/lilizi/list-45.html">5Ah</a>, <a href="http://www.juda.cn/lilizi/list-46.html">10Ah</a>, <a href="http://www.juda.cn/lilizi/list-47.html">20Ah</a>, 30Ah, <a href="http://www.juda.cn/lilizi/list-48.html">50Ah</a>, <a href="http://www.juda.cn/lilizi/list-49.html">100Ah</a>等。
                             </p>
@@ -69,7 +69,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                         <li><p><strong>镍片/支架</strong>：电芯的连接及固定组件</p></li>
                     </ul>
                 </div>
-                <div class="img common_p section30 m_section60"><img src="/static/images/column_connecting_1.jpg" alt="Lithium Battery Pack Structure"></div>
+                <div class="img common_p section60 m_section60"><img src="/static/images/column_connecting_1.jpg" alt="Lithium Battery Pack Structure"></div>
             </section>
 
             <section>
@@ -83,8 +83,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="common_p section60">
                     <p class="text-center light1-8">
                         <strong>
-                            锂电池配对标准<br>
-                            电压差≤10mV，内阻差≤5mΩ，容量差≤20mA
+                            锂电池配对标准 电压差≤10mV，内阻差≤5mΩ，容量差≤20mA
                         </strong>
                     </p>
                 </div>
@@ -199,10 +198,10 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                         <table cellspacing="0" width="100%" class="table-bordered">
                             <tbody>
                             <tr>
-                                <td class="one">串并联方式</td>
-                                <td width="291">18650-4S1P 正方形</td>
-                                <td width="291">18650-4S1P 一字形</td>
-                                <td width="291">18650-4S2P</td>
+                                <td class="other_one">串并联方式</td>
+                                <td class="other_two">18650-4S1P 正方形</td>
+                                <td class="other_two">18650-4S1P 一字形</td>
+                                <td class="other_two">18650-4S2P</td>
                             </tr>
                             <tr>
                                 <td>电压</td>
@@ -242,10 +241,10 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                         <table cellspacing="0" width="100%" class="table-bordered">
                             <tbody>
                             <tr>
-                                <td class="one">串并联方式</td>
-                                <td width="291">18650-6S1P 电压</td>
-                                <td width="291">18650-6S2P</td>
-                                <td width="291">18650-6S3P</td>
+                                <td class="other_one">串并联方式</td>
+                                <td class="other_two">18650-6S1P 电压</td>
+                                <td class="other_two">18650-6S2P</td>
+                                <td class="other_two">18650-6S3P</td>
                             </tr>
                             <tr>
                                 <td>电压</td>
