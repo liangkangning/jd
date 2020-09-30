@@ -420,7 +420,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="common_p section60">
                     <p><strong>18650-3S6P/11.1V/15600mAh 锂电池组装过程</strong></p>
                 </div>
-                <div class="products common_p section30 col-md-12">
+                <div class="products common_p section20 col-md-12">
                     <ul class="ul_none">
                         <li class="col-md-4 col-xs-12 border_color">
                             <div class="item">
