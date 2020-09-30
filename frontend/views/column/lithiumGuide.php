@@ -19,23 +19,8 @@ Yii::$app->params['products'] = $products;
 use common\models\Images; ?>
 
 <div class="column-lithium-guide column-common">
-    <div class="banner col-md-12 relative">
-        <div class="img">
-            <img class="hidden-xs"  src="<?=Yii::getAlias('@web/static/images/column_lithium_guide_banner.jpg')?>" alt="Lithium Ion Battery Guide">
-            <img class="visible-xs" src="<?=Yii::getAlias('@web/static/images/column_lithium_guide_banner_m.jpg')?>" alt="Lithium Ion Battery Guide">
-        </div>
-        <div class="text center-text">
-            <h1 class="big-size">Best Lithium Ion Battery Guide</h1>
-           <p class="size3 white_color section30 hidden-xs">
-				Lithium ion battery is a kind of rechargeable battery which uses graphite or <br>
-             other carbon materials as the negative electrode and <br>
-             lithium containing compounds as the positive electrode.
-            </p>
-        </div>
-    </div>
-
     <div class="col-md-12">
-        <div class="container">
+        <div class="">
             <section class="section m_section60">
                 <div class="link_title size2" id=""><h3>Recommended Lithium Ion Battery Category </h3></div>
                 <div class="category_list col-md-12">

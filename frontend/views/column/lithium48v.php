@@ -52,17 +52,8 @@ $product_list = [
 ?>
 
 <div class="column-lifepo4 column-common">
-    <div class="banner col-md-12 relative">
-        <div class="img">
-            <img class="hidden-xs" src="<?=Yii::getAlias('@web/static/images/column_48v_banner.jpg')?>" alt="12V Lithium Battery Guide" title="12V Lithium Battery Guide">
-            <img class="visible-xs" src="<?=Yii::getAlias('@web/static/images/column_48v_banner_m.jpg')?>" alt="12V Lithium Battery Guide" title="12V Lithium Battery Guide">
-        </div>
-        <div class="text center-text">
-            <h1 class="big-size">48V Lithium Ion Battery</h1>
-        </div>
-    </div>
     <div class="col-md-12">
-        <div class="container">
+        <div class="">
             <section>
                 <div class=" size2 section" ><h2 class="light1-5">48V Lithium Ion Battery Recommendation </h2></div>
             </section>

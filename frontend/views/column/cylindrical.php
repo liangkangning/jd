@@ -22,15 +22,9 @@ $product_list = [
 ?>
 
 <div class="column-cylindrical column-common">
-    <div class="banner col-md-12 relative">
-        <div class="img">
-            <img class="hidden-xs" src="<?=Yii::getAlias('@web/static/images/column_cylindrical_banner.jpg')?>" alt="Cylindrical Lithium Ion Battery">
-            <img class="visible-xs" src="<?=Yii::getAlias('@web/static/images/column_cylindrical_banner_m.jpg')?>" alt="Cylindrical Lithium Ion Battery">
-        </div>
-        <div class="text center-text"><h1 class="big-size">Cylindrical Lithium Ion Battery</h1></div>
-    </div>
+
     <div class="col-md-12">
-        <div class="container">
+        <div class="">
             <section class="section30">
                 <div class="products_list_other">
                     <ul class="ul_li_padding">

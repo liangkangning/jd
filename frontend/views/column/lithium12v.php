@@ -60,17 +60,8 @@ $product_list = [
 ?>
 
 <div class="battery-12v column-common">
-    <div class="banner col-md-12 relative">
-        <div class="img">
-            <img class="hidden-xs" src="<?=Yii::getAlias('@web/static/images/column_12v_banner.jpg')?>" alt="12V Lithium Battery Guide" title="12V Lithium Battery Guide">
-            <img class="visible-xs" src="<?=Yii::getAlias('@web/static/images/column_12v_banner_m.jpg')?>" alt="12V Lithium Battery Guide" title="12V Lithium Battery Guide">
-        </div>
-        <div class="text center-text">
-            <h1 class="big-size">12V Lithium Battery Guide</h1>
-        </div>
-    </div>
     <div class="col-md-12">
-        <div class="container">
+        <div class="">
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">What is a 12V Lithium Battery?</h2></div>
                 <div class="common_p section60">

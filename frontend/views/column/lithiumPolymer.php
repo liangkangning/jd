@@ -32,22 +32,8 @@ foreach ($products2 as &$product) {
 ?>
 
 <div class="column-cylindrical column-common">
-    <div class="banner col-md-12 relative">
-        <div class="img">
-            <img class="hidden-xs" src="<?=Yii::getAlias('@web/static/images/column_polymer_banner.jpg')?>" alt="LiPo Battery Guide">
-            <img class="visible-xs" src="<?=Yii::getAlias('@web/static/images/column_polymer_banner_m.jpg')?>" alt="LiPo Battery Guide">
-        </div>
-        <div class="text center-text">
-            <h1 class="big-size">Best LiPo Battery Guide</h1>
-            <p class="size3 white_color section30 hidden-xs">
-                LiPo Battery is a kind of lithium ion battery, but compared with liquid lithium ion battery, <br>
-                it has many obvious advantages, such as high energy density,<br>
-                small size, ultra-thin, lightweight and high safety. It is a new type of battery.
-            </p>
-        </div>
-    </div>
     <div class="col-md-12">
-        <div class="container">
+        <div class="">
             <section class="section30 m_section0">
                     <div class="products_list_other">
                         <ul class="ul_li_padding">
