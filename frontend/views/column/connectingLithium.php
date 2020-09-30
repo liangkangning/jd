@@ -655,7 +655,10 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 </div>
                 <div class="common_p section30">
                     <p><strong>锂电池并联充电需要注意几个问题：</strong></p>
-                    <ul class="section5">
+
+                </div>
+                <div class="common_p">
+                    <ul class="section10">
                         <li>有保护板和没有保护板的锂电池不能并联充电。没有保护板的电池容易过充电损坏。</li>
                         <li>并联充电的电池通常都需要去掉电池自带的保护板，统一使用一个电池保护板。</li>
                         <li>并联充电的电池如果没有锂电池保护板，充电电压一定要限制在4.2V，不能使用5V的充电器。</li>
