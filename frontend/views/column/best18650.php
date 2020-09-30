@@ -2,21 +2,15 @@
 $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\ColumnAsset']]);
 ?>
 <div class="column-best-18650 column-common">
-    <div class="banner col-md-12 relative">
-        <div class="img">
-            <img class="hidden-xs" src="<?=Yii::getAlias('@web/static/images/column_18650_banner.jpg')?>" alt="Best 18650 Lithium Battery Pack">
-            <img class="visible-xs" src="<?=Yii::getAlias('@web/static/images/column_18650_banner_m.jpg')?>" alt="Best 18650 Lithium Battery Pack">
-        </div>
-        <div class="text center-text"><h1 class="big-size">定制最好的18650锂电池组</h1></div>
-    </div>
+
 
     <div class="col-md-12">
-        <div class="container">
+        <div class="">
 		
 
 
 			<section>
-                <div class="common_p section">
+                <div class="common_p section20">
                     <p class="small-size">钜大锂电，特种锂电系统定制化方案和产品提供商，可根据客户需求提供从单体电芯、电池管理系统、充电器到电池组一整套的电源方案。
                     </p>
                     <div class="p_ul section20">
