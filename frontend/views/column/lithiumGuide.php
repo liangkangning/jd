@@ -1,20 +1,20 @@
 <?php
 $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\ColumnAsset']]);
-$ConsumerGoods = \common\models\Images::find()->where(['id' => 870])->one();
-$IndustrialField = \common\models\Images::find()->where(['id' => 579])->one();
-$SpecialUse = \common\models\Images::find()->where(['id' => 802])->one();
-$Electrolyte = \common\models\Images::find()->where(['id' => 981])->one();
-//该文章的电芯产品
-$products = [];
-$ids_18650 = ['955','939','852'];
-foreach ($ids_18650 as $id) {
-    $products[] = \common\models\Images::find()->where(['id' => $id])->one();
-}
-
-foreach ($products as &$product) {
-    $product['diy_content'] = str_replace("<a",'<a href="'.$product->url.'"',$product['diy_content']);
-}
-Yii::$app->params['products'] = $products;
+//$ConsumerGoods = \common\models\Images::find()->where(['id' => 870])->one();
+//$IndustrialField = \common\models\Images::find()->where(['id' => 579])->one();
+//$SpecialUse = \common\models\Images::find()->where(['id' => 802])->one();
+//$Electrolyte = \common\models\Images::find()->where(['id' => 981])->one();
+////该文章的电芯产品
+//$products = [];
+//$ids_18650 = ['955','939','852'];
+//foreach ($ids_18650 as $id) {
+//    $products[] = \common\models\Images::find()->where(['id' => $id])->one();
+//}
+//
+//foreach ($products as &$product) {
+//    $product['diy_content'] = str_replace("<a",'<a href="'.$product->url.'"',$product['diy_content']);
+//}
+//Yii::$app->params['products'] = $products;
 
 use common\models\Images; ?>
 
@@ -99,20 +99,7 @@ use common\models\Images; ?>
                         It is mainly used in digital products, mobile phones, portable power supplies, laptops and other electronic devices. 18650 lithium battery and lithium polymer battery are commonly used.
                     </p>
                 </div>
-                <div class="products_list">
-                    <ul>
-                    <?php $value = $ConsumerGoods;?>
-                    <li class="section60">
-                        <div class="item">
-                            <div class="product_img col-md-5"><a target="_blank" href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
-                            <div class="text col-md-7">
-                                <div class="des light1-8 section60"><p><?=$value['diyContentUrl']?></p></div>
-                                <div class="button small-size section20"><a target="_blank" href="<?=$value['url']?>">READ MORE</a></div>
-                            </div>
-                        </div>
-                    </li>
-                    </ul>
-                </div>
+
 
                 <div class="link_title size2 section60" id="battery-cell"><h3>2.Industrial Field</h3></div>
                 <div class="common_p section30">
@@ -120,20 +107,7 @@ use common\models\Images; ?>
                         It is mainly applied in the fields of medical electronics, photovoltaic energy storage, railway infrastructure, security communication, exploration and mapping, etc. Energy storage/power lithium battery, lithium iron phosphate battery, polymer lithium battery, 18650 lithium battery are commonly used.
                     </p>
                 </div>
-                <div class="products_list">
-                    <ul>
-                        <?php $value = $IndustrialField;?>
-                        <li class="section60">
-                            <div class="item">
-                                <div class="product_img col-md-5"><a target="_blank" href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
-                                <div class="text col-md-7">
-                                    <div class="des light1-8 section60"><p><?=$value['diyContentUrl']?></p></div>
-                                    <div class="button small-size section20"><a target="_blank" href="<?=$value['url']?>">READ MORE</a></div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+
 
                 <div class="link_title size2 section60" id="battery-cell"><h3>3.Special Use</h3></div>
                 <div class="common_p section30">
@@ -141,20 +115,7 @@ use common\models\Images; ?>
                         It is mainly used in the fields of military police, aerospace, naval ships, satellite navigation, weapons, and high energy physics. Ultra-low temperature lithium ion battery, high temperature lithium ion battery, lithium titanate battery and explosion-proof lithium battery are commonly used.
                     </p>
                 </div>
-                <div class="products_list">
-                    <ul>
-                        <?php $value = $SpecialUse;?>
-                        <li class="section60">
-                            <div class="item">
-                                <div class="product_img col-md-5"><a target="_blank" href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
-                                <div class="text col-md-7">
-                                    <div class="des light1-8 section60"><p><?=$value['diyContentUrl']?></p></div>
-                                    <div class="button small-size section20"><a target="_blank" href="<?=$value['url']?>">READ MORE</a></div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+
             </section>
 
             <section>
@@ -346,20 +307,7 @@ use common\models\Images; ?>
                     </p>
                 </div>
 
-                <div class="products_list section60">
-                    <ul>
-                        <?php $value = $Electrolyte;?>
-                        <li class="">
-                            <div class="item">
-                                <div class="product_img col-md-5"><a target="_blank" href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
-                                <div class="text col-md-7">
-                                    <div class="des light1-8 section60"><p><?=$value['diyContentUrl']?></p></div>
-                                    <div class="button small-size section20"><a target="_blank" href="<?=$value['url']?>">READ MORE</a></div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+
 
                 <div class="common_p section60">
                     <li class="title"><strong>All-solid-state Lithium Ion Battery</strong></li>
@@ -562,22 +510,7 @@ use common\models\Images; ?>
 
 
                 <div class="table_title size2 section70">Best Special Lithium Ion Battery</div>
-                <div class="products_list_other">
-                    <ul class="ul_none">
-                        <?php foreach (Yii::$app->params['products'] as $key=>$value):?>
-                            <li class="<?= $key==0?'section20':'section60';?>">
-                                <div class="item">
-                                    <div class="product_img col-md-3 col-sm-12"><a target="_blank" href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
-                                    <div class="text col-md-9 col-sm-12">
-                                        <div class="des light1-8 "><p><?=$value['diy_content']?></p></div>
-                                        <div class="button small-size section20"><a target="_blank" href="<?=$value['url']?>">READ MORE</a></div>
-                                    </div>
 
-                                </div>
-                            </li>
-                        <?php endforeach;?>
-                    </ul>
-                </div>
             </section>
 
             <section>
@@ -868,18 +801,13 @@ use common\models\Images; ?>
                 </div>
             </section>
 
-            <div class="fengxian section col-md-12">
-                <div class="sharethis-inline-share-buttons"></div>
-            </div>
+     
 
-            <section class="section section_m col-md-12">
-                <?php $this->beginContent('@app/views/layouts/public/send_email.php') ?>
-                <?php $this->endContent()?>
-            </section>
+
         </div>
     </div>
 
 
 </div>
 
-<script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5c344a1f093e83001145111b&product=inline-share-buttons' async='async'></script>
+
