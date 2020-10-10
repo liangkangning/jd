@@ -22,165 +22,113 @@ use common\models\Images; ?>
     <div class="col-md-12">
         <div class="">
             <section class="section m_section60">
-                <div class="link_title size2" id=""><h3>Recommended Lithium Ion Battery Category </h3></div>
                 <div class="category_list col-md-12">
-                    <ul class="ul_none ul_li_padding40">
-                        <li class="col-md-3 section30 m_section30">
-                            <div class="item">
-                                <div class="img"><a target="_blank" href="https://www.large.net/low-temperature-battery/"><img src="/static/images/column_lithium_guide_category_1.jpg" alt="Low Temperature Battery"></a></div>
-                                <div class="text text-center section30"><a target="_blank" href="https://www.large.net/low-temperature-battery/">Low Temperature Battery</a></div>
-                            </div>
-                        </li>
-                        <li class="col-md-3 section30 m_section60">
-                            <div class="item">
-                                <div class="img"><a target="_blank" href="https://www.large.net/explosion-proof-battery/"><img src="/static/images/column_lithium_guide_category_2.jpg" alt="Explosion-proof Battery"></a></div>
-                                <div class="text text-center section30"><a target="_blank" href="https://www.large.net/explosion-proof-battery/">Explosion-proof Battery</a></div>
-                            </div>
-                        </li>
-                        <li class="col-md-3 section30 m_section60">
-                            <div class="item">
-                                <div class="img"><a target="_blank" href="https://www.large.net/lithium-power-battery/"><img src="/static/images/column_lithium_guide_category_3.jpg" alt="Lithium Power Battery"></a></div>
-                                <div class="text text-center section30"><a target="_blank" href="https://www.large.net/lithium-power-battery/">Lithium Power Battery</a></div>
-                            </div>
-                        </li>
-                        <li class="col-md-3 section30 m_section60">
-                            <div class="item">
-                                <div class="img"><a target="_blank" href="https://www.large.net/lifepo4-battery/"><img src="/static/images/column_lithium_guide_category_4.jpg" alt="LiFePO4 Battery"></a></div>
-                                <div class="text text-center section30"><a target="_blank" href="https://www.large.net/lifepo4-battery/">LiFePO4 Battery</a></div>
-                            </div>
-                        </li>
-                        <li class="col-md-3 section60 m_section60">
-                            <div class="item">
-                                <div class="img"><a target="_blank" href="https://www.large.net/lithium-battery18650/"><img src="/static/images/column_lithium_guide_category_5.jpg" alt="18650 Battery"></a></div>
-                                <div class="text text-center section30"><a target="_blank" href="https://www.large.net/lithium-battery18650/">18650 Lithium Battery</a></div>
-                            </div>
-                        </li>
-                        <li class="col-md-3 section60 m_section60">
-                            <div class="item">
-                                <div class="img"><a target="_blank" href="https://www.large.net/lithium-polymer-battery/"><img src="/static/images/column_lithium_guide_category_6.jpg" alt="Lithium Polymer Battery"></a></div>
-                                <div class="text text-center section30"><a target="_blank" href="https://www.large.net/lithium-polymer-battery/">Lithium Polymer Battery</a></div>
-                            </div>
-                        </li>
-                        <li class="col-md-3 section60 m_section60">
-                            <div class="item">
-                                <div class="img"><a target="_blank" href="https://www.large.net/energy-storage-battery/"><img src="/static/images/column_lithium_guide_category_7.jpg" alt="Energy Storage Battery"></a></div>
-                                <div class="text text-center section30"><a target="_blank" href="https://www.large.net/energy-storage-battery/">Energy Storage Battery</a></div>
-                            </div>
-                        </li>
-                        <li class="col-md-3 section60 m_section60">
-                            <div class="item">
-                                <div class="img"><a target="_blank" href="https://www.large.net/industrial-battery/"><img src="/static/images/column_lithium_guide_category_8.jpg" alt="Ternary Battery"></a></div>
-                                <div class="text text-center section30"><a target="_blank" href="https://www.large.net/industrial-battery/">Ternary Lithium Battery</a></div>
-                            </div>
-                        </li>
-						
-                    </ul>
                 </div>
             </section>
 
             <section>
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Lithium Ion Battery Development</h2></div>
+                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">锂电池的发展</h2></div>
                 <div class="common_p section60">
                     <div class="p_ul">
                         <ul class=" small-size">
-                            <li>The first patent for lithium-ion batteries was issued in 1981.</li>
-                            <li>In 1992, SONY began mass production of lithium ion batteries for civilian use.</li>
-                            <li>In 1998, a large number of prismatic lithium ion batteries were put into the market, occupying a large share of the market.</li>
-                            <li>China began mass production of lithium ion batteries in 1999.</li>
+                            <li>1981年发表了第一个锂离子电池方面的专利。</li>
+                            <li>1992年，SONY公司开始大规模生产民用锂离子电池。</li>
+                            <li>1998年方型锂离子电池大量投放市场，占据了市场较大份额。</li>
+                            <li>1999年中国锂离子电池开始大批量生产。</li>
                         </ul>
                     </div>
                 </div>
             </section>
             <section>
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Lithium Ion Battery Application</h2></div>
-                <div class="link_title size2 section60" id="battery-cell"><h3>1. Consumer Goods</h3></div>
+                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">锂电池的应用领域</h2></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>1.消费品领域</h3></div>
                 <div class="common_p section30">
                     <p class="small-size">
-                        It is mainly used in digital products, mobile phones, portable power supplies, laptops and other electronic devices. 18650 lithium battery and lithium polymer battery are commonly used.
+                        主要应用在数码产品、手机、移动电源、笔记本等电子设备中。常用的有18650锂电池，锂聚合物电池。
                     </p>
                 </div>
 
 
-                <div class="link_title size2 section60" id="battery-cell"><h3>2.Industrial Field</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>2.工业领域</h3></div>
                 <div class="common_p section30">
                     <p class="small-size">
-                        It is mainly applied in the fields of medical electronics, photovoltaic energy storage, railway infrastructure, security communication, exploration and mapping, etc. Energy storage/power lithium battery, lithium iron phosphate battery, polymer lithium battery, 18650 lithium battery are commonly used.
+                        主要应用在医疗电子、光伏储能、铁路基建、安防通讯、勘探测绘等领域。常用的有储能/动力锂电池，磷酸铁锂电池，聚合物锂电池，18650锂电池。
                     </p>
                 </div>
 
 
-                <div class="link_title size2 section60" id="battery-cell"><h3>3.Special Use</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>3.特种领域</h3></div>
                 <div class="common_p section30">
                     <p class="small-size">
-                        It is mainly used in the fields of military police, aerospace, naval ships, satellite navigation, weapons, and high energy physics. Ultra-low temperature lithium ion battery, high temperature lithium ion battery, lithium titanate battery and explosion-proof lithium battery are commonly used.
+                        主要应用在军用警用、航空航天、舰艇船舶、卫星导航、武器装备、高能物理等领域。常用的有超低温锂电池，高温锂电池，钛酸锂电池，防爆锂电池等。
                     </p>
                 </div>
 
             </section>
 
             <section>
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Classification of Lithium Ion Batteries</h2></div>
-                <div class="link_title size2 section60" id="battery-cell"><h3>1.Appearance</h3></div>
+                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">锂电池的分类</h2></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>1.按外形分类</h3></div>
                 <div class="common_p section20">
-                    <div class="title"><strong>Cylindrical Lithium Ion Battery</strong></div>
+                    <div class="title"><strong>圆柱形锂电池</strong></div>
                     <p class="small-size section5 light1-5">
-                        The model name of cylindrical lithium ion battery is generally 5 digits. The first two digits are the diameter of the battery, the middle two digits are the height of the battery, the last digit 0 represents cylindrical battery. The unit is millimeter.
+                        圆柱形锂离子电池，其型号命名一般为5位数字，前两位数字为电池的直径，中间两位数字为电池的高度，最后一位数字0代表圆柱形，单位为毫米。
                     </p>
                 </div>
                 <div class="common_p section20">
-                    <div class="title"><strong>Most Commonly Used Cylindrical Lithium Ion Battery</strong></div>
+                    <div class="title"><strong>最常用的圆柱形锂电池</strong></div>
                     <div class="p_ul section5">
                         <ul class="small-size">
-                            <li><a target="_blank" href="https://www.large.net/lithium-ion-battery/list-142/">18650 Lithium Ion Battery</a></li>
-                            <li><a target="_blank" href="https://www.large.net/lithium-ion-battery/list-140/">14500 Lithium Ion Battery</a></li>
-                            <li><a target="_blank" href="https://www.large.net/lithium-ion-battery/list-141/">18500 Lithium Ion Battery</a></li>
-                            <li><a target="_blank" href="https://www.large.net/lithium-ion-battery/list-143/">21700 Lithium Ion Battery</a></li>
-                            <li><a target="_blank" href="https://www.large.net/lithium-ion-battery/list-144/">26650 Lithium Ion Battery</a></li>
-                            <li><a target="_blank" href="https://www.large.net/lithium-ion-battery/list-145/">32650（32700）Lithium Ion Battery</a></li>
+                            <li><a target="_blank" href="https://www.large.net/lithium-ion-battery/list-142/">18650锂电池</a></li>
+                            <li><a target="_blank" href="https://www.large.net/lithium-ion-battery/list-140/">14500锂电池</a></li>
+                            <li><a target="_blank" href="https://www.large.net/lithium-ion-battery/list-141/">18500锂电池/a></li>
+                            <li><a target="_blank" href="https://www.large.net/lithium-ion-battery/list-143/">21700锂电池</a></li>
+                            <li><a target="_blank" href="https://www.large.net/lithium-ion-battery/list-144/">26650锂电池</a></li>
+                            <li><a target="_blank" href="https://www.large.net/lithium-ion-battery/list-145/">32650（32700）锂电池</a></li>
 
                         </ul>
                     </div>
                 </div>
                 <div class="common_p section20">
-                    <div class="title"><strong>Prismatic Lithium Ion Battery</strong></div>
+                    <div class="title"><strong>方形锂电池</strong></div>
                     <p class="small-size section5 light1-5">
-                        Prismatic lithium ion battery usually refers to the aluminum or steel case prismatic lithium ion battery, widely used in exploration and mapping, medical equipment, portable testing equipment.
+                        方形锂电池通常是指铝壳或钢壳方形锂电池，广泛应用于勘探测绘、医疗设备、便携式检测设备。
                     </p>
                     <div class="img-list images-center section60">
                         <ul class="ul_none ul_li_padding50">
                             <li>
                                 <div class="item">
                                     <div class="img"><a target="_blank" href=""><img src="/static/images/column_lithium_guide_1.jpg" alt="Cylindrical Lithium Ion Battery"></a></div>
-                                    <div class="text text-center section30"><a target="_blank" href="https://www.large.net/cylindrical-lithium-ion-battery/">Cylindrical Lithium Ion Battery</a></div>
+                                    <div class="text text-center section30"><a target="_blank" href="https://www.large.net/cylindrical-lithium-ion-battery/">圆柱锂电池</a></div>
                                 </div>
                             </li>
                             <li class="m_section50">
                                 <div class="item">
                                     <div class="img"><a target="_blank" href=""><img src="/static/images/column_lithium_guide_2.jpg" alt="Prismatic Lithium Ion Battery"></a></div>
-                                    <div class="text text-center section30"><a target="_blank" href="https://www.large.net/lithium-ion-battery/list-146/">Prismatic Lithium Ion Battery</a></div>
+                                    <div class="text text-center section30"><a target="_blank" href="https://www.large.net/lithium-ion-battery/list-146/">方形锂电池</a></div>
                                 </div>
                             </li>
                         </ul>
                     </div>
                 </div>
 
-                <div class="link_title size2 section60" id="battery-cell"><h3>2.Case</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>2.按外壳分类</h3></div>
                 <div class="common_p section20">
-                    <li class="title"><strong>Steel Case Lithium Ion Battery</strong></li>
+                    <li class="title"><strong>钢壳锂电池</strong></li>
                     <p class="small-size section5 light1-5">
-                        Long ago, steel lithium ion batteries are used commonly. Due to the large weight of the steel case, poor safety, but good stability, many manufacturers increase battery safety performance by optimizing the design structure by safety valve, PTC and other devices. Some manufacturers replace the steel case with an aluminum case and flexible package, such as the current cell phone battery.
+                        早起锂离子电池大多为钢壳。由于钢壳重量大，安全性较差，但钢的稳定性强，后期很多厂商通过安全阀、PTC等器件优化设计结构，大大增加了其安全性能。而有些则直接替换掉钢壳，采用铝壳和软包，例如现在的手机电池。
                     </p>
                 </div>
                 <div class="common_p section20">
-                    <li class="title"><strong>Aluminum Case Lithium Ion Battery</strong></li>
+                    <li class="title"><strong>铝壳锂电池</strong></li>
                     <p class="small-size section5 light1-5">
-                        The aluminum case lithium ion battery is lighter and slightly safer than the steel case lithium ion battery.
+                        铝壳锂离子电池由于质量较轻且安全性稍优于钢壳锂离子电池。
                     </p>
                 </div>
                 <div class="common_p section20">
-                    <li class="title"><strong>Pouch cell</strong></li>
+                    <li class="title"><strong>软包装锂电池</strong></li>
                     <p class="small-size section5 light1-5">
-                        Pouch cell has the advantages of light weight, low mould cost and high safety. It gradually expands its market share.
+                        软包装锂离子电池由于其质量轻，开模成本较低，安全性高等优点，逐步在扩大其市场份额。
                     </p>
                 </div>
                 <div class="img-list section60 col-md-12">
@@ -188,19 +136,19 @@ use common\models\Images; ?>
                         <li class="col-md-4">
                             <div class="item">
                                 <div class="img"><img src="/static/images/column_lithium_guide_3.jpg" alt="Steel Case Lithium Ion Battery"></div>
-                                <div class="text text-center section30">Steel Case Lithium Ion Battery</div>
+                                <div class="text text-center section30">钢壳锂电池</div>
                             </div>
                         </li>
                         <li class="col-md-4">
                             <div class="item">
                                 <div class="img"><img src="/static/images/column_lithium_guide_4.jpg" alt="Aluminum Case Lithium Ion "></div>
-                                <div class="text text-center section30">Aluminum Case Lithium Ion </div>
+                                <div class="text text-center section30">铝壳锂电池</div>
                             </div>
                         </li>
                         <li class="col-md-4">
                             <div class="item">
                                 <div class="img"><img src="/static/images/column_lithium_guide_5.jpg" alt="Pouch cell"></div>
-                                <div class="text text-center section30">Pouch cell</div>
+                                <div class="text text-center section30">软包装锂电池</div>
                             </div>
                         </li>
 
@@ -208,32 +156,32 @@ use common\models\Images; ?>
                 </div>
 
 
-                <div class="link_title size2 section60" id="battery-cell"><h3>3.Anode Materials</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>3.按正极材料分类</h3></div>
                 <div class="common_p section20">
-                    <p>Currently, there are four kinds of anode materials for lithium ion batteries:</p>
-                    <p class="section20"><a target="_blank" href="https://www.large.net/news/8ku43mw.html">LiCoO2 battery</a></p>
-                    <p class="section5">The chemical formula for lithium cobalt oxide is LiCoO ₂. It is a kind of inorganic compounds, and is usually used as positive electrode materials for lithium ion batteries.</p>
-                    <p class="section20"><a target="_blank" href="https://www.large.net/news/8fu43my.html">LiMn2O4 battery</a></p>
-                    <p class="section5">Lithium manganese is mainly spinel manganese, which was first prepared by Hunter in 1981 as a positive electrode material with three-dimensional lithium ion channels.</p>
-                    <p class="section20"><a target="_blank" href="https://www.large.net/lifepo4-battery/">LiFePO4 Battery</a></p>
-                    <p class="section5">Lithium iron phosphate is a lithium ion battery anode material. Lithium iron phosphate batteries, named after their anode material, are also known as LiFePO4 battery and LFP battery.</p>
-                    <p class="section20"><a target="_blank" href="https://www.large.net/news/8mu43my.html">NCM (Ternary) Battery</a></p>
-                    <p class="section5">Lithium nickel manganese cobalt is the key ternary anode material for lithium ion battery, which has higher specific capacity and lower cost than the other anode material.</p>
+                    <p>锂离子电池所用正极材料目前有四种：</p>
+                    <p class="section20"><a target="_blank" href="https://www.large.net/news/8ku43mw.html">钴酸锂电池</a></p>
+                    <p class="section5">钴酸锂，化学式为LiCoO₂，是一种无机化合物，一般使用作锂离子电池的正电极材料。</p>
+                    <p class="section20"><a target="_blank" href="https://www.large.net/news/8fu43my.html">锰酸锂电池</a></p>
+                    <p class="section5">锰酸锂主要为尖晶石型锰酸锂，是Hunter在1981年首先制得的具有三维锂离子通道的正极材料。</p>
+                    <p class="section20"><a target="_blank" href="https://www.large.net/lifepo4-battery/">磷酸铁锂电池</a></p>
+                    <p class="section5">磷酸铁锂又称磷酸锂铁、锂铁磷，是一种锂离子电池的正极材料。以其正极材料命名的磷酸铁锂电池也称为铁锂电池。</p>
+                    <p class="section20"><a target="_blank" href="https://www.large.net/news/8mu43my.html">镍钴锰（三元）锂电池</a></p>
+                    <p class="section5">镍钴锰酸锂是锂离子电池的关键三元正极材料，拥有比单元正极材料更高的比容量和更低的成本。</p>
                 </div>
 
-                <div class="table_title size2 section60">The material characteristics of the anode of lithium ion battery are compared as follows:</div>
+                <div class="table_title size2 section60">锂离子电池正极材料特性对比如下：</div>
                <section class="section30 tabel-section">
                    <table cellspacing="0" width="100%" class="table-bordered">
                        <tbody>
                        <tr class="firstRow">
-                           <td>Item</td>
-                           <td>LiCoO2</td>
-                           <td>LiNiCoMnO2 (ternary)</td>
-                           <td>LiMn2O4</td>
-                           <td>LiFePO4</td>
+                           <td>项目</td>
+                           <td>钴酸锂</td>
+                           <td>镍钴锰（三元）</td>
+                           <td>锰酸锂</td>
+                           <td>磷酸铁锂</td>
                        </tr>
                        <tr>
-                           <td>Compacted Density (g/cm3)</td>
+                           <td>振实密度(g/cm3)</td>
                            <td>2.8~3.0</td>
                            <td>2.0~2.3</td>
                            <td>2.2~2.4</td>
@@ -241,50 +189,48 @@ use common\models\Images; ?>
                        </tr>
 
                        <tr>
-                           <td>Specific Surface Area (m2/g)</td>
+                           <td>比表面积(m2/g)</td>
                            <td>0.4~0.6</td>
                            <td>0.2~0.4</td>
                            <td>0.4~0.8</td>
                            <td>12~20</td>
                        </tr>
                        <tr>
-                           <td>Volume (mAh/g)</td>
+                           <td>克容量(mAh/g)</td>
                            <td>135~140</td>
                            <td>140~180</td>
                            <td>90~100</td>
                            <td>130~140</td>
                        <tr>
-                           <td>Voltage Platform (V)</td>
+                           <td>电压平台(V)</td>
                            <td>3.7</td>
                            <td>3.6</td>
                            <td>3.7</td>
                            <td>3.2</td>
                        </tr>
                        <tr>
-                           <td>Cycle Performance</td>
-                           <td>≥500times</td>
-                           <td>≥500times</td>
-                           <td>≥300times</td>
-                           <td>≥2000times</td>
+                           <td>循环性能</td>
+                           <td>≥500次</td>
+                           <td>≥500次</td>
+                           <td>≥300次</td>
+                           <td>≥2000次</td>
                        </tr>
                        <tr>
-                           <td>Safety Performance</td>
-                           <td>bad</td>
-                           <td>good</td>
-                           <td>better</td>
-                           <td>best</td>
+                           <td>安全性能</td>
+                           <td>差</td>
+                           <td>较好</td>
+                           <td>良好</td>
+                           <td>优秀</td>
                        </tr>
                        <tr>
-                           <td>Scope of Application</td>
-                           <td>small and medium<br>
-                               size battery</td>
-                           <td>small batteries/small<br>
-                               power battery</td>
-                           <td>power battery<br>
-                               low cost battery</td>
-                           <td>power battery/power<br>
-                               supply with super<br>
-                               capacity</td>
+                           <td>适用领域</td>
+                           <td>中小电池</td>
+                           <td>小电池/小型<br>
+                               动力电池</td>
+                           <td>动力电池<br>
+                               低成本电池</td>
+                           <td>动力电池/超<br>
+                               大容量电源</td>
                        </tr>
                        </tbody>
                    </table>
@@ -293,58 +239,58 @@ use common\models\Images; ?>
 
 
 
-                <div class="link_title size2 section60" id="battery-cell"><h3>4.Electrolyte</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>4.按电解质分类</h3></div>
                 <div class="common_p section20">
-                    <li class="title"><strong>Liquid Lithium Ion Battery</strong></li>
+                    <li class="title"><strong>液态锂离子电池</strong></li>
                     <p class="small-size section5 light1-5">
-                        Liquid lithium ion battery uses liquid electrolytes, which are organic solvents and lithium salts.
+                        液态锂离子电池使用的是液体电解质，电解质为有机溶剂+锂盐。
                     </p>
                 </div>
                 <div class="common_p section20">
-                    <li class="title"><strong>Polymer Lithium Ion Battery</strong></li>
+                    <li class="title"><strong>聚合物锂离子电池</strong></li>
                     <p class="small-size section5 light1-5">
-                        Polymer lithium ion battery uses solid polymer electrolyte, which can be either "dry" or "colloidal". Most manufacturers use polymer colloidal electrolyte currently. The polymer matrix tends to be HFP-PVDF, PEO, PAN and PMMA.
+                        聚合物锂离子电池以固体聚合物电解质来代替,这种聚合物可以是“干态”的,也可以是“胶态”的,目前大部分采用聚合物胶体电解质。聚合物的基体主要为HFP-PVDF、PEO、PAN和PMMA等。
                     </p>
                 </div>
 
 
 
                 <div class="common_p section60">
-                    <li class="title"><strong>All-solid-state Lithium Ion Battery</strong></li>
+                    <li class="title"><strong>全固态锂离子电池</strong></li>
                     <p class="small-size section5 light1-5">
-                        "All-solid-state lithium ion battery" is a kind of lithium battery with solid electrode and electrolyte materials used in the working temperature range and without any liquid components, so it is called "all-solid-state lithium ion battery with electrolyte".
+                        “全固态锂电池”是一种在工作温度区间内所使用的电极和电解质材料均呈固态、不含任何液态组份的锂电池，所以全称是“全固态电解质锂电池”。
                     </p>
                 </div>
             </section>
 
             <section>
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Best Lithium Ion Battery Brand</h2></div>
-                <div class="link_title size2 section60" id="battery-cell"><h3>1.Best 18650 Lithium Ion Battery Brand</h3></div>
+                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">锂电池推荐品牌</h2></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>1.18650锂电池推荐品牌</h3></div>
                 <div class="brand_list col-md-12">
                     <ul>
                         <div class="row">
                             <li class="section40">
                                 <div class="item yellow_color">
                                     <div class="img"><img src="/static/images/column_cylindrical_brand_1.jpg" alt="Sony"></div>
-                                    <div class="text">Sony</div>
+                                    <div class="text">索尼</div>
                                 </div>
                             </li>
                             <li class="section40">
                                 <div class="item yellow_color">
                                     <div class="img"><img src="/static/images/column_cylindrical_brand_2.jpg" alt="Panasonic"></div>
-                                    <div class="text">Panasonic</div>
+                                    <div class="text">松下</div>
                                 </div>
                             </li>
                             <li class="section40">
                                 <div class="item yellow_color">
                                     <div class="img"><img src="/static/images/column_cylindrical_brand_3.jpg" alt="Sanyo"></div>
-                                    <div class="text">Sanyo</div>
+                                    <div class="text">三洋</div>
                                 </div>
                             </li>
                             <li class="section40">
                                 <div class="item yellow_color">
                                     <div class="img"><img src="/static/images/column_cylindrical_brand_4.jpg" alt="Samsung"></div>
-                                    <div class="text">Samsung</div>
+                                    <div class="text">三星</div>
                                 </div>
                             </li>
                         </div>
@@ -353,25 +299,25 @@ use common\models\Images; ?>
                             <li class="section40">
                                 <div class="item yellow_color">
                                     <div class="img"><img src="/static/images/column_cylindrical_brand_6.jpg" alt="BAK"></div>
-                                    <div class="text">BAK</div>
+                                    <div class="text">比克</div>
                                 </div>
                             </li>
                             <li class="section40">
                                 <div class="item yellow_color">
                                     <div class="img"><img src="/static/images/column_cylindrical_brand_7.jpg" alt="LISHEN"></div>
-                                    <div class="text">LISHEN</div>
+                                    <div class="text">力神</div>
                                 </div>
                             </li>
                             <li class="section40">
                                 <div class="item yellow_color">
                                     <div class="img"><img src="/static/images/column_cylindrical_brand_8.jpg" alt="LARGE"></div>
-                                    <div class="text">LARGE</div>
+                                    <div class="text">钜大锂电</div>
                                 </div>
                             </li>
                             <li class="section40">
                                 <div class="item yellow_color">
                                     <div class="img"><img src="/static/images/column_cylindrical_brand_5.jpg" alt="LG"></div>
-                                    <div class="text">LG</div>
+                                    <div class="text">LG化学</div>
                                 </div>
                             </li>
                         </div>
@@ -379,33 +325,33 @@ use common\models\Images; ?>
                     </ul>
                 </div>
 
-                <div class="link_title size2 section60" id="battery-cell"><h3>2.Recommended Power Lithium Ion Battery Brands</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>2.动力锂电池推荐品牌</h3></div>
                 <div class="p_ul section20 col-md-12">
                     <ul class="small-size light1-8">
-                       <li>CATL</li>
-                       <li>Panasonic</li>
-                       <li>BYD</li>
-                       <li>Tesla</li>
+                       <li>宁德时代</li>
+                       <li>松下电器</li>
+                       <li>比亚迪</li>
+                       <li>特斯拉</li>
                        <li>LG</li>
-                       <li>Samsung SDI</li>
-                       <li>GUOXUAN</li>
-                       <li>LISHEN</li>
-                       <li>BAK</li>
-                       <li>CALB</li>
+                       <li>三星 SDI</li>
+                       <li>国轩高科</li>
+                       <li>力神</li>
+                       <li>比克</li>
+                       <li>中航锂电</li>
                     </ul>
                 </div>
 
-                <div class="link_title size2 section60" id="battery-cell"><h3>3.Special Lithium Ion Battery Brand</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>3.特种锂电池推荐品牌</h3></div>
 
                 <div class="common_p section20">
-                    <p><a target="_blank" href="/">LARGE</a></p>
+                    <p><a target="_blank" href="/">钜大锂电</a></p>
                     <p class="section10">
-                        18 Years' Expertise in Customizing Lithium Ion Battery<br>
-                        Dongguan Large Electronics Co., Ltd was established in 2002. It is a national-level high-tech enterprise providing customized solutions and products of maximum reliable  maximum safe special lithium ion battery system.
+                        18年专注锂电池定制<br>
+                        东莞市钜大电子有限公司成立于2002年，总部位于中国广东省东莞市南城区高盛科技园，是一家为全球用户在移动电源、储能电源、动力电源和备用电源的个性化需求，提供特种锂电系统定制化方案和产品的国家级高新技术企业。
                     </p>
                 </div>
                 <section class="section60">
-                    <div class="title size2" >Core Technology</div>
+                    <div class="title size2" >钜大特种锂电池核心技术</div>
                     <div class="list">
                         <ul class="ul_li_padding60 ul_none">
                             <div class="row">
@@ -414,10 +360,10 @@ use common\models\Images; ?>
                                         <div class="img"><img src="/static/images/colmun_battery_01.jpg" alt=""></div>
                                         <div class="text section20 light1-8">
                                             <p>
-                                                <strong> High Energy Density</strong><br>
-                                                (Ternary, lithium cobalt oxide system)<br>
-                                                Mass energy density 300watt-hour/kg<br>
-                                                Volume energy density 700 watt-hour/kg
+                                                <strong>高能量密度</strong><br>
+                                                （三元、钴酸锂体系）<br>
+                                                质量能量密度285瓦时/公斤，<br>
+                                                体积能量密度700瓦时/升。
                                             </p>
                                         </div>
                                     </div>
@@ -427,13 +373,10 @@ use common\models\Images; ?>
                                         <div class="img"><img src="/static/images/colmun_battery_02.jpg" alt=""></div>
                                         <div class="text section20 light1-8">
                                             <p>
-                                                <strong> High Rate</strong><br>
-
-                                                High Rate
-                                                (Ternary, Lithium Cobalt Oxide, Lithium
-                                                Iron Phosphate System)<br>
-                                                100C continuous discharge<br>
-                                                The temperature controls within 40℃.
+                                                <strong>高倍率</strong><br>
+                                                （三元、钴酸锂、磷酸铁锂体系）<br>
+                                                100C持续放电，<br>
+                                                温升控制在40℃以内。
 
                                             </p>
 
@@ -445,10 +388,10 @@ use common\models\Images; ?>
                                         <div class="img"><img src="/static/images/colmun_battery_03.jpg" alt=""></div>
                                         <div class="text section20 light1-8">
                                             <p>
-                                                <strong> High Temperature</strong><br>
-                                                (Ternary, Lithium Iron Phosphate System)<br>
-                                                The high temperature of 80℃ lasts for 200 cycles.<br>
-                                                Store at 85℃ for 48 hours.
+                                                <strong>高温</strong><br>
+                                                （三元、磷酸铁锂体系）<br>
+                                                80℃高温持续循环200周，<br>
+                                                85℃储存48小时。
                                             </p>
                                         </div>
                                     </div>
@@ -460,11 +403,11 @@ use common\models\Images; ?>
                                        <div class="img"><img src="/static/images/colmun_battery_04.jpg" alt=""></div>
                                        <div class="text section20 light1-8">
                                            <p>
-                                               <strong> Good Safety</strong><br>
-                                               (Modified ternary chemical system)<br>
-                                               190~200Wh/kg high energy density
-                                               Meet Ex ia IIA/Ex ib IIB T1~T4 <br>
-                                               explosion-proof criteria.
+                                               <strong>高安全性</strong><br>
+                                               （改性三元化学体系）<br>
+                                               190~200Wh/kg的高能量密度，
+                                               同时满足Ex ia\ib IIA\IIB T1~T4<br>
+                                               防爆标准
                                            </p>
                                        </div>
                                    </div>
@@ -474,12 +417,12 @@ use common\models\Images; ?>
                                        <div class="img"><img src="/static/images/colmun_battery_05.jpg" alt=""></div>
                                        <div class="text section20 light1-8">
                                            <p>
-                                               <strong> Low Temperature Charging</strong><br>
-                                               (Ternary, Lithium Iron Phosphate System)
-                                               -20℃ 0.5C charging, <br>
-                                               charge-discharge cycle≥300 cycles,
-                                               -40℃ 0.2C charging, <br>
-                                               charge-discharge cycle≥300 cycles.
+                                               <strong>低温充电</strong><br>
+                                               （三元、磷酸铁锂体系）
+                                               支持-20℃低温0.5C充电，<br>
+                                               且充放电循环300周以上。
+                                               支持-40℃低温0.2C充电，<br>
+                                               且充放电循环300周以上。
                                            </p>
                                        </div>
                                    </div>
@@ -489,12 +432,12 @@ use common\models\Images; ?>
                                        <div class="img"><img src="/static/images/colmun_battery_06.jpg" alt=""></div>
                                        <div class="text section20 light1-8">
                                            <p>
-                                               <strong> Low Temperature Discharging</strong><br>
-                                               (Ternary, Lithium Iron Phosphate System)
-                                               -40℃ high rate 5C continuous discharging,<br>
-                                               over 80% capacity retention ratio, <br>
-                                               -50℃ low temperature discharging,<br>
-                                               over 75% capacity retention ratio.
+                                               <strong>低温放电</strong><br>
+                                               （三元、磷酸铁锂体系）
+                                               -40℃高倍率5C持续放电，<br>
+                                               80%以上容量保持率。<br>
+                                               -50℃低温放电，<br>
+                                               75%以上容量保持率。
                                            </p>
                                        </div>
                                    </div>
@@ -509,64 +452,63 @@ use common\models\Images; ?>
 
 
 
-                <div class="table_title size2 section70">Best Special Lithium Ion Battery</div>
 
             </section>
 
             <section>
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Lithium Ion Battery Parameters</h2></div>
-                <div class="link_title size2 section60" id="battery-cell"><h3>1.Voltage</h3></div>
+                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">锂电池参数</h2></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>1.电压</h3></div>
                 <div class="common_p section20">
-                    <li class="title"><strong>Nominal Voltage</strong></li>
+                    <li class="title"><strong>标称电压</strong></li>
                     <p class="small-size section5 light1-5">
-                        The potential difference between the anode and cathode of lithium ion battery is called the nominal voltage of lithium ion battery. The nominal voltage is determined by the electrode potential of the electrode material and the concentration of the internal electrolyte.
+                        锂电池正负极之间的电势差称为锂电池的标称电压。标称电压由极板材料的电极电位和内部电解液的浓度决定。
                     </p>
                 </div>
                 <div class="common_p section20">
-                    <li class="title"><strong>Open Circuit Voltage</strong></li>
+                    <li class="title"><strong>开路电压</strong></li>
                     <p class="small-size section5 light1-5">
-                        The terminal voltage of the battery in the open circuit state is called the open circuit voltage. The open circuit voltage of the battery is equal to the potential difference between the anode and cathode.
+                        锂电池在开路状态下的端电压称为开路电压。锂电池的开路电压等于锂电池的正极的还原电极电势与负极电极电势之差。
                     </p>
                 </div>
                 <div class="common_p section20">
-                    <li class="title"><strong>Operating Voltage</strong></li>
+                    <li class="title"><strong>工作电压</strong></li>
                     <p class="small-size section5 light1-5">
-                        Working voltage refers to the voltage displayed during the discharge process after the battery is connected to the load. It is also known as discharge voltage. The initial discharge voltage is called the initial voltage.
+                        工作电压指锂电池接通负载后在放电过程中显示的电压，又称放电电压。在锂电池放电初始的工作电压称为初始电压。
                     </p>
                 </div>
                 <div class="common_p section20">
-                    <li class="title"><strong>Recommended Commonly Used Voltage of Lithium Ion Battery：</strong></li>
+                    <li class="title"><strong>锂电池常用电压推荐</strong></li>
                     <p class="small-size section5 light1-5">
-                        <a target="_blank" href="/lithium-ion-battery/list-133/">12V Lithium Ion Battery</a>
+                        <a target="_blank" href="/lithium-ion-battery/list-133/">12V锂电池</a>
                         <br>
-                        <a target="_blank" href="/lithium-ion-battery/list-134/">24V Lithium Ion Battery</a>
+                        <a target="_blank" href="/lithium-ion-battery/list-134/">24V锂电池</a>
                         <br>
-                        <a target="_blank" href="/lithium-ion-battery/list-135/">36V Lithium Ion Battery</a>
+                        <a target="_blank" href="/lithium-ion-battery/list-135/">36V锂电池</a>
                         <br>
-                        <a target="_blank" href="/lithium-ion-battery/list-136/">48V Lithium Ion Battery</a>
+                        <a target="_blank" href="/lithium-ion-battery/list-136/">48V锂电池</a>
 
 
                     </p>
                 </div>
 
-                <div class="link_title size2 section60" id="battery-cell"><h3>2.Capacity</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>2.容量</h3></div>
                 <div class="common_p section20">
                     <p class="small-size section5 light1-5">
-                        The capacity of a lithium ion battery under certain discharge conditions is called the capacity of a lithium ion battery and is represented by the symbol C. The commonly used unit is the ampere hour, or ampere-hour (Ah) or milliampere-hour (mAh) for short.
+                        锂电池在一定放电条件下所能给出的电量称为锂电池的容量，以符号C表示。常用的单位为安培小时，简称安时（Ah）或毫安时（mAh）。
                         <br><br>
-                        The capacity of lithium ion battery is affected by the anode material, battery temperature, discharge rate and voltage.
+                        锂电池的容量受其所用正极材料、电池的温度、放电倍率、电压等影响。
                     </p>
                 </div>
-                <div class="link_title size2 section60" id="battery-cell"><h3>3.Internal Impedance</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>3.内阻</h3></div>
                 <div class="common_p section20">
                     <p class="small-size section5 light1-5">
-                        The internal impedance of lithium ion battery refers to the impedance caused by the current passing through the lithium ion battery. The internal impedance will affect the voltage of lithium ion battery.
+                        锂电池的内阻是指电流通过锂电池内部时受到阻力，内阻会影响锂电池的电压。
                     </p>
                 </div>
-                <div class="link_title size2 section60" id="battery-cell"><h3>4.Cycle life</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>4.循环寿命</h3></div>
                 <div class="common_p section20">
                     <p class="small-size section5 light1-5">
-                        The cycle life of a lithium ion battery is generally expressed by cycle number. One cycle represents a complete charge and discharge cycle of the lithium ion battery (that is, the lithium ion battery is charged from empty to full state and then discharged from full to empty state).
+                        锂电池的循环寿命一般用使用次数表示，一次循环表示锂电池的一个完全充放电周期（即锂电池电量由空充电到满，再由满放电到空）。
                     </p>
                 </div>
                 <div class="common_p">
@@ -575,177 +517,177 @@ use common\models\Images; ?>
 
                 <div class="common_p section60 m_section30">
                     <p class="small-size light1-5">
-                        Note: Lithium ion battery has good cycle characteristics and can maintain about 80% capacity after 500 cycles.
+                        注：锂电池的循环特性较好，一般500次循环以后还可以保持80%左右的容量。
                     </p>
                 </div>
 
-                <div class="link_title size2 section60" id="battery-cell"><h3>5.Discharge Rate</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>5.放电倍率</h3></div>
                 <div class="common_p section20">
                     <p class="small-size section5 light1-5">
-                        Discharge rate refers to the current of lithium ion battery during discharge, which is generally expressed as C. The formula is as follows:
+                        放电倍率是指锂电池在放电时电流的大小，一般用C表示，用公式表示为：
                     </p>
                     <p class="small-size section20 light1-5">
-                        <strong>Discharge Rate = Discharge Current/Rated Capacity</strong>
+                        <strong>放电倍率=放电电流/额定容量</strong>
                     </p>
                     <div class="img col-md-12 text-center section60"><img src="/static/images/column_lithium_guide_7.jpg" alt="Discharging load characteristics"></div>
                 </div>
 
                 <div class="common_p section60 m_section30">
                     <p class="small-size light1-5">
-                        Note: Because lithium ion battery has organic solvent electrolytes, the conductivity is typically only a few hundredths of that of lead-acid or alkaline battery electrolytes. Therefore, when the lithium ion battery is discharged at a high current, it is too late to replenish Li+ from the electrolyte, and then the voltage will reduce.
+                        注：由于锂电池用的是有机溶剂电解液，电导率一般只有铅酸或碱性电池电解液的几百分之一。因此，锂离子电池在大电流放电时，来不及从电解液中补充Li+,会发生电压下降。
                     </p>
                 </div>
 
-                <div class="link_title size2 section60" id="battery-cell"><h3>6.Operating Temperature</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>6.工作温度</h3></div>
                 <div class="common_p section20">
                     <p class="small-size section5 light1-5">
-                        The operating temperature of lithium ion battery refers to temperature of the charging and discharging environment that lithium ion battery can adapt to.
+                        锂电池的工作温度指锂电池能够保持正常充放电工作的情况下所能适应的环境和电池本身的温度。
                     </p>
                     <p class="small-size section20 light1-5">
-                        When lithium ion battery is at low temperature, the discharge platform has a certain reduction. When the temperature is high, the circulation performance of the battery will be affected, and the battery will slightly swell. Therefore, the battery is generally recommended to operate at 0-40℃.
+                        锂电池在低温时，放电平台有一定的降低。高温度时，会影响电池的循环性能，且会使电池有微量膨胀。因此，电池一般推荐在0-40℃范围内工作。
                     </p>
                     <div class="img col-md-12 text-center section60"><img src="/static/images/column_lithium_guide_8.jpg" alt="Discharge temperature characteristics"></div>
                 </div>
 
                 <div class="common_p section60 m_section30">
                     <p class="small-size gray_color text-center ">
-                        Low Temperature Discharge Characteristic Curve of Lithium Ion Battery
+                        锂电池低温放电特性曲线图
                     </p>
                     <div class="img col-md-12 text-center section60"><img src="/static/images/column_lithium_guide_9.jpg" alt="Storage characteristics"></div>
                 </div>
 
                 <div class="common_p section60 m_section30">
                     <p class="small-size gray_color text-center ">
-                        High Temperature Discharge Characteristic Curve of Lithium Ion Battery
+                        锂电池高温放电特性曲线图
                     </p>
                 </div>
             </section>
 
             <section>
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Lithium Ion Battery and Lead Acid Battery, NI-MH Battery</h2></div>
+                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">锂电池与铅酸电池、镍氢电池</h2></div>
                 <section class="section60">
                     <table cellspacing="0" width="100%" class="table-bordered">
                         <tbody>
                         <tr class="firstRow">
-                            <td>Item</td>
-                            <td>Lithium Ion Battery</td>
-                            <td>Lead Acid battery</td>
-                            <td>NI-MH Battery</td>
+                            <td>项目</td>
+                            <td>锂电池</td>
+                            <td>铅酸电池</td>
+                            <td>镍氢电池</td>
 
                         </tr>
                         <tr>
-                            <td>Energy Density (wh/kg)</td>
+                            <td>能量密度(wh/kg)</td>
                             <td>200~260wh/kg</td>
                             <td>50~70wh/kg</td>
                             <td>40~70wh/kg</td>
                         </tr>
                         <tr>
-                            <td>Open Circuit Voltage (v)</td>
+                            <td>开路电压(v)</td>
                             <td>3.6V</td>
                             <td>2.0V</td>
                             <td>1.2V</td>
                         </tr>
                         <tr>
-                            <td>Cycle Life (Times)</td>
+                            <td>循环寿命(次)</td>
                             <td>300-2500</td>
                             <td>400-600</td>
                             <td>300-350</td>
                         </tr>
                         <tr>
-                            <td>Charging Speed</td>
-                            <td>Quick</td>
-                            <td>Slow</td>
-                            <td>Slower</td>
+                            <td>充电速度</td>
+                            <td>快</td>
+                            <td>慢</td>
+                            <td>很慢</td>
                         </tr>
                         <tr>
-                            <td>Memory Effect</td>
-                            <td>No</td>
-                            <td>No</td>
-                            <td>Yes</td>
+                            <td>记忆效应</td>
+                            <td>无</td>
+                            <td>无</td>
+                            <td>有</td>
                         </tr>
                         <tr>
-                            <td>Environmental Performance</td>
-                            <td>Lower Pollution</td>
-                            <td>High Pollution</td>
-                            <td>Low Pollution</td>
+                            <td>环保性能</td>
+                            <td>污染较低</td>
+                            <td>污染高</td>
+                            <td>污染低</td>
                         </tr>
                         </tbody>
                     </table>
                 </section>
             <section>
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Lithium Ion Battery Pack </h2></div>
+                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">锂电池</h2></div>
                 <div class="common_p section60">
                     <p class="small-size light1-5">
-                        Lithium ion battery pack mainly refers to the processing and assembly of lithium ion battery, which is mainly to process the battery cell, PCM, BMS, connector, label, holder, cases, lead and terminal into products according to customer’s requirements.
+                        锂电池PACK主要指锂电池的加工组装，主要是将电芯、保护板、BMS、连接片、标签纸等通过电池PACK工艺组合加工成客户需要的产品。
                     </p>
                 </div>
                 <div class="img col-md-12 text-center section60"><img src="/static/images/column_lithium_guide_zhinan.jpg" alt="Storage characteristics"></div>
             </section>
 
             <section>
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Lithium Ion Battery Safety Test</h2></div>
+                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">锂电池安全测试</h2></div>
                 <div class="common_p section60">
                     <p>
-                        The best lithium ion battery has to pass UL2054 safety standard (lithium ion battery) and has to finish the tests below:
+                        最好的锂电池要符合UL2054安全标准(锂电池)，并且完成以下测试：
                     </p>
                 </div>
                 <div class="common_p section20">
-                    <p><li><strong>Appearance</strong></li></p>
+                    <p><li><strong>外观</strong></li></p>
                     <p class="section5">
-                        The best lithium ion battery has to pass UL2054 safety standard (lithium ion battery) and has to finish the tests below:
+                        对锂电池进行外形、尺寸、标识等检测。
                     </p>
                 </div>
                 <div class="common_p section20">
-                    <p><li><strong>Electric Performance Test</strong></li></p>
+                    <p><li><strong>电性能测试</strong></li></p>
                     <p class="section5">
-                        0.2C5A discharge performance, 1C5A discharge performance, high temperature performance, low temperature performance, charge retention and cycling.
+                        对锂电池进行0.2C5A放电性能、1C5A放电性能、高温性能、低温性能、荷电保持、循环等电性能测试。
                     </p>
                 </div>
                 <div class="common_p section20">
-                    <p><li><strong>Environment Compatibility Verification</strong></li></p>
+                    <p><li><strong>环境适应性测试</strong></li></p>
                     <p class="section5">
-                        Constant heat and humidity, vibration, collision and free drop
+                        对锂电池进行恒定湿热性、振动、碰撞、自由跌落等环境适应性测试。
                     </p>
                 </div>
                 <div class="common_p section20">
-                    <p><li><strong>Safety Performance</strong></li></p>
+                    <p><li><strong>安全性能测试</strong></li></p>
                     <p class="section5">
-                        Impact test, thermal shock, overcharge, short circuit and other safety tests
+                        对锂电池进行重物冲击、热冲击、过充电、短路等安全性测试。
                     </p>
                 </div>
 
             </section>
 
             <section>
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Lithium Ion Battery Certification and Test Standard</h2></div>
+                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">锂电池认证和测试标准</h2></div>
                 <div class="common_p section60">
                     <p class="text-center size2">
-                        Product Certification
+                        产品认证
                     </p>
                 </div>
                 <div class="common_p section20">
                     <p class="text-center">
-                        Certification Details of Major Global Countries and Regions(Battery)
+                        全球主要国家和地区认证明细（电池产品类）
                     </p>
                     <div class="img col-md-12 text-center section60"><img src="/static/images/column_lithium_guide_10.jpg" alt="Storage characteristics"></div>
                 </div>
             </section>
 
             <section>
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Lithium Ion Battery Transportation</h2></div>
+                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">锂电池运输</h2></div>
                 <div class="common_p section60">
                     <p>
-                        Lithium battery can be transported by air, by ship, or by vehicles and train. The most commonly used is air transport and marine transport.
-                        Because lithium is a metal particularly prone to chemical reactions and combustion, improper lithium battery package and transportation may lead to combustion and explosion.
+                        锂电池运输方式包括空运、水运、陆运，最为常用的是航空运输、海洋运输。
+                        由于锂是一种特别容易发生化学反应的金属，易延伸和燃烧，因此锂电池包装和运输处理不当，易发生燃烧和爆炸。
                     </p>
                 </div>
-                <div class="link_title size2 section60" id="battery-cell"><h3>1.Lithium Ion Battery Package Requirements：</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>1.锂电池的包装要求</h3></div>
                 <div class="common_p section20">
                     <div class="p_ul">
                         <ul class=" small-size">
-                            <li>Be in UN package in accordance with the DGR Dangerous Good Specification. The corresponding number shall be displayed on the package.</li>
-                            <li>Use 9 hazard labels properly.</li>
-                            <li>Fill in dangerous goods declaration form and provide relevant dangerous packing certificate.</li>
+                            <li>必须依据适用的包装说明指导装在DGR 危险品规则所规定的UN规格包装，并在包装上完整的显示对应编号。</li>
+                            <li>必须贴9类危险性标签。</li>
+                            <li>必须填写危险品申报单，提供相应的危包证。</li>
                         </ul>
                     </div>
                     <div class="img col-md-12 text-center section60"><img src="/static/images/column_lithium_guide_11.jpg" alt="caution"></div>
@@ -753,34 +695,34 @@ use common\models\Images; ?>
                 </div>
 
 
-                <div class="link_title size2 section60" id="battery-cell"><h3>2.Lithium Ion Battery Transportation Requirements：</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>2.锂电池的运输要求</h3></div>
                 <div class="common_p section20">
                     <div class="p_ul">
                         <ul class=" small-size">
-                            <li>Batteries shall meet UN 38.3 test requirements and pass package drop test at 1.2m height.</li>
-                            <li>Provide declaration documents of dangerous goods, marked with UN number.</li>
-                            <li>The battery shall be protected against short circuit. Especially in the same package, prevent conductive material against short circuit.</li>
-                            <li>In order to avoid intense vibration during transition, use corner armor on all vertical and horizontal edges of the tray.</li>
+                            <li>电池须通过UN 38.3测试要求, 及1.2米的跌落包装试验。</li>
+                            <li>提供的危险品申报文件, 标注UN编号。</li>
+                            <li>电池应被保护以防止短路，在同一包装内须预防与可引发短路的导电物质接触。</li>
+                            <li>避免搬运过程受到强烈振动,托盘的各垂直和水平边使用护角保护。</li>
                         </ul>
                     </div>
                 </div>
             </section>
 
             <section>
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Lithium Ion Battery Price</h2></div>
+                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">锂电池价格</h2></div>
                 <div class="common_p section60">
                     <p>
-                        The price of single lithium ion battery cell is mainly influenced by brand and quality, while the price of lithium ion battery pack has affected by many factors：
+                        单体电芯的锂电池价格主要受品牌和质量影响，而锂电池PACK的价格影响因素有很多：
                     </p>
                 </div>
                 <div class="common_p section20">
                     <div class="p_ul">
                         <ul class=" small-size ">
-                            <li><p class="yellow_color">Cell Model</p></li>
-                            <li><p class="yellow_color">Voltage</p></li>
-                            <li><p class="yellow_color">Capacity</p></li>
-                            <li><p class="yellow_color">Demand and Design of PCM</p></li>
-                            <li><p class="yellow_color">Demand and Design of Case</p></li>
+                            <li><p class="yellow_color">电芯型号</p></li>
+                            <li><p class="yellow_color">电压</p></li>
+                            <li><p class="yellow_color">容量</p></li>
+                            <li><p class="yellow_color">PCM的需求和设计</p></li>
+                            <li><p class="yellow_color">外壳的需求与设计</p></li>
 
                         </ul>
                     </div>
@@ -788,15 +730,15 @@ use common\models\Images; ?>
             </section>
 
             <section>
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">How to Use Lithium Ion Battery Properly</h2></div>
+                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">如何正确使用锂电池</h2></div>
                 <div class="common_p section60">
                     <p>
-                        <strong>Storage of Lithium Ion Battery</strong> - The most critical storage conditions for lithium ion batteries are temperature and humidity. It is recommended to store battery at 20℃. Make sure the warehouse is moisture proof and humidity proof. Don't make lithium ion battery in a state of power loss. Do not extrude or impact the battery. Do not store battery in strong static or high magnetic field.
+                        <strong>锂电池储存</strong>——锂电池的存放条件最关键的是温度和湿度，建议在温度20℃的环境下保存，注意防潮防湿，不要让锂电池处于亏电状态。不要挤压、碰撞，不要存放在强静电和强磁场的地方。
                     </p>
                 </div>
                 <div class="common_p section20">
                     <p>
-                        <strong>Lithium Battery Charge and Discharge</strong> - Do not overcharge the battery. Do not use inferior charger. Do not use high power charger a lot. Do not discharge more than 80% of the battery capacity.
+                        <strong>锂电池充放电</strong>——不要过充，不要使用劣质充电器，切勿盲目使用高倍率充电器。放电量不要超过电池容量的80%。
                     </p>
                 </div>
             </section>
