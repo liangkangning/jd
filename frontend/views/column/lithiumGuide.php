@@ -21,13 +21,8 @@ use common\models\Images; ?>
 <div class="column-lithium-guide column-common">
     <div class="col-md-12">
         <div class="">
-            <section class="section m_section60">
-                <div class="category_list col-md-12">
-                </div>
-            </section>
-
             <section>
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">锂电池的发展</h2></div>
+                <div class="common_title size1 section20" id="basic-structure-of-18650"><h2 class="light1-5">锂电池的发展</h2></div>
                 <div class="common_p section60">
                     <div class="p_ul">
                         <ul class=" small-size">
@@ -267,7 +262,7 @@ use common\models\Images; ?>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">锂电池推荐品牌</h2></div>
                 <div class="link_title size2 section60" id="battery-cell"><h3>1.18650锂电池推荐品牌</h3></div>
                 <div class="brand_list col-md-12">
-                    <ul>
+                    <ul class="ul_none">
                         <div class="row">
                             <li class="section40">
                                 <div class="item yellow_color">
@@ -691,7 +686,6 @@ use common\models\Images; ?>
                         </ul>
                     </div>
                     <div class="img col-md-12 text-center section60"><img src="/static/images/column_lithium_guide_11.jpg" alt="caution"></div>
-                    a'c'c
                 </div>
 
 
@@ -743,7 +737,7 @@ use common\models\Images; ?>
                 </div>
             </section>
 
-     
+
 
 
         </div>
