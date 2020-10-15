@@ -619,6 +619,6 @@ $product_list = [
             </div>
         </section>
 
-        
+
 </div>
 

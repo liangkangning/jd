@@ -1,85 +1,14 @@
 <?php
 $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\ColumnAsset']]);
-$product_list = [
-    ['title'=>'Conventional LiPo Battery','img_url'=>'/static/images/column_polymer_product_1.png','url'=>'https://www.large.net/lithium-polymer-battery/',
-        'des'=>'Flexible size, complete model<br>High energy density, good safety<br>Medical equipment, instruments, handheld equipment, special equipment, etc.'],
 
-    ['title'=>'Low Temperature LiPo Battery','img_url'=>'/static/images/column_polymer_product_2.png','url'=>'https://www.large.net/low-temperature-battery/',
-        'des'=>'Charge temperature：-40℃ 0.2C<br>Discharge temperature：-50℃~+70℃<br>Polar scientific investigation, frigid zone emergency, special equipment, medical electronics, etc.'],
-
-    ['title'=>'Explosion-proof LiPo Battery','img_url'=>'/static/images/column_polymer_product_3.png','url'=>'https://www.large.net/explosion-proof-battery/',
-        'des'=>'Intrinsic safety type/explosion-proof type<br>Meet Exia iiA/Exib iiB T1~T4 standard<br>Oil and gas drilling, mine locomotive, petrochemical industry, refuge grotto, etc.'],
-
-    ['title'=>'High Rate LiPo Battery','img_url'=>'/static/images/column_polymer_product_4.png','url'=>'https://www.large.net/product/8eu43dd.html',
-        'des'=>'Discharge rate 3C~100C<br> high discharge platform, long cycle life<br>UAV, model airplane, remote control model,<br>power tools, etc.'],
-
-    ['title'=>'Ultra-thin LiPo Battery','img_url'=>'/static/images/column_polymer_product_5.png','url'=>'https://www.large.net/product/8pu43df.html',
-        'des'=>'Thickness≤3mm, Minimum thickness is 0.4mm.<br>High energy density, long cycle life<br>Internet of Things, smart card, electronic tag,<br>bank card, wine label, cold chain, etc.'],
-
-    ['title'=>'Special Shape LiPo Battery','img_url'=>'/static/images/column_polymer_product_6.png','url'=>'https://www.large.net/product/8eu43dd.html',
-        'des'=>'Special shape can be customize.<br>Arc, triangle, half-moon, circle, polygon, etc.<br>Small medical devices, wearable devices,<br>trackers, Internet of Things, etc.'],
-];
-
-
-$products2 = [];
-$ids = ['903', '906'];
-foreach ($ids as $id) {
-    $products2[] = \common\models\Images::find()->where(['id' => $id])->one();
-}
-foreach ($products2 as &$product) {
-    $product['diy_content'] = str_replace("<a",'<a href="'.$product->url.'"',$product['diy_content']);
-}
 ?>
+
 
 <div class="column-cylindrical column-common">
     <div class="col-md-12">
         <div class="">
-            <section class="section30 m_section0">
-                    <div class="products_list_other">
-                        <ul class="ul_li_padding">
-                            <div class="row">
-                                <?php foreach ($product_list as $key=>$value):?>
-                                    <?php if ($key<3):?>
-                                        <li class="section60 col-md-4 col-sm-12">
-                                            <div class="item">
-                                                <div class="img col-md-12"><a target="_blank" href="<?=$value['url']?>"><img class="img_bg" src="<?=$value['img_url']?>" alt="" title=""></a></div>
-                                                <div class="text col-md-12 pull-left">
-                                                    <div class="title size2 section30"><a target="_blank" href="<?=$value['url']?>"><?=$value['title']?></a></div>
-                                                    <div class="des light1-8 section10"><p>
-                                                            <?=$value['des']?>
-                                                        </p></div>
-                                                    <div class="button small-size section20"><a target="_blank" href="<?=$value['url']?>">READ MORE</a></div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    <?php endif;?>
-                                <?php endforeach;?>
-                            </div>
-                            <div class="row">
-                                <?php foreach ($product_list as $key=>$value):?>
-                                    <?php if ($key>=3):?>
-                                        <li class="section60 col-md-4 col-sm-12">
-                                            <div class="item">
-                                                <div class="img col-md-12"><a target="_blank" href="<?=$value['url']?>"><img class="img_bg" src="<?=$value['img_url']?>" alt="" title=""></a></div>
-                                                <div class="text col-md-12 pull-left">
-                                                    <div class="title size2 section30"><a target="_blank" href="<?=$value['url']?>"><?=$value['title']?></a></div>
-                                                    <div class="des light1-8 section10"><p>
-                                                            <?=$value['des']?>
-                                                        </p></div>
-                                                    <div class="button small-size section20"><a target="_blank" href="<?=$value['url']?>">READ MORE</a></div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    <?php endif;?>
-                                <?php endforeach;?>
-                            </div>
-
-                        </ul>
-                </div>
-            </section>
-
             <section>
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">LiPo Battery Cell Model</h2></div>
+                <div class="common_title size1 section20" id="basic-structure-of-18650"><h2 class="light1-5">LiPo Battery Cell Model</h2></div>
                 <section class="section60 tabel-section">
                     <?php $this->beginContent('@app/views/column/polymerTable.php') ?>
                     <?php $this->endContent() ?>
@@ -341,21 +270,7 @@ foreach ($products2 as &$product) {
 
             <section>
                 <div class="size2 section60"><h2 class="light1-5">Best LiPo Battery Pack</h2></div>
-                <div class="products_list">
-                    <ul>
-                        <?php foreach ($products2 as $key=>$value):?>
-                        <li class="<?= $key==0?'section30':'section60' ?>">
-                            <div class="item">
-                                <div class="product_img col-md-5"><a target="_blank" href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
-                                <div class="text col-md-7">
-                                    <div class="des light1-8 section30"><p><?=$value['diyContentUrl']?></p></div>
-                                    <div class="button small-size section20"><a target="_blank" href="<?=$value['url']?>">READ MORE</a></div>
-                                </div>
-                            </div>
-                        </li>
-                        <?php endforeach;?>
-                    </ul>
-                </div>
+
             </section>
 
             <section>
@@ -520,18 +435,11 @@ foreach ($products2 as &$product) {
 
             </section>
 
-            <div class="fengxian section col-md-12">
-                <div class="sharethis-inline-share-buttons"></div>
-            </div>
 
-            <section class="section section_m col-md-12">
-                <?php $this->beginContent('@app/views/layouts/public/send_email.php') ?>
-                <?php $this->endContent()?>
-            </section>
         </div>
     </div>
 
 
 </div>
 
-<script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5c344a1f093e83001145111b&product=inline-share-buttons' async='async'></script>
+
