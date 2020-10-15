@@ -74,12 +74,12 @@ use common\models\Images; ?>
                     <div class="title"><strong>最常用的圆柱形锂电池</strong></div>
                     <div class="p_ul section5">
                         <ul class="small-size">
-                            <li><a target="_blank" href="https://www.large.net/lithium-ion-battery/list-142/">18650锂电池</a></li>
-                            <li><a target="_blank" href="https://www.large.net/lithium-ion-battery/list-140/">14500锂电池</a></li>
-                            <li><a target="_blank" href="https://www.large.net/lithium-ion-battery/list-141/">18500锂电池/a></li>
-                            <li><a target="_blank" href="https://www.large.net/lithium-ion-battery/list-143/">21700锂电池</a></li>
-                            <li><a target="_blank" href="https://www.large.net/lithium-ion-battery/list-144/">26650锂电池</a></li>
-                            <li><a target="_blank" href="https://www.large.net/lithium-ion-battery/list-145/">32650（32700）锂电池</a></li>
+                            <li><a target="_blank" href="http://www.juda.cn/lilizi/list-38.html">18650锂电池</a></li>
+                            <li><a target="_blank" href="http://www.juda.cn/lilizi/list-36.html">14500锂电池</a></li>
+                            <li><a target="_blank" href="http://www.juda.cn/lilizi/list-37.html">18500锂电池/a></li>
+                            <li><a target="_blank" href="http://www.juda.cn/lilizi/list-39.html">21700锂电池</a></li>
+                            <li><a target="_blank" href="http://www.juda.cn/lilizi/list-40.html">26650锂电池</a></li>
+                            <li><a target="_blank" href="http://www.juda.cn/lilizi/list-41.html">32650（32700）锂电池</a></li>
 
                         </ul>
                     </div>
@@ -94,13 +94,13 @@ use common\models\Images; ?>
                             <li>
                                 <div class="item">
                                     <div class="img"><a target="_blank" href=""><img src="/static/images/column_lithium_guide_1.jpg" alt="Cylindrical Lithium Ion Battery"></a></div>
-                                    <div class="text text-center section30"><a target="_blank" href="https://www.large.net/cylindrical-lithium-ion-battery/">圆柱锂电池</a></div>
+                                    <div class="text text-center section30"><a target="_blank" href="http://www.juda.cn/news/152750.html">圆柱锂电池</a></div>
                                 </div>
                             </li>
                             <li class="m_section50">
                                 <div class="item">
                                     <div class="img"><a target="_blank" href=""><img src="/static/images/column_lithium_guide_2.jpg" alt="Prismatic Lithium Ion Battery"></a></div>
-                                    <div class="text text-center section30"><a target="_blank" href="https://www.large.net/lithium-ion-battery/list-146/">方形锂电池</a></div>
+                                    <div class="text text-center section30"><a target="_blank" href="http://www.juda.cn/lilizi/list-42.html">方形锂电池</a></div>
                                 </div>
                             </li>
                         </ul>
@@ -154,13 +154,13 @@ use common\models\Images; ?>
                 <div class="link_title size2 section60" id="battery-cell"><h3>3.按正极材料分类</h3></div>
                 <div class="common_p section20">
                     <p>锂离子电池所用正极材料目前有四种：</p>
-                    <p class="section20"><a target="_blank" href="https://www.large.net/news/8ku43mw.html">钴酸锂电池</a></p>
+                    <p class="section20"><a target="_blank" href="http://www.juda.cn/lilizi/list-106.html">钴酸锂电池</a></p>
                     <p class="section5">钴酸锂，化学式为LiCoO₂，是一种无机化合物，一般使用作锂离子电池的正电极材料。</p>
-                    <p class="section20"><a target="_blank" href="https://www.large.net/news/8fu43my.html">锰酸锂电池</a></p>
+                    <p class="section20"><a target="_blank" href="http://www.juda.cn/lilizi/list-106.html">锰酸锂电池</a></p>
                     <p class="section5">锰酸锂主要为尖晶石型锰酸锂，是Hunter在1981年首先制得的具有三维锂离子通道的正极材料。</p>
-                    <p class="section20"><a target="_blank" href="https://www.large.net/lifepo4-battery/">磷酸铁锂电池</a></p>
+                    <p class="section20"><a target="_blank" href="http://www.juda.cn/lilizi/list-108.html">磷酸铁锂电池</a></p>
                     <p class="section5">磷酸铁锂又称磷酸锂铁、锂铁磷，是一种锂离子电池的正极材料。以其正极材料命名的磷酸铁锂电池也称为铁锂电池。</p>
-                    <p class="section20"><a target="_blank" href="https://www.large.net/news/8mu43my.html">镍钴锰（三元）锂电池</a></p>
+                    <p class="section20"><a target="_blank" href="http://www.juda.cn/lilizi/list-107.html">镍钴锰（三元）锂电池</a></p>
                     <p class="section5">镍钴锰酸锂是锂离子电池的关键三元正极材料，拥有比单元正极材料更高的比容量和更低的成本。</p>
                 </div>
 

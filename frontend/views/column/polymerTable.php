@@ -1,17 +1,17 @@
 <table cellspacing="0" width="100%" class="table-bordered">
     <tbody>
     <tr class="firstRow">
-        <td rowspan="2">Model</td>
-        <td colspan="3">Dimension</td>
-        <td rowspan="2">Nominal Capacity(mAh)</td>
-        <td rowspan="2">Impedance(mΩ)</td>
-        <td rowspan="2">Nominal Voltage(V)</td>
+        <td rowspan="2">型号</td>
+        <td colspan="3">尺寸</td>
+        <td rowspan="2">标称容量(mAh)</td>
+        <td rowspan="2">内阻(mΩ)</td>
+        <td rowspan="2">标称电压(V)</td>
 
     </tr>
     <tr class="firstRow">
-        <td>Thickness(±0.3mm)</td>
-        <td>Width(±0.3mm)</td>
-        <td>Height(±0.5mm)</td>
+        <td>厚度(±0.3mm)</td>
+        <td>宽度(±0.3mm)</td>
+        <td>高度(±0.5mm)</td>
     </tr>
 
 

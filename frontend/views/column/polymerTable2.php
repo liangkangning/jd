@@ -2,83 +2,67 @@
     <tbody>
     <tr class="firstRow">
        <td></td>
-       <td>Lithium Polymer Battery</td>
-       <td>Lithium Ion Battery	</td>
+       <td>聚合物电池</td>
+       <td>锂电池</td>
     </tr>
 	
 
     <tr>
-        <td>Raw Material</td>
-        <td>The anode, cathode or electrolyte uses<br>
-            polymer materials.</td>
-        <td>Activated carbon, graphite,<br>
-            and organic electrolytes</td>
+        <td>原材料</td>
+        <td>正极、负极或电解质使用高分子材料</td>
+        <td>使用活性炭、石墨和有机电解质</td>
     </tr>
 
 
     <tr>
-        <td>Shape</td>
-        <td>Electrolytes are solid and colloidal<br>
-            and can vary in shape.</td>
-        <td>Liquid electrolyte; Case packaging;<br>
-            The shape is not easy to change.</td>
-
-    </tr>
-
-
-    <tr>
-        <td>Safety</td>
-        <td>The polymer has high safety and is<br>
-            not easy to explode and burn.</td>
-        <td>Lithium polymer battery is safer<br>
-            than lithium ion battery.</td>
+        <td>形状</td>
+        <td>电解质是固态和胶态，形状可变化</td>
+        <td>液态电解质，需要外壳包装，不易改变形状</td>
 
     </tr>
 
 
     <tr>
-        <td>Raw Material</td>
-        <td>High voltage can be achieved by using polymer material<br>
-            multilayer combination to achieve high voltage.</td>
-        <td>The nominal capacity of the lithium ion battery cell is 3.6V.<br>
-            For high voltage, lithium ion battery cells need to be connected in series</td>
+        <td>安全性</td>
+        <td>聚合物安全性较高，不易爆炸和燃烧</td>
+        <td>锂电池安全性低于聚合物电池</td>
 
     </tr>
 
 
     <tr>
-        <td>Capacity</td>
-        <td>The capacity of lithium polymer<br>
-            battery cell does not improve effectively.</td>
-        <td>Lithium ion battery has a slightly higher capacity<br>
-            than that of lithium polymer battery.</td>
+        <td>电压</td>
+        <td>采用高分子材料，可在电芯里做成多层组合达到高电压</td>
+        <td>锂电池电芯标称容量是3.6V，想要高电压，需要串联锂电池</td>
+
     </tr>
 
 
     <tr>
-        <td>Electrical Conductivity</td>
-        <td>Lithium polymer battery has<br>
-            low ionic conductivity of solid electrolyte.</td>
-        <td>Lithium ion battery has stable electrical conductivity<br>
-            and is not affected by other materials.</td>
+        <td>容量</td>
+        <td>聚合物电池的容量并无有效提升</td>
+        <td>锂电池容量略高于聚合物</td>
     </tr>
 
 
     <tr>
-        <td>Manufacture Technology</td>
-        <td>The thinner the lithium polymer battery,<br>
-            the better it can be manufactured.</td>
-        <td>The thicker the lithium ion battery,<br>
-            the better it can be manufactured.</td>
+        <td>导电性</td>
+        <td>聚合物电池的固态电解质离子电导率低</td>
+        <td>锂电池导电性稳定，不受其他材料影响</td>
     </tr>
 
 
     <tr>
-        <td>Price</td>
-        <td>Lithium polymer battery is generally<br>
-            more expensive than lithium ion battery.</td>
-        <td>Lower price than that of<br>
-            lithium polymer battery</td>
+        <td>制造工艺</td>
+        <td>聚合物电池越薄越好生产</td>
+        <td>锂电池越厚越好生产</td>
+    </tr>
+
+
+    <tr>
+        <td>价格</td>
+        <td>聚合物电池价格普遍高于锂电池</td>
+        <td>低于聚合物锂电池</td>
     </tr>
 
 
