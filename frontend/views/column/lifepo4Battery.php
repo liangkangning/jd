@@ -1,69 +1,12 @@
 <?php
 $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\ColumnAsset']]);
-$product_list = [
-    ['title'=>'32650 LiFePO4 Battery','img_url'=>'/static/images/column_lifepo4_product_1.png','url'=>'/lifepo4-battery/list-145/',
-        'des'=>'Nominal voltage: 3.2V<br> Nominal capacity: 4500-6500mAh<br>Application: instrumentation, backup power source, special equipment'],
-
-    ['title'=>'26650 LiFePO4 Battery','img_url'=>'/static/images/column_lifepo4_product_2.png','url'=>'/lifepo4-battery/list-144/',
-        'des'=>'Nominal voltage: 3.2V<br>Nominal capacity: 4500-6500mAh<br>Application: instrumentation, backup power source, special equipment'],
-
-    ['title'=>'21700 LiFePO4 Battery','img_url'=>'/static/images/column_lifepo4_product_3.png','url'=>'/lifepo4-battery/list-147/',
-        'des'=>'Nominal voltage: 3.6V<br>Nominal capacity: 3000-4800mAh<br>Application: digital devices, power tools'],
-		
-    ['title'=>'18650 LiFePO4 Battery','img_url'=>'/static/images/column_lifepo4_product_4.png','url'=>'/lifepo4-battery/list-142/',
-        'des'=>'Nominal voltage: 3.7V<br>Nominal capacity: 2000-3500mAh<br>Application: special equipment, medical equipment, robot, etc.'],
-
-    ['title'=>'Low Temperature LiFePO4 Battery','img_url'=>'/static/images/column_lifepo4_product_5.png','url'=>'/lifepo4-battery/list-164/',
-        'des'=>'Charge temperature:-20℃ ~ +55℃<br>Discharge temperature:-40℃ ~ +60℃<br>Application:sepcial equipment,aerospace,polar science'],
-
-    ['title'=>'Flexible package LiFePO4 Battery ','img_url'=>'/static/images/column_lifepo4_product_6.png','url'=>'/product/8qu43dg.html',
-        'des'=>'Nominal voltage:3.2V<br>Nominal capacity:500mAh<br>Application:Internet of Things locator card'],
-
-    ['title'=>'12V 12.8Ah SMBUS Communication26650-4S4P LiFePO4 Battery','img_url'=>'/static/images/column_lifepo4_product_7.png','url'=>'/product/8mu43c9.html',
-        'des'=>'Nominal voltage:12.0V<br>Nominal capacity:12000mAh<br>Battery cell:26650/3.2V/3.2Ah'],
-
-    ['title'=>' 25.6V 40Ah Low Temperature Charge/Discharge LiFePO4 Battery Pack','img_url'=>'/static/images/column_lifepo4_product_8.png','url'=>'/product/8ku43cs.html',
-        'des'=>'Nominal voltage:25.6V<br>Nominal capacity:40000mAh<br>Battery cell:148F20C/3.2V/20Ah'],
-
-    ['title'=>'48V 40Ah LiFePO4 Battery RS485 Communication Industrial Backup Power','img_url'=>'/static/images/column_lifepo4_product_9.png','url'=>'/product/8gu43cw.html',
-        'des'=>'Nominal voltage:48.0V<br>Nominal capacity:40000mAh<br>Battery cell:26650/3200mAh/3.2V'],
-];
-
 ?>
 
 <div class="column-lifepo4 column-common">
     <div class="col-md-12">
         <div class="">
-            <section class="section30 m_section0">
-                    <div class="products_list_other">
-                        <ul class="ul_li_padding">
-                                <?php foreach ($product_list as $key=>$value):?>
-                                    <?php if ($key%2==0):?>
-                                    <div class="row">
-                                    <?php endif;?>
-                                        <li class="section60 col-md-4 col-sm-12">
-                                            <div class="item">
-                                                <div class="img col-md-12"><a target="_blank" href="<?=$value['url']?>"><img class="img_bg" src="<?=$value['img_url']?>" alt="" title=""></a></div>
-                                                <div class="text col-md-12 pull-left">
-                                                    <div class="title size2 section30"><a target="_blank" href="<?=$value['url']?>"><?=$value['title']?></a></div>
-                                                    <div class="des light1-8 section10"><p>
-                                                            <?=$value['des']?>
-                                                        </p></div>
-                                                    <div class="button small-size section20"><a target="_blank" href="<?=$value['url']?>">READ MORE</a></div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    <?php if (($key+1)%3==0):?>
-                                        </div>
-                                    <?php endif;?>
-                                <?php endforeach;?>
-
-                        </ul>
-                </div>
-            </section>
-
             <section>
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">LiFePO4 Battery Overview</h2></div>
+                <div class="common_title size1 section20" id="basic-structure-of-18650"><h2 class="light1-5">LiFePO4 Battery Overview</h2></div>
                 <div class="common_p section60">
                     <p class="small-size">
                         Lithium iron phosphate battery refers to the lithium ion battery using lithium iron phosphate as the positive electrode material. Lithium iron phosphate battery is considered as a new generation of lithium ion battery because of its advantages such as high safety, long cycle life, rate discharge and high temperature resistance.
