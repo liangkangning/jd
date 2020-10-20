@@ -1,60 +1,5 @@
 <?php
 $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\ColumnAsset']]);
-$product_list = [
-    ['title'=>'12V Low Temperature Lithium Battery','img_url'=>'/static/images/column_12v_product_1.jpg','url'=>'/low-temperature-battery/list-133/',
-        'des'=>'Charging temperature：0℃ ~ +45℃<br> Discharging temperature：-40℃ ~ +60℃<br>Application: special equipment, aerospace, polar scientific research, frigid zone emergency, etc.'],
-
-    ['title'=>'12V Explosion-proof Lithium Battery','img_url'=>'/static/images/column_12v_product_2.jpg','url'=>'/explosion-proof-battery/list-139/',
-        'des'=>'Intrinsic safety type/Explosion-proof type<br>High safety coefficient materials<br>Meet Exia iiA/Exib iiB T1~T4 standard.'],
-
-    ['title'=>'12V Wide Temperature Lithium Battery','img_url'=>'/static/images/column_12v_product_3.jpg','url'=>'/wide-temperature-battery/list-133/',
-        'des'=>'Working temperature range: -50℃~70℃<br>-40℃ capacity retention ratio: ≥90%<br>-50℃ capacity retention ratio: ≥70%'],
-
-
-
-    ['title'=>'12V Lithium Power Battery','img_url'=>'/static/images/column_12v_product_4.jpg','url'=>'/lithium-power-battery/list-133/',
-        'des'=>'High Rate Discharge<br>High Energy Density<br>Longer Cycle Life and Safer'],
-
-    ['title'=>'12V Lifepo4 Battery','img_url'=>'/static/images/column_12v_product_5.jpg','url'=>'/lifepo4-battery/list-133/',
-        'des'=>'High thermal stability<br>Outstanding safety performance<br>Nice high rate discharge performance'],
-
-    ['title'=>'12V Medical Lithium Battery','img_url'=>'/static/images/column_12v_product_6.jpg','url'=>'/lithium-ion-battery/list-133-166/',
-        'des'=>'High energy density, small size and light weight<br>Low self-consumption and long service life<br>Maximum reliability and maximum safety'],
-
-
-
-    ['title'=>'12V Energy Storage Battery','img_url'=>'/static/images/column_12v_product_7.jpg','url'=>'/energy-storage-battery/list-133/',
-        'des'=>'Emergency Energy Storage Battery<br>Large voltage, large capacity and long cycle life<br>Solar energy storage, military portable power supply and emergency backup power supply'],
-
-    ['title'=>'12V Lithium Polymer Battery','img_url'=>'/static/images/column_12v_product_8.jpg','url'=>'/lithium-polymer-battery/list-133/',
-        'des'=>'Higher energy density<br>Better safety performance<br>Flexible Design'],
-
-    ['title'=>'12V Lithium Titanate Battery','img_url'=>'/static/images/column_12v_product_9.jpg','url'=>'/lithium-titanate-battery/list-133/',
-        'des'=>'Super safe, high rate and long life<br>Charging rate：1~40C<br>Discharge rate：1~40C'],
-];
-    //第二类产品
-    $products = [];
-    $product_ids_1 = ['690','834','736'];
-    foreach ($product_ids_1 as $id) {
-        $products[] = common\models\Images::find()->where(['id' => $id])->one();
-    }
-
-    foreach ($products as &$product) {
-        $product['diy_content'] = str_replace("<a",'<a href="'.$product->url.'"',$product['diy_content']);
-    }
-    Yii::$app->params['products'] = $products;
-
-    //第二类产品
-    $products = [];
-    $product_ids_1 = ['1002','1004'];
-    foreach ($product_ids_1 as $id) {
-        $products[] = common\models\Images::find()->where(['id' => $id])->one();
-    }
-
-    foreach ($products as &$product) {
-        $product['diy_content'] = str_replace("<a",'<a href="'.$product->url.'"',$product['diy_content']);
-    }
-    Yii::$app->params['products_other'] = $products;
 
 
 ?>
@@ -63,7 +8,7 @@ $product_list = [
     <div class="col-md-12">
         <div class="">
             <section>
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">What is a 12V Lithium Battery?</h2></div>
+                <div class="common_title size1 section20" id="basic-structure-of-18650"><h2 class="light1-5">What is a 12V Lithium Battery?</h2></div>
                 <div class="common_p section60">
                     <p class="small-size">
                         12V lithium battery is a lithium battery pack composed of 3 or 4 lithium batteries in series. The capacity of the battery is determined by the capacity of the single cell and the number of cells in parallel. It is a new kind of safe and environmental rechargeable battery.
@@ -71,34 +16,6 @@ $product_list = [
 
                 </div>
             </section>
-            <section class="m_section0">
-                    <div class="products_list_other">
-                        <ul class="ul_li_padding">
-                                <?php foreach ($product_list as $key=>$value):?>
-                                    <?php if ($key%2==0):?>
-                                    <div class="row">
-                                    <?php endif;?>
-                                        <li class="section60 col-md-4 col-sm-12">
-                                            <div class="item">
-                                                <div class="img col-md-12"><a target="_blank" href="<?=$value['url']?>"><img class="img_bg" src="<?=$value['img_url']?>" alt="" title=""></a></div>
-                                                <div class="text col-md-12 pull-left">
-                                                    <div class="title size2 section30"><a target="_blank" href="<?=$value['url']?>"><?=$value['title']?></a></div>
-                                                    <div class="des light1-8 section10"><p>
-                                                            <?=$value['des']?>
-                                                        </p></div>
-                                                    <div class="button small-size section20"><a target="_blank" href="<?=$value['url']?>">READ MORE</a></div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    <?php if (($key+1)%3==0):?>
-                                        </div>
-                                    <?php endif;?>
-                                <?php endforeach;?>
-
-                        </ul>
-                </div>
-            </section>
-
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">12V Lithium Battery Classification</h2></div>
                 <div class="common_p section60">
@@ -243,26 +160,7 @@ $product_list = [
                 </div>
 
                 <div class="link_title size2 section60" id="battery-cell"><h3>12V Large Capacity Lithium Battery Recommendation</h3></div>
-                <div class="products_list">
-                    <ul>
-                        <?php foreach (Yii::$app->params['products'] as $key=>$value):?>
-                            <li class="<?=$key==0?'section30':''?> section60">
-                                <div class="item">
-                                    <?php if ($key%2==0) :?>
-                                        <div class="product_img col-md-5"><a target="_blank" href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
-                                    <?php endif?>
-                                    <?php if ($key%2!=0) :?>
-                                        <div class="product_img col-md-5"><a target="_blank" href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
-                                    <?php endif?>
-                                    <div class="text col-md-7">
-                                        <div class="des light1-8 section60"><p><?=$value['diy_content']?></p></div>
-                                        <div class="button small-size section20"><a target="_blank" href="<?=$value['url']?>">READ MORE</a></div>
-                                    </div>
-                                </div>
-                            </li>
-                        <?php endforeach;?>
-                    </ul>
-                </div>
+
             </section>
 
             <section>
@@ -460,23 +358,11 @@ $product_list = [
                 </div>
 
             </section>
-
-
-    </div>
+        </div>
     </div>
 
 </div>
-    <div>
-        <div class="container">
-            <section>
-                <div class="fengxian section col-md-12">
-                    <div class="sharethis-inline-share-buttons"></div>
-                </div>
-            </section>
-            <section class="section section_m col-md-12">
-                <?php $this->beginContent('@app/views/layouts/public/send_email.php') ?>
-                <?php $this->endContent()?>
-            </section>
-        </div>
 
-<script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5c344a1f093e83001145111b&product=inline-share-buttons' async='async'></script>
+
+
+

@@ -1,115 +1,13 @@
 <?php
 $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\ColumnAsset']]);
-//该文章的电芯产品
-$products = [];
-$ids_18650 = ['1113','1114','1115','1116','1117'];
-foreach ($ids_18650 as $id) {
-    $products[] = \common\models\Images::find()->where(['id' => $id])->one();
-}
-$list = [
-    [
-        'imagesUrl'=>'/static/images/column_26650_p1.png',
-        'url'=>'https://www.large.net/low-temperature-battery/list-147/',
-        'title'=>'26650 Low Temperature Lithium Ion Battery',
-        'diy_content'=>'
-                <span><a>26650 Low Temperature Lithium Ion Battery</a></span>
-                <span>Good low temperature performance</span>
-				<span>Charging temperature：0℃ ~ +45℃</span>
-                <span>Discharging temperature：-40℃ ~ +60℃</span>
-                <span>Application field: special equipment, </span>
-                <span>aerospace industry, polar science </span>
-                <span>exploration, frigid zone emergency, etc. </span>
-                '
-    ],
-    [
-        'imagesUrl'=>'/static/images/column_26650_p2.png',
-        'url'=>'https://www.large.net/energy-storage-battery/list-144/',
-        'title'=>'26650 Energy Storage Lithium Ion Battery',
-        'diy_content'=>'
-                <span><a>26650 Energy Storage Lithium Ion Battery</a></span>
-                <span>Large capacity</span>
-                <span>Emergency energy storage lithium ion battery
-                Large voltage, large capacity, long cycle life
-                Solar energy storage, military portable power 
-                supply, emergency backup power</span>
 
-                '
-    ],
-    [
-        'imagesUrl'=>'/static/images/column_26650_p3.png',
-        'url'=>'https://www.large.net/lithium-power-battery/list-144/',
-        'title'=>'26650 Power Lithium Ion Battery',
-        'diy_content'=>'
-                <span><a>26650 Power Lithium Ion Battery</a></span>
-                <span>Large capacity and large power</span>
-                <span>High energy density</span>
-                <span>Long cycle life</span>
-                <span>Good safety performance</span>
-
-                '
-    ],
-    [
-        'imagesUrl'=>'/static/images/column_26650_p4.png',
-        'url'=>'https://www.large.net/lifepo4-battery/list-144/',
-        'title'=>'26650 LiFePO4 Battery',
-        'diy_content'=>'
-                <span><a>26650 LiFePO4 Battery</a></span>
-                <span>Large Capacity</span>
-                <span>Nice hot stability</span>
-                <span>Advanced safety</span>
-                <span>Outstanding high rate discharge performance</span>
-
-                '
-    ],
-];
-foreach ($list as $item){
-    $products[] = $item;
-}
-foreach ($products as &$product) {
-    $product['diy_content'] = str_replace("<a",'<a href="'.$product['url'].'"',$product['diy_content']);
-}
-
-Yii::$app->params['products'] = $products;
 ?>
 <div class="column-best-26650 column-common">
-    <div class="banner col-md-12 relative">
-        <div class="img">
-            <img class="hidden-xs" src="<?=Yii::getAlias('@web/static/images/column_26650_banner.jpg')?>" alt="Best 18650 Lithium Battery Pack">
-            <img class="visible-xs" src="<?=Yii::getAlias('@web/static/images/column_26650_banner_m.jpg')?>" alt="Best 18650 Lithium Battery Pack">
-        </div>
-        <div class="text center-text"><h1 class="big-size">The Best 26650 Lithium Ion Battery</h1></div>
-    </div>
+
 
     <div class="col-md-12">
         <div class="container">
-            <section class="col-md-12">
-				<div class="link_title size2 section" id=""><h3>26650 Lithium Ion Battery Recommendation</h3></div>
-                <div class="products_18650 col-md-12">
-                    <ul>
-
-                        <?php foreach (Yii::$app->params['products'] as $key=>$value):?>
-                            <?php if ($key==0 || ($key+1)%3==0): ?> <div class="row"><?php endif;?>
-                            <li class="col-md-4 <?= $key<3?'section30':'section60'?> <?= $key==0?'':'m_section60'?>">
-                                <div class="item">
-                                    <div class="img"><a target="_blank" href="<?=$value['url']?>"><img src="https://www.large.net<?= is_array($value['imagesUrl'])?$value['imagesUrl'][0]:$value['imagesUrl']?>" alt="<?=$value['title']?>"></a></div>
-                                    <div class="text section20 light1-8 ">
-                                        <p><?=$value['diy_content']?></p>
-                                    </div>
-                                </div>
-                                <div class="button small-size section20"><a target="_blank" href="<?=$value['url']?>">READ MORE</a></div>
-                            </li>
-                            <?php if ((count(Yii::$app->params['products'])-1)==$key || $key%3==2): ?></div><?php endif;?>
-
-                        <?php endforeach;?>
-
-                    </ul>
-                </div>
-            </section>
-
-
-
-
-            <section class="section">
+            <section class="section20">
                 <div class="common_title " id="what-is-an-18650"><h2 class="light1-5 size1">26650 Lithium Ion Battery</h2></div>
 
                 <div class="link_title size2 section60" id="the-best-18650-battery-cell"><h3>1.26650 Lithium Ion Battery Definition</h3></div>
@@ -419,23 +317,9 @@ Yii::$app->params['products'] = $products;
                     </ul>
                 </div>
             </section>
-
-
-
-
-
-
-        <div class="fengxian section col-md-12">
-            <div class="sharethis-inline-share-buttons"></div>
         </div>
-
-        <section class="section section_m col-md-12">
-            <?php $this->beginContent('@app/views/layouts/public/send_email.php') ?>
-            <?php $this->endContent()?>
-        </section>
     </div>
 
-</div>
 </div>
 
 <script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5c344a1f093e83001145111b&product=inline-share-buttons' async='async'></script>

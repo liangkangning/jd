@@ -1,53 +1,5 @@
 <?php
 $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\ColumnAsset']]);
-$product_list = [
-    ['title'=>'48V Low Temperature Lithium Ion Battery ','img_url'=>'/static/images/column_48v_product_1.png','url'=>'/product/8eu43dd.html',
-        'des'=>'Adopt special material and process.<br> Be suitable for cold environment.<br>-50℃ 0.2C discharge efficiency 80%'],
-
-    ['title'=>'48V Medical Lithium Ion Battery','img_url'=>'/static/images/column_48v_product_2.png','url'=>'/lilizi/list-14-88.html',
-        'des'=>'Ultra-high power cell<br>Super safe<br>High capacity energy storage'],
-
-    ['title'=>'48V Power Lithium Ion Battery','img_url'=>'/static/images/column_48v_product_3.png','url'=>'/lithium-power-battery/list-136/',
-        'des'=>'High energy density<br>High volumetric specific energy<br>High-rate discharge'],
-
-
-
-    ['title'=>'48V Energy Storage Lithium Ion Battery','img_url'=>'/static/images/column_48v_product_4.png','url'=>'/lithium-power-battery/list-133/',
-        'des'=>'High voltage platform<br>Large capacity, long cycle life<br>Environmental friendly'],
-
-    ['title'=>'48V LiFePO4 Battery','img_url'=>'/static/images/column_48v_product_5.png','url'=>'/lifepo4-battery/list-136/',
-        'des'=>'Outstanding safety<br>High thermal stability<br>Long cycle life'],
-
-    ['title'=>'48V Ternary Lithium Ion Battery ','img_url'=>'/static/images/column_48v_product_6.png','url'=>'/lithium-battery18650/list-136/',
-        'des'=>'Nice cycle performance<br>Low cost<br>High energy density'],
-
-
-
-];
-    //第二类产品
-    $products = [];
-    $product_ids_1 = ['1010','706','901'];
-    foreach ($product_ids_1 as $id) {
-        $products[] = common\models\Images::find()->where(['id' => $id])->one();
-    }
-
-    foreach ($products as &$product) {
-        $product['diy_content'] = str_replace("<a",'<a href="'.$product->url.'"',$product['diy_content']);
-    }
-    Yii::$app->params['products'] = $products;
-
-    //第二类产品
-    $products = [];
-    $product_ids_1 = ['1002','1004'];
-    foreach ($product_ids_1 as $id) {
-        $products[] = common\models\Images::find()->where(['id' => $id])->one();
-    }
-
-    foreach ($products as &$product) {
-        $product['diy_content'] = str_replace("<a",'<a href="'.$product->url.'"',$product['diy_content']);
-    }
-    Yii::$app->params['products_other'] = $products;
-
 
 ?>
 
@@ -55,34 +7,9 @@ $product_list = [
     <div class="col-md-12">
         <div class="">
             <section>
-                <div class=" size2 section" ><h2 class="light1-5">48V Lithium Ion Battery Recommendation </h2></div>
+                <div class=" size2 section20" ><h2 class="light1-5">48V Lithium Ion Battery Recommendation </h2></div>
             </section>
-            <section class=" m_section0">
-                    <div class="products_list_other">
-                        <ul class="ul_li_padding60">
-                                <?php foreach ($product_list as $key=>$value):?>
-                                    <?php if ($key%2==0):?>
-                                    <div class="row">
-                                    <?php endif;?>
-                                        <li class="<?=$key>2?'section60':'section30'?> <?= $key==0?'':'m_section60'?> col-md-4 col-sm-12">
-                                            <div class="item">
-                                                <div class="img col-md-12"><a target="_blank" href="<?=$value['url']?>"><img class="img_bg" src="<?=$value['img_url']?>" alt="" title=""></a></div>
-                                                <div class="text col-md-12 pull-left">
-                                                    <div class="title size2 section30"><a target="_blank" href="<?=$value['url']?>"><?=$value['title']?></a></div>
-                                                    <div class="des light1-8 section10"><p>
-                                                            <?=$value['des']?>
-                                                        </p></div>
-                                                    <div class="button small-size section20"><a target="_blank" href="<?=$value['url']?>">READ MORE</a></div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    <?php if (($key+1)%3==0):?>
-                                        </div>
-                                    <?php endif;?>
-                                <?php endforeach;?>
-                        </ul>
-                </div>
-            </section>
+
 
             <section>
                 <div class="common_title size1 section80" ><h2 class="light1-5">Definition of 48V Lithium Ion Battery</h2></div>
@@ -216,27 +143,7 @@ $product_list = [
             </section>
             <section>
                 <div class="link_title size2 section" id="battery-cell"><h3>48V Lithium Ion Battery Pack Recommendation</h3></div>
-                <div class="products_list">
-                    <ul>
-                        <?php foreach (Yii::$app->params['products'] as $key=>$value):?>
-                            <li class="<?= $key==0?'section30':'section60'?>">
-                                <div class="item">
-                                    <?php if ($key%2==0) :?>
-                                        <div class="product_img col-md-5"><a target="_blank" href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
-                                    <?php endif?>
-                                    <?php if ($key%2!=0) :?>
-                                        <div class="product_img col-md-5"><a target="_blank" href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
-                                    <?php endif?>
-                                    <div class="text col-md-7">
-                                        <div class="des light1-8 section60"><p><?=$value['diy_content']?></p></div>
-                                        <div class="button small-size section20"><a target="_blank" href="<?=$value['url']?>">READ MORE</a></div>
-                                    </div>
 
-                                </div>
-                            </li>
-                        <?php endforeach;?>
-                    </ul>
-                </div>
 
                 <div class="common_title size1 section80" ><h2 class="light1-5">48V Lithium Ion Battery Charger</h2></div>
                 <div class="common_p section55">
@@ -390,20 +297,8 @@ $product_list = [
 
             </section>
 
-        <div>
-            <div class="container">
-                <section>
-                    <div class="fengxian section col-md-12">
-                        <div class="sharethis-inline-share-buttons"></div>
-                    </div>
-                </section>
-                <section class="section section_m col-md-12">
-                    <?php $this->beginContent('@app/views/layouts/public/send_email.php') ?>
-                    <?php $this->endContent()?>
-                </section>
         </div>
     </div>
-
 
 </div>
 
