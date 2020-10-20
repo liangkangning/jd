@@ -6,59 +6,59 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
     <div class="col-md-12">
         <div class="">
             <section>
-                <div class="common_title size1 section20" id="basic-structure-of-18650"><h2 class="light1-5">LiFePO4 Battery Overview</h2></div>
+                <div class="common_title size1 section20" id="basic-structure-of-18650"><h2 class="light1-5">磷酸铁锂电池概述</h2></div>
                 <div class="common_p section60">
                     <p class="small-size">
-                        Lithium iron phosphate battery refers to the lithium ion battery using lithium iron phosphate as the positive electrode material. Lithium iron phosphate battery is considered as a new generation of lithium ion battery because of its advantages such as high safety, long cycle life, rate discharge and high temperature resistance.
+                        磷酸铁锂电池是指用磷酸铁锂作为正极材料的锂离子电池。磷酸铁锂电池具有安全性高、循环寿命长、倍率放电、耐高温等优点，被认为是新一代锂电池。
                     </p>
-                    <p class="section20">Large Power can provide customers with cell, BMS (power management system), integrated structure of the battery customized solutions, so as to meet the customers personalized power needs.</p>
+                    <p class="section20">钜大锂电可为客户提供电芯、BMS（电源管理系统）、结构一体化的电池定制方案，以满足客户个性化的电源需求。</p>
                 </div>
 
-                <div class="link_title size2 section60" id="battery-cell"><h3>1.LiFePO4 Battery Characteristics</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>1、磷酸铁锂电池特点</h3></div>
                 <div class="common_p section30">
                     <ul>
-                        <li>Good safety performance: No explosion if puncture, no combustion or explosion when overcharge;</li>
-                        <li class="section10">Good cycle life: The cycle life of lithium iron phosphate battery can reach more than 2000 times.</li>
-                        <li class="section10">Good high temperature performance: The working temperature ranges from -20℃ to 70℃;</li>
-                        <li class="section10">High tap density: It has higher capacity under the same conditions;</li>
-                        <li class="section10">It can realize fast charging at 1C-5C, greatly reducing the charging time;</li>
+                        <li>安全性能好，穿刺不爆炸，过充时不燃烧不爆炸；</li>
+                        <li class="section10">循环寿命好，磷酸铁锂电池循环寿命可达2000次以上；</li>
+                        <li class="section10">高温性能好，工作温度范围-20℃至70℃；</li>
+                        <li class="section10">振实密度高，同等条件下容量更高；</li>
+                        <li class="section10">可以实现1C-5C快速充电能力，大大缩短充电时间。</li>
                     </ul>
                 </div>
 
-                <div class="link_title size2 section60" id="battery-cell"><h3>2.Application</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>2、应用领域</h3></div>
                 <div class="common_p section30">
-                 <p>Power storage, special equipment, robot, AGV, rail transit, medical equipment, emergency backup, electric communication, etc.</p>
+                 <p>动力储能、特种设备、机器人、AGV、轨道交通、医用设备、应急后备、电力通讯等。</p>
                 </div>
             </section>
 
 
             <section>
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Best Chinese LiFePO4 Battery Manufacturers</h2></div>
+                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">中国磷酸铁锂电池厂家</h2></div>
                 <div class="brand_list col-md-12">
                     <ul class="section20">
                         <div class="row">
                             <li class="section40">
                                 <div class="item yellow_color">
                                     <div class="img"><img src="/static/images/column_lifepo4_brand_1.jpg" alt="Sony"></div>
-                                    <div class="text">CATL</div>
+                                    <div class="text">宁德时代</div>
                                 </div>
                             </li>
                             <li class="section40">
                                 <div class="item yellow_color">
                                     <div class="img"><img src="/static/images/column_lifepo4_brand_2.jpg" alt="Panasonic"></div>
-                                    <div class="text">BYD IT</div>
+                                    <div class="text">比亚迪</div>
                                 </div>
                             </li>
                             <li class="section40">
                                 <div class="item yellow_color">
                                     <div class="img"><img src="/static/images/column_lifepo4_brand_3.jpg" alt="Sanyo"></div>
-                                    <div class="text">Guoxuan</div>
+                                    <div class="text">国轩</div>
                                 </div>
                             </li>
                             <li class="section40">
                                 <div class="item yellow_color">
                                     <div class="img"><img src="/static/images/column_lifepo4_brand_4.jpg" alt="Samsung"></div>
-                                    <div class="text">CALB</div>
+                                    <div class="text">中航</div>
                                 </div>
                             </li>
                         </div>
@@ -68,25 +68,25 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                             <li class="section40 ">
                                 <div class="item yellow_color">
                                     <div class="img"><img src="/static/images/column_lifepo4_brand_5.jpg" alt="LG"></div>
-                                    <div class="text">BAK</div>
+                                    <div class="text">比克</div>
                                 </div>
                             </li>
                             <li class="section40">
                                 <div class="item yellow_color">
                                     <div class="img"><img src="/static/images/column_lifepo4_brand_6.jpg" alt="BAK"></div>
-                                    <div class="text">LISHEN</div>
+                                    <div class="text">力神</div>
                                 </div>
                             </li>
                             <li class="section40">
                                 <div class="item yellow_color">
                                     <div class="img"><img src="/static/images/column_lifepo4_brand_7.jpg" alt="LISHEN"></div>
-                                    <div class="text">LARGE</div>
+                                    <div class="text">钜大</div>
                                 </div>
                             </li>
                             <li class="section40">
                                 <div class="item yellow_color">
                                     <div class="img"><img src="/static/images/column_lifepo4_brand_8.jpg" alt="LARGE"></div>
-                                    <div class="text">A123</div>
+                                    <div class="text">万向A123</div>
                                 </div>
                             </li>
                         </div>
@@ -97,141 +97,141 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
             </section>
 
             <section>
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">LiFePO4 Battery Advantages</h2></div>
-                <div class="link_title size2 section60" id="battery-cell"><h3>1.Good Safety Performance</h3></div>
+                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">磷酸铁锂电池优点</h2></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>1、安全性能好</h3></div>
                 <div class="common_p section30">
-                   <p>Due to the stability and reliable safety design of the positive electrode materials, the lithium iron phosphate battery pack has been passed rigorous safety tests, and will not explode even in violent collisions.</p>
+                   <p>安全来自于正极材料的稳定性及可靠的安全性设计，磷酸铁锂电池包已经过严格的安全测试，即使在剧烈的碰撞中也不会产生爆炸。</p>
                 </div>
 
-                <div class="link_title size2 section60" id="battery-cell"><h3>2.Long Cycle Life</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>2、循环寿命长</h3></div>
                 <div class="common_p section30">
                   <p>
-                      The 1C cycle life of lithium iron phosphate battery generally reaches 2000 times, even more than 3500 times. The energy storage market requires more than 4000-5000 times, which is higher than other types of lithium batteries.
+                      磷酸铁锂电池1C循环寿命普遍达2000次，甚至达到3500次以上， 而对于储能市场要求达到4000-5000次以上，高于其他种类锂电池。
                   </p>
                 </div>
 
-                <div class="link_title size2 section60" id="battery-cell"><h3>3.Nice High Temperature Performance</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>3、高温性能好</h3></div>
                 <div class="common_p section30">
                     <p>
-                        The peak heat of lithium iron phosphate battery can reach 350~500℃. And it has wide working temperature range (-20~+75℃). Even under high temperature (60℃), it can still give off 100% capacity.
+                        磷酸铁锂电池热峰值可达350~500℃，工作温度范围宽广(-20~+75℃)，高温(60℃)情况下仍可以放出100%容量。
                     </p>
                 </div>
 
-                <div class="link_title size2 section60" id="battery-cell"><h3>4.Fast Charge</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>4、充电快速</h3></div>
                 <div class="common_p section30">
                     <p>
-                        The battery can be fully charged by a dedicated charger after 40 minutes of 1.5C charging.
+                        使用专用充电器，1.5C充电40分钟即可以使电池充满。
                     </p>
                 </div>
 
-                <div class="link_title size2 section60" id="battery-cell"><h3>5.Environmental Protection</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>5、绿色环保</h3></div>
                 <div class="common_p section30">
                     <p>
-                        Lithium iron phosphate batteries are environmentally friendly, non-toxic, pollution-free, and cheap. It also has wide availability of raw materials.
+                        磷酸铁锂电池绿色环保，无毒，无污染，原材料来源广泛，价格便宜。
                     </p>
                 </div>
             </section>
 
 
             <section>
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">LiFePO4 Voltage & Capacity</h2></div>
-                <div class="link_title size2 section60" id="battery-cell"><h3>1.LiFePO4 Battery Voltage</h3></div>
+                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">磷酸铁锂电池电压和容量</h2></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>1、磷酸铁锂电池电压</h3></div>
                 <div class="common_p section30">
                     <p>
-                        The nominal voltage of the single lithium iron phosphate battery is 3.2V, the charging voltage is 3.6V, and the discharge cut-off voltage is 2.0V.
+                        单体磷酸铁锂电池的标称电压3.2V，充电电压3.6V，放电截止电压2.0V。
                     </p>
                     <p class="section10">
-                        Lithium iron phosphate battery packs reach the required voltage by the equipment through battery cell series connection. The battery voltage is equal to N* series connection number. Common lithium iron phosphate battery voltages are as follows:
+                        磷酸铁锂电池组通过电芯的串联组合，达到设备所需的电压，电池组电压=N*串联数量。常用的磷酸铁锂电池组电压有以下几种：
                     </p>
                 </div>
                 <div class="common_p">
                     <div class="p_ul section20">
                         <ul class="small-size light1-8">
-                            <li><a target="_blank" href="/lifepo4-battery/list-133/">12V LiFePO4 Battery</a></li>
-                            <li><a target="_blank" href="/lifepo4-battery/list-134/">24V LiFePO4 Battery</a></li>
-                            <li><a target="_blank" href="/lifepo4-battery/list-135/">36V LiFePO4 Battery</a></li>
-                            <li><a target="_blank" href="/lifepo4-battery/list-136/">48V LiFePO4 Battery</a></li>
+                            <li><a target="_blank" href="/lifepo4-battery/list-133/">12V磷酸铁锂电池</a></li>
+                            <li><a target="_blank" href="/lifepo4-battery/list-134/">24V磷酸铁锂电池</a></li>
+                            <li><a target="_blank" href="/lifepo4-battery/list-135/">36V磷酸铁锂电池</a></li>
+                            <li><a target="_blank" href="/lifepo4-battery/list-136/">48V磷酸铁锂电池</a></li>
                         </ul>
                     </div>
                 </div>
 
-                <div class="link_title size2 section60" id="battery-cell"><h3>2.LiFePO4 Battery Capacity</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>2、磷酸铁锂电池容量</h3></div>
                 <div class="common_p section30">
-                    <p>The capacity of lithium iron phosphate battery pack is determined by the capacity and number of the battery cells connected in parallel, generally according to the specific requirements of electrical equipment. The more lithium iron phosphate battery cells connected in parallel, the larger the capacity is.</p>
-                    <p class="section10">Common lithium iron phosphate battery capacity has 10 ah, ah, ah, 40, 50, ah, ah, 100 200 ah, ah 400, etc.</p>
+                    <p>磷酸铁锂电池组的容量是根据并联在一起的电芯容量和数量确定，一般是根据用电设备的具体要求来确定，磷酸铁锂电芯并联的越多，容量越大。</p>
+                    <p class="section10">常见的磷酸铁锂电池组容量有10ah,20ah,40ah,50ah,100ah, 200ah, 400ah等。</p>
                 </div>
             </section>
 
             <section>
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Structure and Working Principle of LiFePO4 Battery</h2></div>
-                <div class="link_title size2 section60" id="battery-cell"><h3>1.LiFePO4 Battery Structure</h3></div>
+                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">磷酸铁锂电池结构和工作原理</h2></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>1、磷酸铁锂电池结构</h3></div>
                 <div class="common_p section30">
                     <p>
-                        As shown in the figure, the left part is the olivine structure LiFePO4, the positive electrode of the battery. The aluminum foil is connected to the battery positive electrode and then polymer separator separates the positive and negative electrode, so that Li + and e - cannot pass the separator. The right part is battery cathode composed of carbon (graphite). The copper foil is connected to the battery cathode.
+                        由图所示，左边是橄榄石结构的LiFePO4作为电池的正极，由铝箔与电池正极连接，中间是聚合物的隔膜，它把正极与负极隔开，但锂离子Li+可以通过而电子e-不能通过，右边是由碳（石墨）组成的电池负极，由铜箔与电池的负极连接。
                     </p>
                 </div>
                 <div class="img_text col-md-12 section40">
                     <div class="img text-center"><img src="/static/images/column_lifepo4_1.jpg" alt=""></div>
-                    <div class="text text-center">LiFePO4 Battery Internal Structure Diagram</div>
+                    <div class="text text-center">磷酸铁锂电池内部结构图</div>
                 </div>
 
-                <div class="link_title size2 section60" id="battery-cell"><h3>2.LiFePO4 Battery Working Principle</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>2、磷酸铁锂电池工作原理</h3></div>
                 <div class="common_p section30">
                     <p>
-                        When the LiFePO4 battery is charging, Li+ in the positive electrode migrates to the negative electrode through the polymer separator. In the discharge process, Li+ in the negative electrode migrates to the positive electrode through the separator. Lithium-ion batteries are named for the way lithium ions move back and forth during charge and discharge process.
+                        LiFePO4电池在充电时，正极中的锂离子Li+通过聚合物隔膜向负极迁移；在放电过程中，负极中的锂离子Li+通过隔膜向正极迁移。锂离子电池就是因锂离子在充放电时来回迁移而命名的。
                     </p>
                 </div>
             </section>
 
             <section>
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">LiFePO4 Battery Charger</h2></div>
+                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">磷酸铁锂电池充电器</h2></div>
                 <div class="link_title size2 section60" id="battery-cell"><h3>1.LiFePO4 Battery Charging</h3></div>
                 <div class="common_p section30">
                     <p>
-                        The CCCV charging method is recommended for lithium iron phosphate battery pack, that is, constant current first and then constant voltage. Constant current recommendation is 0.3c, while constant voltage recommendation is 3.65V.
+                        磷酸铁锂电池组的充电建议使用CCCV充电方式，即先恒流后恒压。恒流建议0.3C。恒压建议3.65。
                     </p>
                 </div>
 
-                <div class="link_title size2 section60" id="battery-cell"><h3>2.Is LiFePO4 Battery Charger the same as Lithium Ion </h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>2、磷酸铁锂电池和锂离子电池充电器一样吗</h3></div>
                 <div class="common_p section30">
                     <div class="p_ul">
                         <ul class="small-size light1-8">
-                           <li>Both battery charging methods are constant current and constant voltage (CCCV), but the constant voltage point is different.</li>
-                           <li>The nominal voltage of lithium iron phosphate battery is 3.2V and the charging cut-off voltage is 3.6V.</li>
-                           <li>Conventional lithium ion batteries have a nominal voltage of 3.6V and a cut-off voltage of 4.2V.</li>
+                           <li>两种电池的充电方式都是先恒流再恒压（CCCV），但恒压点不一样。</li>
+                           <li>磷酸铁锂电池的标称电压是3.2V，充电截止电压3.6V。</li>
+                           <li>普通锂电池的标称电压是3.6V，充电截止电压4.2V。</li>
                         </ul>
                     </div>
                 </div>
 
-                <div class="link_title size2 section60" id="battery-cell"><h3>3.Charging LiFePO4 Batteries With Solar</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>3、用太阳能给磷酸铁锂电池充电</h3></div>
                 <div class="common_p section30">
                     <p>
-                        Solar panels cannot directly charge the lithium iron phosphate battery, because the voltage of the solar panel is unstable. It needs voltage regulation circuit and corresponding lithium iron phosphate battery charging circuit.
+                        太阳能板是不能直接给磷酸铁锂电池充电的，因为太阳能电池板的电压是不稳定的，无法直接给磷酸铁锂电池充电，需要稳压电路，而且还要配套相应的磷酸铁锂电池充电电路才能充电。
                     </p>
                 </div>
 
-                <div class="link_title size2 section60" id="battery-cell"><h3>4.Charging LiFePO4 Battery With Alternator</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>4、用发电机给磷酸铁锂电池充电</h3></div>
                 <div class="common_p section30">
                     <p>
-                        The generator cannot directly charge the lithium iron phosphate battery, because the electricity generated by the generator is alternating current or pulsed direct current. The lithium iron phosphate battery must be charged by direct current with constant voltage.
+                        发电机是不能直接给磷酸铁锂电池充电的，因为发电机发出来的电为交流电或脉冲直流电，磷酸铁锂电池充电必须为稳压直流电。
                     </p>
                 </div>
             </section>
 
 
             <section>
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">LiFePO4 Battery Vs Lithium Ion Battery</h2></div>
+                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">磷酸铁锂电池和锂离子电池比较</h2></div>
                 <section class="section60 tabel-section">
                     <table cellspacing="0" width="100%" class="table-bordered">
                         <tbody>
                         <tr class="firstRow">
-                            <td>Chemistry</td>
-                            <td>Voltag (V)</td>
-                            <td>Energy Density (wh/kg)</td>
-                            <td>Working Temp (℃)</td>
-                            <td>Cycle Life</td>
-                            <td>Safety</td>
-                            <td>Environmenta</td>
+                            <td>体系</td>
+                            <td>电压(V)</td>
+                            <td>能量密度(wh/kg)</td>
+                            <td>工作温度(℃)</td>
+                            <td>循环寿命</td>
+                            <td>安全性</td>
+                            <td>环保性能</td>
                             <td>Cost based on cycle life x wh of SLA</td>
                         </tr>
                         <tr>
@@ -240,8 +240,8 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                             <td>>120</td>
                             <td>-20-60</td>
                             <td>>2000</td>
-                            <td>Safe</td>
-                            <td>Good</td>
+                            <td>安全</td>
+                            <td>好</td>
                             <td>0.15-0.25 lower than SLA</td>
                         </tr>
                         <tr>
@@ -250,8 +250,8 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                             <td>>35</td>
                             <td>-20-40</td>
                             <td>>200</td>
-                            <td>Safe</td>
-                            <td>Not Good</td>
+                            <td>安全</td>
+                            <td>不好</td>
                             <td>1</td>
                         </tr>
                         <tr>
@@ -260,8 +260,8 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                             <td>>40</td>
                             <td>-20-50</td>
                             <td>>1000</td>
-                            <td>Safe</td>
-                            <td>Bad</td>
+                            <td>安全</td>
+                            <td>差</td>
                             <td>0.7</td>
                         </tr>
                         <tr>
@@ -270,8 +270,8 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                             <td>>80</td>
                             <td>-20-50</td>
                             <td>>500</td>
-                            <td>Safe</td>
-                            <td>Good</td>
+                            <td>安全</td>
+                            <td>好</td>
                             <td>1.2-1.4</td>
                         </tr>
                         <tr>
@@ -280,8 +280,8 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                             <td>>160</td>
                             <td>-20-50</td>
                             <td>>500</td>
-                            <td>better than LiCo</td>
-                            <td>OK</td>
+                            <td>比LiCo好</td>
+                            <td>好</td>
                             <td>1.5-2.0</td>
                         </tr>
                         <tr>
@@ -291,7 +291,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                             <td>-20-50</td>
                             <td>>500</td>
                             <td>Unsafe w/o PCM</td>
-                            <td>OK</td>
+                            <td>好</td>
                             <td>1.5-2.0</td>
                         </tr>
                         </tbody>
@@ -302,16 +302,16 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
 
 
             <section>
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">LiFePO4 Battery and Ternary Battery</h2></div>
+                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">磷酸铁锂电池和三元锂电池</h2></div>
                 <div class="common_p section60">
                     <p>
-                        Affected by the structure, lithium iron phosphate and Ternary battery have their own advantages and disadvantages in performance. Ternary battery has advantages in energy density and fast charging speed, while lithium iron phosphate battery has advantages in cycle life, safety and economy.
+                        受结构影响，磷酸铁锂和三元在性能方面各有优劣，三元在能量密度、快充速度方面有优势，磷酸铁锂在循环寿命、安全、经济性上有优势。
                     </p>
                 </div>
-                <div class="link_title size2 section60" id="battery-cell"><h3>1.Material Comparison</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>1、材料对比</h3></div>
                 <div class="common_p section30">
                     <p>
-                        The cathode, electrolyte and separator are similar in both types of batteries, but the biggest difference is the positive electrode material, hence the name.
+                        两种电池的负极、电解液和隔膜等均类似，最大的区别在于正极材料，并以此取名。
                     </p>
                 </div>
                 <div class="common_p">
@@ -319,29 +319,29 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                         <table cellspacing="0" width="100%" class="table-bordered">
                             <tbody>
                             <tr class="firstRow">
-                                <td>Anode Material</td>
-                                <td>LiFePO4</td>
-                                <td>LiNixCoyMn1-x-yO2</td>
+                                <td>正极材料</td>
+                                <td>磷酸铁锂</td>
+                                <td>镍钴锰</td>
                             </tr>
                             <tr>
-                                <td>Shorthand</td>
+                                <td>简写</td>
                                 <td>LFP</td>
                                 <td>NCM</td>
                             </tr>
                             <tr>
-                                <td>Nominal Voltage</td>
+                                <td>额定电压</td>
                                 <td>3.2V</td>
                                 <td>3.65V</td>
                             </tr>
                             <tr>
-                                <td>Crystal Form</td>
-                                <td>Olivine Structure</td>
-                                <td>Layer Structure</td>
+                                <td>晶型</td>
+                                <td>橄榄石结构</td>
+                                <td>层状结构</td>
                             </tr>
                             <tr>
-                                <td>Lithium ion extraction channel</td>
-                                <td>One Dimension</td>
-                                <td>Two Dimensions</td>
+                                <td>锂离子脱嵌通道</td>
+                                <td>一维</td>
+                                <td>二维</td>
                             </tr>
                             </tbody>
                         </table>
@@ -349,43 +349,43 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 </div>
 
 
-                <div class="link_title size2 section60" id="battery-cell"><h3>2.Energy Density</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>2、能量密度</h3></div>
                 <div class="common_p section30">
                     <p>
-                        As for the cell, ternary battery has higher energy density. The rated voltage and theoretical specific capacity (mAh/g) of lithium iron phosphate anode materials are all lower than those of ternary batteries, and their energy density has been the best.
+                        从电芯层面来讲，三元电池能量密度更高。磷酸铁锂正极材料的额定电压、理论比容量（mAh/g）均低于三元电池，且其能量密度已开发到“天花板”。
                     </p>
                 </div>
                 <div class="section30 col-md-12 common_p">
                     <table cellspacing="0" width="100%" class="table-bordered">
                         <tbody>
                         <tr class="firstRow">
-                            <td>Anode Material</td>
-                            <td>Rated Voltage （V）</td>
-                            <td>Theoretical Specific Capacity （mAh/g）</td>
-                            <td>Estimated Actual Specific Capacity（mAh/g）</td>
-                            <td>Estimated Operating Cell Energy Density（wh/kg）</td>
+                            <td>正极材料</td>
+                            <td>额定电压（V）</td>
+                            <td>理论比容量（mAh/g）</td>
+                            <td>估算实际比容量（mAh/g）</td>
+                            <td>估算响应电芯能量密度（wh/kg）</td>
                         </tr>
                         <tr>
-                            <td>LiFePO4</td>
+                            <td>磷酸铁锂</td>
                             <td>~3.2</td>
                             <td>~170</td>
                             <td>~145</td>
                             <td>~170</td>
                         </tr>
                         <tr>
-                            <td>NCM811</td>
+                            <td>三元NCM811</td>
                             <td rowspan="3">~3.65</td>
                             <td rowspan="3">~274</td>
                             <td>~195</td>
                             <td>~240</td>
                         </tr>
                         <tr>
-                            <td>NCM523</td>
+                            <td>三元NCM523</td>
                             <td>~170</td>
                             <td>~210</td>
                         </tr>
                         <tr>
-                            <td>NCM111</td>
+                            <td>三元NCM111</td>
                             <td>~145</td>
                             <td>~180</td>
                         </tr>
@@ -395,39 +395,39 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 </div>
                 <div class="common_p section30">
                     <p>
-                        Note: The energy density of the cell should be evaluated in combination with the cell design and process. The table value is for reference only.
+                        注：电芯能量密度需结合电芯设计与工艺综合评估，表中值仅作参考。
                     </p>
                 </div>
 
 
-                <div class="link_title size2 section60" id="battery-cell"><h3>3.Charging Efficiency</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>3、充电效率</h3></div>
                 <div class="common_p section30">
                     <p>
-                        Ternary lithium batteries have a great advantage over lithium iron phosphate batteries in charging efficiency.
+                        三元锂电池在充电效率方面较磷酸铁锂电池有着非常大的优势。
                     </p>
-                    <p class="section10">When the ternary lithium battery and lithium iron phosphate battery are charged below 10C, there is no significant difference in the constant current ratio. When the charging ratio is above 10C, the constant current ratio of the lithium iron phosphate battery will decrease rapidly, and the charging efficiency will decrease rapidly.</p>
+                    <p class="section10">三元锂电池与磷酸铁锂电池在10C以下充电时，恒流比无明显差距，10C以上倍率充电时，磷酸铁锂电池恒流比例迅速降低，充电效率迅速降低。</p>
                 </div>
 
-                <div class="link_title size2 section60" id="battery-cell"><h3>4.Cycle Life</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>4、循环寿命</h3></div>
                 <div class="common_p section30">
                     <p>
-                        Theoretically, lithium iron phosphate has advantages in cycle life. The olivine structure is more stable, is not easy to swell and has more stable electrochemical reaction.
-                    </p>
-                </div>
-
-                <div class="link_title size2 section60" id="battery-cell"><h3>5.Safety</h3></div>
-                <div class="common_p section30">
-                    <p>
-                        Lithium iron phosphate batteries have incomparable advantages in safety. The positive electrode voltage is low, and there is no oxygen-releasing heat chain reaction that ternary has. The thermal stability temperature can reach above 300℃, while that of ternary battery is around 150-200℃.
+                        理论上，磷酸铁锂在寿命方面存在优势。其橄榄石晶体结构更稳定，膨胀更低、电化学反应更稳定。
                     </p>
                 </div>
 
-                <div class="link_title size2 section60" id="battery-cell"><h3>6.Economy</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>5、安全性</h3></div>
                 <div class="common_p section30">
                     <p>
-                        Lithium iron phosphate LiFePO4 has obvious advantages on price at present, the raw materials are relatively cheap, and the domestic industry chain is relatively mature.
+                        磷酸铁锂电池在安全方面具有无可比拟的优势。其正极电压低，不存在类似于三元的释氧热链式反应，热稳定温度可以达到300℃以上，而三元电池在150-200℃左右。
                     </p>
-                    <p class="section10">Cobalt is the key to lowering the price of NCM batteries. Cobalt is mainly an associated mineral with low production and uneven distribution, and its price has been rising continuously in recent years.</p>
+                </div>
+
+                <div class="link_title size2 section60" id="battery-cell"><h3>6、经济性</h3></div>
+                <div class="common_p section30">
+                    <p>
+                        价格上，目前磷酸铁锂LiFePO4有明显优势，原材料相对价格便宜，国内产业链相对成熟。
+                    </p>
+                    <p class="section10">而想要降低三元NCM电池价格，钴元素是关键。钴主要是伴生矿，产量少且分布不均，近几年价格持续高涨。</p>
                 </div>
 
             </section>
@@ -437,32 +437,32 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
         <section class="bg_part">
             <div class="container">
                 <div class="common_title size1 section70 " id="basic-structure-of-18650">
-                    <h2 class="light1-5">LiFePO4 Battery Cycle Life and Factor</h2>
+                    <h2 class="light1-5">磷酸铁锂电池循环寿命及影响因素</h2>
                 </div>
             </div>
 
             <div class="getiao section60"></div>
             <div class="part1 pp">
                 <div class="container">
-                    <div class="link_title size2 section20" id="battery-cell"><h3>1.LiFePO4 Battery Working at Room Temperature</h3></div>
+                    <div class="link_title size2 section20" id="battery-cell"><h3>1、磷酸铁锂电池常温环境下使用</h3></div>
                     <div class="row col-md-12">
                         <ul class="ul_li_item_padding section60 m_section30">
                             <div class="item col-md-4">
                                 <li>
-                                    <div class="title"><strong>Small Current Charge and Discharge</strong></div>
-                                    <div class="text section10 light1-5"><p>Lithium iron phosphate batteries tend to have more than 2000 cycles in this case; Small lithium battery manufacturers with lower quality battery also have over 1000 cycles;</p></div>
+                                    <div class="title"><strong>小电流充放电</strong></div>
+                                    <div class="text section10 light1-5"><p>在这一领域应用上磷酸铁锂电池正常使用的话，基本都是2000次以上的循环寿命；小型锂电池厂商，质量稍次一点的也有1000次以上的循环寿命；</p></div>
                                 </li>
                             </div>
                             <div class="item col-md-4 m_section30">
                                 <li>
-                                    <div class="title"><strong>High Rate Stable Charge and Discharge</strong></div>
-                                    <div class="text section10 light1-5"><p>Most of the applications of high rate discharge batteries are power-type lithium ion batteries, and most of them are used to provide power to the motor. As most lithium iron phosphate batteries operate under high load, the decay time of battery materials is accelerated, and the cycle life is around 800 times.</p></div>
+                                    <div class="title"><strong>高倍率稳定充放电使用</strong></div>
+                                    <div class="text section10 light1-5"><p>高倍率放电的应用，大多数是动力型锂电池，多数是应用在给电机提供动力的应用上。由于磷酸铁锂电池多数在高负荷状态下运行，加快了电池材料衰减时间，循环寿命也在800次左右。</p></div>
                                 </li>
                             </div>
                             <div class="item col-md-4 m_section30">
                                 <li>
-                                    <div class="title"><strong>High Rate Unstable Charge and Discharge</strong></div>
-                                    <div class="text section10 light1-5"><p>The lithium iron phosphate batteries used in this case have a shorter lifespan, which is only about 300 times.</p></div>
+                                    <div class="title"><strong>高倍率不稳定充放电使用</strong></div>
+                                    <div class="text section10 light1-5"><p>这种情况下使用的磷酸铁锂电池，寿命会更短，只有300次左右。</p></div>
                                 </li>
                             </div>
                         </ul>
@@ -471,30 +471,30 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
             </div>
             <div class="part2 pp">
                 <div class="container">
-                    <div class="link_title size2 section20" id="battery-cell"><h3>2.LiFePO4 Battery Working at High Temperature</h3></div>
+                    <div class="link_title size2 section20" id="battery-cell"><h3>2、磷酸铁锂电池高温环境下使用</h3></div>
                     <div class="common_p section30">
                         <p>
-                            The high temperature performance of lithium iron phosphate battery is not very mature at present. The operating temperature ranges from -20℃ to 125℃, which is the theoretical value, and the practical application temperature range is smaller.
+                            磷酸铁锂电池高温性能目前不是很成熟，运行温度-20℃到125℃，这个温度范围为理论值，实际应用温度范围要小些。
                         </p>
                     </div>
                     <div class="row col-md-12">
                         <ul class="section60 ul_li_item_padding m_section30">
                             <div class="item col-md-4">
                                 <li>
-                                    <div class="title"><strong>Small Current Charge and Discharge</strong></div>
-                                    <div class="text section10 light1-5"><p>Lithium iron phosphate batteries tend to have more than 2000 cycles in this case; Small lithium battery manufacturers with lower quality battery also have over 1000 cycles;</p></div>
+                                    <div class="title"><strong>小电流充放电</strong></div>
+                                    <div class="text section10 light1-5"><p>在这一领域应用上磷酸铁锂电池正常使用的话，如果是电池品牌厂商实力比较强的，质量好的，基本都是1000次以上的循环寿命；小型锂电池厂商，质量稍次一点的也有500次以上的循环寿命；因为高温下使用，对电池损害是比较大的。</p></div>
                                 </li>
                             </div>
                             <div class="item col-md-4 m_section30">
                                 <li>
-                                    <div class="title"><strong>High Rate Stable Charge and Discharge</strong></div>
-                                    <div class="text section10 light1-5"><p>Most of the applications of high rate discharge batteries are power-type lithium ion batteries, and most of them are used to provide power to the motor. As most lithium iron phosphate batteries operate under high load, the decay time of battery materials is accelerated, and the cycle life is around 800 times.</p></div>
+                                    <div class="title"><strong>高倍率稳定充放电使用</strong></div>
+                                    <div class="text section10 light1-5"><p>由于磷酸铁锂电池多数在高负荷状态下运行，加快了电池材料衰减时间，循环寿命是急剧下降的，质量差的电芯，可能也就300次左右的循环；实力强的电池品牌厂家，在设备技术和材料应用上会比较好，电芯质量就会好些，但循环寿命也就在500次左右。</p></div>
                                 </li>
                             </div>
                             <div class="item col-md-4 m_section30">
                                 <li>
-                                    <div class="title"><strong>High Rate Unstable Charge and Discharge</strong></div>
-                                    <div class="text section10 light1-5"><p>The lithium iron phosphate batteries used in this case have a shorter lifespan, which is only about 300 times.</p></div>
+                                    <div class="title"><strong>高倍率不稳定充放电使用</strong></div>
+                                    <div class="text section10 light1-5"><p>高温加放电倍率不稳定运行，对电池损害更大，循环使用寿命比较低，对几家电池厂家电芯做测试发现，250到300次这样，电池基本使用不了了。</p></div>
                                 </li>
                             </div>
                         </ul>
@@ -503,29 +503,29 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
             </div>
             <div class="part3 pp">
                 <div class="container">
-                    <div class="link_title size2 section20" id="battery-cell"><h3>3.LiFePO4 Battery Working at Low Temperature</h3></div>
+                    <div class="link_title size2 section20" id="battery-cell"><h3>3、磷酸铁锂电池低温环境下使用</h3></div>
                     <div class="common_p section30">
                         <p>
-                            Low temperature has a larger impact on the performance of lithium iron phosphate batteries. According to the current market situation, the service life of lithium iron phosphate batteries operating below -20℃ to -40℃ is significantly reduced, and it is around 300 times.
+                            低温环境下对磷酸铁锂电池性能影响要比高还要大，就目前市场情况来看，磷酸铁锂电池在低于-20℃以下到-40℃工作，寿命明显下降，循环使用寿命在300次左右。
                         </p>
                     </div>
                 </div>
             </div>
             <div class="part4 pp">
                 <div class="container">
-                    <div class="link_title size2 section20" id="battery-cell"><h3>4.The Factor Affecting LiFePO4 Battery Cycle Life </h3></div>
+                    <div class="link_title size2 section20" id="battery-cell"><h3>4、磷酸铁锂电池循环寿命影响因素</h3></div>
                     <div class="common_p section10">
-                        <li class="col-md-12 section30"><strong>Charge and Discharge</strong></li>
+                        <li class="col-md-12 section30"><strong>充放电</strong></li>
                         <p class="section10 col-md-12">
-                            When choosing a charger, it is better to use a charger with the correct device to cut off, so as not to shorten the service life of lithium iron phosphate batteries due to overcharging. In general, a slow charge will prolong the battery life, which is better than a quick charge.
+                            选择充电器时，最好使用具备正确终止充电装置切断的充电器，以免磷酸铁锂电池因过充而缩短使用寿命。一般来说，慢速充电较快速充电更能延长电池的使用寿命。
                         </p>
-                        <li class="col-md-12 section30"><strong>Depth of Discharge</strong></li>
+                        <li class="col-md-12 section30"><strong>放电深度</strong></li>
                         <p class="section10 col-md-12">
-                            The discharge depth is the main factor affecting the life of lithium iron phosphate batteries. The higher the discharge depth is, the shorter the life of lithium iron phosphate batteries will be. In other words, by reducing the discharge depth, the life of lithium iron phosphate batteries can be significantly extended. Therefore, we should avoid over discharge lithium battery UPS to extremely low voltage.
+                            放电的深度是影响磷酸铁锂电池寿命的主要因素，放电的深度越高，磷酸铁锂电池的寿命就越短。换句话说，只要降低放电深度，就能大幅延长锂磷酸铁锂电池的使用寿命。因此，我们应避免将锂电池UPS过放至极低的电压。
                         </p>
-                        <li class="col-md-12 section30"><strong>Operating Environment</strong></li>
+                        <li class="col-md-12 section30"><strong>工作环境</strong></li>
                         <p class="section10 col-md-12">
-                            If lithium iron phosphate battery is used at high temperature for a long time, its electrode activity will decrease and its service life will be shortened. Therefore, it is a good way to extend the life of lithium iron phosphate battery by keeping the operating temperature as appropriate as possible.
+                            若磷酸铁锂电池长时间在高温下使用，会令其电极活性衰减，缩短使用寿命，所以，尽量保持在适宜的操作温度是延长磷酸铁锂电池寿命的好方法。
                         </p>
                     </div>
                 </div>
@@ -536,27 +536,27 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
 
         <section>
             <div class="container">
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">LiFePO4 Battery Recycling</h2></div>
+                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">磷酸铁锂电池的回收</h2></div>
                 <div class="common_p section60">
                     <p class="col-md-12">
-                        Decommissioned lithium iron phosphate batteries which do not have the value of cascade utilization and the batteries after cascade utilization will eventually enter the stage of disassembly and recycling. Unlike ternary material batteries, lithium iron phosphate batteries do not contain heavy metals, and the recovery products are mainly Li, P and Fe. The additional value of the recovery products is low, so low-cost recovery methods are important. There are mainly fire metallurgy and hydrometallurgy technical processes.
+                        退役磷酸铁锂电池中不具备梯次利用价值的电池及梯次利用后的电池最终要进入到拆解回收阶段。磷酸铁锂电池与三元材料电池不同的是，不含重金属，回收主要是Li、P、Fe，回收产物附加值较低，需要开发低成本的回收路线。主要有火法和湿法两种回收方式。
                     </p>
                 </div>
                 <div class="common_p">
-                    <li class="col-md-12 section30"><strong>Fire Metallurgy</strong></li>
+                    <li class="col-md-12 section30"><strong>火法回收工艺</strong></li>
                 </div>
                 <div class="common_p">
                     <p class="section10 col-md-12">
-                        Conventional fire metallurgy recovery is generally a high-temperature incineration of electrode, in which carbon and organic matter in the electrode fragments are burned off, and the remaining ash that cannot be burned off is finally filtrated to obtain fines containing metals and metal oxides.
+                        传统的火法回收一般是高温焚烧电极片，将电极碎片中的碳和有机物燃烧掉，不能被燃烧掉的剩余灰分最终经筛选得到含有金属和金属氧化物的细粉状材料。
                     </p>
                 </div>
                 <div class="common_p">
-                    <li class="col-md-12 section30"><strong>Hydrometallurgy</strong></li>
+                    <li class="col-md-12 section30"><strong>湿法回收工艺</strong></li>
                 </div>
                 <div class="common_p">
 
                     <p class="section10 col-md-12">
-                        The hydrometallurgy recovery method is mainly to dissolve the metal ions in the lithium iron phosphate battery through acid-base solutions, and extract the dissolved metal ions in the form of oxides and salts through precipitation and adsorption. In the reaction process, H2SO4, NaOH, H2O2 and other reagents are often used.
+                        湿法回收主要是通过酸碱溶液溶解磷酸铁锂电池中的金属离子，进一步利用沉淀、吸附等方式将溶解的金属离子以氧化物、盐等形式提取出来，反应过程中多数使用H2SO4、NaOH和H2O2等试剂。
                     </p>
                 </div>
             </div>
