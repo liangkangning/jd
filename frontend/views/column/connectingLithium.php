@@ -9,7 +9,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
     <div class="col-md-12">
         <div class="">
             <section>
-                <div class="common_title size1 section20" id="basic-structure-of-18650"><h2 class="light1-5">锂电池串并联定义</h2></div>
+                <div class="common_title size1 section10" id="basic-structure-of-18650"><h2 class="light1-5">锂电池串并联定义</h2></div>
                 <div class="common_p section60">
                     <p class="small-size">
                         由于单体电池的电压和容量有限，在实际使用中都需要进行串并联组合，以获得更高的电压和容量，才能满足设备的实际供电需求。

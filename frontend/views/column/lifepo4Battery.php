@@ -6,7 +6,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
     <div class="col-md-12">
         <div class="">
             <section>
-                <div class="common_title size1 section20" id="basic-structure-of-18650"><h2 class="light1-5">磷酸铁锂电池概述</h2></div>
+                <div class="common_title size1 section10" id="basic-structure-of-18650"><h2 class="light1-5">磷酸铁锂电池概述</h2></div>
                 <div class="common_p section60">
                     <p class="small-size">
                         磷酸铁锂电池是指用磷酸铁锂作为正极材料的锂离子电池。磷酸铁锂电池具有安全性高、循环寿命长、倍率放电、耐高温等优点，被认为是新一代锂电池。

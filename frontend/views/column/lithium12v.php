@@ -8,7 +8,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
     <div class="col-md-12">
         <div class="">
             <section>
-                <div class="common_title size1 section20" id="basic-structure-of-18650"><h2 class="light1-5">什么是12V锂电池？</h2></div>
+                <div class="common_title size1 section10" id="basic-structure-of-18650"><h2 class="light1-5">什么是12V锂电池？</h2></div>
                 <div class="common_p section60">
                     <p class="small-size">
                         12v锂电池，是用3个或4个锂电池串联在一起组合成的锂电池组，电池的容量由单体电芯的容量和并联在一起的电芯数量决定，是一种安全环保的新型可充电电池。

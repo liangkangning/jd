@@ -7,7 +7,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
     <div class="col-md-12">
         <div class="">
             <section>
-                <div class="common_title size1 section20" ><h2 class="light1-5">48V锂离子电池定义</h2></div>
+                <div class="common_title size1 section10" ><h2 class="light1-5">48V锂离子电池定义</h2></div>
                 <div class="common_p section55">
                     <p class="small-size">
                         市场上的单体电池一般来说都在3.7v左右，但是很多时候工作电压范围稍大一点的就很明显存在着电压不够的问题。这个时候能够提高电池电压的电池组和模块化电池也就随之而来，而在众多的高电压电池中，48v锂离子电池得到了普遍的使用。
@@ -16,7 +16,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     <p class="section20">48V锂离子电池按正极材料可分为三元锂电池、磷酸铁锂电池、钛酸锂电池。</p>
                 </div>
 
-                <div class="common_title size1 section80" ><h2 class="light1-5">48V锂离子电池价格</h2></div>
+                <div class="common_title size1 section60" ><h2 class="light1-5">48V锂离子电池价格</h2></div>
                 <div class="common_p section55">
                     <p class="small-size">
                         48V锂离子电池是由多个锂电芯通过串联和并联的方式组合而成的，因为如果制造单个电芯就是48v的锂电池的话，电池的使用效率和寿命并不是很好。
@@ -34,7 +34,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 </div>
 
 
-                <div class="common_title size1 section80" ><h2 class="light1-5">48V锂电池组</h2></div>
+                <div class="common_title size1 section60" ><h2 class="light1-5">48V锂电池组</h2></div>
                 <div class="common_p section55">
                     <p class="small-size">
                         <strong>48V锂离子电池组型号表</strong>
@@ -139,7 +139,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
             </section>
             <section>
 
-                <div class="common_title size1 section80" ><h2 class="light1-5">48V锂离子电池充电器</h2></div>
+                <div class="common_title size1 section60" ><h2 class="light1-5">48V锂离子电池充电器</h2></div>
                 <div class="common_p section55">
                     <p class="small-size">
                         48V锂离子电池充电器是专门用来为标称电压为48V的锂电池充电的充电器。锂电池对充电器的要求较高，需要保护电路，所以锂电池充电器通常都有较高的控制精密度，能够对锂电池进行恒流恒压充电。
@@ -169,7 +169,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
             </section>
 
             <section>
-                <div class="common_title size1 section80" ><h2 class="light1-5">48V锂离子电池保护板</h2></div>
+                <div class="common_title size1 section60" ><h2 class="light1-5">48V锂离子电池保护板</h2></div>
                 <div class="common_p section55">
                     <p class="small-size">
                         48V锂离子电池保护板，即起保护作用的线路板。主要由电子电路组成，在-40℃至+85℃的环境下时刻准确地监视电芯的电压和充放回路的电流，及时控制电流回路的通断。
@@ -181,7 +181,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
             </section>
 
             <section>
-                <div class="common_title size1 section80" ><h2 class="light1-5">48V锂离子电池BMS</h2></div>
+                <div class="common_title size1 section60" ><h2 class="light1-5">48V锂离子电池BMS</h2></div>
                 <div class="common_p section55">
                     <p class="small-size">
                         48V锂离子电池管理系统（BMS），通过检测锂电池组中各单体电池的状态来确定整个电池系统的状态，并根据它们的状态对锂电池系统进行对应的控制调整和策略实施，实现对锂电池系统及各单体的充放电管理以保证锂电池系统安全稳定地运行。
@@ -200,7 +200,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
             </section>
 
             <section>
-                <div class="common_title size1 section80" ><h2 class="light1-5">48V锂离子电池使用注意事项</h2></div>
+                <div class="common_title size1 section60" ><h2 class="light1-5">48V锂离子电池使用注意事项</h2></div>
                 <div class="common_p section55">
                     <ul>
                         <li>锂离子电池长时间存放不用，应保持50%-60%荷电态，每3个月应进行一次补充电，每半年应进行充放一次。</li>
@@ -212,7 +212,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
             </section>
 
             <section>
-                <div class="common_title size1 section80" ><h2 class="light1-5">48V锂离子电池和铅酸电池对比</h2></div>
+                <div class="common_title size1 section60" ><h2 class="light1-5">48V锂离子电池和铅酸电池对比</h2></div>
                 <div class="common_p section55">
                     <ul>
                         <li>
@@ -253,7 +253,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 </div>
             </section>
             <section>
-                <div class="common_title size1 section80" ><h2 class="light1-5">48V锂离子电池</h2></div>
+                <div class="common_title size1 section60" ><h2 class="light1-5">48V锂离子电池</h2></div>
 
                 <div class="link_title size2 section55"><h3>1、48V锂离子电池充电注意事项</h3></div>
                 <div class="common_p section20">

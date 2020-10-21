@@ -22,7 +22,7 @@ use common\models\Images; ?>
     <div class="col-md-12">
         <div class="">
             <section>
-                <div class="common_title size1 section20" id="basic-structure-of-18650"><h2 class="light1-5">锂电池的发展</h2></div>
+                <div class="common_title size1 section10" id="basic-structure-of-18650"><h2 class="light1-5">锂电池的发展</h2></div>
                 <div class="common_p section60">
                     <div class="p_ul">
                         <ul class=" small-size">

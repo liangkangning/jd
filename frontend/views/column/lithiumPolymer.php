@@ -8,7 +8,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
     <div class="col-md-12">
         <div class="">
             <section>
-                <div class="common_title size1 section20" id="basic-structure-of-18650"><h2 class="light1-5">锂聚合物电芯型号</h2></div>
+                <div class="common_title size1 section10" id="basic-structure-of-18650"><h2 class="light1-5">锂聚合物电芯型号</h2></div>
                 <section class="section60 tabel-section">
                     <?php $this->beginContent('@app/views/column/polymerTable.php') ?>
                     <?php $this->endContent() ?>
