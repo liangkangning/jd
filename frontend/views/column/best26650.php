@@ -7,7 +7,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
 
     <div class="col-md-12">
         <div class="container">
-            <section class="section20">
+            <section class="section10">
                 <div class="common_title " id="what-is-an-18650"><h2 class="light1-5 size1">26650锂电池</h2></div>
 
                 <div class="link_title size2 section60" id="the-best-18650-battery-cell"><h3>1、26650锂电池定义</h3></div>
@@ -53,7 +53,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 </div>
             </section>
 
-            <section class="section">
+            <section class="section70">
                 <div class="common_title " id="what-is-an-18650"><h2 class="light1-5 size1">26650锂电池正极材料</h2></div>
 
                 <div class="common_p section60">
@@ -163,7 +163,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     </table>
                 </section>
             </section>
-            <section class="section">
+            <section class="section70">
                 <div class="common_title " id="what-is-an-18650"><h2 class="light1-5 size1">18650 VS 26650</h2></div>
 
                 <div class="common_p section60">
@@ -200,7 +200,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
             </section>
 
 
-            <section class="section">
+            <section class="section70">
                 <div class="common_title" ><h2 class="light1-5 size1">26650锂电池的安全性能测试</h2></div>
 
                 <div class="link_title size2 section60" ><h3>1、过充性能</h3></div>
@@ -260,7 +260,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 </div>
             </section>
 
-            <section class="section">
+            <section class="section70">
                 <div class="common_title" ><h2 class="light1-5 size1">26650锂电池充电</h2></div>
 
                 <div class="link_title size2 section60" ><h3>1、26650锂电池充电注意事项</h3></div>
@@ -279,7 +279,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 </div>
             </section>
 
-            <section class="section">
+            <section class="section70">
                 <div class="common_title" ><h2 class="light1-5 size1">如何选购26650锂电池？</h2></div>
                 <div class="common_p section60">
                   <p>26650锂电池广泛应用于电动工具、照明、风光储能、电动车、玩具、仪器仪表、ups后备电源、通讯设备、医疗设备及军工灯领域。我们在选购26650锂电池时应该注意哪些事项？</p>
