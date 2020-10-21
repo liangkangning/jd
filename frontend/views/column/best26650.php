@@ -11,7 +11,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="common_title " id="what-is-an-18650"><h2 class="light1-5 size1">26650锂电池</h2></div>
 
                 <div class="link_title size2 section60" id="the-best-18650-battery-cell"><h3>1、26650锂电池定义</h3></div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <p class="small-size">
                         26650锂电池是圆柱锂电池的一种型号规格，适用于特种设备、医疗设备、仪器仪表、电动工具、交通物流、安防监控、勘探测绘等领域。
                     </p>
@@ -20,19 +20,19 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
 
 
                 <div class="link_title size2 section60" id="the-beast-18650-cell-battery-brands"><h3>2、26650锂电池优点</h3></div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <p>
                         26650锂电池能量密度、自放电率低、充放电性能稳定，没有记忆效应，遇热不分解，安全性能高，寿命循环长、电压高、可以串联或者并联使用组合成26650锂电池组、环保无污染。
                     </p>
                 </div>
 
                 <div class="link_title size2 section60" id="the-beast-18650-cell-battery-brands"><h3>3、单体26650锂电池</h3></div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <p>
                         26650锂电池主要分为三元材料和磷酸铁锂材料两种
                     </p>
                 </div>
-                <div class="common_p section30 ">
+                <div class="common_p section20 ">
                     <ul>
                         <li class="light1-8">
                             <p><strong>电压</strong></p>
@@ -41,7 +41,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                                 IFR26650锂电池标称电压3.2V，充满电电压3.65V，放电截止电压：2.0V
                             </p>
                         </li>
-                        <li class="light1-8 section30">
+                        <li class="light1-8 section20">
                             <p><strong>容量</strong></p>
                             <p>
                                 IFR26650锂电池容量容量包括2800mAh、3000mAh、3200mAh、3400mAh、3600mAh、3800mAh、4000mAh等多个容量段。<br>
@@ -62,7 +62,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                    </p>
                 </div>
 
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <ul class="light1-8">
                         <li>
                             <p>钴酸锂 3.6V 理论容量为274mAh/g</p>
@@ -85,7 +85,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="common_p section60">
                     <p><strong>26650磷酸铁锂电池的优势</strong></p>
                 </div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <ul class="light1-8">
                         <li>
                             <p>高能量密度：理论比容量为170mAh/g，实际比容量≥140 mAh/g（0.2C, 25°C）；</p>
@@ -172,7 +172,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     </p>
                 </div>
                 <div class="link_title size2 section60" id="the-best-18650-battery-cell"><h3>18650锂电池与26650锂电池有什么区别？</h3></div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <ul class="light1-5">
                         <li>
                             <p>额定容量不一样：IFR26650锂电池额定容量3000-5000mAh，IFR18650锂电池额定容量是2200~3200mAh。</p>
@@ -204,59 +204,59 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="common_title" ><h2 class="light1-5 size1">26650锂电池的安全性能测试</h2></div>
 
                 <div class="link_title size2 section60" ><h3>1、过充性能</h3></div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <p class="small-size">
                         电池标准充电后，测量电池的初始状态，电池状态正常时，以3C电流充电至10.0V，然后转恒压充电至截至电流0.01C时终止。观察电池的外观变化。
                     </p>
-                    <p class="section30">结果：不起火、不爆炸</p>
+                    <p class="section20">结果：不起火、不爆炸</p>
                 </div>
 
                 <div class="link_title size2 section60" ><h3>2、过放性能</h3></div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <p class="small-size">
                         电池标准充电后，测量电池初始状态，电池状态正常时，以0.5C进行放电至0V。观察电池外观变化。
                     </p>
-                    <p class="section30">结果：不起火、不爆炸</p>
+                    <p class="section20">结果：不起火、不爆炸</p>
                 </div>
 
                 <div class="link_title size2 section60" ><h3>3、外部短路</h3></div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <p class="small-size">
                         电池标准充电后，测量电池的初始状态，置于防爆罩中直接短路其正负极（线路总电阻不大于50mΩ），当电池温度下降到比峰值温度低约10℃时试验结束。观察电池的温度及外观变化。
                     </p>
-                    <p class="section30">结果：不起火、不爆炸</p>
+                    <p class="section20">结果：不起火、不爆炸</p>
                 </div>
 
                 <div class="link_title size2 section60" ><h3>4、热箱测试</h3></div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <p class="small-size">
                         测量电池的初始状态，电池标准充电后，放置于烘箱中，温度以（5±2℃）/min的速率升至130±2℃并保温30min。观察电池外观变化。
                     </p>
-                    <p class="section30">结果：不起火、不爆炸</p>
+                    <p class="section20">结果：不起火、不爆炸</p>
                 </div>
 
                 <div class="link_title size2 section60" ><h3>5、跌落</h3></div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <p class="small-size">
                         测试电池的初始容量，标准充电后，测量电池的初始状态，将试验电池由高度（最低点高度）为1m的位置垂直、水平方向自由跌落到水泥地面上，要求跌落2次。
                     </p>
-                    <p class="section30">结果：不起火、不爆炸</p>
+                    <p class="section20">结果：不起火、不爆炸</p>
                 </div>
 
                 <div class="link_title size2 section60" ><h3>6、重物冲击</h3></div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <p class="small-size">
                         将一直径为15.8mm的钢棒放置于满电的电池中部；然后将重量为10Kg的铁锤从1.0m高处自由落体到电池上部。
                     </p>
-                    <p class="section30">结果：不起火、不爆炸</p>
+                    <p class="section20">结果：不起火、不爆炸</p>
                 </div>
 
                 <div class="link_title size2 section60" ><h3>7、挤压测试</h3></div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <p class="small-size">
                         电芯放在挤压设备的两个挤压表面之间，圆柱电芯轴平行于挤压面，逐渐增加压力至13kN，保持压力1min。
                     </p>
-                    <p class="section30">结果：不起火、不爆炸</p>
+                    <p class="section20">结果：不起火、不爆炸</p>
                 </div>
             </section>
 
@@ -264,7 +264,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="common_title" ><h2 class="light1-5 size1">26650锂电池充电</h2></div>
 
                 <div class="link_title size2 section60" ><h3>1、26650锂电池充电注意事项</h3></div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <ul>
                         <li><p>给26650锂电池充电时需要的基本要求就是各阶段特定的充电电压和充电电流，有的增加些其他的辅助功能都是为了改善电池的寿命；</p></li>
                         <li class="section20"><p>为保证电池工作稳定可靠，防止瞬态电压变化的干扰，其内部应设计有过充、过放电、过流保护的延时电路，以防止瞬态干扰造成不稳定；</p></li>
@@ -272,7 +272,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     </ul>
                 </div>
                 <div class="link_title size2 section60" ><h3>2、18650电池充电器可以给26650电池充电吗？</h3></div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <p>
                         可以使用18650锂电池的充电器给给26650锂电池充电，但是不要长期使用，由于18650锂电池的充电器的电压平台比较高，18650锂电池电压平台为3.6V和4.2V，26650锂电池电压平台为3.2v和3.6V。因此长期使用会造成26650锂电池损坏。
                     </p>
@@ -286,28 +286,28 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 </div>
 
                 <div class="link_title size2 section60" ><h3>1、外观和生产工艺</h3></div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <p>
                         看外观是指看26650锂电池的外观、做工、尺寸和工艺。先进的工艺都是手感很舒服的，经过打磨，橡胶油抛光材料既手感好，同时绝缘性能也很强。
                     </p>
                 </div>
 
                 <div class="link_title size2 section60" ><h3>2、容量标识</h3></div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <p>
                         无明确标示容量的26650锂电池，很可能就是使用劣质电池芯或回收电池芯重新组装的垃圾电池。市面上充斥着许多廉价的26650锂电池，使用回收电池芯或拆机电池芯做的，价格虽然便宜，但是寿命短，品质不稳定，使用不慎可能会损坏设备，甚至发生爆炸。
                     </p>
                 </div>
 
                 <div class="link_title size2 section60" ><h3>3、有无保护板</h3></div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <p>
                         26650锂电池的特性决定了26650锂电池一定要外加保护板，以防止26650锂电池过充、过放及短路等情况的发生，不加保护板的26650锂电池会有变形、漏液、爆炸的危险。在激烈的价格竞争下，各电池封装厂寻求更低价位的保护电路，或者根本省略了这个装置，使得市面上充斥着有爆炸危险的26650锂电池。
                     </p>
                 </div>
 
                 <div class="link_title size2 section60" ><h3>4、平头和尖头</h3></div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <ul>
                         <li><p>26650锂电池有平头和尖头之分，两者的区别是一个带保护板，一个不带保护板。</p></li>
                         <li class="section20"><p>平头26650锂电池：不带保护板。</p></li>

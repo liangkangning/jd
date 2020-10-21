@@ -25,7 +25,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                         48V锂离子电池是由多个锂电芯通过串联和并联的方式组合而成的，因为如果制造单个电芯就是48v的锂电池的话，电池的使用效率和寿命并不是很好。
                     </p>
 
-                        <li class="section30 col-md-12 common_p">
+                        <li class="section20 col-md-12 common_p">
                            <strong>48V锂离子电池价格估算公式</strong><br>
                             单个锂电池电芯价格x（3.6~3.7V*n=48v）*m（并联的电芯数量）+保护板价格+外壳价格+辅材价格
                         </li>
@@ -152,7 +152,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 </div>
                 <div class="link_title size2 section60" ><h3>47.5V 4A磷酸铁锂电池充电器</h3></div>
 
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <ul class="light1-8">
                         <li><strong>输入电压：</strong>100-240V,50-60Hz</li>
                         <li><strong>输出电压：</strong>47.5V</li>
@@ -165,7 +165,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                         <li><strong>产品特点:</strong>具有反接/过载/过流/短路/高温自动保护功能，并轨式充电，自动捕捉、跟踪电池电压，锁定充电电流，温升传感，降压停留，变色发光二极管显示全程充电状态</li>
                     </ul>
                 </div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <div class="img text-center"><img src="/static/images/column_48v_1.jpg" alt=""></div>
                 </div>
             </section>
@@ -191,7 +191,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     <div class="img text-center section55"><img src="/static/images/column_48v_2.jpg" alt=""></div>
                 </div>
                 <div class="common_title size1 section" ><h2 class="light1-5">48V锂离子电池BMS特点</h2></div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <ul>
                         <li>锂离子电池管理系统由管理主机（CPU）、电压与温度采集模块、电流采集模块和通信接口模块组成。</li>
                         <li class="section20">可检测并显示锂离子电池组的总电压、总电流、储备电量；任一单体电池的电压和电池箱的温度；最高和最低单体电池电压及电池编号、最高和最低温度、电池组的充放电量。</li>
@@ -247,7 +247,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="common_title size1 section80" ><h2 class="light1-5">48V锂离子电池</h2></div>
 
                 <div class="link_title size2 section55"><h3>1、48V锂离子电池充电注意事项</h3></div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <ul class="light1-5">
                         <li>严格按照标准的时间和程序充电。</li>
                         <li>锂电池出厂时一般是带电的半电状态，首次使用一定要将电池充满电。</li>
@@ -257,20 +257,20 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 </div>
 
                 <div class="link_title size2 section55"><h3>2、48V锂离子电池充满电能跑多少公里？</h3></div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <p>48V锂离子电池的续航跟电池本身的容量(Ah)和电动车的电机功率（W）有关，现在市面上符合国家标准的电动自行车一般采用48V 12Ah的锂电池和350W电机，随着电池的技术发展它们的理论续航能达到50km，实际使用续航还是根据乘车人的体重和搭载的重量决定。</p>
                     <p class="section20">48v锂离子电池满电能跑多少公里取决的因素有电池容量、电机功率、载重量。一般来说48V 12Ah , 350w的锂电池可以跑50km。48V 20Ah可以跑70km。72V 22Ah的锂电池可以跑90km。</p>
                 </div>
 
                 <div class="link_title size2 section55"><h3>3、48v锂电池要充几小时才满？</h3></div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <p>充电时间和电压没太大关系；</p>
                     <p class="section20">主要看锂离子电池的容量和充电器的功率，<strong>充电时间=锂电池容量÷充电电流</strong></p>
                     <p class="section20">比如48V 20Ah锂离子电池选用正规48V 2A充电器，那么理论上充电时间为2小时，即20Ah÷10A=2h，但是实际充电时恒流转恒压模式，在最后的涓流充电耗时较长，所以正常情况下都在3个小时左右。同理，选用48V 5A充电器，就需要20Ah÷5A=4h，但同样有涓流时间，所以大约在5小时左右。</p>
                 </div>
 
                 <div class="link_title size2 section55"><h3>4、48V锂离子电池充不进去电怎么办？</h3></div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <ul class="light1-5">
                         <li>充电器输出参数是否正常，电压、电流等；</li>
                         <li>充电器线路是否正常，接头处是否断线了；</li>
@@ -280,7 +280,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 </div>
 
                 <div class="link_title size2 section55"><h3>5、48V13串和14串的差别</h3></div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <ul class="light1-5">
                         <li>三元才分13或14串，磷酸铁锂就是16串</li>
                         <li>但三元的13串放电平台明显低于48V，速度慢，14串的好</li>
