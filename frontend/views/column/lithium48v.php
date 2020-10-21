@@ -188,7 +188,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     </p>
                     <div class="img text-center section55"><img src="/static/images/column_48v_2.jpg" alt=""></div>
                 </div>
-                <div class="common_title size1 section" ><h2 class="light1-5">48V锂离子电池BMS特点</h2></div>
+                <div class="common_title size1 section70" ><h2 class="light1-5">48V锂离子电池BMS特点</h2></div>
                 <div class="common_p section60">
                     <ul>
                         <li>锂离子电池管理系统由管理主机（CPU）、电压与温度采集模块、电流采集模块和通信接口模块组成。</li>
