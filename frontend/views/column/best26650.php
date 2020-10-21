@@ -85,7 +85,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="common_p section60">
                     <p><strong>26650磷酸铁锂电池的优势</strong></p>
                 </div>
-                <div class="common_p section20">
+                <div class="common_p section5">
                     <ul class="light1-8">
                         <li>
                             <p>高能量密度：理论比容量为170mAh/g，实际比容量≥140 mAh/g（0.2C, 25°C）；</p>
