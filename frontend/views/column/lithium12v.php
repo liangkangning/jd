@@ -8,91 +8,91 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
     <div class="col-md-12">
         <div class="">
             <section>
-                <div class="common_title size1 section20" id="basic-structure-of-18650"><h2 class="light1-5">What is a 12V Lithium Battery?</h2></div>
+                <div class="common_title size1 section20" id="basic-structure-of-18650"><h2 class="light1-5">什么是12V锂电池？</h2></div>
                 <div class="common_p section60">
                     <p class="small-size">
-                        12V lithium battery is a lithium battery pack composed of 3 or 4 lithium batteries in series. The capacity of the battery is determined by the capacity of the single cell and the number of cells in parallel. It is a new kind of safe and environmental rechargeable battery.
+                        12v锂电池，是用3个或4个锂电池串联在一起组合成的锂电池组，电池的容量由单体电芯的容量和并联在一起的电芯数量决定，是一种安全环保的新型可充电电池。
                     </p>
 
                 </div>
             </section>
             <section>
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">12V Lithium Battery Classification</h2></div>
+                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">12V锂电池分类</h2></div>
                 <div class="common_p section60">
                     <p class="small-size">
-                        12V lithium batteries are divided into 12V lithium ion battery, 12V lithium iron phosphate battery, 12V cylindrical lithium battery and 12V lithium polymer battery according to the materials and packaging.
+                        12V锂电池根据材料和封装的不同，分为12V锂离子电池、12V磷酸铁锂电池、12V圆柱锂电池、12V聚合物锂电池。
                     </p>
                 </div>
 
-                <div class="link_title size2 section60" id="battery-cell"><h3>1.12V Lithium Ion Battery</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>1、12v锂离子电池</h3></div>
                 <div class="common_p section30">
                     <p class="small-size section5">
-                        A 12V lithium-ion battery is connected in series by three or four lithium-ion batteries. The capacity of the battery pack depends on the capacity of a single cell, or the capacity of the batteries in parallel. It is a new kind of safe and environmental protection battery.
+                        12V锂离子电池是用3个或4个锂电池串联在一起。组合成的电池组，电池的容量根据单个电芯的容量，或并联在一起的电池的容量确定，是一种安全环保的新型电池。
                     </p>
                 </div>
 
                 <div class="common_p section30">
-                    <li><strong>Battery capacity</strong></li>
+                    <li><strong>电池容量</strong></li>
                     <p class="small-size section5">
-                        There is no standard capacity. It is determined according to the specific requirements of electrical appliances or equipment. The general capacity is: 2200mAh, 5Ah, 10Ah. Some electric vehicles can reach 20Ah, or 50Ah. The more batteries are connected in parallel, the larger the capacity is.
+                        容量没有标准的容量，是根据用电器，或设备的具体要求来确定，一般容量为：2200mah，5AH，10Ah这样的，有些电动车容量可达20AH，或50AH。电池并联得越多，容量越大。
                     </p>
                 </div>
 
                 <div class="common_p section30">
-                    <li><strong>Volume</strong></li>
+                    <li><strong>体积</strong></li>
                     <p class="small-size section5">
-                        12V lithium battery volume depends on the battery capacity, and it has no uniform specification. The bigger the battery, the larger the volume is.
+                        12V锂电池的体积，要根据电池的容量来确定，没有统一规格的。电池容量越大，体积越大。
                     </p>
                 </div>
 
                 <div class="common_p section30">
-                    <li><strong>Weight</strong></li>
+                    <li><strong>重量</strong></li>
                     <p class="small-size section5">
-                        Nowadays, a lot of equipment needs a large capacity, light weight lithium battery. Take electric cars for example, they used to use lead-acid batteries, but now many electric cars change into lithium batteries because of the large capacity, light weight and small volume.
+                        现在很多设备需要容量大，重量轻一些的锂电池，如电动车，以前是用铅酸电池，现在很多电动车变为锂电池了，因为锂电池容量大，重量轻，体积小。
                     </p>
                 </div>
 
                 <div class="common_p section30">
-                    <li><strong>Charging and discharging current</strong></li>
+                    <li><strong>充放电电流</strong></li>
                     <p class="small-size section5">
-                        The charging and discharging current of a lithium battery is determined by the power of the device. On the basis of constant voltage, the more power the device has, the more current it needs to output.
+                        锂电池的充放电电流，是根据设备的功率来确定的。在电压恒定的基础上，设备的功率越大，需要输出的电流就要越大。
                     </p>
                 </div>
 
 
-                <div class="link_title size2 section60" id="battery-cell"><h3>2.12V LiFePO4 Battery</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>2、12V磷酸铁锂电池</h3></div>
                 <div class="common_p section30">
-                 <p>12V lithium iron phosphate battery is a battery pack consisting of four lithium iron phosphate cells connected in series. Lithium iron phosphate cell is a lithium cell using lithium iron phosphate (LiFePO4) as the positive electrode material. The nominal voltage is 3.2V, the maximum charging voltage of the single cell is less than 3.9V, and the minimum discharge voltage is more than 2.0V.</p>
+                 <p>12V磷酸铁锂电池是由四节磷酸铁锂电芯串联在一起组成的电池组。磷酸铁锂电芯是一种以磷酸铁锂(LiFePO4)作为正极材料的锂电池，标称电压为3.2V，单体充电最高电压小于3.9V，放电最低电压大于2.0V。</p>
                 </div>
                 <div class="common_p section30">
-                    <p class="size4 font-weight black_color">12V LiFePO4 Battery Advantages</p>
+                    <p class="size4 font-weight black_color">12V磷酸铁锂电池优点</p>
                 </div>
                 <div class="common_p section10">
                     <ul>
-                        <li>12V lithium iron phosphate battery has long life. Lithium iron phosphate batteries can be used for seven to eight years under the same conditions.</li>
-                        <li>Safe usage: 12V lithium iron phosphate batteries have passed rigorous safety tests and will not explode even in a traffic accident.</li>
-                        <li>Fast charge: The battery can be fully charged after 40 minutes of 1.5C charging by using a special charger.</li>
-                        <li>12V lithium iron phosphate battery can withstand high temperature. 12V lithium iron phosphate battery hot air value can reach 350 to 500℃.</li>
-                        <li>12V lithium iron phosphate battery is environmental friendly, non-toxic, pollution-free and cheap with wide source of raw materials.</li>
+                        <li>12V磷酸铁锂电池的寿命长。在同样的条件下，磷酸铁锂电池可使用7到8年的时间。</li>
+                        <li>使用安全。12V磷酸铁锂电池经过严格的安全测试，即使在交通事故中也不会发生爆炸。</li>
+                        <li>充电快速。使用专用充电器，1.5C充电40分钟即可以使电池充满。</li>
+                        <li>12V磷酸铁锂电池耐高温，12V磷酸铁锂电池热风值可以达到350到500℃。</li>
+                        <li>12V磷酸铁锂电池绿色环保，无毒，无污染，原材料来源广泛，价格便宜。</li>
                     </ul>
                 </div>
 
 
-                <div class="link_title size2 section60" id="battery-cell"><h3>3.12V Lithium Polymer Battery</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>3、12V聚合物锂电池</h3></div>
                 <div class="common_p section30">
-                    <p>Lithium polymer battery is developed on the basis of liquid lithium ion battery. Its anode and cathode materials are the same as liquid lithium ion battery, but it uses gel electrolyte and aluminum plastic film for outer packing. Polymer lithium battery is also known as LiPo battery.</p>
-                    <p class="section10">12V lithium polymer battery has a nominal voltage of 12V and is widely used in digital products, power tools, special wearable devices, etc.</p>
+                    <p>聚合物锂电池是在液态锂离子电池基础上发展起来的，它的正极和负极材料和液态锂离子电池相同，但它采用了凝胶电解液和铝塑膜做外包装，聚合物锂电池也称锂聚合物电池，又称高分子锂电池。</p>
+                    <p class="section10">12V聚合物锂电池标称电压为12V，广泛应用于数码产品、电动工具、特种可穿戴设备等领域。</p>
                 </div>
                 <div class="common_p section30">
-                    <p class="size4 font-weight black_color">12V Lithium Polymer Battery Advantages</p>
+                    <p class="size4 font-weight black_color">12V聚合物锂电池优点</p>
                 </div>
                 <div class="common_p section10">
                     <ul>
-                        <li>Higher energy density</li>
-                        <li>Better safety performance</li>
-                        <li>Flexible design and customable appearance</li>
-                        <li>Nice discharge performance</li>
-                        <li>Simple PCM design</li>
+                        <li>能量密度更高</li>
+                        <li>安全性更好</li>
+                        <li>设计灵活，外形可定制</li>
+                        <li>放电特性好</li>
+                        <li>保护板设计简单</li>
                     </ul>
                 </div>
 
@@ -102,85 +102,83 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
             </section>
 
             <section>
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">12V Lithium Ion Battery Price</h2></div>
+                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">12V锂电池价格</h2></div>
                 <div class="common_p section60">
                     <p class="small-size">
-                        12 V lithium battery price mainly composes of cell, PCM and case. At the same time due to the power consumption and current of the electric appliances, the material of the connection strap between the cells (conventional nickel sheet, forming nickel, copper nickel clad sheet, jumper, etc.) will affect the cost. Different connector (such as aviation plugs, from ten yuan to thousands of yuan) may affect the cost a lot. What’s more, different pack technology can also affect the cost.
+                        12V锂电池价格主要是由电芯、保护板、外壳三大部件构成，同时由于受用电器具功耗及电流的大小，对电芯之间的连接片的材料（常规镍片、成型镍片、铜镍复合片、跨接片等）选型会影响到成本，不同的接插件（如航空插头，从十几元到上千元的都有）也有可能对成本影响较大，不同的PACK工艺也会影响到成本。
                     </p>
 
                 </div>
-                <div class="link_title size2 section60" id="battery-cell"><h3>The factors affecting 12V Lithium Ion Battery Price</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>12V锂电池价格的影响因素</h3></div>
                 <div class="common_p section30">
-                    <li><strong>Cell</strong></li>
+                    <li><strong>电芯</strong></li>
                     <p class="small-size section5">
-                        Due to different anode material of lithium ion batteries is, there will be lithium manganese (3.6 V), lithium cobalt oxides (3.7 V / 3.8 V), NCM (3.6 V), lithium iron phosphate (3.2 V), lithium titanate (2.3 V / 2.4 V) and other material system. The batteries with different material system have different voltage platform, safety coefficient, recycling times, energy density ratio and working temperature, so it have different prices.
-                    </p>
-                </div>
-
-                <div class="common_p section30">
-                    <li><strong>Brand</strong></li>
-                    <p class="small-size section5">
-                        Different lithium battery brands have obviously different prices, mainly because the quality of brand cell (safety, consistency, stability, production process, etc.) is basically proportional to the price.
+                        锂电池根据正极材料的不同，会有锰酸锂（3.6V）、钴酸锂（3.7V/3.8V）、镍钴锰酸锂（3.6V）、磷酸铁锂（3.2V）、钛酸锂（2.3V/2.4V）等多种材料体系的电芯，其不同材料体系的电芯，其电压平台、安全系数、循环使用次数、能量密度比、工作温度等都不相同，所以价格也会不同。
                     </p>
                 </div>
 
                 <div class="common_p section30">
-                    <li><strong>Capacity</strong></li>
+                    <li><strong>品牌</strong></li>
                     <p class="small-size section5">
-                        In the case that 12V lithium battery voltage is determined, the larger the capacity, the higher the cost will be, and the higher the price will be.
+                        不同的锂电池品牌，在价格上的差异也很明显，主要是因为各品牌电芯的品质（安全型、一致性、稳定性、生产工艺等）基本上是与价格成正比的。
                     </p>
                 </div>
 
                 <div class="common_p section30">
-                    <li><strong>PCM quality and circuit design</strong></li>
+                    <li><strong>容量</strong></li>
                     <p class="small-size section5">
-                        Good quality lithium battery use high quality electronic components and PCM. It also has multiple protection circuit design to improve the charge and discharge circuit, and has the design of constant temperature, constant voltage, overcharge, over discharge, over current and short circuit, etc. to create a safe environment for you and be good for the use of your equipment, so the price will be affected by the above factors.
+                        12V锂电池在电压确定的情况下，容量越大，成本就会越高，价格也就会越高。
+                    </p>
+                </div>
+
+                <div class="common_p section30">
+                    <li><strong>保护板质量和电路设计</strong></li>
+                    <p class="small-size section5">
+                        质量好的锂电池采用高质量的电子元件和保护板，同时还有多重保护电路设计，不但完善充放电电路，还有恒温恒压、过充、过放、过流、短路等多重设计，为您和您的设备创造一个安全的使用环境，所以价格会受这两个因素的影响。
                     </p>
                 </div>
             </section>
 
             <section>
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">12V Lithium Battery Pack</h2></div>
+                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">12V锂电池组</h2></div>
                 <div class="common_p section60">
                     <p class="small-size">
-                        A 12V lithium battery pack is a lithium battery pack consisting of three or four lithium batteries in series and several lithium batteries in parallel, so the capacity of a 12V lithium battery can be customized.
+                        12V锂电池组是用3个或4个锂电池串联在一起，若干个锂电池并联在一起组成的锂电池组，因此，12V锂电池容量是可以定制的。
                     </p>
                 </div>
                 <div class="common_p section30">
-                    <li><strong>Common Capacity of 12V Lithium Battery Pack</strong></li>
+                    <li><strong>12V锂电池组常见容量</strong></li>
                     <p class="small-size section5">
-                        4Ah, 5Ah, 7Ah, 8Ah, 9Ah, 10Ah, 12Ah, 17Ah, 18Ah, 20Ah, 30Ah，40Ah, 50Ah, 100Ah, 200Ah, etc.
+                        4Ah, 5Ah, 7Ah, 8Ah, 9Ah, 10Ah, 12Ah, 17Ah, 18Ah, 20Ah, 30Ah，40Ah, 50Ah, 100Ah, 200Ah, 等等。
                     </p>
                 </div>
                 <div class="common_p section30">
-                    <li><strong>12V DC Lithium Battery</strong></li>
+                    <li><strong>12VDC锂电池</strong></li>
                     <p class="small-size section5">
-                        12V DC lithium battery stabilizes the output voltage at about 12V through the conversion of boosted/step-down circuit, so as to meet the requirement of constant voltage working equipment. It is a DC battery with standard specifications. It has universal and compatible characteristics, which can be changed to meet the requirements of different electrical equipment.
+                        12V DC锂电池通过升压/降压电路转换，将锂电池输出电压稳定在12V左右，以满足恒压工作设备使用，是一种标准规格的直流电池，具有通用和易兼容的特性，可以通过改变其某种特性满足不同用电设备的使用。
                     </p>
                 </div>
-
-                <div class="link_title size2 section60" id="battery-cell"><h3>12V Large Capacity Lithium Battery Recommendation</h3></div>
 
             </section>
 
             <section>
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">12V Lithium Battery Applications</h2></div>
+                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">12V锂电池应用领域</h2></div>
                 <div class="common_p section60">
                     <ul>
-                        <li><strong>Lighting industry</strong>: solar street lamp, solar insecticidal lamp, solar yard lamp, solar energy storage power supply, etc.</li>
-                        <li><strong>Power field</strong>: power tools, robot, AGV, vacuum cleaner, electric sprayer, RC, etc.</li>
-                        <li><strong>Consumer electronics</strong>: Bluetooth speaker, loudspeaker, LED and various electronic equipment, etc.</li>
-                        <li><strong>Energy storage</strong>: communication base station, data center, home energy storage, wind power storage, photovoltaic power generation, etc.</li>
-                        <li><strong>Special fields</strong>: medical equipment, security power, special equipment, etc.</li>
+                        <li><strong>照明行业</strong>：太阳能路灯、太阳能杀虫灯、太阳能庭院灯、太阳能储能电源等；</li>
+                        <li><strong>动力领域</strong>：电动工具、机器人、AGV、吸尘器、电动喷雾器、RC领域等；</li>
+                        <li><strong>消费电子</strong>：蓝牙音响、扩音器领域、LED灯具及各种电子仪器设备等；</li>
+                        <li><strong>储能领域</strong>：通信基站、数据中心、家庭储能、风光电储能等；</li>
+                        <li><strong>特种领域</strong>：医疗设备、安防电力、特种设备等。</li>
                     </ul>
                 </div>
             </section>
 
             <section>
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">12V Lithium Battery Charger</h2></div>
+                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">12V锂电池充电器</h2></div>
                 <div class="common_p section60">
                     <p class="small-size">
-                        12V lithium battery charger is specially designed to charge the 12V lithium battery. Lithium ion battery has a high requirement on charger and needs protection circuit. Therefore, lithium battery charger usually has a high control precision and can charge lithium ion battery at constant current and constant voltage.
+                        12V锂电池充电器是专门用来为12V锂电池充电的。锂离子电池对充电器的要求较高，需要保护电路，所以锂电池充电器通常都有较高的控制精密度，能够对锂离子电池进行恒流恒压充电。
                     </p>
                 </div>
                  <div class="products_list_other section30 charger">
@@ -189,11 +187,11 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                                 <div class="item">
                                     <div class="col-md-3 col-sm-12 section30"><a target="_blank" href="/product/8ju43de.html"><img src="https://www.large.net/static/images/column_12v_product_other_1.jpg" alt="12.6V 7A Lithium Battery Charger" title="12.6V 7A Lithium Battery Charger"></a></div>
                                     <div class="text col-md-9 col-sm-12">
-                                        <div class="des light1-8 section30 m_section0"><p><span><a href="/product/8ju43de.html">12.6V 7A Lithium Battery Charger</a></span>
-                                                <span>Input voltage：100-240V，50-60Hz</span>
-                                                <span>Output voltage：12.6V</span>
-                                                <span>Output current：7A</span>
-                                                <span>Product application： Three 11.1V lithium battery packs connected in series</span></p>
+                                        <div class="des light1-8 section30 m_section0"><p><span><a href="/product/8ju43de.html">12.6V 7A锂电池充电器</a></span>
+                                                <span>输入电压：100-240V，50-60Hz</span>
+                                                <span>输出电压：12.6V</span>
+                                                <span>输出电流：7A</span>
+                                                <span>产品应用：3串11.1V锂电池组</span></p>
                                         </div>
                                     </div>
                                 </div>
@@ -202,12 +200,12 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                                 <div class="item">
                                     <div class="col-md-3 col-sm-12 section30"><a target="_blank" href="/product/8pu43dc.html"><img src="https://www.large.net/static/images/column_12v_product_other_2.jpg" alt="11.1V 5A LiFePO4 Battery Charge" title="11.1V 5A LiFePO4 Battery Charge"></a></div>
                                     <div class="text col-md-9 col-sm-12">
-                                        <div class="des light1-8 section30 m_section0"><p><span><a href="/product/8pu43dc.html">11.1V 5A LiFePO4 Battery Charger</a></span>
-                                                <span>Input voltage：100-240V，50-60Hz</span>
-                                                <span>Output voltage：11.1V</span>
-                                                <span>Charging temperature: 0 ~ 45℃</span>
-                                                <span>Output current：5A</span></p>
-                                                <span>Product application：Three 9.6V LiFePO4 Battery connected in series</span></p>
+                                        <div class="des light1-8 section30 m_section0"><p><span><a href="/product/8pu43dc.html">11.1V 5A磷酸铁锂电池充电器</a></span>
+                                                <span>输入电压：100-240V，50-60Hz</span>
+                                                <span>输出电压：11.1V</span>
+                                                <span>充电温度: 0 ~ 45℃</span>
+                                                <span>输出电流：5A</span></p>
+                                                <span>产品应用：3串9.6V磷酸铁锂电池组</span></p>
                                         </div>
                                     </div>
 
@@ -215,93 +213,87 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                             </li>
                         </ul>
                     </div>
-                <div class="link_title size2 section60" id="battery-cell"><h3>12V Lithium Battery and Lead Acid Battery Charger</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>12v锂电池与铅酸电池充电器</h3></div>
                 <div class="common_p section30">
                     <p>
-                        Lead acid battery charger is generally set to two or three stage charging mode. 12V lithium battery and lead acid battery voltage level is not matched. There are different kinds of lithium battery. Battery performance and battery PCM parameters may not be the same. Therefore, unlike lead acid batteries, there is no universal battery charger. Generally speaking, 12V lithium battery is equipped with a special charger, in order to protect the lithium battery, it is better to use the corresponding lithium battery special charger.
+                        铅酸电池充电器一般设置为两段式或三段式充电模式，12v锂电池与铅酸电池的电压等级是不匹配的。而锂电池也有很多种，电池性能及电池保护板参数都有可能不一样。因此锂电池并不像铅酸电池一样，有通用型的电池充电器。通常来说，12v锂电池出厂时都配有专用充电器，为了保护锂电池，最好使用相对应的锂电池专用充电器。
                     </p>
                 </div>
             </section>
 
             <section>
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">12V Lithium Battery Cautions</h2></div>
-                <div class="link_title size2 section60" id="battery-cell"><h3>1.12V Lithium Battery Charging</h3></div>
+                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">12V锂电池使用注意事项</h2></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>1、12V锂电池充电</h3></div>
                 <div class="common_p section30">
                     <ul>
                         <li class="col-md-12">
-                            <p><strong>Charging Method</strong></p>
+                            <p><strong>充电方法</strong></p>
                             <p>
-                                The charger used for 12V lithium battery charging should conform to the characteristics of three stages lithium battery charging, which need to have and complete three stages of pre-charging, constant current charging and constant voltage charging. For this reason, the original 12V lithium battery charger is better. When the original charger is damaged, do not blindly buy other chargers to charge the 12V lithium battery.
+                                12v锂电池充电所用的充电器应符合锂电池充电三阶段特点，需要具备和完成预充电、恒流充电和恒压充电三个阶段。为此，原装12v锂电池充电器是好的，当原装充电器损坏时，不要盲目购买其他充电器对12v锂电池充电。
                             </p>
                         </li>
                         <li class="col-md-12 col-xs-12 section30">
-                            <p><strong>Ambient temperature</strong></p>
+                            <p><strong>环境温度</strong></p>
                             <p>
-                                When charging 12V lithium battery, the ambient temperature should not exceed 0~40℃.
+                                对12v锂电池充电时，环境温度不要超过0~40℃这个范围。
                             </p>
                         </li>
                         <li class="col-md-12 col-xs-12 section30">
-                            <p><strong>Charging cutoff voltage</strong></p>
+                            <p><strong>充电截止电压</strong></p>
                             <p>
-                                12V lithium polymer battery charging cutoff voltage is 12.6V. Balanced charging mode is needed to ensure that the voltage of single cell will not exceed 4.2V.
+                                12v聚合物锂电池充电截止电压在12.6v，需采用平衡充电方式，保证单只电芯的电压不会超过4.2V。
                             </p>
                         </li>
                         <li class="col-md-12 col-xs-12 section30">
-                            <p><strong>Charging current</strong></p>
+                            <p><strong>充电电流</strong></p>
                             <p>
-                                If it is not urgent, it can be charged with 0.2C, and the current generally cannot exceed 1C.
+                                如果是在非急用情况下可用0.2C充电，一般不能超过1C充电。
                             </p>
                         </li>
                     </ul>
                 </div>
 
-                <div class="link_title size2 section60" id="battery-cell"><h3>2.12V Lithium Battery Discharging</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>2、12V锂电池放电</h3></div>
                 <div class="common_p section30">
                     <ul>
                         <li class="col-md-12">
-                            <p><strong>Ambient temperature</strong></p>
+                            <p><strong>环境温度</strong></p>
                             <p>
-                                Discharge state is the working state of 12V lithium battery, and the temperature is required to be -20~60℃.
+                                放电也就是12v锂电池的工作状态，此时的温度要求为-20~60℃。
                             </p>
                         </li>
                         <li class="col-md-12 col-xs-12 section30">
-                            <p><strong>Discharge cut-off voltage</strong></p>
+                            <p><strong>放电终止电压</strong></p>
                             <p>
-                                12V lithium polymer battery discharge cut-off voltage standard is 8.25V. Some can be set to 9V.
+                                聚合物12v锂电池放电终止电压标准是8.25V，有的可设置为9V。
                             </p>
                         </li>
                         <li class="col-md-12 col-xs-12 section30">
-                            <p><strong>Discharge current</strong></p>
+                            <p><strong>放电电流</strong></p>
                             <p>
-                                12V lithium polymer battery also has large current, large capacity and other types. Lithium polymer battery that can carry out high power discharge needs to control the current within the scope of the product specifications.
-                            </p>
-                        </li>
-                        <li class="col-md-12 col-xs-12 section30">
-                            <p><strong>Charging current</strong></p>
-                            <p>
-                                If it is not urgent, it can be charged with 0.2C, and the current generally cannot exceed 1C.
+                                12v聚合物锂电池組也有大电流、大容量等类型，可以进行大功率放电的聚合物锂电池电流应控制在产品规格书的范围以内。
                             </p>
                         </li>
                     </ul>
                 </div>
 
-                <div class="link_title size2 section60" id="battery-cell"><h3>3.12V Lithium Battery Self-discharge</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>3、12V锂电池自放电</h3></div>
                 <div class="common_p section30">
                     <p>
-                        It is better for 12V lithium ion battery to store 40 to 60 percent power, which, of course, is impossible to maintain all the time. Mobile phone, for example, usually is used until it is prompted to charge. 12V lithium battery will also be affected by self-discharge. Long-term self-discharge will cause over discharge, therefore, we need to make preparations for 12V lithium battery self-discharge.
+                        12v锂电池在存储状态下的带电量以40~60%之间为适合，当然，这是不可能时时保持的，比如，手机通常会打到提示充电的情况下。存储的12v锂电池也会受到自放电的困扰，长久的自放电会造成过放，因此，我们需要为12v锂电池自放电做两手准备。
                     </p>
                 </div>
                 <div class="common_p section30">
                     <ul>
                         <li class="col-md-12 col-xs-12">
-                            <p><strong>Regular charging</strong></p>
+                            <p><strong>定期充电</strong></p>
                             <p>
-                                Charge the 12V lithium battery regularly to keep the voltage between 10.8V and 11.7V. The lithium battery has no memory effect and can be charged at any time.
+                                对12v锂电池定期充电，让电压保持在10.8v-11.7v之间，因为锂电池没有记忆效应可以随时充电。
                             </p>
                         </li>
                         <li class="col-md-12 col-xs-12 section30">
                             <p>
-                                Make sure that the discharge cut-off voltage is not within the working range. If it has insufficient power, you need to stop using decisively and charge the battery.
+                                确保放电终止电压不被突破，如果在使用过程中出现了电量不足的情况，应果断停止使用，为电池充电。
                             </p>
                         </li>
 
@@ -310,47 +302,47 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
 
             </section>
             <section>
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Lithium Battery VS Lead Acid Battery</h2></div>
+                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">锂电池VS 铅酸电池</h2></div>
                 <div class="common_p section30">
                     <p class="small-size section5">
-                        Since the appearance of lithium battery, it has gradually replaced the market position of lead acid battery. The most widely used 12V battery has also changed from lead acid to lithium battery. So what are the advantages of lithium battery compared with lead-acid battery?
+                        自锂电池的出现以来，逐渐取代了铅酸电池的市场地位，应用最广泛的12V电池也都由铅酸变成了锂电池，那么锂电池对比铅酸电池有哪些优势呢？
                     </p>
                 </div>
                 <div class="common_p section30">
                     <table cellspacing="0" width="100%" class="table-bordered">
                         <tbody>
                         <tr class="firstRow">
-                            <td>Item</td>
-                            <td>Lithium Battery</td>
-                            <td>Lead Acid Battery</td>
+                            <td>项目</td>
+                            <td>锂电池</td>
+                            <td>铅酸电池</td>
                         </tr>
                         <tr>
-                            <td>Weight</td>
-                            <td>Light Weight and Good Portability</td>
-                            <td>Heavy Weight and Not Easy to Carry Out</td>
+                            <td>重量</td>
+                            <td>重量轻，便携性较好</td>
+                            <td>笨重，不利于携带</td>
                         </tr>
                         <tr>
-                            <td>Environmental Friendly</td>
-                            <td>No Pollution</td>
-                            <td>Contain Plenty of Heavy Metal</td>
-                        </tr>
-
-                        <tr>
-                            <td>Service Life</td>
-                            <td>Long Life</td>
-                            <td>Short Life</td>
+                            <td>环保</td>
+                            <td>无污染，绿色环保</td>
+                            <td>重金属含量多，污染严重</td>
                         </tr>
 
                         <tr>
-                            <td>Charge</td>
-                            <td>Fast Charge</td>
-                            <td>Slow Charge</td>
+                            <td>寿命</td>
+                            <td>使用寿命长</td>
+                            <td>使用寿命短</td>
                         </tr>
 
                         <tr>
-                            <td>Energy Density</td>
-                            <td>High Energy Density</td>
-                            <td>Only a Quarter of That of Lithium Battery</td>
+                            <td>充电</td>
+                            <td>可快速充电</td>
+                            <td>充电速度慢</td>
+                        </tr>
+
+                        <tr>
+                            <td>能量密度</td>
+                            <td>能量密度高</td>
+                            <td>能量密度只有锂电池的1/4</td>
                         </tr>
 
                         </tbody>

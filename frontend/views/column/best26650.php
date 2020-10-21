@@ -8,44 +8,44 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
     <div class="col-md-12">
         <div class="container">
             <section class="section20">
-                <div class="common_title " id="what-is-an-18650"><h2 class="light1-5 size1">26650 Lithium Ion Battery</h2></div>
+                <div class="common_title " id="what-is-an-18650"><h2 class="light1-5 size1">26650锂电池</h2></div>
 
-                <div class="link_title size2 section60" id="the-best-18650-battery-cell"><h3>1.26650 Lithium Ion Battery Definition</h3></div>
+                <div class="link_title size2 section60" id="the-best-18650-battery-cell"><h3>1、26650锂电池定义</h3></div>
                 <div class="common_p section30">
                     <p class="small-size">
-                        26650 is a cylindrical lithium battery specification. 26650 battery is applicable to special equipment, medical equipment, instruments, power tools, logistics, security monitoring, exploration and mapping, etc.
+                        26650锂电池是圆柱锂电池的一种型号规格，适用于特种设备、医疗设备、仪器仪表、电动工具、交通物流、安防监控、勘探测绘等领域。
                     </p>
-                    <p>26650 lithium battery dimension: The diameter is 26mm, and length is 65mm.</p>
+                    <p>26650锂电池尺寸：直径为26mm，长度为65mm。</p>
                 </div>
 
 
-                <div class="link_title size2 section60" id="the-beast-18650-cell-battery-brands"><h3>2.26650 Lithium Ion Battery Advantages</h3></div>
+                <div class="link_title size2 section60" id="the-beast-18650-cell-battery-brands"><h3>2、26650锂电池优点</h3></div>
                 <div class="common_p section30">
                     <p>
-                        26650 lithium battery has high energy density, low self-discharge rate, stable charging and discharging performance, no memory effect, no decomposition in heat, high safety performance, long life cycle and high voltage. You can connect 26650 lithium battery in series or in parallel. It is environmental friendly and has no pollution.
+                        26650锂电池能量密度、自放电率低、充放电性能稳定，没有记忆效应，遇热不分解，安全性能高，寿命循环长、电压高、可以串联或者并联使用组合成26650锂电池组、环保无污染。
                     </p>
                 </div>
 
-                <div class="link_title size2 section60" id="the-beast-18650-cell-battery-brands"><h3>3.Single 26650 Lithium Ion Battery Cell</h3></div>
+                <div class="link_title size2 section60" id="the-beast-18650-cell-battery-brands"><h3>3、单体26650锂电池</h3></div>
                 <div class="common_p section30">
                     <p>
-                        26650 lithium battery materials are mainly divided into ternary materials and lithium iron phosphate materials.
+                        26650锂电池主要分为三元材料和磷酸铁锂材料两种
                     </p>
                 </div>
                 <div class="common_p section30 ">
                     <ul>
                         <li class="light1-8">
-                            <p><strong>Voltage</strong></p>
+                            <p><strong>电压</strong></p>
                             <p>
-                                INR26650 lithium battery has nominal voltage of 3.6V, full charge voltage of 4.2V, and discharge cut-off voltage of 3.0V.<br>
-                                IFR26650 lithium battery has nominal voltage of 3.2V, full charge voltage of 3.65V, and discharge cut-off voltage of 2.0V.
+                                INR26650锂电池标称电压3.6V，充满电电压4.2V，放电截止电压：3.0V<br>
+                                IFR26650锂电池标称电压3.2V，充满电电压3.65V，放电截止电压：2.0V
                             </p>
                         </li>
                         <li class="light1-8 section30">
-                            <p><strong>Capacity</strong></p>
+                            <p><strong>容量</strong></p>
                             <p>
-                                IFR26650 lithium battery capacity includes 2800mAh, 3000mAh, 3200mAh, 3400mAh, 3600mAh, 3800mAh and 4000mAh.<br>
-                                INR26650 lithium battery capacity tends to be 4500mAh, 5000mAh, 5500mAh and 6000mAh.
+                                IFR26650锂电池容量容量包括2800mAh、3000mAh、3200mAh、3400mAh、3600mAh、3800mAh、4000mAh等多个容量段。<br>
+                                INR26650锂电池容量一般在4500mAh、5000mAh、5500mAh、6000mAh相对较多。
                             </p>
                         </li>
 
@@ -54,53 +54,53 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
             </section>
 
             <section class="section">
-                <div class="common_title " id="what-is-an-18650"><h2 class="light1-5 size1">26650 Lithium Ion Battery Positive Electrode Materials</h2></div>
+                <div class="common_title " id="what-is-an-18650"><h2 class="light1-5 size1">26650锂电池正极材料</h2></div>
 
                 <div class="common_p section60">
                    <p>
-                       26650 lithium battery positive electrode materials include lithium cobalt oxides, lithium manganese, NCA, NCM and lithium iron phosphate. Material system determines the working voltage and single cell capacity. Various materials manufacturers and cell manufacturers improve the overall indexes, such as battery voltage and capacity, by special material adding, coating process and manufacturing process improvement. Working voltage and theoretical capacity of various materials are normally as follow:
+                       26650锂电池正极材料有钴酸锂、锰酸锂、镍钴铝三元、镍钴锰三元、磷酸铁锂等，材料体系决定了电池的工作电压及单位容量等特性，各材料厂家及电芯制造厂家通过在材料中掺入特殊物质、包覆工艺、制造工艺改进等方式来提升整体电池的电压及容量等指标，通常情况下各种材料的工作电压及理论克容量分别为：
                    </p>
                 </div>
 
                 <div class="common_p section30">
                     <ul class="light1-8">
                         <li>
-                            <p>Lithium cobalt oxides 3.6V, theoretical capacity 274mAh/g</p>
+                            <p>钴酸锂 3.6V 理论容量为274mAh/g</p>
                         </li>
                         <li>
-                            <p>Lithium manganese 3.7V, theoretical capacity 148mAh/g</p>
+                            <p>锰酸锂 3.7V 理论容量为148mAh/g</p>
                         </li>
                         <li>
-                            <p>Ternary material 3.65V, theoretical capacity 278mAh/g</p>
+                            <p>三元材料 3.65V 理论容量为278mAh/g</p>
                         </li>
                         <li>
-                            <p>Lithium iron phosphate 3.2V, theoretical capacity 170mAh/g</p>
+                            <p>磷酸铁锂 3.2V 理论容量为170mAh/g</p>
                         </li>
                         <li>
-                            <p>The materials determine the cycle life of the battery, so does the manufacturing level of the battery manufacturer.</p>
+                            <p>各种材料本身会决定电池的循环寿命，电池厂家的制造水平也会影响寿命。</p>
                         </li>
                     </ul>
                 </div>
 
                 <div class="common_p section60">
-                    <p><strong>26650 LiFePO4 Battery Advantages</strong></p>
+                    <p><strong>26650磷酸铁锂电池的优势</strong></p>
                 </div>
                 <div class="common_p section30">
                     <ul class="light1-8">
                         <li>
-                            <p>High energy density: theoretical specific capacity 170mAh/g, actual specific capacity ≥140 mAh/g (0.2c, 25°C);</p>
+                            <p>高能量密度：理论比容量为170mAh/g，实际比容量≥140 mAh/g（0.2C, 25°C）；</p>
                         </li>
                         <li>
-                            <p>High safety: the most secure positive electrode material for lithium ion batteries;</p>
+                            <p>高安全性：目前最安全的锂离子电池正极材料；</p>
                         </li>
                         <li>
-                            <p>No pollution: does not contain any heavy metal elements that are harmful to human body;</p>
+                            <p>无污染：不含任何对人体有害的重金属元素；</p>
                         </li>
                         <li>
-                            <p>Long cycle life: it can charge and discharge more than 2000 times under 100%DOD;</p>
+                            <p>循环寿命长：在100%DOD条件下，可以充放电2000次以上；</p>
                         </li>
                         <li>
-                            <p>Fast charging performance: Lithium iron phosphate battery can be charged at high rate.</p>
+                            <p>快速充电性能：磷酸铁锂正极材料的锂电池，可以使用大倍率充电。</p>
                         </li>
                     </ul>
                 </div>
@@ -110,14 +110,14 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     <table cellspacing="0" width="100%" class="table-bordered">
                         <tbody>
                         <tr class="firstRow">
-                            <td>Item</td>
-                            <td>LCO</td>
-                            <td>NCM</td>
-                            <td>LMO</td>
-                            <td>LFP</td>
+                            <td>项目</td>
+                            <td>钴酸锂</td>
+                            <td>镍钴锰（三元）</td>
+                            <td>锰酸锂</td>
+                            <td>磷酸铁锂</td>
                         </tr>
                         <tr>
-                            <td>Tap Density（g/cm3）</td>
+                            <td><振实密度></振实密度>（g/cm3）</td>
                             <td>2.8~3.0</td>
                             <td>2.0~2.3</td>
                             <td>2.2~2.4</td>
@@ -125,38 +125,38 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                         </tr>
 
                         <tr>
-                            <td>Gram Volume (mAh/g)</td>
+                            <td>克容量(mAh/g)</td>
                             <td>135～140</td>
                             <td>140～180</td>
                             <td>90～100</td>
                             <td>130～140</td>
                         </tr>
                         <tr>
-                            <td> (V)Voltage Platform</td>
+                            <td>电压平台(V)</td>
                             <td>3.7</td>
                             <td>3.6</td>
                             <td>3.7</td>
                             <td>3.2</td>
                         <tr>
-                            <td>Cycle Performance</td>
-                            <td>≥500Times</td>
-                            <td>≥500Times</td>
-                            <td>≥300Times</td>
-                            <td>≥2000Times</td>
+                            <td>循环性能</td>
+                            <td>≥500次</td>
+                            <td>≥500次</td>
+                            <td>≥300次</td>
+                            <td>≥2000次</td>
                         </tr>
                         <tr>
-                            <td>Safety Performance</td>
-                            <td>Bad</td>
-                            <td>Good</td>
-                            <td>Very Good</td>
-                            <td>Advanced</td>
+                            <td>安全性能</td>
+                            <td>差</td>
+                            <td>较好</td>
+                            <td>良好</td>
+                            <td>优秀</td>
                         </tr>
                         <tr>
-                            <td>Applications</td>
-                            <td>Medium And Small Size Battery</td>
-                            <td>Small Battery/Small Power Battery</td>
-                            <td>Power Battery, Low Cost Battery</td>
-                            <td>Power Battery/Super Large Capacity Power Supply</td>
+                            <td>适用领域</td>
+                            <td>中小电池</td>
+                            <td>小电池/小型动力电池</td>
+                            <td>动力电池、低成本电池</td>
+                            <td>动力电池/超大容量电源</td>
                         </tr>
 
                         </tbody>
@@ -168,29 +168,29 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
 
                 <div class="common_p section60">
                     <p>
-                        Compared with traditional 18650 battery, 26650 lithium battery has a larger capacity in the same material system, and has 52 percent fewer cells than that of 18650 battery. This means that the complexity of the battery management system, the number of metal structures, the volume of the battery, and the cost of the battery system can be significantly reduced for a power battery with the same capacity.
+                        相较于传统18650，26650锂电池在同等材料体系下，拥有更大的容量，同比18650电芯数量少52%。这意味这相同的容量的动力电池，其电池管理系统的复杂度、金属结构件的数量、电池所占用的体积、以及电池系统的成本售价都能大幅度的降低。
                     </p>
                 </div>
-                <div class="link_title size2 section60" id="the-best-18650-battery-cell"><h3>What is the difference between 18650 lithium battery and 26650 lithium battery?</h3></div>
+                <div class="link_title size2 section60" id="the-best-18650-battery-cell"><h3>18650锂电池与26650锂电池有什么区别？</h3></div>
                 <div class="common_p section30">
                     <ul class="light1-5">
                         <li>
-                            <p>Different rated capacity: IFR26650 lithium battery rated capacity is 3000-5000mah, while IFR18650 lithium battery rated capacity is 2200~3200mAh.</p>
+                            <p>额定容量不一样：IFR26650锂电池额定容量3000-5000mAh，IFR18650锂电池额定容量是2200~3200mAh。</p>
                         </li>
                         <li class="section20">
-                            <p>Different dimensions: the IFR26650 has a diameter of 26mm and the IFR18650 has a diameter of 18mm.</p>
+                            <p>两个电池的尺寸不一样：IFR26650的直径是26毫米，IFR18650的直径是18毫米。</p>
                         </li>
                         <li class="section20">
-                            <p>Different reference mass: the production mass of IFR26650 lithium battery is 94 grams, while the production mass of IFR18650 lithium battery is 45 grams.</p>
+                            <p>参考质量不一样：IFR26650锂电池的产考质量是94克，IFR18650锂电池的产考质量是45克。</p>
                         </li>
                         <li class="section20">
-                            <p>Different battery capacities: With the same battery material, the 26650battery capacity is larger than that of 18650. It is assumed that the 26650 battery with ternary material is generally around 5200mAh, while the capacity of 18650 battery is mostly around 2600mAh.</p>
+                            <p>电池容量不同；同等电池材料下26650的电池容量比18650的电池容量要大，假设同用三元材料26650电池一般在5200mAh左右，而18650电池的容量多为2600mAh左右。</p>
                         </li>
                         <li class="section20">
-                            <p>Different application environments; 18650 lithium battery is applied as illuminator battery, industrial supporting lithium battery pack, electric tool battery and electric bicycle battery, which are mostly power lithium battery, while 26650 lithium battery is applied in energy storage base station and solar energy storage.</p>
+                            <p>应用环境不同；18650锂电池应用在照明灯具电池，工业配套锂电池组，电动工具电池，电动自行车电池，动力锂电池组等方面较多，而26650锂电池应用在储能基站，太阳能储能电池等方面较多。</p>
                         </li>
                         <li class="section20">
-                            <p>Different endurance: 26650 battery have a larger volume ratio than 18650 battery, so it has a larger space filling material to achieve a larger capacity. At present, the capacity of 18650 battery has 2200mAh, 2600mAh, 3100mAh, etc., while the capacity of 26650 can achieve 4000mAh, 4200mAh, 4500mAh, and the endurance time will be longer.</p>
+                            <p>续航时间不同26650一定是比18650体积比大一些，因此有更大的空间填充材料，做到更大的容量，目前18650的容量有2200mAh,2600mAh,3100mAh等，而26650的容量可以做到4000mAh,4200mAh,4500mAh了，续航时间会更长一些。</p>
                         </li>
                     </ul>
                 </div>
@@ -201,119 +201,119 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
 
 
             <section class="section">
-                <div class="common_title" ><h2 class="light1-5 size1">26650 Lithium Ion Battery Safety Test</h2></div>
+                <div class="common_title" ><h2 class="light1-5 size1">26650锂电池的安全性能测试</h2></div>
 
-                <div class="link_title size2 section60" ><h3>1、Over Charge</h3></div>
+                <div class="link_title size2 section60" ><h3>1、过充性能</h3></div>
                 <div class="common_p section30">
                     <p class="small-size">
-                        After standard battery charging, measure the initial state of the battery. When the battery is in normal state, charge the battery with 3C current to 10.0V, and then charge the battery at constant voltage until the current reaches 0.01c. Observe the appearance change of the battery.
+                        电池标准充电后，测量电池的初始状态，电池状态正常时，以3C电流充电至10.0V，然后转恒压充电至截至电流0.01C时终止。观察电池的外观变化。
                     </p>
-                    <p class="section30">Result: No fire, no explosion.</p>
+                    <p class="section30">结果：不起火、不爆炸</p>
                 </div>
 
-                <div class="link_title size2 section60" ><h3>2、Over Discharge</h3></div>
+                <div class="link_title size2 section60" ><h3>2、过放性能</h3></div>
                 <div class="common_p section30">
                     <p class="small-size">
-                        After standard battery charging, measure the initial state of the battery. When the battery is in normal state, discharge it at 0.5C to 0V. Observe the battery appearance change.
+                        电池标准充电后，测量电池初始状态，电池状态正常时，以0.5C进行放电至0V。观察电池外观变化。
                     </p>
-                    <p class="section30">Result: No fire, no explosion.</p>
+                    <p class="section30">结果：不起火、不爆炸</p>
                 </div>
 
-                <div class="link_title size2 section60" ><h3>3、External Short Circuit</h3></div>
+                <div class="link_title size2 section60" ><h3>3、外部短路</h3></div>
                 <div class="common_p section30">
                     <p class="small-size">
-                        After standard battery charging, measure the initial state of the battery. Put battery in an explosion-proof cover and make it a direct short circuit in its positive and negative electrodes (circuit resistance is no more than 50 m Ω), when the battery temperature is down to about 10 ℃ lower than the peak temperature, the experiment is over. Observe the temperature and appearance of the battery.
+                        电池标准充电后，测量电池的初始状态，置于防爆罩中直接短路其正负极（线路总电阻不大于50mΩ），当电池温度下降到比峰值温度低约10℃时试验结束。观察电池的温度及外观变化。
                     </p>
-                    <p class="section30">Result: No fire, no explosion.</p>
+                    <p class="section30">结果：不起火、不爆炸</p>
                 </div>
 
-                <div class="link_title size2 section60" ><h3>4、Heater Test</h3></div>
+                <div class="link_title size2 section60" ><h3>4、热箱测试</h3></div>
                 <div class="common_p section30">
                     <p class="small-size">
-                        Measure the initial state of the battery. After standard battery charging, put the battery in the heater. The temperature rises to 130±2℃ /min at the rate of (5±2℃) /min, and keep the temperature for 30min. Observe the battery appearance change.
+                        测量电池的初始状态，电池标准充电后，放置于烘箱中，温度以（5±2℃）/min的速率升至130±2℃并保温30min。观察电池外观变化。
                     </p>
-                    <p class="section30">Result: No fire, no explosion.</p>
+                    <p class="section30">结果：不起火、不爆炸</p>
                 </div>
 
-                <div class="link_title size2 section60" ><h3>5、Drop Test</h3></div>
+                <div class="link_title size2 section60" ><h3>5、跌落</h3></div>
                 <div class="common_p section30">
                     <p class="small-size">
-                        Test the initial capacity of the battery. After standard charging, measure the initial state of the battery. Drop the test battery vertically and horizontally onto the cement floor freely from a height of 1m (the lowest height).
+                        测试电池的初始容量，标准充电后，测量电池的初始状态，将试验电池由高度（最低点高度）为1m的位置垂直、水平方向自由跌落到水泥地面上，要求跌落2次。
                     </p>
-                    <p class="section30">Result: No fire, no explosion.</p>
+                    <p class="section30">结果：不起火、不爆炸</p>
                 </div>
 
-                <div class="link_title size2 section60" ><h3>6、Impact Test</h3></div>
+                <div class="link_title size2 section60" ><h3>6、重物冲击</h3></div>
                 <div class="common_p section30">
                     <p class="small-size">
-                        Put a steel rod with a diameter of 15.8mm in the middle of the fully charged battery, then a 10Kg hammer was free-falling from a height of 1.0m to the upper part of the battery.
+                        将一直径为15.8mm的钢棒放置于满电的电池中部；然后将重量为10Kg的铁锤从1.0m高处自由落体到电池上部。
                     </p>
-                    <p class="section30">Result: No fire, no explosion.</p>
+                    <p class="section30">结果：不起火、不爆炸</p>
                 </div>
 
-                <div class="link_title size2 section60" ><h3>7、Extrusion Test</h3></div>
+                <div class="link_title size2 section60" ><h3>7、挤压测试</h3></div>
                 <div class="common_p section30">
                     <p class="small-size">
-                        Put the battery cell between two extrusion surfaces of the extrusion equipment. The cylindrical battery cell axis is parallel to the extrusion surface. Increase the pressure gradually to 13kN, and maintain the pressure for 1min.
+                        电芯放在挤压设备的两个挤压表面之间，圆柱电芯轴平行于挤压面，逐渐增加压力至13kN，保持压力1min。
                     </p>
-                    <p class="section30">Result: No fire, no explosion.</p>
+                    <p class="section30">结果：不起火、不爆炸</p>
                 </div>
             </section>
 
             <section class="section">
-                <div class="common_title" ><h2 class="light1-5 size1">26650 Lithium Ion Battery Charging</h2></div>
+                <div class="common_title" ><h2 class="light1-5 size1">26650锂电池充电</h2></div>
 
-                <div class="link_title size2 section60" ><h3>1.26650 Lithium Ion Battery Charging Precautions</h3></div>
+                <div class="link_title size2 section60" ><h3>1、26650锂电池充电注意事项</h3></div>
                 <div class="common_p section30">
                     <ul>
-                        <li><p>The basic requirements for charging 26650 lithium battery are specific charging voltage and charging current at each stage. Some auxiliary functions are added to prolong the battery life.</p></li>
-                        <li class="section20"><p>In order to ensure the stable and reliable operation of the battery and prevent the interference of transient voltage change, the time delay circuit with over-charge, over-discharge and over-current protection should be designed to prevent the instability caused by transient interference.</p></li>
-                        <li class="section20"><p>The factors affecting the safety and effective charging of 26650 lithium battery include voltage, current and temperature. Therefore, these three factors should be taken care of and controlled in the charger design.</p></li>
+                        <li><p>给26650锂电池充电时需要的基本要求就是各阶段特定的充电电压和充电电流，有的增加些其他的辅助功能都是为了改善电池的寿命；</p></li>
+                        <li class="section20"><p>为保证电池工作稳定可靠，防止瞬态电压变化的干扰，其内部应设计有过充、过放电、过流保护的延时电路，以防止瞬态干扰造成不稳定；</p></li>
+                        <li class="section20"><p>影响26650锂电池安全和有效充电的因素有电压、电流和温度，因此，在充电器设计中要照顾控制好这三个因素。</p></li>
                     </ul>
                 </div>
-                <div class="link_title size2 section60" ><h3>2.Can the 18650 battery charger charge 26650 battery?</h3></div>
+                <div class="link_title size2 section60" ><h3>2、18650电池充电器可以给26650电池充电吗？</h3></div>
                 <div class="common_p section30">
                     <p>
-                        You can use the charger of 18650 lithium battery to charge the 26650 lithium battery, but do not use it for a long time. Because the charger of 18650 lithium battery has a relatively high voltage platform, the voltage platform of 18650 lithium battery is 3.6V and 4.2V, and the voltage platform of 26650 lithium battery is 3.2V and 3.6V. Therefore, long-term use will cause damage to 26650 lithium batteries.
+                        可以使用18650锂电池的充电器给给26650锂电池充电，但是不要长期使用，由于18650锂电池的充电器的电压平台比较高，18650锂电池电压平台为3.6V和4.2V，26650锂电池电压平台为3.2v和3.6V。因此长期使用会造成26650锂电池损坏。
                     </p>
                 </div>
             </section>
 
             <section class="section">
-                <div class="common_title" ><h2 class="light1-5 size1">How do you choose 26650 lithium battery?</h2></div>
+                <div class="common_title" ><h2 class="light1-5 size1">如何选购26650锂电池？</h2></div>
                 <div class="common_p section60">
-                  <p>26650 lithium battery is widely used in power tools, lighting, wind power energy storage, photovoltaic energy storage, electric vehicles, toys, instruments, UPS backup power, communications equipment, medical equipment and military lights. What do we pay attention to when purchasing 26650 lithium battery?</p>
+                  <p>26650锂电池广泛应用于电动工具、照明、风光储能、电动车、玩具、仪器仪表、ups后备电源、通讯设备、医疗设备及军工灯领域。我们在选购26650锂电池时应该注意哪些事项？</p>
                 </div>
 
-                <div class="link_title size2 section60" ><h3>1.Appearance and Production Process</h3></div>
+                <div class="link_title size2 section60" ><h3>1、外观和生产工艺</h3></div>
                 <div class="common_p section30">
                     <p>
-                        Appearance refers to the appearance, workmanship, size and process of 26650 lithium battery. After polishing, the rubber oil polishing materials feel good. At the same time, the insulation performance is better.
+                        看外观是指看26650锂电池的外观、做工、尺寸和工艺。先进的工艺都是手感很舒服的，经过打磨，橡胶油抛光材料既手感好，同时绝缘性能也很强。
                     </p>
                 </div>
 
-                <div class="link_title size2 section60" ><h3>2、Capacity Label</h3></div>
+                <div class="link_title size2 section60" ><h3>2、容量标识</h3></div>
                 <div class="common_p section30">
                     <p>
-                        A 26650 lithium ion battery without a clearly capacity label is likely to be a garbage battery that uses an inferior battery cell or is reassembled with a recycled battery cell. There are many cheap 26650 lithium batteries on the market, which are made of recycled or disassembled battery cells. Although they are cheap, they have short life and unstable quality. Careless use may damage the equipment or even cause an explosion.
+                        无明确标示容量的26650锂电池，很可能就是使用劣质电池芯或回收电池芯重新组装的垃圾电池。市面上充斥着许多廉价的26650锂电池，使用回收电池芯或拆机电池芯做的，价格虽然便宜，但是寿命短，品质不稳定，使用不慎可能会损坏设备，甚至发生爆炸。
                     </p>
                 </div>
 
-                <div class="link_title size2 section60" ><h3>3、Protected or Unprotected</h3></div>
+                <div class="link_title size2 section60" ><h3>3、有无保护板</h3></div>
                 <div class="common_p section30">
                     <p>
-                        The characteristics of 26650 lithium battery determine that 26650 lithium battery need to be equipped with a protective board to prevent the occurrence of overcharge, over-discharge and short circuit. The 26650 lithium battery without a protective board will be in danger of deformation, leakage and explosion. Amid fierce price competition, battery package factories have sought cheaper protective circuits or omitted them altogether, which may make the market be flooded with 26650 lithium-ion batteries that could explode.
+                        26650锂电池的特性决定了26650锂电池一定要外加保护板，以防止26650锂电池过充、过放及短路等情况的发生，不加保护板的26650锂电池会有变形、漏液、爆炸的危险。在激烈的价格竞争下，各电池封装厂寻求更低价位的保护电路，或者根本省略了这个装置，使得市面上充斥着有爆炸危险的26650锂电池。
                     </p>
                 </div>
 
-                <div class="link_title size2 section60" ><h3>4、Flat or Button Top</h3></div>
+                <div class="link_title size2 section60" ><h3>4、平头和尖头</h3></div>
                 <div class="common_p section30">
                     <ul>
-                        <li><p>There are flat top and button top 26650 lithium batteries. The difference between them is that one has a protection board, while the other has no protection board.</p></li>
-                        <li class="section20"><p>Flat top 26650 lithium battery: no protection board</p></li>
-                        <li class="section20"><p>Button top 26650 lithium battery: It has protection board, because the top of the protection board protrudes. The protruding part is the protection board.</p></li>
-                        <li class="section20"><p>In general, I recommend purchasing a button top battery to ensure that it is compatible with a wide range of devices and usages. The positive and negative electrodes of electrical appliances are designed with springs, so that it is retractable, and both button and flat top batteries can be used.</p></li>
-                        <li class="section20"><p>But when a flat top battery is connected in series, the positive electrode of the flat top battery cannot touch the negative electrode of the other battery.</p></li>
+                        <li><p>26650锂电池有平头和尖头之分，两者的区别是一个带保护板，一个不带保护板。</p></li>
+                        <li class="section20"><p>平头26650锂电池：不带保护板。</p></li>
+                        <li class="section20"><p>尖头26650锂电池：带保护板，因为加保护板顶端突出，突出部分就是保护板。</p></li>
+                        <li class="section20"><p>一般情况下我建议购买尖头电池以保证能兼容更多的设备和用途。通常用电器具的正负极都是采用弹簧设计，可以伸缩，不管是尖头和平头电池都可以使用。</p></li>
+                        <li class="section20"><p>但是如果要将平头电池用于串联时，平头的正极无法接触到另一只电池的负极。</p></li>
                     </ul>
                 </div>
             </section>
