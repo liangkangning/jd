@@ -6,11 +6,8 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
 <div class="column-lifepo4 column-common">
     <div class="col-md-12">
         <div class="">
-
-
-
             <section>
-                <div class="common_title size1 section80" ><h2 class="light1-5">48V锂离子电池定义</h2></div>
+                <div class="common_title size1 section20" ><h2 class="light1-5">48V锂离子电池定义</h2></div>
                 <div class="common_p section55">
                     <p class="small-size">
                         市场上的单体电池一般来说都在3.7v左右，但是很多时候工作电压范围稍大一点的就很明显存在着电压不够的问题。这个时候能够提高电池电压的电池组和模块化电池也就随之而来，而在众多的高电压电池中，48v锂离子电池得到了普遍的使用。
@@ -26,11 +23,12 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     </p>
 
                         <li class="section20 col-md-12 common_p">
-                           <strong>48V锂离子电池价格估算公式</strong><br>
-                            单个锂电池电芯价格x（3.6~3.7V*n=48v）*m（并联的电芯数量）+保护板价格+外壳价格+辅材价格
+                            <strong>48V锂离子电池价格估算公式</strong>
+
+
                         </li>
 
-
+                    <p class="section20">  单个锂电池电芯价格x（3.6~3.7V*n=48v）*m（并联的电芯数量）+保护板价格+外壳价格+辅材价格</p>
 
                     <p class="section20">一般单个锂电芯的电压为3.6~3.7V，其价格会因为锂电池厂家生产使用的材料和工艺的不同会有所差异。</p>
                 </div>
@@ -39,7 +37,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="common_title size1 section80" ><h2 class="light1-5">48V锂电池组</h2></div>
                 <div class="common_p section55">
                     <p class="small-size">
-                        48V锂离子电池组型号表
+                        <strong>48V锂离子电池组型号表</strong>
                     </p>
                 </div>
                 <div class="common_p section20 tabel-section">
@@ -165,7 +163,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                         <li><strong>产品特点:</strong>具有反接/过载/过流/短路/高温自动保护功能，并轨式充电，自动捕捉、跟踪电池电压，锁定充电电流，温升传感，降压停留，变色发光二极管显示全程充电状态</li>
                     </ul>
                 </div>
-                <div class="common_p section20">
+                <div class="common_p section60">
                     <div class="img text-center"><img src="/static/images/column_48v_1.jpg" alt=""></div>
                 </div>
             </section>
@@ -191,7 +189,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     <div class="img text-center section55"><img src="/static/images/column_48v_2.jpg" alt=""></div>
                 </div>
                 <div class="common_title size1 section" ><h2 class="light1-5">48V锂离子电池BMS特点</h2></div>
-                <div class="common_p section20">
+                <div class="common_p section60">
                     <ul>
                         <li>锂离子电池管理系统由管理主机（CPU）、电压与温度采集模块、电流采集模块和通信接口模块组成。</li>
                         <li class="section20">可检测并显示锂离子电池组的总电压、总电流、储备电量；任一单体电池的电压和电池箱的温度；最高和最低单体电池电压及电池编号、最高和最低温度、电池组的充放电量。</li>
@@ -218,24 +216,35 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="common_p section55">
                     <ul>
                         <li>
-                            <strong>重量能量密度</strong><br>
-                            目前，锂电池的能量密度一般为200~260wh / g，铅酸一般为50~70wh / g，重量能量密度锂电池为铅酸的3~5倍，意味着同等重量下，锂电池容量比铅酸电池强三到五倍，因此锂电池在储能方面具有绝对的优势。
+                            <p> <strong>重量能量密度</strong></p>
+                            <p class="section5">
+                                目前，锂电池的能量密度一般为200~260wh / g，铅酸一般为50~70wh / g，重量能量密度锂电池为铅酸的3~5倍，意味着同等重量下，锂电池容量比铅酸电池强三到五倍，因此锂电池在储能方面具有绝对的优势。
+                            </p>
+
                         </li>
                         <li class="section20">
-                            <strong>体积能量密度</strong><br>
+                            <p> <strong>体积能量密度</strong></p>
+                            <p class="section5">
                             由于锂电池的体积能量密度通常约为铅酸电池的1.5倍，因此在相同容量的情况下，锂电池比铅酸电池小约30％。
+                            </p>
                         </li>
                         <li class="section20">
-                            <strong>使用寿命</strong><br>
+                            <p> <strong>使用寿命</strong></p>
+                            <p class="section5">
                             目前最流行的锂电池材料是三元锂和铁锂等。 举例，三元锂电池通常具有1000个循环，磷酸铁锂电池具有超过2000个循环，并且铅酸电池通常具有300-350个循环。那么说明锂电池的寿命约为铅酸电池的3-6倍。
+                            </p>
                         </li>
                         <li class="section20">
-                            <strong>价格成本</strong><br>
+                            <p> <strong>价格成本</strong></p>
+                            <p class="section5">
                             铅酸电池目前比锂电池便宜，后者的价格大约是铅酸电池的三倍。 然而，通过使用寿命分析，如果使用相同的成本的话，锂电池的寿命更长。
+                            </p>
                         </li>
                         <li class="section20">
-                            <strong>环境保护</strong><br>
+                            <p> <strong>环境保护</strong></p>
+                            <p class="section5">
                             铅酸电池污染严重，锂电池在生产、回收方面相对更绿色环保。
+                            </p>
                         </li>
                     </ul>
                 </div>
