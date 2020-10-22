@@ -59,8 +59,8 @@ class AboutController extends CommonController
                        $status = true;
                    }
                }
-
            }
+           if (empty($mail)) $status = true;//如果邮箱为空，就不发送
            if (!$status){//如果有这些特殊的词出现，就不发邮件
                $res = Yii::$app->mailer->compose('test', ['name'=>$name,'mail'=>$mail,'content'=>$content,'title' => 'juda.cn信息反馈','html' => 'text'])
                    ->setTo('market@juda.cn')
