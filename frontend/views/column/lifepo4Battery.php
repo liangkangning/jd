@@ -434,7 +434,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
         </div>
 
 
-        <section class="bg_part">
+        <section class="">
             <div class="container">
                 <div class="common_title size1 section70 " id="basic-structure-of-18650">
                     <h2 class="light1-5">磷酸铁锂电池循环寿命及影响因素</h2>
@@ -444,25 +444,25 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
             <div class="getiao section60"></div>
             <div class="part1 pp">
                 <div class="container">
-                    <div class="link_title size2 section20" id="battery-cell"><h3>1、磷酸铁锂电池常温环境下使用</h3></div>
+                    <div class="link_title size2 " id="battery-cell"><h3>1、磷酸铁锂电池常温环境下使用</h3></div>
                     <div class="row col-md-12">
-                        <ul class="ul_li_item_padding section60 m_section20">
-                            <div class="item col-md-4">
+                        <ul class="ul_li_item_padding section30 m_section20">
+                            <div class="item col-md-12">
                                 <li>
                                     <div class="title"><strong>小电流充放电</strong></div>
-                                    <div class="text section10 light1-5"><p>在这一领域应用上磷酸铁锂电池正常使用的话，基本都是2000次以上的循环寿命；小型锂电池厂商，质量稍次一点的也有1000次以上的循环寿命；</p></div>
+                                    <div class="text section5 light1-5"><p>在这一领域应用上磷酸铁锂电池正常使用的话，基本都是2000次以上的循环寿命；小型锂电池厂商，质量稍次一点的也有1000次以上的循环寿命；</p></div>
                                 </li>
                             </div>
-                            <div class="item col-md-4 m_section20">
+                            <div class="item col-md-12 m_section20 section30">
                                 <li>
                                     <div class="title"><strong>高倍率稳定充放电使用</strong></div>
-                                    <div class="text section10 light1-5"><p>高倍率放电的应用，大多数是动力型锂电池，多数是应用在给电机提供动力的应用上。由于磷酸铁锂电池多数在高负荷状态下运行，加快了电池材料衰减时间，循环寿命也在800次左右。</p></div>
+                                    <div class="text section5 light1-5"><p>高倍率放电的应用，大多数是动力型锂电池，多数是应用在给电机提供动力的应用上。由于磷酸铁锂电池多数在高负荷状态下运行，加快了电池材料衰减时间，循环寿命也在800次左右。</p></div>
                                 </li>
                             </div>
-                            <div class="item col-md-4 m_section20">
+                            <div class="item col-md-12 m_section20 section30">
                                 <li>
                                     <div class="title"><strong>高倍率不稳定充放电使用</strong></div>
-                                    <div class="text section10 light1-5"><p>这种情况下使用的磷酸铁锂电池，寿命会更短，只有300次左右。</p></div>
+                                    <div class="text section5 light1-5"><p>这种情况下使用的磷酸铁锂电池，寿命会更短，只有300次左右。</p></div>
                                 </li>
                             </div>
                         </ul>
@@ -471,30 +471,30 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
             </div>
             <div class="part2 pp">
                 <div class="container">
-                    <div class="link_title size2 section20" id="battery-cell"><h3>2、磷酸铁锂电池高温环境下使用</h3></div>
+                    <div class="link_title size2 section60" id="battery-cell"><h3>2、磷酸铁锂电池高温环境下使用</h3></div>
                     <div class="common_p section20">
                         <p>
                             磷酸铁锂电池高温性能目前不是很成熟，运行温度-20℃到125℃，这个温度范围为理论值，实际应用温度范围要小些。
                         </p>
                     </div>
                     <div class="row col-md-12">
-                        <ul class="section60 ul_li_item_padding m_section20">
-                            <div class="item col-md-4">
+                        <ul class="section60  m_section30 section30">
+                            <div class="item col-md-12">
                                 <li>
                                     <div class="title"><strong>小电流充放电</strong></div>
-                                    <div class="text section10 light1-5"><p>在这一领域应用上磷酸铁锂电池正常使用的话，如果是电池品牌厂商实力比较强的，质量好的，基本都是1000次以上的循环寿命；小型锂电池厂商，质量稍次一点的也有500次以上的循环寿命；因为高温下使用，对电池损害是比较大的。</p></div>
+                                    <div class="text section5 light1-5"><p>在这一领域应用上磷酸铁锂电池正常使用的话，如果是电池品牌厂商实力比较强的，质量好的，基本都是1000次以上的循环寿命；小型锂电池厂商，质量稍次一点的也有500次以上的循环寿命；因为高温下使用，对电池损害是比较大的。</p></div>
                                 </li>
                             </div>
-                            <div class="item col-md-4 m_section20">
+                            <div class="item col-md-12 m_section20 section30">
                                 <li>
                                     <div class="title"><strong>高倍率稳定充放电使用</strong></div>
-                                    <div class="text section10 light1-5"><p>由于磷酸铁锂电池多数在高负荷状态下运行，加快了电池材料衰减时间，循环寿命是急剧下降的，质量差的电芯，可能也就300次左右的循环；实力强的电池品牌厂家，在设备技术和材料应用上会比较好，电芯质量就会好些，但循环寿命也就在500次左右。</p></div>
+                                    <div class="text section5 light1-5"><p>由于磷酸铁锂电池多数在高负荷状态下运行，加快了电池材料衰减时间，循环寿命是急剧下降的，质量差的电芯，可能也就300次左右的循环；实力强的电池品牌厂家，在设备技术和材料应用上会比较好，电芯质量就会好些，但循环寿命也就在500次左右。</p></div>
                                 </li>
                             </div>
-                            <div class="item col-md-4 m_section20">
+                            <div class="item col-md-12 m_section20 section30">
                                 <li>
                                     <div class="title"><strong>高倍率不稳定充放电使用</strong></div>
-                                    <div class="text section10 light1-5"><p>高温加放电倍率不稳定运行，对电池损害更大，循环使用寿命比较低，对几家电池厂家电芯做测试发现，250到300次这样，电池基本使用不了了。</p></div>
+                                    <div class="text section5 light1-5"><p>高温加放电倍率不稳定运行，对电池损害更大，循环使用寿命比较低，对几家电池厂家电芯做测试发现，250到300次这样，电池基本使用不了了。</p></div>
                                 </li>
                             </div>
                         </ul>
@@ -503,7 +503,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
             </div>
             <div class="part3 pp">
                 <div class="container">
-                    <div class="link_title size2 section20" id="battery-cell"><h3>3、磷酸铁锂电池低温环境下使用</h3></div>
+                    <div class="link_title size2 section60" id="battery-cell"><h3>3、磷酸铁锂电池低温环境下使用</h3></div>
                     <div class="common_p section20">
                         <p>
                             低温环境下对磷酸铁锂电池性能影响要比高还要大，就目前市场情况来看，磷酸铁锂电池在低于-20℃以下到-40℃工作，寿命明显下降，循环使用寿命在300次左右。
@@ -513,7 +513,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
             </div>
             <div class="part4 pp">
                 <div class="container">
-                    <div class="link_title size2 section20" id="battery-cell"><h3>4、磷酸铁锂电池循环寿命影响因素</h3></div>
+                    <div class="link_title size2 section60" id="battery-cell"><h3>4、磷酸铁锂电池循环寿命影响因素</h3></div>
                     <div class="common_p section10">
                         <li class="col-md-12 section20"><strong>充放电</strong></li>
                         <p class="section10 col-md-12">
