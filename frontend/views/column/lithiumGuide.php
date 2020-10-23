@@ -37,7 +37,7 @@ use common\models\Images; ?>
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">锂电池的应用领域</h2></div>
                 <div class="link_title size2 section60" id="battery-cell"><h3>1.消费品领域</h3></div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <p class="small-size">
                         主要应用在数码产品、手机、移动电源、笔记本等电子设备中。常用的有18650锂电池，锂聚合物电池。
                     </p>
@@ -45,7 +45,7 @@ use common\models\Images; ?>
 
 
                 <div class="link_title size2 section60" id="battery-cell"><h3>2.工业领域</h3></div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <p class="small-size">
                         主要应用在医疗电子、光伏储能、铁路基建、安防通讯、勘探测绘等领域。常用的有储能/动力锂电池，磷酸铁锂电池，聚合物锂电池，18650锂电池。
                     </p>
@@ -53,7 +53,7 @@ use common\models\Images; ?>
 
 
                 <div class="link_title size2 section60" id="battery-cell"><h3>3.特种领域</h3></div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <p class="small-size">
                         主要应用在军用警用、航空航天、舰艇船舶、卫星导航、武器装备、高能物理等领域。常用的有超低温锂电池，高温锂电池，钛酸锂电池，防爆锂电池等。
                     </p>
@@ -94,13 +94,13 @@ use common\models\Images; ?>
                             <li>
                                 <div class="item">
                                     <div class="img"><a target="_blank" href=""><img src="/static/images/column_lithium_guide_1.jpg" alt="Cylindrical Lithium Ion Battery"></a></div>
-                                    <div class="text text-center section30"><a target="_blank" href="http://www.juda.cn/news/152750.html">圆柱锂电池</a></div>
+                                    <div class="text text-center section20"><a target="_blank" href="http://www.juda.cn/news/152750.html">圆柱锂电池</a></div>
                                 </div>
                             </li>
                             <li class="m_section50">
                                 <div class="item">
                                     <div class="img"><a target="_blank" href=""><img src="/static/images/column_lithium_guide_2.jpg" alt="Prismatic Lithium Ion Battery"></a></div>
-                                    <div class="text text-center section30"><a target="_blank" href="http://www.juda.cn/lilizi/list-42.html">方形锂电池</a></div>
+                                    <div class="text text-center section20"><a target="_blank" href="http://www.juda.cn/lilizi/list-42.html">方形锂电池</a></div>
                                 </div>
                             </li>
                         </ul>
@@ -131,19 +131,19 @@ use common\models\Images; ?>
                         <li class="col-md-4">
                             <div class="item">
                                 <div class="img"><img src="/static/images/column_lithium_guide_3.jpg" alt="Steel Case Lithium Ion Battery"></div>
-                                <div class="text text-center section30">钢壳锂电池</div>
+                                <div class="text text-center section20">钢壳锂电池</div>
                             </div>
                         </li>
                         <li class="col-md-4">
                             <div class="item">
                                 <div class="img"><img src="/static/images/column_lithium_guide_4.jpg" alt="Aluminum Case Lithium Ion "></div>
-                                <div class="text text-center section30">铝壳锂电池</div>
+                                <div class="text text-center section20">铝壳锂电池</div>
                             </div>
                         </li>
                         <li class="col-md-4">
                             <div class="item">
                                 <div class="img"><img src="/static/images/column_lithium_guide_5.jpg" alt="Pouch cell"></div>
-                                <div class="text text-center section30">软包装锂电池</div>
+                                <div class="text text-center section20">软包装锂电池</div>
                             </div>
                         </li>
 
@@ -165,7 +165,7 @@ use common\models\Images; ?>
                 </div>
 
                 <div class="table_title size2 section60">锂离子电池正极材料特性对比如下：</div>
-               <section class="section30 tabel-section">
+               <section class="section20 tabel-section">
                    <table cellspacing="0" width="100%" class="table-bordered">
                        <tbody>
                        <tr class="firstRow">
@@ -250,7 +250,7 @@ use common\models\Images; ?>
 
 
 
-                <div class="common_p section60">
+                <div class="common_p section20">
                     <li class="title"><strong>全固态锂离子电池</strong></li>
                     <p class="small-size section5 light1-5">
                         “全固态锂电池”是一种在工作温度区间内所使用的电极和电解质材料均呈固态、不含任何液态组份的锂电池，所以全称是“全固态电解质锂电池”。
@@ -350,7 +350,7 @@ use common\models\Images; ?>
                     <div class="list">
                         <ul class="ul_li_padding60 ul_none">
                             <div class="row">
-                                <li class="col-md-4 section30">
+                                <li class="col-md-4 section20">
                                     <div class="item">
                                         <div class="img"><img src="/static/images/colmun_battery_01.jpg" alt=""></div>
                                         <div class="text section20 light1-8">
@@ -363,7 +363,7 @@ use common\models\Images; ?>
                                         </div>
                                     </div>
                                 </li>
-                                <li class="col-md-4 section30 m_section60">
+                                <li class="col-md-4 section20 m_section60">
                                     <div class="item">
                                         <div class="img"><img src="/static/images/colmun_battery_02.jpg" alt=""></div>
                                         <div class="text section20 light1-8">
@@ -378,7 +378,7 @@ use common\models\Images; ?>
                                         </div>
                                     </div>
                                 </li>
-                                <li class="col-md-4 section30 m_section60">
+                                <li class="col-md-4 section20 m_section60">
                                     <div class="item">
                                         <div class="img"><img src="/static/images/colmun_battery_03.jpg" alt=""></div>
                                         <div class="text section20 light1-8">
@@ -510,7 +510,7 @@ use common\models\Images; ?>
                     <div class="img col-md-12 text-center section60"><img src="/static/images/column_lithium_guide_6.jpg" alt="Cycle characteristics"></div>
                 </div>
 
-                <div class="common_p section60 m_section30">
+                <div class="common_p section60 m_section20">
                     <p class="small-size light1-5">
                         注：锂电池的循环特性较好，一般500次循环以后还可以保持80%左右的容量。
                     </p>
@@ -527,7 +527,7 @@ use common\models\Images; ?>
                     <div class="img col-md-12 text-center section60"><img src="/static/images/column_lithium_guide_7.jpg" alt="Discharging load characteristics"></div>
                 </div>
 
-                <div class="common_p section60 m_section30">
+                <div class="common_p section60 m_section20">
                     <p class="small-size light1-5">
                         注：由于锂电池用的是有机溶剂电解液，电导率一般只有铅酸或碱性电池电解液的几百分之一。因此，锂离子电池在大电流放电时，来不及从电解液中补充Li+,会发生电压下降。
                     </p>
@@ -544,14 +544,14 @@ use common\models\Images; ?>
                     <div class="img col-md-12 text-center section60"><img src="/static/images/column_lithium_guide_8.jpg" alt="Discharge temperature characteristics"></div>
                 </div>
 
-                <div class="common_p section60 m_section30">
+                <div class="common_p section60 m_section20">
                     <p class="small-size gray_color text-center ">
                         锂电池低温放电特性曲线图
                     </p>
                     <div class="img col-md-12 text-center section60"><img src="/static/images/column_lithium_guide_9.jpg" alt="Storage characteristics"></div>
                 </div>
 
-                <div class="common_p section60 m_section30">
+                <div class="common_p section60 m_section20">
                     <p class="small-size gray_color text-center ">
                         锂电池高温放电特性曲线图
                     </p>
