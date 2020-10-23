@@ -171,8 +171,8 @@ h3{color: #212121}
 .column-cylindrical .img_text li:nth-child(even) {padding-left: 70px}
 
 .column-cylindrical .module .img-list{position: relative;}
-.column-cylindrical .module .img-list .jiantou_1{position: absolute;top: 119px;left: 305px;}
-.column-cylindrical .module .img-list .jiantou_2{position: absolute;top: 119px;left: 660px;}
+.column-cylindrical .module .img-list .jiantou_1{position: absolute;top: 100px;left: 305px;}
+.column-cylindrical .module .img-list .jiantou_2{position: absolute;top: 100px;left: 660px;}
 
 
 .column-lifepo4{}
