@@ -664,7 +664,7 @@ use common\models\Images; ?>
                     <p class="text-center">
                         全球主要国家和地区认证明细（电池产品类）
                     </p>
-                    <div class="img col-md-12 text-center section60"><img src="/static/images/column_lithium_guide_10.jpg" alt="Storage characteristics"></div>
+                    <div class="img col-md-12 text-center section30"><img src="/static/images/column_lithium_guide_10.jpg" alt="Storage characteristics"></div>
                 </div>
             </section>
 
