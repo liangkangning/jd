@@ -1,54 +1,15 @@
 <?php
 $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\ColumnAsset']]);
-$product_list = [
-    ['title'=>'14500 Lithium Ion Battery','img_url'=>'/static/images/column_cylindrical_product_1.png','url'=>'/lithium-ion-battery/list-140/',
-        'des'=>'Nominal voltage: 3.7V<br>Nominal capacity: 800mAh<br>Diameter: 14mm<br> Height: 50mm<br>Application: instrumentation, consumer electronics'],
 
-    ['title'=>'18500 Lithium Ion Battery','img_url'=>'/static/images/column_cylindrical_product_2.png','url'=>'/lithium-ion-battery/list-141/',
-        'des'=>'Nominal voltage: 3.6V<br>Nominal capacity: 800-1500mAh<br>Diameter: 18±0.2mm<br> Height: 50±0.3mm<br>Application: security communication, rail transit'],
-
-    ['title'=>'18650 Lithium Ion Battery','img_url'=>'/static/images/column_cylindrical_product_3.png','url'=>'/lithium-ion-battery/list-142/',
-        'des'=>'Nominal voltage: 3.7V<br>Nominal capacity: 2000-3500mAh<br>Diameter: 18±0.2mm<br> Height: 65±2.0mm<br>Application: special equipment, medical equipment, robot, etc.'],
-
-    ['title'=>'21700 Lithium Ion Battery','img_url'=>'/static/images/column_cylindrical_product_4.png','url'=>'/lithium-ion-battery/list-143/',
-        'des'=>'Nominal voltage: 3.6V<br>Nominal capacity: 3000-4800mAh<br>Diameter: 21mm<br> Height: 70mm<br>Application: digital devices, power tools'],
-
-    ['title'=>' 26650 Lithium Ion Battery','img_url'=>'/static/images/column_cylindrical_product_5.png','url'=>'/lithium-ion-battery/list-144/',
-        'des'=>'Nominal voltage: 3.2V<br>Nominal capacity: 3200~3500mAh<br>Diameter: 26.2mm<br>Height: 65.6mm<br>Application: power/energy storage, robot, emergency backup'],
-
-    ['title'=>'32650(32700) Lithium Ion Battery','img_url'=>'/static/images/column_cylindrical_product_6.png','url'=>'/lithium-ion-battery/list-145/',
-        'des'=>'Nominal voltage: 3.2V<br>Nominal capacity: 4500-6500mAh<br>Diameter: 32.4±0.3mm<br>Height: 70.5±0.2mm<br>Application: instrumentation, backup power source, special equipment'],
-]
 ?>
 
 <div class="column-cylindrical column-common">
 
     <div class="col-md-12">
         <div class="">
-            <section class="section30">
-                <div class="products_list_other">
-                    <ul class="ul_li_padding">
-                        <?php foreach ($product_list as $key=>$value):?>
-
-                        <li class="section60 col-md-4 col-sm-12">
-                            <div class="item">
-                                <div class="img col-md-12"><a target="_blank" href="<?=$value['url']?>"><img class="img_bg" src="<?=$value['img_url']?>" alt="" title=""></a></div>
-                                <div class="text col-md-12 pull-left">
-                                    <div class="title size2 section30"><a target="_blank" href="<?=$value['url']?>"><?=$value['title']?></a></div>
-                                    <div class="des light1-8 section10"><p>
-                                            <?=$value['des']?>
-                                           </p></div>
-                                    <div class="button small-size section20"><a target="_blank" href="<?=$value['url']?>">READ MORE</a></div>
-                                </div>
-                            </div>
-                        </li>
-                        <?php endforeach;?>
-                    </ul>
-                </div>
-            </section>
 
             <section>
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">What is a Cylindrical Lithium Battery?</h2></div>
+                <div class="common_title size1 section20" id="basic-structure-of-18650"><h2 class="light1-5">What is a Cylindrical Lithium Battery?</h2></div>
 
                 <div class="link_title size2 section60" id="battery-cell"><h3>1.Definition of Cylindrical Lithium Ion Battery</h3></div>
                 <div class="common_p section30">
@@ -90,7 +51,7 @@ $product_list = [
                 <div class="common_p section30">
                 </div>
                 <div class="brand_list col-md-12">
-                    <ul>
+                    <ul class="ul_none">
                         <li class="section40">
                             <div class="item yellow_color">
                                 <div class="img"><img src="/static/images/column_cylindrical_brand_1.jpg" alt="Sony"></div>
@@ -210,22 +171,7 @@ $product_list = [
                 </div>
 
                 <div class="common_title size1 section70" id="Recommended-Cylindrical"><h2 class="light1-5">Recommended Cylindrical Lithium Ion Battery</h2></div>
-                <div class="products_list_other">
-                    <ul class="ul_none">
-                        <?php foreach (Yii::$app->params['products'] as $key=>$value):?>
-                            <li class="section60">
-                                <div class="item">
-                                    <div class="product_img col-md-3 col-sm-12"><a target="_blank" href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
-                                    <div class="text col-md-9 col-sm-12">
-                                        <div class="des light1-8 m_section30"><p><?=$value['diy_content']?></p></div>
-                                        <div class="button small-size section20"><a target="_blank" href="<?=$value['url']?>">READ MORE</a></div>
-                                    </div>
 
-                                </div>
-                            </li>
-                        <?php endforeach;?>
-                    </ul>
-                </div>
             </section>
 
             <section>
@@ -361,15 +307,6 @@ $product_list = [
                 </div>
             </section>
 
-
-            <div class="fengxian section col-md-12">
-                <div class="sharethis-inline-share-buttons"></div>
-            </div>
-
-            <section class="section section_m col-md-12">
-                <?php $this->beginContent('@app/views/layouts/public/send_email.php') ?>
-                <?php $this->endContent()?>
-            </section>
         </div>
     </div>
 
