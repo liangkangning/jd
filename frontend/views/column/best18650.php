@@ -25,7 +25,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
 
                 </div>
                 <div class="common_p">
-                    <p class="small-size section20"><a target="_blank" href="/lithium-battery18650/">定制18650锂电池组</a>广泛应用于各个领域，包括医疗设备、特种设备、军用警用、仪器仪表、手持设备、安防通讯等领域。
+                    <p class="small-size section20"><a target="_blank" href="http://www.juda.cn/libattery/">定制18650锂电池组</a>广泛应用于各个领域，包括医疗设备、特种设备、军用警用、仪器仪表、手持设备、安防通讯等领域。
                     </p>
                 </div>
             </section>
@@ -101,7 +101,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="common_p section30">
                     <div class="img"><img src="/static/images/column_Panasonic.jpg" alt="Panasonic" title="Panasonic"></div>
                     <p class="small-size section10">
-                        <span class="yellow_color"><a target="_blank" href="/lithium-ion-battery/list-156/">松下</a></span><br>
+                        <span class="yellow_color"><a target="_blank" href="http://www.juda.cn/lilizi/list-52.html">松下</a></span><br>
                         成立时间：1918年  总部：日本大阪<br>
                         松下动力电池业务归属与AIS板块的能源领域，其中包括二次电池与能源设备，二次电池包括松下二次电池事业部与特斯拉事业部，是松下业绩增长的重要引擎之一。
                     </p>
@@ -118,7 +118,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="common_p section40">
                     <div class="img"><img src="/static/images/column_LG_Chem.jpg" alt="LG Chem" title="LG Chem"></div>
                     <p class="small-size section10">
-                        <span class="yellow_color"><a target="_blank" href="/lithium-ion-battery/list-159/">LG化学</a></span><br>
+                        <span class="yellow_color"><a target="_blank" href="http://www.juda.cn/lilizi/list-55.html">LG化学</a></span><br>
                         成立时间：1947年  总部：韩国<br>
                         韩国LG 集团下属企业，是韩国非常领先的化学企业，主要从事石油化学、电池、尖端材料和生命科学等产品的生产，在汽车电池、ESS电池、移动设备电池领域主导着全球市场。
                     </p>
@@ -127,7 +127,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="common_p section40">
                     <div class="img"><img src="/static/images/column_Samsung.jpg" alt="Samsung SDI" title="Samsung SDI"></div>
                     <p class="small-size section10">
-                        <span class="yellow_color"><a target="_blank" href="/lithium-ion-battery/list-158/">Samsung SDI</a></span><br>
+                        <span class="yellow_color"><a target="_blank" href="http://www.juda.cn/lilizi/list-54.html">Samsung SDI</a></span><br>
                         成立时间：2011年  总部：韩国<br>
                         韩国三星集团下属企业之一，主要从事显示器和锂离子电池的生产。三星SDI研发中心遍布韩国、日本、俄罗斯等国家，在台湾，德国，马来西亚，印度，越南等地也办有办事处，是全球百强锂电池厂家排名靠前的厂家。
                     </p>
@@ -136,7 +136,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="common_p section40">
                     <div class="img"><img src="/static/images/column_LISHEN.jpg" alt="LISHEN" title="LISHEN"></div>
                     <p class="small-size section10">
-                        <span class="yellow_color"><a target="_blank" href="/lithium-ion-battery/list-160/">力神</a></span><br>
+                        <span class="yellow_color"><a target="_blank" href="http://www.juda.cn/lilizi/list-56.html">力神</a></span><br>
                         成立时间：1997年  总部：中国天津<br>
                         天津力神电池股份有限公司，中国锂电的代表性品牌，国内投资规模较大、技术水平最高的锂离子蓄电池专业生产企业之一。
                     </p>
@@ -145,7 +145,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="common_p section40">
                     <div class="img"><img src="/static/images/column_BAK.jpg" alt="BAK" title="BAK"></div>
                     <p class="small-size section10">
-                        <span class="yellow_color"><a target="_blank" href="/lithium-ion-battery/list-161/">比克</a></span><br>
+                        <span class="yellow_color"><a target="_blank" href="http://www.juda.cn/lilizi/list-57.html">比克</a></span><br>
                         成立时间：2001年  总部：中国深圳<br>
                         深圳市比克电池有限公司，锂电池知名品牌，惠普、戴尔、联想等著名品牌的电池供应商，集锂离子研发，生产、销售为一体，世界著名的锂离子电池制造商。
                     </p>
@@ -154,7 +154,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="common_p section40">
                     <div class="img"><img src="/static/images/column_LARGE_POWER.jpg" alt="LARGE POWER" title="LARGE POWER"></div>
                     <p class="small-size section10">
-                        <span class="yellow_color"><a target="_blank" href="/page/company-profile.html">钜大锂电</a></span><br>
+                        <span class="yellow_color"><a target="_blank" href="http://www.juda.cn/about/">钜大锂电</a></span><br>
                         成立时间：2001年 总部：中国东莞<br>
                         钜大锂电，特种锂电系统定制化方案和产品提供商，主要从事特种锂电池、低温电池、防爆电池、军用锂电池、医疗锂电池的研发、生产和销售。
                     </p>
@@ -208,11 +208,11 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                         <div class="title section30 black_color font-weight">常见的电池材料</div>
                         <div class="p_ul section5">
                             <ul class="small-size light1-5">
-                                <li>LCO - <span class="yellow_color"><a target="_blank" href="/news/8ku43mw.html">钴酸锂</a></span></li>
-                                <li>LMO - <span class="yellow_color"><a target="_blank" href="/news/8fu43my.html">锰酸锂</a></span></li>
-                                <li>NMC - <span class="yellow_color"><a target="_blank" href="/news/8mu43my.html">三元</a></span></li>
+                                <li>LCO - <span class="yellow_color"><a target="_blank" href="http://www.juda.cn/lilizi/list-106.html">钴酸锂</a></span></li>
+                                <li>LMO - <span class="yellow_color">锰酸锂</a></span></li>
+                                <li>NMC - <span class="yellow_color"><a target="_blank" href="http://www.juda.cn/lilizi/list-107.html">三元</a></span></li>
                                 <li>NCA - 高镍三元</li>
-                                <li>LFP - <span class="yellow_color"><a target="_blank" href="/lifepo4-battery/">磷酸铁锂</a></span></li>
+                                <li>LFP - <span class="yellow_color"><a target="_blank" href="http://www.juda.cn/lilizi/list-108.html">磷酸铁锂</a></span></li>
                             </ul>
                         </div>
                     </div>
@@ -372,7 +372,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
             <div class="common_p section20">
                 <p class="small-size">
                     电芯是电池最重要的组成部分，是能量转换的载体。<br>
-                    主要分为圆柱锂离子电芯、<a target="_blank" href="/lithium-ion-battery/list-146/">方形锂离子电芯</a>、<a target="_blank" href="/lithium-ion-battery/list-182/">软包聚合物电芯</a>软包聚合物电芯
+                    主要分为圆柱锂离子电芯、<a target="_blank" href="http://www.juda.cn/lilizi/list-42.html">方形锂离子电芯</a>、<a target="_blank" href="http://www.juda.cn/juhewu/">软包聚合物电芯</a>软包聚合物电芯
                 </p>
             </div>
 
@@ -440,7 +440,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
             <div class="link_title size2 section60" id="precautions-for-series"><h3>2.18650锂电池串并联注意事项</h3></div>
             <div class="p_ul section20">
                 <ul class="small-size light1-5">
-                    <li>一般锂电池串并联使用需要进行<a target="_blank" href="/">锂电池芯配对，</a>芯配对，<br>
+                    <li>一般锂电池串并联使用需要进行锂电池芯配对，<br>
                         <span class="font-weight">常规配对的标准：锂电池芯电压差≤10mV，锂电池芯内阻差≤5mΩ，锂电池芯容量差≤20mA。</span></li>
                     <li class="section5"><span class="font-weight">电池电压相同</span></li>
                     <li class="section5">电池并联时必须用同种电池。不同电池的电压不同，并联后，电压高的电池对电压低的电池充电，消耗了电能，引发不安全事故。</li>
