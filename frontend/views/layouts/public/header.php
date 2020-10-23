@@ -426,6 +426,15 @@
                                             </div>
                                         </div>
 
+                                        <div class="child_item">
+                                            <div class="nav_img">
+                                                <a href="/news/zhuanti.html"><img src="/assets/images/nav_dianchizhuangti.png" alt="电池专题" title="电池专题"></a>
+                                            </div>
+                                            <div class="text">
+                                                <a href="/news/zhuanti.html">电池专题</a>
+                                            </div>
+                                        </div>
+
 
                                     </div>
                                 </div>
