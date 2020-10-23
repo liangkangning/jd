@@ -388,7 +388,7 @@
                                 <div class="item"><a href="/news/">资讯中心</a></div>
                                 <div class="item_list">
                                     <div class="container">
-                                        <div class="col-md-2 col-sm-2"></div>
+                                        <div class="col-md-1 col-sm-1"></div>
                                         <div class="child_item">
                                             <div class="nav_img">
                                                 <a href="/news/gongsixinwen.html"><img src="/assets/images/nav_gongsixinwen.png" alt="公司新闻" title="公司新闻"></a>

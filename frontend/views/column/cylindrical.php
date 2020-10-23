@@ -12,7 +12,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="common_title size1 section20" id="basic-structure-of-18650"><h2 class="light1-5">什么是圆柱锂电池？</h2></div>
 
                 <div class="link_title size2 section60" id="battery-cell"><h3>1、圆柱形锂电池的定义</h3></div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <p class="small-size">
                         圆柱形锂电池是锂离子电池的一种，其外形为圆柱形，因此被称作圆柱形锂电池，圆柱形锂电池按正极材料分为钴酸锂（LiCoO2）、锰酸锂（LiMn2O4）、镍钴锰酸锂（LiNiMnCoO2或NMC）、镍钴铝酸锂（LiNiCoAlO2或称NCA）、磷酸铁锂（LiFePO4）和钛酸锂（Li4Ti5O12）。
                         <br><br>
@@ -21,7 +21,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 </div>
 
                 <div class="link_title size2 section60" id="battery-cell"><h3>2、圆柱形锂电池结构</h3></div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <p class="small-size">
                         一个典型的圆柱形电池的结构包括：外壳、盖帽、正极、负极、隔膜、电解液、PTC元件、垫圈、安全阀等。一般电池外壳为电池的负极，盖帽为电池的正极，电池外壳采用镀镍钢板。
                     </p>
@@ -30,7 +30,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
 
 
                 <div class="link_title size2 section60" id="battery-cell"><h3>3、圆柱形锂电池的优点</h3></div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <p class="small-size">
                         与软包锂电池和方形锂电池相比，圆柱型锂电池的发展时间最长，标准化程度较高、工艺较为成熟、良品率高和成本低。
                     </p>
@@ -48,7 +48,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
 
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">圆柱锂电池推荐品牌</h2></div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                 </div>
                 <div class="brand_list col-md-12">
                     <ul class="ul_none">
@@ -150,21 +150,21 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 </div>
 
                 <div class="link_title size2 section60" id="battery-cell"><h3>1、圆柱锂电芯</h3></div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <p class="small-size">
                         电芯是锂电池包的最小单位，也是电能存储单元，它必须要有较高的能量密度，以尽可能多的存储电能，使设备的工作时间更长。除此之外，锂电芯的寿命也是最为关键的因素，任何一颗电芯的损坏，都会导致整个电池包的损坏。
                     </p>
                 </div>
 
                 <div class="link_title size2 section60" id="battery-cell"><h3>2、锂电池模组</h3></div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <p class="small-size">
                         当多个电芯被同一个外壳框架封装在一起，通过统一的边界与外部进行联系时，这就组成了一个模组。
                     </p>
                 </div>
 
                 <div class="link_title size2 section60" id="battery-cell"><h3>3、锂电池包</h3></div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <p class="small-size">
                         而当数个模组被BMS和热管理系统共同控制或管理起来后，这个统一的整体就叫做锂电池包。
                     </p>
