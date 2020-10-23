@@ -147,10 +147,10 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="common_p">
                     <div class="p_ul section20">
                         <ul class="small-size light1-8">
-                            <li><a target="_blank" href="/lifepo4-battery/list-133/">12V磷酸铁锂电池</a></li>
-                            <li><a target="_blank" href="/lifepo4-battery/list-134/">24V磷酸铁锂电池</a></li>
-                            <li><a target="_blank" href="/lifepo4-battery/list-135/">36V磷酸铁锂电池</a></li>
-                            <li><a target="_blank" href="/lifepo4-battery/list-136/">48V磷酸铁锂电池</a></li>
+                            <li><a target="_blank" href="http://www.juda.cn/lifepo4/list-11.html">12V磷酸铁锂电池</a></li>
+                            <li><a target="_blank" href="http://www.juda.cn/lifepo4/list-12.html">24V磷酸铁锂电池</a></li>
+                            <li><a target="_blank" href="http://www.juda.cn/lifepo4/list-13.html">36V磷酸铁锂电池</a></li>
+                            <li><a target="_blank" href="http://www.juda.cn/lifepo4/list-14.html">48V磷酸铁锂电池</a></li>
                         </ul>
                     </div>
                 </div>
