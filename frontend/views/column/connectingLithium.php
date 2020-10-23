@@ -93,13 +93,13 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     </p>
                 </div>
                 <div class="link_title size2 section60" id="battery-cell"><h3>1、锂电池串并联组合方式</h3></div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <p>
                        <strong>2串锂电池组合</strong> (<a href="http://www.juda.cn/lilizi/list-2.html">7.4V 锂电池</a>)
                     </p>
                 </div>
                 <div class="table common_p">
-                    <div class="img col-md-12 section30"><img src="/static/images/column_connecting_table_1.jpg" alt="Two Lithium Batteries Connected in Series"></div>
+                    <div class="img col-md-12 section10"><img src="/static/images/column_connecting_table_1.jpg" alt="Two Lithium Batteries Connected in Series"></div>
                     <table cellspacing="0" width="100%" class="table-bordered">
                         <tbody>
                         <tr>
@@ -146,7 +146,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                        <strong>3串锂电池组合</strong> (<a href="http://www.juda.cn/lilizi/list-3.html">11.1V 锂电池</a>)
                     </p>
                     <div class="table">
-                        <div class="img col-md-12 section30"><img src="/static/images/column_connecting_table_2.jpg" alt="Three Lithium Batteries Connected in Series"></div>
+                        <div class="img col-md-12 section10"><img src="/static/images/column_connecting_table_2.jpg" alt="Three Lithium Batteries Connected in Series"></div>
                         <table cellspacing="0" width="100%" class="table-bordered">
                             <tbody>
                             <tr>
@@ -194,7 +194,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                         <strong>4串锂电池组合</strong> (<a href="http://www.juda.cn/lilizi/list-4.html">14.8V 锂电池</a>)
                     </p>
                     <div class="table">
-                        <div class="img col-md-12 section30"><img src="/static/images/column_connecting_table_3.jpg" alt="Four Lithium Batteries Connected in Series"></div>
+                        <div class="img col-md-12 section10"><img src="/static/images/column_connecting_table_3.jpg" alt="Four Lithium Batteries Connected in Series"></div>
                         <table cellspacing="0" width="100%" class="table-bordered">
                             <tbody>
                             <tr>
@@ -237,7 +237,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                        <strong>6串锂电池组合</strong> (<a href="http://www.juda.cn/lilizi/list-7.html">22.2V 锂电池</a>)
                     </p>
                     <div class="table">
-                        <div class="img col-md-12 section30"><img src="/static/images/column_connecting_table_4.jpg" alt="Six Lithium Batteries Connected in Series"></div>
+                        <div class="img col-md-12 section10"><img src="/static/images/column_connecting_table_4.jpg" alt="Six Lithium Batteries Connected in Series"></div>
                         <table cellspacing="0" width="100%" class="table-bordered">
                             <tbody>
                             <tr>
@@ -276,7 +276,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 </div>
 
                 <div class="link_title size2 section60"><h3>2、锂电池组线材/端子</h3></div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <p>
                         锂电池组插头及引线长度可随意定制，根据客户的用电设备进行选择。
                     </p>
@@ -284,14 +284,14 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 </div>
 
                 <div class="link_title size2 section60"><h3>3、锂电池组串并联计算</h3></div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <p>
                         我们都知道锂电池串联电压增加，并联容量增加，那么如何计算一个锂电池组是几串几并，由多少只电芯组成的呢？
                     </p>
                     <p class="section20">进行计算前我们需要知道这个锂电池组是采用什么规格的电芯的组装，因为不同的电芯电压容量不同，
                         组装成特定规格的锂电池组，所需要的串并数量不同。市面上常见的锂电芯种类有钴酸锂的3.7V、三元的3.6V、磷酸铁锂的3.2V，钛酸锂的2.4V，容量则因电芯大小、材料、厂家的不同而不同。</p>
                 </div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <p><strong>以48V 20Ah锂电池组为例</strong></p>
                 </div>
                 <div class="common_p section10">
@@ -304,7 +304,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 </div>
 
 
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <p><strong>常用锂电池组串联组合</strong></p>
                 </div>
                 <div class="table section30 common_p">
@@ -550,7 +550,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 </div>
 
                 <div class="link_title size2 section60"><h3>1、不同电压的锂电池串联</h3></div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <p>
                         锂电池由于存在一致性的问题，同一体系（如三元或铁锂）下进行并串成组，也需要挑选电压、内阻、容量一致的进行配组。不同电压平台，不同内阻的电池串联使用，会造成某只电池每个循环都是先充满先放完，
                         <strong>如果有保护板并且不出故障，会造成整组容量降低，不带保护板的话势必造成该电池过充或过放进而造成损坏。</strong>
@@ -559,7 +559,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 </div>
 
                 <div class="link_title size2 section60"><h3>2、不同容量的锂电池并联</h3></div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <p>
                         如果将不同容量或新旧锂电池混在一起使用，有可能出现漏液，零电压等现象。这是由于充电过程中，容量差异导致充电时有些电池被过充，有些电池未充满电，放电时有容量高的电池未放完电，而容量低的则被过放。如此恶性循环，电池受到损害而漏液或低（零）电压。
                     </p>
@@ -573,7 +573,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="common_p section60">
                    <li><strong class="black_color">锂电池组串并联拓扑结构</strong></li>
                 </div>
-                <div class="common_p section10">
+                <div class="common_p section5">
                     <p>
                         构成锂电池组的典型连接方式有先并联后串联、先串联后并联以及混联方式。<br>
                         纯电动公交车用锂电池组通常采用先并后串的连接方式。<br>
@@ -638,7 +638,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
             <section>
                 <div class="common_title size1 section70"><h2 class="light1-5">锂电池串并联充电</h2></div>
                 <div class="link_title size2 section60"><h3>1、锂电池串联充电</h3></div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <p>
                         目前锂电池组的充电一般都采用串联充电，这主要是因为串联充电方法结构简单、成本低、较容易实现。但由于单体锂电池之间在容量、内阻、衰减特性、自放电等性能方面的差异，在对锂电池组串联充电时，电池组中容量最小的那只单体锂电池将最先充满电，而此时，其他电池还没有充满电，如果继续串联充电，则已充满电的单体锂电池就可能会被过充电。
                     </p>
@@ -648,12 +648,12 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 </div>
 
                 <div class="link_title size2 section60"><h3>2、锂电池并联充电</h3></div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <p>
                         锂电池并联充电时，每节锂电池都应保证均衡充电，否则使用过程中会影响整组锂电池的性能和寿命。常用的均衡充电技术有：恒定分流电阻均衡充电、通断分流电阻均衡充电、平均电池电压均衡充电、开关电容均衡充电、降压型变换器均衡充电、电感均衡充电等。
                     </p>
                 </div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <p><strong>锂电池并联充电需要注意几个问题：</strong></p>
 
                 </div>
@@ -664,13 +664,13 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                         <li>并联充电的电池如果没有锂电池保护板，充电电压一定要限制在4.2V，不能使用5V的充电器。</li>
                     </ul>
                 </div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <p>
                         锂电池并联后会有一个充电保护芯片对锂电池进行充电保护，锂电池生产厂家在制作并联锂电池时已经充分考虑了锂电池并联后的变化特点，也是按照上述要求进行电流设计和电芯选择的，所以，使用者需要按照并联锂电池的说明书按部就班地进行充电，避免不正确的充电对电池可能造成的损害。
                     </p>
                 </div>
                 <div class="link_title size2 section60"><h3>3、锂电池充电注意事项</h3></div>
-                <div class="common_p section30">
+                <div class="common_p section20">
                     <ul>
                         <li>锂电池必须选用专用充电器，否则可能会达不到饱和状态，影响其性能发挥。</li>
                         <li>锂电池充电前，不需要完全放电。</li>
