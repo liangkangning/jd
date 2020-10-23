@@ -369,7 +369,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 </p>
             </div>
             <div class="link_title size2 section60" id="battery-cell"><h3>1.电芯</h3></div>
-            <div class="common_p section30">
+            <div class="common_p section20">
                 <p class="small-size">
                     电芯是电池最重要的组成部分，是能量转换的载体。<br>
                     主要分为圆柱锂离子电芯、<a target="_blank" href="/lithium-ion-battery/list-146/">方形锂离子电芯</a>、<a target="_blank" href="/lithium-ion-battery/list-182/">软包聚合物电芯</a>软包聚合物电芯
@@ -377,7 +377,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
             </div>
 
             <div class="link_title size2 section60" id="pcm"><h3>2.保护板</h3></div>
-            <div class="common_p section30">
+            <div class="common_p section20">
                 <p class="small-size">
                     保护板是保护电芯正常工作，预防异常事故发生的电子功能模块。<br>
                     按数量分为单节板和多节板二类。<br>
@@ -387,14 +387,14 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 </p>
             </div>
             <div class="link_title size2 section60" id="lead-and-terminal"><h3>3.引线及端子线</h3></div>
-            <div class="common_p section30">
+            <div class="common_p section20">
                 <p class="small-size">
                     包括从#32线到#10线等各种规格及品牌的线。<br>
                     包括各类端子头。<br>
                 </p>
             </div>
             <div class="link_title size2 section60" id="battery-cases"><h3>4.外壳</h3></div>
-            <div class="common_p section30">
+            <div class="common_p section20">
                 <p class="small-size">
                     外壳是把电芯和保护板固定在一起，密封并与主机完成配合功能的壳体。<br>
                     外壳常用材料有：ABS、ABS+PC、PC等。<br>
