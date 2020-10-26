@@ -75,6 +75,8 @@ class ArticleController extends BaseController
             if ($list){
                 $this->error('违禁词：'.implode('==',$list));
             }
+            //更新文章的违禁词状态
+            ArticleHelper::updateArticleProhibitedWords();
             /* 表单数据加载、验证、数据库操作 */
             if ($this->saveRow($model, $data)) {
                 $this->success('操作成功', $this->getForward());
@@ -127,11 +129,14 @@ class ArticleController extends BaseController
             if ($list){
                 $this->error('违禁词：'.implode('==',$list));
             }
+            //更新文章的违禁词状态
+            ArticleHelper::updateArticleProhibitedWords($id);
             if ($this->saveRow($model, $data)) {
                 $this->success('操作成功', $this->getForward());
             }else{
                 $this->error('检查标题是否重复，必填内容必须填');
             }
+
         }
         /* 还原extend的数据 */
         if ($model->extend) {
