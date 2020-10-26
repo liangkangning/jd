@@ -25,7 +25,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     <p class="small-size">
                         一个典型的圆柱形电池的结构包括：外壳、盖帽、正极、负极、隔膜、电解液、PTC元件、垫圈、安全阀等。一般电池外壳为电池的负极，盖帽为电池的正极，电池外壳采用镀镍钢板。
                     </p>
-                    <div class="img section30 text-center"><img src="/static/images/column_cylindrical_1.jpg" alt="18650 Lithium Ion Battery Shrink Wrap" title="18650 Lithium Ion Battery Shrink Wrap"></div>
+                    <div class="img section60 text-center"><img src="/static/images/column_cylindrical_1.jpg" alt="18650 Lithium Ion Battery Shrink Wrap" title="18650 Lithium Ion Battery Shrink Wrap"></div>
                 </div>
 
 
