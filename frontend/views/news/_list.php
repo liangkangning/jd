@@ -4,7 +4,7 @@ $is_hot  = Yii::$app->controller->action->id=='hot'?true:false;
 <?php if (Yii::$app->params['is_img']): ?>
 <li class="col-md-12 col-sm-12 is_img">
     <div class="item">
-        <div class="img"><a href=""><img src="<?= $model->imageUrl?>" alt="<?= $model->title?>"></a></div>
+        <div class="img"><a href="<?= $model->url?>"><img src="<?= $model->imageUrl?>" alt="<?= $model->title?>"></a></div>
         <div class="text">
             <div class="title"><a class="size4-6p" href="<?= $model->url?>"><?= $model->title?></a></div>
             <div class="des line-over2 size7-3_5p"><p><?= $model->description?></p></div>
