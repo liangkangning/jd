@@ -21,7 +21,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 </div>
 
                 <div class="link_title size2 section60" id="battery-cell"><h3>2、圆柱形锂电池结构</h3></div>
-                <div class="common_p section60">
+                <div class="common_p section20">
                     <p class="small-size">
                         一个典型的圆柱形电池的结构包括：外壳、盖帽、正极、负极、隔膜、电解液、PTC元件、垫圈、安全阀等。一般电池外壳为电池的负极，盖帽为电池的正极，电池外壳采用镀镍钢板。
                     </p>
