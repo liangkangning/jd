@@ -169,7 +169,8 @@ class Article extends \common\core\BaseActiveRecord
         }
 
         //更新文章后，要更新文章的违禁词情况
-        //ArticleHelper::updateArticleProhibitedWords($insert['id']);
+        ArticleHelper::updateArticleProhibitedWords($insert['id']);
+        return true;
     }
 
 

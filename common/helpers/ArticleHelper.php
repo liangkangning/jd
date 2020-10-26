@@ -53,15 +53,18 @@ class ArticleHelper
         //如果传一个id的时候，就是更新该文章的状态
         if ($id){
             $res = ArticleHelper::prohibitedWords($id);
-            $article = Article::find()->where(['id' => $id])->one();
+            //$article = Article::find()->where(['id' => $id])->one();
+            $prohibite_words_status = "";
+            $prohibite_words = "";
             if ($res){
-                $article->prohibite_words_status = 1;
-                $article->prohibite_words = implode(',', $res);
+                $prohibite_words_status = 1;
+                $prohibite_words = implode(',', $res);
             }else{
-                $article->prohibite_words_status = -1;
-                $article->prohibite_words = '';
+                $prohibite_words_status = -1;
+                $prohibite_words = '';
             }
-            $article->save();
+            $command = Yii::$app->db->createCommand('UPDATE yii2_article SET prohibite_words_status='.$prohibite_words_status.', prohibite_words = "'.  $prohibite_words.'" WHERE id='.$id);
+            $command->execute();
 
         }else{
             $list = Article::find()->where(['prohibite_words_status'=>0])->limit(200)->select("id")->all();
