@@ -81,8 +81,8 @@ class ArticleHelper
                     $command->execute();
                 }
 
-                dump($item['id']);
-                echo "<br>";
+//                dump($item['id']);
+//                echo "<br>";
 
             }
         }
