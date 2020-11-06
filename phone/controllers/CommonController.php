@@ -104,12 +104,11 @@ class CommonController extends Controller
         
         $url=Yii::$app->request->hostInfo.Yii::$app->request->url;
         $url=str_replace("/mip","",$url);
-        //处理分页和排序的问题
         if (strstr($url,"-o")){
             $res = explode("-o", $url);
             $url = $res[0] . ".html";
-        }elseif (strstr("-p",$url)){
-            $res = explode( $url,"-p");
+        }elseif (strstr($url,"-p")){
+            $res = explode("-p",$url);
             $url = $res[0] . ".html";
         }
         $urlad=Urlad::find()->where(['url'=>$url])->one();
