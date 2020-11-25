@@ -1,1 +1,1 @@
-<section>    <div class="beian">        <p>            <a href="/keywords/">产品分类</a> 粤ICP备07049936号-3<br />            2018 东莞市钜大电子有限公司  版权所有        </p>    </div></section><div class="foot_height"></div>
+<section>    <div class="beian">        <p>            <a href="/keywords/">产品分类</a> 粤ICP备07049936号-3<br />            2018 东莞市钜大电子有限公司  版权所有        </p>    </div></section><div class="foot_height"></div>

@@ -215,7 +215,7 @@ header .back a i{font-size: 1rem}
 .beian p a{font-weight: bold;}
 footer{overflow: hidden}
 footer .foot_nav{background-color: #231915;overflow: hidden;position: fixed;bottom: 0px;width: 100%;}
-footer .foot_nav ul{overflow: hidden;padding: 0.67rem 0;}
+footer .foot_nav ul{overflow: hidden;padding: 7px 0px;}
 footer .foot_nav ul li{}
 footer .foot_nav ul li .item{text-align: center;}
 footer .foot_nav ul li .item a{width: 2rem;display: inline-block}
@@ -1110,3 +1110,16 @@ img.rsImg {
     text-align: center;
     border-radius: 0.167rem;}
 .keywords_index .tuijian_product .list ul li .item a{    font-size: 0.9rem;}
+.contact .text{margin-top: 20px}
+.contact .text p {font-size: 14px;line-height:2;}
+
+.bottom_info{margin-top: 30px;    width: 100%;background-color: #F5F5F6;text-align: center;padding:20px 0}
+.bottom_info .row{}
+.bottom_info .row .category{color:#717071;border-right: 1px solid #717071;text-align: right;font-size: 14px;padding-right: 5px;line-height:1}
+.bottom_info .tel{width: 100%;text-align: center;padding-left: 10px;}
+.bottom_info .tel .ico{float: left;padding-right: 5px}
+.bottom_info .tel .ico img{width: 15px;}
+.bottom_info .tel .num{color: #FA9600;float: left;font-size: 12px;line-height: 1.3}
+.bottom_info .company_info{margin-top: 5px}
+.bottom_info .company_info p{font-size: 14px;width: 100%;color:#717071;}
+

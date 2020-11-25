@@ -116,6 +116,12 @@ return [
                 ['pattern'=>'<controller:(keywords)>/<id:\w+>','route'=>'<controller>/item','suffix'=>'/'],
                 ['pattern'=>'mip/<controller:(keywords)>/<id:\w+>','route'=>'<controller>/item','suffix'=>'/'],
                 ['pattern'=>'<controller:(keywords)>/<id:\w+>/list-<list:.+>-p<page:\d+>','route'=>'<controller>/index','suffix'=>'.html'],
+                [
+                    'pattern' => 'contact',//首页、产品频道/列表、keywords聚合页、研发、关于钜大等，文章列表除外
+                    'route' => 'about/contact',
+                    'suffix' => '/',
+                ],
+
 
 
                 [

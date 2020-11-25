@@ -114,7 +114,7 @@ class KeywordsController extends CommonController
             $product_list=Images::find()
                 ->where(['id'=>$array_id_s])
                 ->andWhere(['status'=>1])
-                ->orderBy(['create_time'=>SORT_DESC]);
+                ->orderBy(['top'=>SORT_DESC,'create_time'=>SORT_DESC]);
 
             $title =   $keyw['title'].'【钜大锂电】' ;
             $keywords = $keyw['keyword'].','.$keyw['longword1'].','.$keyw['longword2'];

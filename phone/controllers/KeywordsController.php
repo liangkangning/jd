@@ -113,7 +113,8 @@ class KeywordsController extends CommonController
             }
             $product_list=Images::find()
                 ->where(['id'=>$array_id_s])
-                ->orderBy([new \yii\db\Expression('FIELD (id, ' . ArrayHelper::array2string($array_id_s,',') . ')')]);
+                ->orderBy(['top'=>SORT_DESC,'create_time'=>SORT_DESC]);
+                //->orderBy([new \yii\db\Expression('FIELD (id, ' . ArrayHelper::array2string($array_id_s,',') . ')')]);
 
             $title =   $keyw['title'].'【钜大锂电】' ;
             $keywords = $keyw['keyword'].','.$keyw['longword1'].','.$keyw['longword2'];
