@@ -103,7 +103,7 @@
                                 <div class="img2"><img src="<?=Yii::getAlias('@web/static/mobil_images/licheng_jiantou2.png')?>" alt="" /></div>
                             </div>
                             <div class="right">
-                                <div class="title">2017</div>
+                                <div class="title">2017-2019</div>
                                 <div class="text">
                                     <dl><p><span></span>建立特种锂离子电池工程研究院</p></dl>
                                     <dl><p><span></span>通过UL认证证书</p></dl>
