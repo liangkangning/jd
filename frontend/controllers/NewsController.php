@@ -258,6 +258,7 @@ class NewsController extends CommonController
             }else{
                 Yii::$app->params['zhuti-display'] = false;
             }
+            Yii::$app->params['zhuti-display'] = true;//默认显示特殊文章（英文站的那种大文章）
 //             var_dump($item);
             Yii::$app->params['breadcrumbs']=array();
             Yii::$app->params['breadcrumbs'][]=Html::tag('a',"首页",['href'=>Yii::$app->homeUrl]);//面包屑
