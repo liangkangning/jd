@@ -116,20 +116,6 @@
             </div>
         </div>
     </div>
-    <div class="call_us">
-        <div class="common_title">
-            <div class="h2">联系我们</div>
-            <div class="bottom_img"><img src="<?=Yii::getAlias('@web/static/mobil_images/common_title_bottom.jpg')?>"> </div>
-        </div>
-        <div class="content commom_padding_l_r">
-            <div class="p"><p>地址：东莞市南城区宏图路高盛科技园A栋、B栋 <br />
-                    热线：400-666-3615（免长途）<br />
-                    电话：86-769-26983348<br />
-                    网址：www.juda.cn<br />
-                    邮箱：market@juda.cn
-                </p></div>
-            <div class="img"><img src="<?=Yii::getAlias('@web/static/mobil_images/erweima.png')?>" alt="微信二维码" title="微信二维码"/></div>
-        </div>
-    </div>
+
 </div>
 		

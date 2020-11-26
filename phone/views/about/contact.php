@@ -4,7 +4,7 @@
     </div>
     <div class="gongsjianjie">
         <div class="common_title">
-            <div class="h2"></div>
+            <div class="h2">联系我们</div>
             <div class="bottom_img"><img src="<?=Yii::getAlias('@web/static/mobil_images/common_title_bottom.jpg')?>"> </div>
         </div>
         <div class="title text-center">
