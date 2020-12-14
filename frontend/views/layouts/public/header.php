@@ -16,10 +16,17 @@
                    <li><a href="/contact/">联系我们</a></li>
 
                </div>
+
                <div class="en">
-                   <a href="https://www.large.net/">EN
-                       <span class="caret"></span>
-                   </a>
+                   <div class="dropdown">
+                       <a class="zhu_lang" href="/">简体中文
+                           <span class="caret"></span>
+                       </a>
+                       <ul class="dropdown-menu" aria-labelledby="dLabel">
+                           <li><a href="https://www.large.net">English</a></li>
+                           <span class="menu-arrow"> <em></em> </span>
+                       </ul>
+                   </div>
                </div>
            </div>
         </div>
