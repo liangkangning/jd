@@ -24,7 +24,6 @@
                        </a>
                        <ul class="dropdown-menu" aria-labelledby="dLabel">
                            <li><a href="https://www.large.net">English</a></li>
-                           <span class="menu-arrow"> <em></em> </span>
                        </ul>
                    </div>
                </div>
