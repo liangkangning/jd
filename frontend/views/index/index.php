@@ -344,7 +344,7 @@ use \yii\helpers\Html;
                 <div class="item">
                     <div class="ico"><a href="http://j.map.baidu.com/R7jAL" target="_blank" rel="nofollow"><img src="/assets/images/index_bottom_ico_1.png" alt="查看位置"></a></div>
                     <div class="title "><a href="http://j.map.baidu.com/R7jAL" class="size6-4p color_b1" target="_blank" rel="nofollow">查看位置</a></div>
-                    <div class="text"><p>东莞市南城区周溪隆溪路5号高盛科技园A栋、B栋</p></div>
+                    <div class="text"><p>广东省东莞市东城街道景怡路8号</p></div>
                 </div>
             </li>
             <li class="col-md-4">
