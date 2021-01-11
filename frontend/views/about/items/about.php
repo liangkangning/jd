@@ -1,9 +1,10 @@
 <div class="part container jianjie ">
     <div class="img"><img src="/assets/images/about_jianjie_1.jpg" alt=""></div>
     <div class="text">
-        <p>东莞市钜大电子有限公司成立于2002年，总部位于中国广东省东莞市南城区高盛科技园，是一家为全球用户在<br>
-            <span class="size4-6p">移动电源、储能电源、动力电源</span><br>
-            和备用电源的个性化需求，提供特种锂电系统定制化方案和产品的国家级高新技术企业。</p>
+        <p>东莞市钜大电子有限公司成立于2002年，<br>
+            是一家为全球用户提供<span class="size4-6p">超可靠·超安全的特种锂电系统定制化方案和产品</span>的国家级高新技术企业
+        </p>
+
     </div>
     <div class="img"><img src="/assets/images/about_jianjie_2.jpg" alt=""></div>
     <div class="text">

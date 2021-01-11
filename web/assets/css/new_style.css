@@ -2038,6 +2038,15 @@ header .open .search_form .input-wrap .close{opacity:1}
     background: none;
 }
 
+.about-index .main .main-content .wenhua{}
+.about-index .main .main-content .wenhua .myself_top{margin-top: 120px;}
+.about-index .main .main-content .wenhua .content{padding: 0 108px;overflow: hidden}
+.about-index .main .main-content .wenhua .content .img{width: 352px;float: left;height: 387px;}
+.about-index .main .main-content .wenhua .content .text{width: 526px;height:387px;float: left;position: relative}
+.about-index .main .main-content .wenhua .content .text .pp{text-align: left;width: 100%;position: absolute;   top: 50%;
+    transform: translateY(-50%);}
+.about-index .main .main-content .wenhua .content .middle_content{width: 106px;height: 300px;overflow: hidden;float: left}
+
 /*人才招聘*/
 .about-index .main .main-content .job .widht-margin{  width: 1000px;margin: 0 auto;overflow: visible;}
 .about-index .main .main-content .job .content{}
