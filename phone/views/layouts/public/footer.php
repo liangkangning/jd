@@ -1,1 +1,1 @@
-<section>    <div class="beian">        <p>            <a href="/keywords/">产品分类</a> 粤ICP备07049936号<br />            2018 东莞市钜大电子有限公司  版权所有        </p>    </div></section><div class="foot_height"></div>
+<section>    <div class="beian">        <p>            <a href="/keywords/">产品分类</a> <a href="https://beian.miit.gov.cn/" target="_blank" rel="nofollow">粤ICP备07049936号</a><br />            2018 东莞市钜大电子有限公司  版权所有        </p>    </div></section><div class="foot_height"></div>
