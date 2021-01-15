@@ -37,6 +37,9 @@ class FuncHelper
      * ---------------------------------------
      */
     public static function parse_field_attr($string) {
+        if (empty($string)){
+            return "";
+        }
         if(0 === strpos($string,':')){
             // 采用函数定义
             return eval(substr($string,1).';');
