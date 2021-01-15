@@ -33,6 +33,9 @@ em, i, u{font-style: normal;}
 .color_juhewu {
     background-color: #fbebe1;
 }
+.color_tzcell{
+    background-color: #EAEDE8;
+}
 .size-16p {
     font-size: 54px;
 }
@@ -1021,6 +1024,25 @@ header .open .search_form .input-wrap .close{opacity:1}
 .index .location_tel li.active .item .erweima {
     left: 168px;
 }
+
+.index .index_yingyong .list ul {
+    margin-left: -30px;
+    overflow: hidden;
+}
+.index .index_yingyong .list ul li {
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+.index .index_yingyong .list li {
+    cursor: pointer;
+}
+.index .index_yingyong .list li .item {
+    overflow: hidden;
+}
+.index .index_yingyong .list li .item .text{
+    text-align: center;background-color: #F5F5F6;padding: 30px 0;
+}
+.index .index_yingyong .list li .item .text .ico{margin-bottom: 20px}
 .tabswitch-title-info {
     font-size: 32px;
     color: #212121;
@@ -1242,6 +1264,84 @@ header .open .search_form .input-wrap .close{opacity:1}
     height: 65px;
 }
 .category-index .part .list .text a {
+    display: -webkit-box;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-height: 1.8;
+}
+
+
+.tzcell-index{}
+.tzcell-index .part:last-child{padding-bottom: 80px;}
+.tzcell-index .part {
+    padding: 45px 0 0 0;
+}
+.tzcell-index .part .title {
+    width: 100%;
+    overflow: hidden;
+}
+.tzcell-index .part .title h2 {
+    font-size: 24px;
+    color: #212121;
+}
+
+.tzcell-index .part .top-part {
+    margin-bottom: 15px;
+
+}
+.tzcell-index .part .right-part {
+    width: 100%;
+}
+.tzcell-index .part .list ul {
+    margin-left: -15px;
+    overflow: hidden;
+}
+.tzcell-index .part .list ul li {
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+.tzcell-index .part .list .item {
+    padding: 9px 0 20px 0;
+    background-color: #EEEEEE;
+    text-align: center;
+    overflow: hidden;
+    background-color: #ffffff;
+    padding: 0 0 20px 0;
+}
+.tzcell-index .part .list .item img {
+    transition: all 0.6s;
+}
+.tzcell-index .part .list .item:hover img {
+    transform: scale(1.1);
+}
+.tzcell-index .part .list .item .img img {
+    width: 90%;
+    margin: 0 auto;
+}
+.tzcell-index .part .list .item .title {
+    margin-bottom: 5px;
+}
+.tzcell-index .part .list .item .title a {
+    color: #212121;
+    font-size: 24px;
+}
+.tzcell-index .part .list .item .sub_title {
+    margin-bottom: 15px;
+}
+.tzcell-index .part .list .item .sub_title a {
+    color: #717070;
+    font-size: 20px;
+}
+.tzcell-index .part .list .text {
+    overflow: hidden;
+    width: 100%;
+    padding: 0 10px;
+    height: 65px;
+}
+.tzcell-index .part .list .text a {
     display: -webkit-box;
     word-break: break-all;
     text-overflow: ellipsis;
@@ -3476,5 +3576,23 @@ footer .erweima .text{color: #B4B5B5;text-align: center;margin-top: 22px;line-he
 .new_index_2020 .left_right .part:nth-child(odd){padding-right: 55px;}/*奇数行*/
 .new_index_2020 .left_right .part:nth-child(even){padding-left: 55px;}/*偶数行*/
 
+/*钜大创新技术*/
+.chuanxin_jishu{}
+.chuanxin_jishu .title{font-size: 24px;color: #212121;margin-bottom: 24px;margin-top: 3px;line-height: 1;}
+.chuanxin_jishu .content{}
+.chuanxin_jishu .content .color_1{background-color: #E8F0F4}
+.chuanxin_jishu .content .color_2{background-color: #E6E9ED}
+.chuanxin_jishu .content .color_3{background-color: #FBEEE4}
+.chuanxin_jishu .content .part1{height: 238px;overflow: hidden}
+.chuanxin_jishu .content .part1 .part1_right{padding-left: 15px;}
+.chuanxin_jishu .content .part1 .part1_right .min_part{padding-top: 36px;}
 
+.chuanxin_jishu .content .part2{margin-top: 15px;height: 238px;overflow: hidden}
+.chuanxin_jishu .content .min_part{padding: 48px 37px }
+.chuanxin_jishu .content .item{line-height: 2;padding: 0 20px;}
+.chuanxin_jishu .content .item:first-child{padding-left: 0}
+.chuanxin_jishu .content .item:last-child{padding-right: 0}
+.chuanxin_jishu .content .item .item_title b,.chuanxin_jishu .content .item .item_title a{font-size: 24px;color: #5E6932}
+.chuanxin_jishu .content .item .item_sub_title{ font-size: 16px;}
+.chuanxin_jishu .content .item .item_text{ font-size: 16px;}
 

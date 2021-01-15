@@ -2,6 +2,7 @@
 
 namespace backend\controllers;
 
+use common\helpers\FuncHelper;
 use common\helpers\TijiaoHelper;
 use Yii;
 use backend\models\Images;
