@@ -17,19 +17,19 @@ class IndexController extends CommonController
      * @var string
      */
     public $layout = 'main';
-    public function behaviors()
-    {
-        return [
-            [
-                'class' => 'yii\filters\PageCache',
-                'duration' => 1200,
-                'variations' => [
-                    \Yii::$app->language,
-                ],
-
-            ],
-        ];
-    }
+//    public function behaviors()
+//    {
+//        return [
+//            [
+//                'class' => 'yii\filters\PageCache',
+//                'duration' => 1200,
+//                'variations' => [
+//                    \Yii::$app->language,
+//                ],
+//
+//            ],
+//        ];
+//    }
     public function actionIndex()
     {
 
@@ -83,7 +83,7 @@ class IndexController extends CommonController
 
 
         //首页特种 动力 工业 案例
-        $list_name = ['index-tezhong'=>'images','index-dongli'=>'images','index-gongye'=>'images','index-case'=>'news'];
+        $list_name = ['index-tzcell'=>'images','index-tezhong'=>'images','index-dongli'=>'images','index-gongye'=>'images','index-case'=>'news'];
         foreach ($list_name as $name=>$type){
             $list = [];
             if (Yii::$app->params["web"][$name]){

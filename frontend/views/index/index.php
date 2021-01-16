@@ -26,6 +26,38 @@ use \yii\helpers\Html;
     <section class="section container index-tezhong">
         <div class="tabswitch-title">
             <div class="longline"></div>
+            <div class="tabswitch-title-info"><h2>特种电芯</h2></div>
+        </div>
+        <div class="index-nav-min nav-list section80">
+            <ul>
+                <li class=""><div class="item"><a href="#">低温18650电芯</a></div></li>
+                <li class=""><div class="item"><a href="#">低温聚合物电芯</a></div></li>
+                <li class=""><div class="item"><a href="#">特种26650电芯</a></div></li>
+                <li class=""><div class="item"><a href="#">防爆电芯</a></div></li>
+            </ul>
+        </div>
+        <div class="nav-product-list section">
+            <?php foreach (Yii::$app->params['index-tzcell'] as $key=>$value):?>
+                <div class="list product_common <?= $key>0?'none':'' ?>">
+                    <ul>
+                        <?php foreach ($value as $k=>$v):?>
+                            <li class="col-md-3">
+                                <div class="item">
+                                    <div class="img"><a href="<?= $v['url']?>"><img src="<?= $v['imageUrl']?>" alt="<?= $v['title']?>" title="<?= $v['title']?>"></a></div>
+                                    <div class="title"><a href="<?= $v['url']?>"><?= $v['h1']?></a></div>
+                                    <div class="sub_title"><a href="<?= $v['url']?>"><?= $v['h2']?></a></div>
+                                </div>
+                            </li>
+                        <?php endforeach;?>
+                    </ul>
+                </div>
+            <?php endforeach;?>
+        </div>
+    </section>
+
+    <section class="section container index-tezhong">
+        <div class="tabswitch-title">
+            <div class="longline"></div>
             <div class="tabswitch-title-info"><h2>特种锂电池</h2></div>
         </div>
         <div class="index-nav-min nav-list section80">
@@ -54,37 +86,7 @@ use \yii\helpers\Html;
             <?php endforeach;?>
         </div>
     </section>
-    <section class="section container index-cuneng">
-        <div class="tabswitch-title">
-            <div class="longline"></div>
-            <div class="tabswitch-title-info"><h2>动力/储能电池</h2></div>
-        </div>
-        <div class="index-nav-min nav-list section80">
-            <ul>
-                <li class=""><div class="item"><a href="/lilizi/list-11.html">12V锂电池</a></div></li>
-                <li class=""><div class="item"><a href="/lilizi/list-12.html">24V锂电池</a></div></li>
-                <li class=""><div class="item"><a href="/lilizi/list-13.html">36V锂电池</a></div></li>
-                <li class=""><div class="item"><a href="/lilizi/list-14.html">48V锂电池</a></div></li>
-            </ul>
-        </div>
-        <div class="nav-product-list section">
-            <?php foreach (Yii::$app->params['index-dongli'] as $key=>$value):?>
-                <div class="list product_common <?= $key>0?'none':'' ?>">
-                    <ul>
-                        <?php foreach ($value as $k=>$v):?>
-                            <li class="col-md-3">
-                                <div class="item">
-                                    <div class="img"><a href="<?= $v['url']?>"><img src="<?= $v['imageUrl']?>" alt="<?= $v['title']?>" title="<?= $v['title']?>"></a></div>
-                                    <div class="title"><a href="<?= $v['url']?>"><?= $v['h1']?></a></div>
-                                    <div class="sub_title"><a href="<?= $v['url']?>"><?= $v['h2']?></a></div>
-                                </div>
-                            </li>
-                        <?php endforeach;?>
-                    </ul>
-                </div>
-            <?php endforeach;?>
-        </div>
-    </section>
+
     <section class="section container index-gongye">
         <div class="tabswitch-title">
             <div class="longline"></div>
@@ -121,66 +123,51 @@ use \yii\helpers\Html;
 
     <?php $this->beginContent('@app/views/layouts/public/ad_getiao.php'); ?>
     <?php $this->endContent(); ?>
-    
-    <section class="section container index-anli">
+
+
+    <?php
+    $yingyong = [["title"=>"特种设备","url"=>"/lilizi/list-82.html"],
+        ["title"=>"航空航天","url"=>  "/lilizi/list-84.html"],
+        ["title"=>"舰艇船舶","url"=>  "/lilizi/list-83.html"],
+        ["title"=>"极地科考","url"=>  "/diwen/"],
+        ["title"=>"医疗设备","url"=>  "/lilizi/list-88.html"],
+        ["title"=>"安防通讯","url"=>  "/lilizi/list-90.html"],
+        ]
+    ?>
+    <section class="section container index_yingyong">
         <div class="tabswitch-title">
             <div class="longline"></div>
-            <div class="tabswitch-title-info"><h2>定制案例</h2></div>
+            <div class="tabswitch-title-info"><h2>应用领域</h2></div>
         </div>
-        <div class="index-nav-min nav-list section80">
+        <div class="list section40">
             <ul>
-                <li class=""><div class="item"><a href="/news/junjing.html">特种设备电池</a></div></li>
-                <li class=""><div class="item"><a href="/news/yiliao.html">医疗设备电池</a></div></li>
-                <li class=""><div class="item"><a href="/news/kantan.html">勘探测绘电池</a></div></li>
-                <li class=""><div class="item"><a href="/news/shouchi.html">手持设备电池</a></div></li>
-            </ul>
-        </div>
-        <div class="case-list section">
-        <?php foreach (Yii::$app->params['index-case'] as $key=>$value):?>
-            <ul class="<?= $key>0?'none':'' ?>">
-                <?php foreach ($value as $k=>$v):?>
-                <li class="col-md-4">
-                    <div class="item to_black">
-                        <div class="img">
-                            <a href="<?= $v['url']?>">
-                                <img src="<?= $v['imageUrl']?>" alt="<?=$v['title']?>" title="<?=$v['title']?>">
-                                <div class="bg_pic">
-                                    <img src="/assets/images/case_bg.png" alt="">
-                                </div>
-                            </a>
-
+                <?php foreach ($yingyong as $k=>$v):?>
+                    <li class="col-md-4">
+                        <div class="item">
+                            <div class="img"><a href="<?=$v['url']?>"><img src="/assets/images/index_yinyong_<?=$k+1?>.jpg" alt="<?=$v['title']?>" title="<?=$v['title']?>"></a></div>
                             <div class="text">
-                                <a href="<?= $v['url']?>"><?= count($v['indexTitles'])<=0?'':$v['indexTitles'][0]?></a><br>
-                                <a href="<?= $v['url']?>"><?= count($v['indexTitles'])<=1?'':$v['indexTitles'][1]?></a>
+                                <div class="ico"><a href="<?=$v['url']?>"><img src="/assets/images/index_yinyong_ico_<?=$k+1?>.png" alt="<?=$v['title']?>"></a></div>
+                                <div class="a size4-6p"><a href="<?=$v['url']?>"><?=$v['title']?></a></div>
                             </div>
-                            <div class="arrow img"><img src="/assets/images/arrow.png" alt=""></div>
                         </div>
-                    </div>
-                </li>
+                    </li>
                 <?php endforeach;?>
             </ul>
-        <?php endforeach;?>
         </div>
+
     </section>
 
-    <section class="section video_index">
-        <div class="content container">
-            <div class="text-center">
-                <div class="title size1-9p"><h2>品牌故事</h2></div>
-                <div class="p size5-5p section45">
-                    十八年来，我们一直专注锂电池定制。因为专注，所以专业。<br>
-                    公司累计完成5000+成功案例，超过1亿套锂电模组交付。钜大相信，一定能给您带来"超可靠·超安全"的品质服务。
-                </div>
-            </div>
-            <div class="video section40">
-                <video width="1200" height="675" controls="controls" poster="/assets/images/video_pic.jpg"  id="video" muted loop="loop">
-                    <source src="http://images.juda.cn/image/video/slogan.mp4" type="video/mp4">
-                    <source src="movie.ogg" type="video/ogg">
-                    您的浏览器不支持Video标签。
-                </video>
-            </div>
+
+    <section class="section container index-kehu">
+        <div class="tabswitch-title">
+            <div class="longline"></div>
+            <div class="tabswitch-title-info"><h2>我们的客户</h2></div>
         </div>
+        <div class="img section"><img src="/assets/images/index_kehu.jpg" alt=""></div>
     </section>
+
+
+
     <section class="section shili">
         <div class="container">
             <div class="tabswitch-title">
@@ -279,22 +266,23 @@ use \yii\helpers\Html;
 
     </section>
 
-    <section class="section index-zhiliang">
-        <div class="container">
-            <div class="tabswitch-title">
-                <div class="longline"></div>
-                <div class="tabswitch-title-info"><h2>产品质量与安全</h2></div>
+    <section class="section video_index">
+        <div class="content container">
+            <div class="text-center">
+                <div class="title size1-9p"><h2>品牌故事</h2></div>
+                <div class="p size5-5p section45">
+                    十八年来，我们一直专注锂电池定制。因为专注，所以专业。<br>
+                    公司累计完成5000+成功案例，超过1亿套锂电模组交付。钜大相信，一定能给您带来"超可靠·超安全"的品质服务。
+                </div>
+            </div>
+            <div class="video section40">
+                <video width="1200" height="675" controls="controls" poster="/assets/images/video_pic.jpg"  id="video" muted loop="loop">
+                    <source src="http://images.juda.cn/image/video/slogan.mp4" type="video/mp4">
+                    <source src="movie.ogg" type="video/ogg">
+                    您的浏览器不支持Video标签。
+                </video>
             </div>
         </div>
-        <div class="img section90"><img src="/assets/images/54.jpg" alt=""></div>
-    </section>
-
-    <section class="section container index-kehu">
-        <div class="tabswitch-title">
-            <div class="longline"></div>
-            <div class="tabswitch-title-info"><h2>我们的客户</h2></div>
-        </div>
-        <div class="img section"><img src="/assets/images/55.png" alt=""></div>
     </section>
 
     <section class="section container news">

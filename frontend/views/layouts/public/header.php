@@ -122,6 +122,9 @@
                             <li>
                                 <div class="item"><a href="<?= Yii::$app->homeUrl;?>">首页</a></div>
                             </li>
+                            <li>
+                                <div class="item"><a href="/tzcell/">特种电芯</a></div>
+                            </li>
                             <li class="active">
                                 <div class="item"><a href="/special/">特种电池</a></div>
                                 <div class="item_list">

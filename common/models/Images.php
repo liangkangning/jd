@@ -2,6 +2,8 @@
 
 namespace common\models;
 
+use common\helpers\FuncHelper;
+use common\helpers\Html;
 use Yii;
 use yii\behaviors\TimestampBehavior;
 use yii\db\ActiveRecord;
@@ -180,6 +182,12 @@ class Images extends \yii\db\ActiveRecord
     }
     public function getAttrImagesSelect(){
         return $this->hasMany(AttrImagesSelect::className(), ['images_id' => 'id']);
+    }
+
+    public function getExtendText(){
+        $tmp = unserialize($this->extend);
+
+        return $tmp;
     }
 
     public function getUrl(){
