@@ -378,7 +378,11 @@ class CommonController extends Controller
 
         $product_list=Images::find()
 
-            ->where(['id'=>$products_id_array])
+            ->where(["or",
+                    ['id'=>$products_id_array],
+                    ['category_id2'=>$id]
+                ]
+            )
 
             ->andWhere($where)
 
