@@ -17,7 +17,7 @@ if ($controller_name=="news"||$controller_name=="product" || $controller_name=="
     ];
     $news_nav_tuijian = $news_list;
 
-}elseif ($controller_name=="licheng"){
+}elseif (in_array($controller_name,["licheng","make","jishu","shiyanshi","zhizao","about","wenhua","zizhi","contact","job"])){
     unset($news_nav_tuijian['related']);
 }else{
     unset($news_nav_tuijian['company']);

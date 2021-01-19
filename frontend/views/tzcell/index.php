@@ -25,7 +25,8 @@
                                     <li class="col-md-4">
                                         <div class="item">
                                             <div class="img"><a href="<?=$value['url'] ?>"><img src="<?=$value['imageUrl'] ?>" alt="<?=$value['title'] ?>" title="<?=$value['title'] ?>"></a></div>
-                                            <div class="text"><a href="<?= $value['url'] ?>"><?=$value['title'] ?></a></div>
+                                            <div class="title"><a href="<?= $value['url']?>"><?= $value['h1']?></a></div>
+                                            <div class="sub_title"><a href="<?= $value['url']?>"><?= $value['h2']?></a></div>
                                         </div>
                                     </li>
                                 <?php endforeach;?>

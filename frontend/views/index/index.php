@@ -30,10 +30,10 @@ use \yii\helpers\Html;
         </div>
         <div class="index-nav-min nav-list section80">
             <ul>
-                <li class=""><div class="item"><a href="#">低温18650电芯</a></div></li>
-                <li class=""><div class="item"><a href="#">低温聚合物电芯</a></div></li>
-                <li class=""><div class="item"><a href="#">特种26650电芯</a></div></li>
-                <li class=""><div class="item"><a href="#">防爆电芯</a></div></li>
+                <li class=""><div class="item"><a href="/tzcell/">低温18650电芯</a></div></li>
+                <li class=""><div class="item"><a href="/tzcell/">低温聚合物电芯</a></div></li>
+                <li class=""><div class="item"><a href="/tzcell/">特种26650电芯</a></div></li>
+                <li class=""><div class="item"><a href="/tzcell/">防爆电芯</a></div></li>
             </ul>
         </div>
         <div class="nav-product-list section">
