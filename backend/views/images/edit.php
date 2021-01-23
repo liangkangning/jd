@@ -117,6 +117,7 @@ $data_attr=\common\models\Attr::find()->all();
         <?=$form->field($model, 'tags')->textInput(['class'=>'form-control c-md-3'])->label('标签')->hint('"|"号分开')?>
 
         <?=$form->field($model, 'extend')->textarea(['class'=>'form-control c-md-4', 'rows'=>7])->label('产品详情页右侧显示的属性')->hint('电芯 充电器 电源这三类只填这一字段') ?>
+        <?=$form->field($model, 'extend_more')->textarea(['class'=>'form-control c-md-4', 'rows'=>7])->label('更多拓展')->hint('目前用于电源页面，第一行产品的描述') ?>
 
         <?=$form->field($model, 'bianhao')->textInput(['class'=>'form-control c-md-3'])->label('产品编号')->hint('')?>
         <?=$form->field($model, 'dianya')->textInput(['class'=>'form-control c-md-3'])->label('标称电压')->hint('单位:V')?>

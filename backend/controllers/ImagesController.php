@@ -99,6 +99,7 @@ class ImagesController extends BaseController
             //处理属性标签数组--end
 			$data['np']=empty($data['np'])?'':join(',',$data['np']);
     		//$data['create_time'] = time();
+
     		/* 格式化extend值，为空或数组序列化 */
     		if (isset($data['extend'])) {
     			$tmp = FuncHelper::parse_field_attr($data['extend']);
@@ -108,6 +109,16 @@ class ImagesController extends BaseController
     				$data['extend'] = '';
     			}
     		}
+
+            /* 格式化extend_more值，为空或数组序列化 */
+            if (isset($data['extend_more'])) {
+                $tmp = FuncHelper::parse_field_attr($data['extend_more']);
+                if (is_array($tmp)) {
+                    $data['extend_more'] = serialize($tmp);
+                }else{
+                    $data['extend_more'] = '';
+                }
+            }
     		/* 将图组转化为字符串 */
     		if (isset($data['images']) && is_array($data['images'])) {
     			$data['images'] = array_values(array_flip(array_flip($data['images'])));
@@ -182,6 +193,7 @@ class ImagesController extends BaseController
             $data['np']=empty($data['np'])?'':join(',',$data['np']);
             //$data['update_time'] = time();
             $data['type'] = Yii::$app->request->get('type',1);
+
             /* 格式化extend值，为空或数组序列化 */
             if (isset($data['extend'])) {
                 $tmp = FuncHelper::parse_field_attr($data['extend']);
@@ -191,6 +203,17 @@ class ImagesController extends BaseController
                     $data['extend'] = '';
                 }
             }
+
+            /* 格式化extend值，为空或数组序列化 */
+            if (isset($data['extend_more'])) {
+                $tmp = FuncHelper::parse_field_attr($data['extend_more']);
+                if (is_array($tmp)) {
+                    $data['extend_more'] = serialize($tmp);
+                }else{
+                    $data['extend_more'] = '';
+                }
+            }
+
             /* 将图组转化为字符串 */
             if (isset($data['images']) && is_array($data['images'])) {
                 $data['images'] = array_values(array_flip(array_flip($data['images'])));

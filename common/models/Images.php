@@ -22,6 +22,7 @@ use yii\db\ActiveRecord;
  * @property string $content
  * @property string $images
  * @property string $extend
+ * @property string $extend_more
  * @property integer $sort
  * @property integer $create_time
  * @property integer $update_time
@@ -74,7 +75,7 @@ class Images extends \yii\db\ActiveRecord
     {
         return [
             [['title','seo_title'],'unique'],
-            [['content', 'extend'], 'string'],
+            [['content', 'extend','extend_more'], 'string'],
             [['sort', 'create_time', 'update_time', 'status','top', 'click','oldid'], 'integer'],
             [['dianya', 'rongliang'], 'number'],
             [['category_id', 'attr_value_id', 'cover', 'description', 'images', 'tags', 'keywords', 'np','seo_title'], 'string', 'max' => 255],
@@ -103,6 +104,7 @@ class Images extends \yii\db\ActiveRecord
             'content' => 'Content',
             'images' => 'Images',
             'extend' => 'Extend',
+            'extend' => 'Extend More',
             'sort' => 'Sort',
             'create_time' => 'Create Time',
             'update_time' => 'Update Time',
