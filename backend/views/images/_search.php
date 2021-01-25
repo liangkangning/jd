@@ -27,7 +27,7 @@ use yii\db\Query;
     $row=(new Query())->select(['uid'])->from('yii2_user')->all();
 //     var_dump($row);
     ?>
-    <?=$form->field($model, 'category_id')->dropDownList(ArrayHelper::listDataLevel(\backend\models\Category::find()->asArray()->all(), 'id', 'title','id','pid'),['prompt'=>'请选择'],['class'=>'form-control'])->label('分类'); ?>
+    <?=$form->field($model, 'category_id2')->dropDownList(ArrayHelper::listDataLevel(\backend\models\Category::find()->asArray()->all(), 'id', 'title','id','pid'),['prompt'=>'请选择'],['class'=>'form-control'])->label('分类'); ?>
     </div>
     <div class="col-md-2">
     <?= $form->field($model, 'title')->textInput()->label('标题') ?>
