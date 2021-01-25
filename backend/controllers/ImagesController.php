@@ -240,6 +240,18 @@ class ImagesController extends BaseController
             $model->extend = $_str;
         }
 
+        /* 还原extend的数据 */
+        if ($model->extend_more) {
+            $_tmp = unserialize($model->extend_more);
+            $_str = '';
+            if ($_tmp && is_array($_tmp)) {
+                foreach ($_tmp as $key => $value) {
+                    $_str .= $key.':'.$value.',';
+                }
+            }
+            $model->extend_more = $_str;
+        }
+
         /* 渲染模板 */
         return $this->render('edit', [
             'model' => $model,
