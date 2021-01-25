@@ -1,3 +1,6 @@
 <section class="section container">
-    <div class="getiao_adv img"><a target="_blank" rel="nofollow" href="http://ddt.zoosnet.net/lr/chatpre.aspx?id=ddt94811403&lng=cn"><img src="/assets/images/adv_getiao.jpg" alt="立即咨询"></a></div>
+    <?php foreach (\common\helpers\AdHelper::GetAd_list('ad') as $key=>$value):?>
+        <div class="getiao_adv img"><a id="qiao" href="<?=$value->url?>" rel="nofollow" target="_blank"><img src="<?=$value->imageUrl?>" alt="<?=$value->title?>" title="<?=$value->title?>"/></a></div>
+    <?php endforeach; ?>
+
 </section>
