@@ -188,7 +188,11 @@ class Images extends \yii\db\ActiveRecord
 
     public function getExtendText(){
         $tmp = unserialize($this->extend);
+        return $tmp;
+    }
 
+    public function getExtendMoreText(){
+        $tmp = unserialize($this->extend_more);
         return $tmp;
     }
 

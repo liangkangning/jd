@@ -36,6 +36,9 @@ em, i, u{font-style: normal;}
 .color_tzcell{
     background-color: #EAEDE8;
 }
+.color_tzpower{
+    background-color: #E6E9ED;
+}
 .size-16p {
     font-size: 54px;
 }
@@ -253,6 +256,67 @@ h6 {
     -webkit-line-clamp:3;
 }
 
+/*白色底产品列表--start*/
+.product_list_common_bg_while{}
+.product_list_common_bg_while ul {
+    margin-left: -15px;
+    overflow: hidden;
+}
+.product_list_common_bg_while ul li {
+    padding-left: 15px;
+    margin-bottom: 15px;
+
+}
+.product_list_common_bg_while .item {
+    background-color: #EEEEEE;
+    text-align: center;
+    overflow: hidden;
+    background-color: #ffffff;
+    height: 390px;
+}
+
+.product_list_common_bg_while .item img {
+    transition: all 0.6s;
+}
+.product_list_common_bg_while .item:hover img {
+    transform: scale(1.1);
+}
+.product_list_common_bg_while .item .img img {
+    width: 70%;
+    margin: 0 auto;
+}
+.product_list_common_bg_while .item .title {
+    margin-bottom: 5px;
+}
+.product_list_common_bg_while .item .title a {
+    /*color: #4D634B;*/
+    font-size: 24px;
+}
+.product_list_common_bg_while .item .sub_title {
+    margin-bottom: 15px;
+}
+.product_list_common_bg_while .item .sub_title a {
+    /*color: #595757;*/
+    font-size: 20px;
+}
+.product_list_common_bg_while .text {
+    overflow: hidden;
+    width: 100%;
+    padding: 0 10px;
+    height: 65px;
+}
+.product_list_common_bg_while .text a {
+    display: -webkit-box;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-height: 1.8;
+}
+/*白色底产品列表--end*/
+
+
 
 .nav {
     margin: 50px;
@@ -389,7 +453,7 @@ header nav .navlist ul li {
 header nav .navlist ul li .item {
     position: relative;
     line-height: 60px;
-    margin-right: 25px;
+    margin-right: 16px;
 }
 header nav .navlist ul li .item:after {
     position: absolute;
@@ -1273,8 +1337,24 @@ header .open .search_form .input-wrap .close{opacity:1}
     line-height: 1.8;
 }
 
+.category-index-2021{}
+.category-index-2021 .nav-list{padding: 90px 0 }
+.category-index-2021 .nav-list ul{margin-left: -30px;}
+.category-index-2021 .nav-list ul li{width: 20%;float: left;padding-left: 30px;}
+.category-index-2021 .nav-list ul li .item{background-color: #ececec;text-align: center;padding: 50px 0;cursor:pointer; }
+.category-index-2021 .nav-list ul li.checked .item{background-color: #FA9600}
+.category-index-2021 .main{background-color: #e9eff5}
+.category-index-2021 .common_part{background-color: #e9eff5}
+.category-index-2021 .index_yingyong .list li .item .text{background-color: #FFFFFF}
+.category-index-2021 .title_list{}
+.category-index-2021 .title_list li{width: 100%;float: left;}
+.category-index-2021 .title_list li .item{background-color: #FFFFFF;height: 100px;line-height: 100px;padding-left: 76px;font-size: 20px;}
+.category-index-2021 .title_list li .item span{color: #FA9600;padding: 0 5px;}
+.category-index-2021 .title_list li .item:nth-child(even){background-color: #F6F6F6}
+
 
 .tzcell-index{}
+.tzcell-index h2 a{color: #212121}
 .tzcell-index .part:last-child{padding-bottom: 80px;}
 .tzcell-index .part {
     padding: 45px 0 0 0;
@@ -1350,6 +1430,20 @@ header .open .search_form .input-wrap .close{opacity:1}
     -webkit-line-clamp: 2;
     line-height: 1.8;
 }
+
+.tzpower-index{}
+.tzpower-index .part .title h2 {
+    font-size: 24px;
+    color: #212121;
+}
+.tzpower-index li .one_product{padding: 30px 60px 0 60px;}
+.tzpower-index li .one_product .text{height: auto;text-align: left;}
+.tzpower-index li .one_product .text p{line-height: 2;font-size: 16px}
+.tzpower-index li .one_product .text p a{font-size: 26px;}
+.tzpower-index li .one_product .img img{width: 90%}
+.tzpower-index .part:last-child{padding-bottom: 100px}
+.tzpower-index h2 a{color: #212121}
+
 
 .form_main{position: relative;}
 .form_main .search-dropdown{position: absolute;height: 40px;width: 80px}
@@ -3596,3 +3690,43 @@ footer .erweima .text{color: #B4B5B5;text-align: center;margin-top: 22px;line-he
 .chuanxin_jishu .content .item .item_sub_title{ font-size: 16px;}
 .chuanxin_jishu .content .item .item_text{ font-size: 16px;}
 
+/*特种电芯，特种电源的列表页*/
+.tz-list .main{}
+.tz-list .main .nav-list-category li {
+    position: relative;
+    float: left;
+    margin-right: 55px;
+    font-size: 16px;
+    line-height: 80px;
+    height: 80px;
+}
+.tz-list .main .nav-list-category li {
+    position: relative;
+    float: left;
+    margin-right: 55px;
+    font-size: 16px;
+    line-height: 80px;
+    height: 80px;
+}
+.tz-list .main .nav-list-category li:after {
+    position: absolute;
+    left: 25%;
+    bottom: 0px;
+    width: 50%;
+    height: 2px;
+    opacity: 0;
+    background: #FA9600;
+    content: "";
+    transition: 0.4s;
+}
+.tz-list .main .nav-list-category li.checked:after {
+    opacity: 1;
+    left: 0;
+    width: 100%;
+}
+.tz-list .main .nav-list-category li:hover:after {
+    opacity: 1;
+    left: 0;
+    width: 100%;
+}
+.tz-list .main .product-list{background-color: #EAEDE8}

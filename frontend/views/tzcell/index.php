@@ -1,10 +1,9 @@
 <div class="tzcell-index">
     <div class="banner_common header_banner_common relative">
-        <div class="img"><img src="/assets/images/tzcell_banner.jpg" alt=""></div>
+        <div class="img"><img src="<?=Yii::$app->params['lanmu']['imageUrl']?>" alt="<?= Yii::$app->params['lanmu']['title']?>"></div>
         <div class="text">
             <div class="content">
-                <h1 class="sizemax-12p">特种电芯</h1>
-                <p class="size4-6p section40">低温过针刺，放电温度-40℃~ +55℃ </p>
+                <?=Yii::$app->params['lanmu']['list_content']?>
             </div>
         </div>
     </div>
@@ -12,7 +11,7 @@
         <section class="part <?=$value['color'] ?>">
             <div class="container">
                 <div class="title section30">
-                    <h2 class="pull-left"><?=$value['title'] ?></h2>
+                    <h2 class="pull-left"><a href="<?=$value['url'] ?>"><?=$value['title'] ?></a></h2>
                 </div>
                 <div class="content section30">
                     <div class="top-part">

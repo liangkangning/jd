@@ -117,13 +117,16 @@
                     </div>
                 </div>
                 <div class="pull-left">
-                    <div class="navlist">
+                    <div class="navlist" data-key="<?=isset(Yii::$app->params['top_lanmu'])?Yii::$app->params['top_lanmu']['name']:''?>">
                         <ul>
                             <li>
                                 <div class="item"><a href="<?= Yii::$app->homeUrl;?>">首页</a></div>
                             </li>
                             <li>
                                 <div class="item"><a href="/tzcell/">特种电芯</a></div>
+                            </li>
+                            <li>
+                                <div class="item"><a href="/tzpower/">特种电源</a></div>
                             </li>
                             <li class="active">
                                 <div class="item"><a href="/special/">特种电池</a></div>

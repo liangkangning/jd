@@ -70,13 +70,25 @@ return [
             'suffix'=>'.html',
             'rules' => [
                 '<controller:(news|product|blog)>/<id:\d+>'=>'<controller>/detail',
-                ['pattern'=>'<controller:(industrial|diwen|kuanwen|taisuanli|fanbao|libattery|juhewu|chuneng|lilizi|ironicphosphate|dongli|special|libattery|make|jishu|shiyanshi|zhizao|news|about|licheng|zizhi|contact|job|lifepo4|search|blog|zizhi|test|anchor|keywords|sitemap|apis|wenhua|tzcell)>','route'=>'<controller>','suffix'=>'/'],
+                ['pattern'=>'<controller:(industrial|diwen|kuanwen|taisuanli|fanbao|libattery|juhewu|chuneng|lilizi|ironicphosphate|dongli|special|libattery|make|jishu|shiyanshi|zhizao|news|about|licheng|zizhi|contact|job|lifepo4|search|blog|zizhi|test|anchor|keywords|sitemap|apis|wenhua|tzcell|tzpower)>','route'=>'<controller>','suffix'=>'/'],
                 ['pattern'=>'<controller:(industrial|diwen|kuanwen|taisuanli|fanbao|libattery|juhewu|chuneng|lilizi|ironicphosphate|dongli|lifepo4)>/list-<list:.+>-p<page:\d+>','route'=>'<controller>/index','suffix'=>'.html'],
                 ['pattern'=>'<controller:(industrial|diwen|kuanwen|taisuanli|fanbao|libattery|juhewu|chuneng|lilizi|ironicphosphate|dongli|lifepo4)>/list-<list:.+>','route'=>'<controller>','suffix'=>'.html'],
                 ['pattern'=>'<controller:(industrial|diwen|kuanwen|taisuanli|fanbao|libattery|juhewu|chuneng|lilizi|ironicphosphate|dongli|lifepo4)>/index-<page:\d+>','route'=>'<controller>/index','suffix'=>'.html'],
                 ['pattern'=>'<controller:(news|blog)>/<action:\w+>_<page:\d+>','route'=>'<controller>/<action>','suffix'=>'.html'],
                 ['pattern'=>'<controller:(keywords)>/<id:\w+>/index-<page:\d+>','route'=>'<controller>/item','suffix'=>'.html'],
                 ['pattern'=>'<controller:(keywords)>/<id:\w+>','route'=>'<controller>/item','suffix'=>'/'],
+
+                /**
+                 * 特种电芯，特种电源都归为一个列表页
+                 */
+                [
+                    'pattern' => '<controller:(diwen18650|diwenlipo|tz26650|fangbaocell|charger|bzpower)>',
+                    'route' => 'product-list',
+                    'suffix' => '/',
+                ],
+
+
+
 
                 [
                     'pattern' => 's-productlist',//首页、产品频道/列表、keywords聚合页、研发、关于钜大等，文章列表除外

@@ -281,10 +281,18 @@ $(function(){
     * 导航条已选
     * */
     $url=window.location.pathname;
+    $data_key = '/'+$('.navlist').data('key')+'/';
+    // console.log($data_key);
     $('#nav_bar .navlist li a').each(function(){
         $src=$(this).attr('href');
+        // console.log($src);
         if($url==$src){
             $(this).parent().addClass('checked');
+            return false;
+        }
+        if ($data_key ==$src){
+            $(this).parent().addClass('checked');
+            return false;
         }
     });
 

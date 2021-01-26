@@ -37,8 +37,8 @@ class CommonController extends Controller
 
     public $is_zhizhu=1;
     public $cache_time = 600;//缓存时间
-    public $nav_tree=array('index','special','case','gongsixinwen','dianchizhunati','hangyezixun','zhishi','diwen','detail','kuanwen','taisuanli','fanbao',
-        'libattery','juhewu','chuneng','lilizi','ironicphosphate','dongli','tezhong','junjing','robots','yiliao','gongye','yingji','shangyong','xiaofei','zhineng','industrial','zhuanti','changjianwenti','lifepo4','tzcell');//判断是否现实树形的分类
+    public $nav_tree=array('index','special','case','gongsixinwen','dianchizhunati','hangyezixun','zhishi','diwen','detail','kuanwen','taisuanli','fanbao','diwen18650','diwenlipo','tz26650','fangbaocell','charger','bzpower',
+        'libattery','juhewu','chuneng','lilizi','ironicphosphate','dongli','tezhong','junjing','robots','yiliao','gongye','yingji','shangyong','xiaofei','zhineng','industrial','zhuanti','changjianwenti','lifepo4','tzcell','tzpower');//判断是否现实树形的分类
 
     public function init(){
 //          初始化后台的数据
@@ -138,7 +138,7 @@ class CommonController extends Controller
 
         $action= Yii::$app->controller->action->id;//获取方法名
 
-        $controllerName=Yii::$app->controller->id;//获取类名
+        $controllerName=$this->id;//获取类名
 
         $this->controllerName=$controllerName;
 
@@ -155,12 +155,10 @@ class CommonController extends Controller
 //        $self_lanmu = Category::find()->where(['name'=>$controllerName])->one();
 
         if ($self_lanmu['pid']!=0){//如果不是真正的父栏目，因为为了优化URL，二级栏目当一级栏目的方式写
-
             $top_lanm = $this->getCache('top_lanm'.$self_lanmu['pid']) ?: $this->setCache('top_lanm'.$self_lanmu['pid'],Category::find()->where(['id'=>$self_lanmu['pid']])->one());
-//            $top_lanm = Category::find()->where(['id'=>$self_lanmu['pid']])->one();
 
 //            echo '----2--';
-
+            Yii::$app->params['top_lanmu'] = $top_lanm;
             Yii::$app->params['breadcrumbs'][]='>'.Html::tag('a',$top_lanm['title'],['href'=>'/'.$top_lanm['name']]);
 
         }
