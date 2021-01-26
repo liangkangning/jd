@@ -52,7 +52,7 @@ $productProvider= new \yii\data\ActiveDataProvider([
 
         </div>
     </div>
-    <div class="product-content">
+    <div class="banner_common">
         <div class="img"><img src="<?=Yii::getAlias('@web/assets/images/product-content-bg.jpg')?>" alt=""></div>
         <div class="text">
             <div class="container">
