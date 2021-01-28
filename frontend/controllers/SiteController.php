@@ -221,6 +221,7 @@ class SiteController extends Controller
 
 
     public function actionGitPull(){
+        echo "新增";
         $rowData = file_get_contents('php://input', 'r');;
         $rowData = json_decode($rowData,true);
         exec('cd /home/data/shell ; sh gitpull.sh',$out);
