@@ -220,6 +220,13 @@ class SiteController extends Controller
     }
 
 
+    public function actionGitPull(){
+        $rowData = file_get_contents('php://input', 'r');;
+        $rowData = json_decode($rowData,true);
+        exec('cd /home/data/shell ; sh gitpull.sh',$out);
+        var_dump($out);
+    }
+
 
     private function createXml($data){
         return \Yii::createObject([
