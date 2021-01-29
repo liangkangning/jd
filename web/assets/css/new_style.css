@@ -3731,3 +3731,6 @@ footer .erweima .text{color: #B4B5B5;text-align: center;margin-top: 22px;line-he
     width: 100%;
 }
 .tz-list .main .product-list{background-color: #EAEDE8}
+
+.tz-list .banner_common{height: 350px;}
+.tz-list .banner_common .text p{margin-top:20px;}
