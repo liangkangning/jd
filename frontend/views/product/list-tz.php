@@ -51,16 +51,17 @@ $productProvider= new \yii\data\ActiveDataProvider([
             </div>
 
         </div>
-    </div>
-    <div class="banner_common">
-        <div class="img"><img src="<?=Yii::getAlias('@web/assets/images/product-content-bg.jpg')?>" alt=""></div>
-        <div class="text text_left">
-            <div class="container">
-                <?=Yii::$app->params['lanmu']['content']?>
-            </div>
+        <div class="banner_common">
+            <div class="img"><img src="<?=Yii::getAlias('@web/assets/images/product-content-bg.jpg')?>" alt=""></div>
+            <div class="text text_left">
+                <div class="container">
+                    <?=Yii::$app->params['lanmu']['content']?>
+                </div>
 
+            </div>
         </div>
     </div>
+
     <?php $this->beginContent('@app/views/layouts/public/bottom_seach.php') ?>
     <?php $this->endContent() ?>
 
