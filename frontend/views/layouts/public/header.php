@@ -119,14 +119,76 @@
                 <div class="pull-left">
                     <div class="navlist" data-key="<?=isset(Yii::$app->params['top_lanmu'])?Yii::$app->params['top_lanmu']['name']:''?>">
                         <ul>
-                            <li>
+                            <li  class="active">
                                 <div class="item"><a href="<?= Yii::$app->homeUrl;?>">首页</a></div>
                             </li>
                             <li>
                                 <div class="item"><a href="/tzcell/">特种电芯</a></div>
+                                <div class="item_list">
+                                    <div class="container">
+                                        <div class="col-md-2 col-sm-2"></div>
+                                        <div class="child_item">
+                                            <div class="nav_img">
+                                                <a href="/diwen18650/"><img src="/assets/images/nav_diwen18650.png" alt="低温18650电芯" title="低温18650电芯"></a>
+                                            </div>
+                                            <div class="text">
+                                                <a href="/diwen18650/">低温18650电芯</a>
+                                            </div>
+
+                                        </div>
+                                        <div class="child_item">
+                                            <div class="nav_img">
+                                                <a href="/diwenlipo/"><img src="/assets/images/nav_diwenlipo.png" alt="低温聚合物电芯" title="低温聚合物电芯"></a>
+                                            </div>
+                                            <div class="text">
+                                                <a href="/diwenlipo/">低温聚合物电芯</a>
+                                            </div>
+                                        </div>
+                                        <div class="child_item">
+                                            <div class="nav_img">
+                                                <a href="/tz26650/"><img src="/assets/images/nav_tz26650.png" alt="特种26650电芯" title="特种26650电芯"></a>
+                                            </div>
+                                            <div class="text">
+                                                <a href="/tz26650/">特种26650电芯</a>
+                                            </div>
+                                        </div>
+                                        <div class="child_item">
+                                            <div class="nav_img">
+                                                <a href="/fangbaocell/"><img src="/assets/images/nav_fangbaocell.png" alt="防爆电芯" title="防爆电芯"></a>
+                                            </div>
+                                            <div class="text">
+                                                <a href="/fangbaocell/">防爆电芯</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
                             </li>
-                            <li>
+                            <li class="active">
                                 <div class="item"><a href="/tzpower/">特种电源</a></div>
+                                <div class="item_list">
+                                    <div class="container">
+                                        <div class="col-md-4 col-sm-4"></div>
+                                        <div class="child_item">
+                                            <div class="nav_img">
+                                                <a href="/charger/"><img src="/assets/images/nav_charger.png" alt="充电器" title="充电器"></a>
+                                            </div>
+                                            <div class="text">
+                                                <a href="/charger/">充电器</a>
+                                            </div>
+                                        </div>
+                                        <div class="child_item"></div>
+                                        <div class="child_item">
+                                            <div class="nav_img">
+                                                <a href="/bzpowe/"><img src="/assets/images/nav_bzpowe.png" alt="标准电源" title="标准电源"></a>
+                                            </div>
+                                            <div class="text">
+                                                <a href="/bzpowe/">标准电源</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
                             </li>
                             <li class="active">
                                 <div class="item"><a href="/special/">特种电池</a></div>

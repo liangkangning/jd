@@ -441,8 +441,8 @@ header nav .navlist .item_list {
 }
 header nav .navlist .item_list .child_item {
     display: inline-block;
-    float: left;
-    margin: 24px 55px 30px 55px;
+    text-align: center;
+    margin: 24px 53px 30px 53px;
 }
 header nav .navlist .item_list .child_item a:hover {
     color: #FA9600;
