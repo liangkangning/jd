@@ -25,6 +25,11 @@ class ZhuantiController extends CommonController
 
     function actionIndex(){
         parent::common();
+        $this->view->params['meta_title']="低温三元锂电池,低温磷酸铁锂电池生产厂家";
+
+        $this->view->params['keywords']="电池,LARGE品牌,-40℃ 0.2C充电,-50℃放电容量≥75%.";
+
+        $this->view->params['description']="东莞市钜大电子有限公司,". Yii::$app->params['year']."年低温锂电池生产厂家,按需定制低温放电/低温充放电/低温过针刺/低温高能量密度/低温高倍率锂";
 
         return $this->render('/zhuanti/diwenzt',['data'=>$this->data]);
     }
