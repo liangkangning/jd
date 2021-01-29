@@ -1345,6 +1345,25 @@ header .open .search_form .input-wrap .close{opacity:1}
 .category-index-2021 .nav-list ul li .item{background-color: #ececec;text-align: center;padding: 50px 0;cursor:pointer; }
 .category-index-2021 .nav-list ul li.checked .item{background-color: #FA9600}
 .category-index-2021 .main{background-color: #e9eff5}
+.category-index-2021 .main .products{background-color: #FFFFFF;padding: 0 78px 100px 78px;width: 100%;overflow: hidden;height: auto}
+.category-index-2021 .main .products ul{}
+.category-index-2021 .main .products ul li{}
+.category-index-2021 .main .products ul li:nth-child(odd){padding-right: 15px}
+.category-index-2021 .main .products ul li:nth-child(even){padding-left: 15px;}
+.category-index-2021 .main .products ul li .item{ text-align: left;}
+.category-index-2021 .main .products ul li .item .product-item{}
+.category-index-2021 .main .products ul li .item .product-item .img{}
+.category-index-2021 .main .products ul li .item .product-item .img img{width: 400px;height: auto}
+.category-index-2021 .main .products ul li .item .product-item .title{ font-size: 28px;color: #212121;margin-top: 20px;}
+.category-index-2021 .main .products ul li .item .product-item .sub_title{font-size: 28px;color: #FA9600;margin-top: 10px;}
+.category-index-2021 .main .products ul li .item .product-item .text{margin-top: 20px;}
+.category-index-2021 .main .products ul li .item .product-item .text p{ font-size: 16px;line-height: 1.8}
+.category-index-2021 .main .products ul li .item .product-item .text p .min_title{ color: #212121;font-weight: bold;}
+.category-index-2021 .main .products ul li .item .product-item .sub{margin-top: 20px;}
+.category-index-2021 .main .products ul li .item .product-item .sub a{
+    color: #FFFFFF;background: #FA9600;width: 185px;height: 45px;line-height: 45px;border-radius: 3px;display: block;text-align: center;font-size: 18px;
+}
+
 .category-index-2021 .common_part{background-color: #e9eff5}
 .category-index-2021 .index_yingyong .list li .item .text{background-color: #FFFFFF}
 .category-index-2021 .title_list{}

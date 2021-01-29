@@ -87,6 +87,14 @@ return [
                     'suffix' => '/',
                 ],
 
+                /**
+                 * 专题页面，统一入口
+                 */
+                [
+                    'pattern' => '<controller:(diwenzt)>',
+                    'route' => 'zhuanti',
+                    'suffix' => '/',
+                ],
 
 
 
