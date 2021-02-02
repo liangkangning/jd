@@ -22,26 +22,32 @@ Yii::$app->params['list'] = Images::find()->where(['like', 'title', '低温'])->
             </li>
             <li>
                 <div class="item">
-                    <div class="title size4-6p">超低温放电</div>
-                    <div class="sub_title size6-4p">-50℃放电（极限）</div>
+                    <div class="title size4-6p">低温充放电</div>
+                    <div class="sub_title size6-4p">
+                        -40℃充电 -40℃放电
+                    </div>
                 </div>
             </li>
             <li>
                 <div class="item">
-                    <div class="title size4-6p">超低温放电</div>
-                    <div class="sub_title size6-4p">-50℃放电（极限）</div>
+                    <div class="title size4-6p">低温高能量密度</div>
+                    <div class="sub_title size6-4p">
+                        220~240Wh/kg左右
+                    </div>
                 </div>
             </li>
             <li>
                 <div class="item">
-                    <div class="title size4-6p">超低温放电</div>
-                    <div class="sub_title size6-4p">-50℃放电（极限）</div>
+                    <div class="title size4-6p">低温过针刺</div>
+                    <div class="sub_title size6-4p">
+                        过针刺 安全可靠
+                    </div>
                 </div>
             </li>
             <li>
                 <div class="item">
-                    <div class="title size4-6p">超低温放电</div>
-                    <div class="sub_title size6-4p">-50℃放电（极限）</div>
+                    <div class="title size4-6p">低温高倍率</div>
+                    <div class="sub_title size6-4p">100℃持续放电</div>
                 </div>
             </li>
 
@@ -60,21 +66,23 @@ Yii::$app->params['list'] = Images::find()->where(['like', 'title', '低温'])->
                             <li class="col-md-6">
                                 <div class="item">
                                     <div class="product-item">
-                                        <div class="img"><a href=""><img src="/assets/images/zhuanti_diwen_product_1_1.jpg" alt="低温高能量密度锂离子电池"></a></div>
-                                        <div class="title"><a href="">低温高能量密度锂离子电池</a></div>
-                                        <div class="sub_title">NCR18650-3000mAh</div>
+                                        <div class="img"><a href="javascript:void(0)"><img src="/assets/images/zhuanti_diwen_product_1_1.jpg" alt="低温高能量密度锂离子电池"></a></div>
+                                        <div class="title"><a href="javascript:void(0)">-50℃超低温放电聚合物电芯</a></div>
+                                        <div class="sub_title">926840CL-2700mAh</div>
                                         <div class="text">
                                             <p>
-                                                电池型号：NCR18650-3000mAh<br>
-                                                电池容量：3000~3150mAh<br>
-                                                充电温度：0 ℃ ~+45℃<br>
-                                                正常放电温度：-40℃~+55℃<br>
-                                                低温最大放电倍率：0.5C<br>
-                                                能量密度：240Wh/kg左右
+                                                标称电压：3.7V<br>
+                                                电芯型号:926840CL<br>
+                                                电池容量：2700mAh<br>
+                                                充电温度：0~45℃<br>
+                                                放电温度：-50℃~+55℃<br>
+                                                充电电流：1.85A（常温0.5C）<br>
+                                                放电电流：2.7A（常温1C）<br>
+                                                低温特性：-50℃ 0.5C放电容量保持率≥50%
                                             </p>
                                         </div>
                                         <div class="sub">
-                                            <a href="">立即咨询</a>
+                                            <a href="http://ddt.zoosnet.net/LR/Chatpre.aspx?id=DDT94811403&lng=cn">立即咨询</a>
                                         </div>
                                     </div>
                                 </div>
@@ -89,8 +97,8 @@ Yii::$app->params['list'] = Images::find()->where(['like', 'title', '低温'])->
                             <li class="col-md-6">
                                 <div class="item">
                                     <div class="product-item">
-                                        <div class="img"><a href=""><img src="/assets/images/zhuanti_diwen_product_1_2.jpg" alt="-40℃/-50℃ 0.2C倍率放电的电池容量曲线"></a></div>
-                                        <div class="title"><a href="">特种笔记本聚合物电池 </a></div>
+                                        <div class="img"><a href="javascript:void(0)"><img src="/assets/images/zhuanti_diwen_product_1_2.jpg" alt="-40℃/-50℃ 0.2C倍率放电的电池容量曲线"></a></div>
+                                        <div class="title"><a href="javascript:void(0)">特种笔记本聚合物电池 </a></div>
                                         <div class="sub_title">5642128CL-4050mAh</div>
                                         <div class="text">
                                             <p>
@@ -118,7 +126,7 @@ Yii::$app->params['list'] = Images::find()->where(['like', 'title', '低温'])->
                                             </p>
                                         </div>
                                         <div class="sub">
-                                            <a href="">立即咨询</a>
+                                            <a href="http://ddt.zoosnet.net/LR/Chatpre.aspx?id=DDT94811403&lng=cn">立即咨询</a>
                                         </div>
                                     </div>
                                 </div>
@@ -148,7 +156,7 @@ Yii::$app->params['list'] = Images::find()->where(['like', 'title', '低温'])->
                             <li class="col-md-6">
                                 <div class="item">
                                     <div class="product-item">
-                                        <div class="title"><a href="">低温充放电安防锂电池 </a></div>
+                                        <div class="title"><a href="javascript:void(0)">低温充放电安防锂电池 </a></div>
                                         <div class="sub_title">104058-1500mAh</div>
                                         <div class="text">
                                             <p>
@@ -176,13 +184,13 @@ Yii::$app->params['list'] = Images::find()->where(['like', 'title', '低温'])->
                                             </p>
                                         </div>
                                         <div class="sub">
-                                            <a href="">立即咨询</a>
+                                            <a href="http://ddt.zoosnet.net/LR/Chatpre.aspx?id=DDT94811403&lng=cn">立即咨询</a>
                                         </div>
                                     </div>
                                 </div>
                             </li>
                             <li class="col-md-6">
-                                <div class="img section60"><a href=""><img src="/assets/images/zhuanti_diwen_product_2_1.jpg" alt="低温充放电安防锂电池 104058-1500mAh"></a></div>
+                                <div class="img section60"><a href="javascript:void(0)"><img src="/assets/images/zhuanti_diwen_product_2_1.jpg" alt="低温充放电安防锂电池 104058-1500mAh"></a></div>
                                 <div class="img section50"><img src="/assets/images/zhuanti_diwen_img_2_1.jpg" alt="低温可充放电电池不同温度放电特征值"></div>
                             </li>
                         </div>
@@ -218,8 +226,8 @@ Yii::$app->params['list'] = Images::find()->where(['like', 'title', '低温'])->
                             <li class="col-md-6">
                                 <div class="item">
                                     <div class="product-item">
-                                        <div class="img"><a href=""><img src="/assets/images/zhuanti_diwen_product_3_1.jpg" alt="低温高能量密度锂离子电池  NCR18650-3000mAh"></a></div>
-                                        <div class="title"><a href="">低温高能量密度锂离子电池  </a></div>
+                                        <div class="img"><a href="javascript:void(0)"><img src="/assets/images/zhuanti_diwen_product_3_1.jpg" alt="低温高能量密度锂离子电池  NCR18650-3000mAh"></a></div>
+                                        <div class="title"><a href="javascript:void(0)">低温高能量密度锂离子电池  </a></div>
                                         <div class="sub_title">NCR18650-3000mAh</div>
                                         <div class="text">
                                             <p>
@@ -232,7 +240,7 @@ Yii::$app->params['list'] = Images::find()->where(['like', 'title', '低温'])->
                                             </p>
                                         </div>
                                         <div class="sub">
-                                            <a href="">立即咨询</a>
+                                            <a href="http://ddt.zoosnet.net/LR/Chatpre.aspx?id=DDT94811403&lng=cn">立即咨询</a>
                                         </div>
                                     </div>
                                 </div>
@@ -247,8 +255,8 @@ Yii::$app->params['list'] = Images::find()->where(['like', 'title', '低温'])->
                             <li class="col-md-6">
                                 <div class="item">
                                     <div class="product-item">
-                                        <div class="img"><a href=""><img src="/assets/images/zhuanti_diwen_product_3_2.jpg" alt="特种笔记本聚合物电池  5642128CL-4050mAh"></a></div>
-                                        <div class="title"><a href="">特种笔记本聚合物电池  </a></div>
+                                        <div class="img"><a href="javascript:void(0)"><img src="/assets/images/zhuanti_diwen_product_3_2.jpg" alt="特种笔记本聚合物电池  5642128CL-4050mAh"></a></div>
+                                        <div class="title"><a href="javascript:void(0)">特种笔记本聚合物电池  </a></div>
                                         <div class="sub_title">5642128CL-4050mAh</div>
                                         <div class="text">
                                             <p>
@@ -276,7 +284,7 @@ Yii::$app->params['list'] = Images::find()->where(['like', 'title', '低温'])->
                                             </p>
                                         </div>
                                         <div class="sub">
-                                            <a href="">立即咨询</a>
+                                            <a href="http://ddt.zoosnet.net/LR/Chatpre.aspx?id=DDT94811403&lng=cn">立即咨询</a>
                                         </div>
                                     </div>
                                 </div>
@@ -309,8 +317,8 @@ Yii::$app->params['list'] = Images::find()->where(['like', 'title', '低温'])->
                             <li class="col-md-6">
                                 <div class="item">
                                     <div class="product-item">
-                                        <div class="img"><a href=""><img src="/assets/images/zhuanti_diwen_product_4_1.jpg" alt="低温针刺18650电芯   ICR18650-2200mAh"></a></div>
-                                        <div class="title"><a href="">低温针刺18650电芯   </a></div>
+                                        <div class="img"><a href="javascript:void(0)"><img src="/assets/images/zhuanti_diwen_product_4_1.jpg" alt="低温针刺18650电芯   ICR18650-2200mAh"></a></div>
+                                        <div class="title"><a href="javascript:void(0)">低温针刺18650电芯   </a></div>
                                         <div class="sub_title">ICR18650-2200mAh</div>
                                         <div class="text">
                                             <p>
@@ -326,7 +334,7 @@ Yii::$app->params['list'] = Images::find()->where(['like', 'title', '低温'])->
                                             </p>
                                         </div>
                                         <div class="sub">
-                                            <a href="">立即咨询</a>
+                                            <a href="http://ddt.zoosnet.net/LR/Chatpre.aspx?id=DDT94811403&lng=cn">立即咨询</a>
                                         </div>
                                     </div>
                                 </div>
@@ -334,8 +342,8 @@ Yii::$app->params['list'] = Images::find()->where(['like', 'title', '低温'])->
                             <li class="col-md-6">
                                 <div class="item">
                                     <div class="product-item">
-                                        <div class="img"><a href=""><img src="/assets/images/zhuanti_diwen_product_4_2.jpg" alt="低温针刺聚合物电芯    764864CL-2700mAh"></a></div>
-                                        <div class="title"><a href="">低温针刺聚合物电芯    </a></div>
+                                        <div class="img"><a href="javascript:void(0)"><img src="/assets/images/zhuanti_diwen_product_4_2.jpg" alt="低温针刺聚合物电芯    764864CL-2700mAh"></a></div>
+                                        <div class="title"><a href="javascript:void(0)">低温针刺聚合物电芯    </a></div>
                                         <div class="sub_title">764864CL-2700mAh</div>
                                         <div class="text">
                                             <p>
@@ -351,7 +359,7 @@ Yii::$app->params['list'] = Images::find()->where(['like', 'title', '低温'])->
                                             </p>
                                         </div>
                                         <div class="sub">
-                                            <a href="">立即咨询</a>
+                                            <a href="http://ddt.zoosnet.net/LR/Chatpre.aspx?id=DDT94811403&lng=cn">立即咨询</a>
                                         </div>
                                     </div>
                                 </div>
@@ -376,8 +384,8 @@ Yii::$app->params['list'] = Images::find()->where(['like', 'title', '低温'])->
                             <li class="col-md-6">
                                 <div class="item">
                                     <div class="product-item">
-                                        <div class="img"><a href=""><img src="/assets/images/zhuanti_diwen_product_5_1.jpg" alt="低温高倍率聚合物电池 5072100CL-3000mAh"></a></div>
-                                        <div class="title"><a href="">低温高倍率聚合物电池  </a></div>
+                                        <div class="img"><a href="javascript:void(0)"><img src="/assets/images/zhuanti_diwen_product_5_1.jpg" alt="低温高倍率聚合物电池 5072100CL-3000mAh"></a></div>
+                                        <div class="title"><a href="javascript:void(0)">低温高倍率聚合物电池  </a></div>
                                         <div class="sub_title">5072100CL-3000mAh</div>
                                         <div class="text">
                                             <p>
@@ -392,7 +400,7 @@ Yii::$app->params['list'] = Images::find()->where(['like', 'title', '低温'])->
                                             </p>
                                         </div>
                                         <div class="sub">
-                                            <a href="">立即咨询</a>
+                                            <a href="http://ddt.zoosnet.net/LR/Chatpre.aspx?id=DDT94811403&lng=cn">立即咨询</a>
                                         </div>
                                     </div>
                                 </div>
@@ -407,8 +415,8 @@ Yii::$app->params['list'] = Images::find()->where(['like', 'title', '低温'])->
                             <li class="col-md-6">
                                 <div class="item">
                                     <div class="product-item">
-                                        <div class="img"><a href=""><img src="/assets/images/zhuanti_diwen_product_5_2.jpg" alt="低温高倍率聚合物电池  654468CL-2000mAh"></a></div>
-                                        <div class="title"><a href="">低温高倍率聚合物电池</a></div>
+                                        <div class="img"><a href="javascript:void(0)"><img src="/assets/images/zhuanti_diwen_product_5_2.jpg" alt="低温高倍率聚合物电池  654468CL-2000mAh"></a></div>
+                                        <div class="title"><a href="javascript:void(0)">低温高倍率聚合物电池</a></div>
                                         <div class="sub_title">654468CL-2000mAh</div>
                                         <div class="text">
                                             <p>
@@ -426,7 +434,7 @@ Yii::$app->params['list'] = Images::find()->where(['like', 'title', '低温'])->
                                             </p>
                                         </div>
                                         <div class="sub">
-                                            <a href="">立即咨询</a>
+                                            <a href="http://ddt.zoosnet.net/LR/Chatpre.aspx?id=DDT94811403&lng=cn">立即咨询</a>
                                         </div>
                                     </div>
                                 </div>
