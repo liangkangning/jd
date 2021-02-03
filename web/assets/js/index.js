@@ -187,7 +187,7 @@ $(document).ready(function(){
     function gundong() {
         //初始化
         var numRun = $(".numberRun").numberAnimate({
-            num: '18',
+            num: '19',
             speed: 2000,
             symbol: ","
         });

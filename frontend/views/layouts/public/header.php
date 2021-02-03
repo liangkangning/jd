@@ -41,7 +41,7 @@
                                 <div class="item_list">
                                     <ul>
                                         <li>
-                                            <div class="item"><a href="/diwen/">低温锂电池</a></div>
+                                            <div class="item"><a href="/diwenzt/">低温锂电池</a></div>
                                         </li>
                                         <li>
                                             <div class="item"><a href="/kuanwen/">宽温锂电池</a></div>
@@ -76,7 +76,7 @@
                                 </div>
                             </div>
                             <div class="pp">
-                                <div class="title"><a href="/chuneng/">储能/动力电池</a></div>
+                                <div class="title"><a href="/dongli/">储能/动力电池</a></div>
                                 <div class="item_list">
                                     <ul>
                                         <li>
@@ -230,91 +230,6 @@
                                         </div>
                                     </div>
                                 </div>
-                            </li>
-                            <li class="active">
-                                <div class="item"><a href="/chuneng/">储能电池</a></div>
-                                <div class="item_list">
-                                    <div class="container">
-                                        <div class="col-md-2 col-sm-2"></div>
-                                        <div class="child_item">
-                                            <div class="nav_img">
-                                                <a href="/lilizi/list-11.html"><img src="/assets/images/nav_12v.png" alt="12V锂电池" title="12V锂电池"></a>
-                                            </div>
-                                            <div class="text">
-                                                <a href="/lilizi/list-11.html">12V锂电池</a>
-                                            </div>
-
-                                        </div>
-                                        <div class="child_item">
-                                            <div class="nav_img">
-                                                <a href="/lilizi/list-12.html"><img src="/assets/images/nav_24v.png" alt="24V锂电池" title="24V锂电池"></a>
-                                            </div>
-                                            <div class="text">
-                                                <a href="/lilizi/list-12.html">24V锂电池</a>
-                                            </div>
-                                        </div>
-                                        <div class="child_item">
-                                            <div class="nav_img">
-                                                <a href="/lilizi/list-13.html"><img src="/assets/images/nav_36v.png" alt="36V锂电池" title="36V锂电池"></a>
-                                            </div>
-                                            <div class="text">
-                                                <a href="/lilizi/list-13.html">36V锂电池</a>
-                                            </div>
-                                        </div>
-                                        <div class="child_item">
-                                            <div class="nav_img">
-                                                <a href="/lilizi/list-14.html"><img src="/assets/images/nav_48v.png" alt="48V锂电池" title="48V锂电池"></a>
-                                            </div>
-                                            <div class="text">
-                                                <a href="/lilizi/list-14.html">48V锂电池</a>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="active">
-                                <div class="item"><a href="/dongli/">动力电池</a></div>
-                                <div class="item_list">
-                                    <div class="container">
-                                        <div class="col-md-2 col-sm-2"></div>
-                                        <div class="child_item">
-                                            <div class="nav_img">
-                                                <a href="/lilizi/list-11.html"><img src="/assets/images/nav_12v.png" alt="12V锂电池" title="12V锂电池"></a>
-                                            </div>
-                                            <div class="text">
-                                                <a href="/lilizi/list-11.html">12V锂电池</a>
-                                            </div>
-
-                                        </div>
-                                        <div class="child_item">
-                                            <div class="nav_img">
-                                                <a href="/lilizi/list-12.html"><img src="/assets/images/nav_24v.png" alt="24V锂电池" title="24V锂电池"></a>
-                                            </div>
-                                            <div class="text">
-                                                <a href="/lilizi/list-12.html">24V锂电池</a>
-                                            </div>
-                                        </div>
-                                        <div class="child_item">
-                                            <div class="nav_img">
-                                                <a href="/lilizi/list-13.html"><img src="/assets/images/nav_36v.png" alt="36V锂电池" title="36V锂电池"></a>
-                                            </div>
-                                            <div class="text">
-                                                <a href="/lilizi/list-13.html">36V锂电池</a>
-                                            </div>
-                                        </div>
-                                        <div class="child_item">
-                                            <div class="nav_img">
-                                                <a href="/lilizi/list-14.html"><img src="/assets/images/nav_48v.png" alt="48V锂电池" title="48V锂电池"></a>
-                                            </div>
-                                            <div class="text">
-                                                <a href="/lilizi/list-14.html">48V锂电池</a>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-
                             </li>
                             <li class="active">
                                 <div class="item"><a href="/industrial/">工业电池</a></div>

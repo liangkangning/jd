@@ -47,7 +47,7 @@ Yii::$app->params['list'] = Images::find()->where(['like', 'title', '低温'])->
             <li>
                 <div class="item">
                     <div class="title size4-6p">低温高倍率</div>
-                    <div class="sub_title size6-4p">100℃持续放电</div>
+                    <div class="sub_title size6-4p">-40℃倍率放电</div>
                 </div>
             </li>
 
@@ -57,8 +57,8 @@ Yii::$app->params['list'] = Images::find()->where(['like', 'title', '低温'])->
         <div class="part ">
             <div class="container">
                 <div class="title text-center section90">
-                    <h2 class="size1-9p">超低温放电</h2>
-                    <div class="p size5-5p section20"><p>-40℃放电 最高-50℃放电，-50℃低温放电，容量保持率≥75%</p></div>
+                    <h2 class="size1-9p">低温充放电</h2>
+                    <div class="p size5-5p section20"><p>-40℃放电 最高-50℃放电<br>-50℃低温放电，容量保持率≥75%</p></div>
                 </div>
                 <div class="products section50">
                     <ul class="section90">
