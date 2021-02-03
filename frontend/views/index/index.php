@@ -231,22 +231,29 @@ use \yii\helpers\Html;
         <div class="">
             <div class="tabswitch-title container">
                 <div class="longline"></div>
-                <div class="tabswitch-title-info"><h2>8大实验室</h2></div>
+                <div class="tabswitch-title-info"><h2>八大实验室</h2></div>
+            </div>
+            <div class="shiyanshi-des container section40">
+                <p class="lh_2 size5-5p text-center">
+                    钜大拥有8大实验室，其中3个专业实验室分别是 <span class="size3-7p">光伏储能实验室、光伏电能变换实验室、光伏云监控实验室</span><br>
+                    5个工程实验室，包括理化实验室、电子结构实验室、安全测试实验室、环境仿真实验室、电性能实验室<br>
+                    配备了先进的检测设备和仪器，能够自主完成原/辅材料、零配件和电池模组的全项目测试认证，检测技术达到国际标准
+
+                </p>
             </div>
             <div class="swiper-shiyanshi">
-
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
                         <?php foreach (Yii::$app->params['shiyanshi_list'] as $key=>$value):?>
                             <div class="swiper-slide <?=$key==0?'swiper-slide-center none-effect':''?>">
-                                <div class="text">
-                                    <div class="title"><?=$value['title']?></div>
-                                    <div class="p"><?=$value['text']?></div>
-                                </div>
                                 <div class="content">
                                     <a href="javascript:void(0)">
                                         <img src="<?=$value['imageUrl']?>" about="<?=$value['title']?>" title="<?=$value['title']?>">
                                     </a>
+                                    <div class="bottom_text">
+                                        <div class="title"><?=$value['title']?></div>
+                                        <div class="p"><?=$value['text']?></div>
+                                    </div>
                                 </div>
                                 <div class="layer-mask"></div>
                             </div>

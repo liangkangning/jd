@@ -2816,6 +2816,19 @@ footer .erweima .text{color: #B4B5B5;text-align: center;margin-top: 22px;line-he
     margin-bottom: 20px;
     margin-top: 10px;
 }
+
+.swiper-shiyanshi .swiper-slide .content{position: relative}
+.swiper-shiyanshi .swiper-slide .content .bottom_text{
+    color: #FFFFFF;padding: 20px 0 10px 0;
+    position: absolute;left: 0;bottom: 0;width: 100%;text-align: center;background-color: #212121;-moz-opacity: 0;opacity: 0;
+}
+.swiper-shiyanshi .swiper-slide.swiper-slide-active .bottom_text {
+    opacity: 0.5;
+    transition: opacity 2s;
+}
+.swiper-shiyanshi .swiper-slide .content .bottom_text .title{font-size: 24px;}
+.swiper-shiyanshi .swiper-slide .content .bottom_text .p{font-size: 16px;}
+
 .swiper-shiyanshi .swiper-slide.swiper-slide-active .text {
     opacity: 1;
 }
