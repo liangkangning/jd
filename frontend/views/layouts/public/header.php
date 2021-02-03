@@ -197,10 +197,10 @@
                                         <div class="col-md-2 col-sm-2"></div>
                                         <div class="child_item">
                                             <div class="nav_img">
-                                                <a href="/diwen/"><img src="/assets/images/nav_diwen.png" alt="低温锂电池" title="低温锂电池"></a>
+                                                <a href="/diwenzt/"><img src="/assets/images/nav_diwen.png" alt="低温锂电池" title="低温锂电池"></a>
                                             </div>
                                             <div class="text">
-                                                <a href="/diwen/">低温锂电池</a>
+                                                <a href="/diwenzt/">低温锂电池</a>
                                             </div>
 
                                         </div>
