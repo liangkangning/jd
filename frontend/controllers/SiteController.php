@@ -82,7 +82,11 @@ class SiteController extends Controller
         }
 
         //产品属性页
-        foreach (SitemapProduct::find()->where(['status'=>1])->all() as $key=>$value){
+        $site_list = SitemapProduct::find()->where(['status' => 1])->limit("50000")->asArray()->all();
+        foreach ($site_list as $key=>$value){
+            if (count($this->data)>=50000){
+                break;
+            }
             $this->data[]=[
                 'loc' => $this->home.$value->url,
                 'priority'=>0.6,
