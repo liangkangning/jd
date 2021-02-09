@@ -203,7 +203,6 @@ class SiteController extends Controller
 //        $this->render('sitemapxsl');
 //    }
 
-
     private function categoryData($category_id,$in_pid=true){
         if ($in_pid){
             $obj = Category::find()->where(['id' => $category_id])->orWhere(['pid' => $category_id])->orderBy('id asc')->all();
@@ -221,7 +220,6 @@ class SiteController extends Controller
             ];
         }
     }
-
 
     private function createXml($data){
         return \Yii::createObject([
