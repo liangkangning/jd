@@ -180,10 +180,10 @@
                                         <div class="child_item"></div>
                                         <div class="child_item">
                                             <div class="nav_img">
-                                                <a href="/bzpower/"><img src="/assets/images/nav_bzpowe.png" alt="标准电源" title="标准电源"></a>
+                                                <a href="/bzpower/"><img src="/assets/images/nav_bzpowe.png" alt="定制电源" title="定制电源"></a>
                                             </div>
                                             <div class="text">
-                                                <a href="/bzpower/">标准电源</a>
+                                                <a href="/bzpower/">定制电源</a>
                                             </div>
                                         </div>
 
