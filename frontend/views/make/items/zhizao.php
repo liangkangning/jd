@@ -14,7 +14,7 @@
         <div class="text">
             <h2>资深定制</h2>
             <p>
-                <span>18</span>年专注特种锂电模组定制<br>
+                <span><?=Yii::$app->params['year']?></span>年专注特种锂电模组定制<br>
                 累计<span>1</span>亿套锂电模组的成功交付
             </p>
         </div>

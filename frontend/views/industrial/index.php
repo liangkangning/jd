@@ -5,7 +5,7 @@
         <div class="text">
             <div class="content">
                 <h1 class="sizemax-12p">工业电池</h1>
-                <p class="size4-6p section40">18年专注锂电池定制/可靠·安全</p>
+                <p class="size4-6p section40"><?=Yii::$app->params['year']?>年专注锂电池定制/可靠·安全</p>
             </div>
         </div>
     </div>
