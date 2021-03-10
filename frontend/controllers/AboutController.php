@@ -64,7 +64,7 @@ class AboutController extends CommonController
            if (!$status){//如果有这些特殊的词出现，就不发邮件
                $res = Yii::$app->mailer->compose('test', ['name'=>$name,'mail'=>$mail,'content'=>$content,'title' => 'juda.cn信息反馈','html' => 'text'])
                    ->setTo('market@juda.cn')
-                   ->setSubject('Message subject')
+                   ->setSubject('中文询盘：'.$mail)
                    ->send();
            }
 //           var_dump($res); //true
