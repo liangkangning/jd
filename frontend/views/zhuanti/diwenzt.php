@@ -476,7 +476,7 @@ Yii::$app->params['list'] = Images::find()->where(['like', 'title', '低温'])->
                                 <div class="img"><a href="javascript:void(0)"><img src="/assets/images/tz_yinyong_2.jpg" alt="航空航天" title="航空航天"></a></div>
                                 <div class="text">
                                     <div class="ico"><a href="javascript:void(0)"><img src="/assets/images/tz_yinyong_ico_2.jpg" alt="航空航天"></a></div>
-                                    <div class="a size4-6p"><a href="javascript:void(0)">特种设备</a></div>
+                                    <div class="a size4-6p"><a href="javascript:void(0)">航空航天</a></div>
                                 </div>
                             </div>
                         </li>
@@ -485,7 +485,7 @@ Yii::$app->params['list'] = Images::find()->where(['like', 'title', '低温'])->
                                 <div class="img"><a href="javascript:void(0)"><img src="/assets/images/tz_yinyong_3.jpg" alt="舰艇船舶" title="舰艇船舶"></a></div>
                                 <div class="text">
                                     <div class="ico"><a href="javascript:void(0)"><img src="/assets/images/tz_yinyong_ico_3.jpg" alt="舰艇船舶"></a></div>
-                                    <div class="a size4-6p"><a href="javascript:void(0)">航空航天</a></div>
+                                    <div class="a size4-6p"><a href="javascript:void(0)">舰艇船舶</a></div>
                                 </div>
                             </div>
                         </li>
